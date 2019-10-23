@@ -3,67 +3,75 @@ product: places
 audience: 최종 사용자
 user-guide-title: Adobe Places 도움말
 translation-type: tm+mt
-source-git-commit: 807f0a300d951d0864aae8fa097076d47e754741
+source-git-commit: cc5162bd71a22eec1ca8645a351e11695fd5eb16
 
 ---
 
 
 # Adobe Places 도움말 {#using}
 
-+ [Adobe Places](home.md)
++ [Adobe Places 개요](home.md)
 + [릴리스 노트](release-notes.md)
 + [시작하기](getting-started.md)
-+ [경험 플랫폼 시작 및 위치에 사용자 추가](adding-a-user-to-places.md)
-+ 웹 서비스 배치 {#places-rest-apis}
-   + [웹 서비스 배치](places-rest-apis/places-web-services.md)
-   + [조직 요구 사항](places-rest-apis/organizational-requirements.md)
-   + Adobe I/O 통합 {#adobe-i-o-integration}
-      + [Adobe I/O 통합](places-rest-apis/adobe-i-o-integration/adobe-i-o-integration.md)
-      + [위치 통합 만들기](places-rest-apis/adobe-i-o-integration/create-a-places-integration.md)
++ 관심 영역 관리 인터페이스 배치 {#poi-mgmt-ui}
+   + [새 POI 만들기](poi-mgmt-ui/create-a-poi-ui.md)
+   + [이전에 만든 POI 관리](poi-mgmt-ui/managing-pois-in-the-places-ui.md)
+   + [POI에서 메타데이터 사용 전략](poi-mgmt-ui/metadata-with-pois.md)
+   + [POI 일괄 업로드](poi-mgmt-ui/bulk-upload-pois.md)
+   + [여러 라이브러리 관리](poi-mgmt-ui/manage-libraries-in-the-places-ui.md)
++ 웹 서비스 API 배치 {#places-web-service-api}
+   + [웹 서비스 개요 배치](places-web-service-api/places-web-services.md)
+   + [Adobe I/O 통합](places-web-service-api/adobe-i-o-integration.md)
    + API 사용 {#api-usage}
-      + [API 사용 개요](places-rest-apis/api-usage/api-usage.md)
-      + [머리글 및 매개 변수](places-rest-apis/api-usage/headers-and-parameters.md)
+      + [머리글 및 매개 변수](places-web-service-api/api-usage/headers-and-parameters.md)
       + Manage libraries {#manage-libraries}
-         + [라이브러리 관리 개요](places-rest-apis/api-usage/manage-libraries/manage-libraries.md)
-         + [라이브러리 만들기](places-rest-apis/api-usage/manage-libraries/create-a-library.md)
-         + [라이브러리 보기](places-rest-apis/api-usage/manage-libraries/read-a-library.md)
-         + [라이브러리 업데이트](places-rest-apis/api-usage/manage-libraries/update-a-library.md)
-         + [라이브러리 삭제](places-rest-apis/api-usage/manage-libraries/delete-a-library.md)
-         + [조직의 모든 라이브러리 보기](places-rest-apis/api-usage/manage-libraries/read-all-libraries-in-your-organization.md)
-         + [라이브러리의 등급 설정](places-rest-apis/api-usage/manage-libraries/set-a-ran-on-your-libraries.md)
-         + [라이브러리 등급 가져오기](places-rest-apis/api-usage/manage-libraries/get-a-librarys-rank.md)
-      + POI 관리 {#manage-pois}
-         + [POI 관리 개요](places-rest-apis/api-usage/manage-pois/manage-pois.md)
-         + [POI 만들기](places-rest-apis/api-usage/manage-pois/create-a-poi.md)
-         + [POI 읽기](places-rest-apis/api-usage/manage-pois/read-a-poi.md)
-         + [POI 업데이트](places-rest-apis/api-usage/manage-pois/update-a-poi.md)
-         + [POI 삭제](places-rest-apis/api-usage/manage-pois/delete-a-poi.md)
-         + [라이브러리의 모든 POI 보기](places-rest-apis/api-usage/manage-pois/read-all-pois-in-a-library.md)
-         + [조직의 모든 POI 보기](places-rest-apis/api-usage/manage-pois/read-all-pois-in-your-organization.md)
+         + [라이브러리 관리 개요](places-web-service-api/api-usage/manage-libraries/manage-libraries.md)
+         + [라이브러리 만들기](places-web-service-api/api-usage/manage-libraries/create-a-library.md)
+         + [라이브러리 보기](places-web-service-api/api-usage/manage-libraries/read-a-library.md)
+         + [라이브러리 업데이트](places-web-service-api/api-usage/manage-libraries/update-a-library.md)
+         + [라이브러리 삭제](places-web-service-api/api-usage/manage-libraries/delete-a-library.md)
+         + [조직의 모든 라이브러리 보기](places-web-service-api/api-usage/manage-libraries/read-all-libraries-in-your-organization.md)
+         + [라이브러리의 등급 설정](places-web-service-api/api-usage/manage-libraries/set-a-ran-on-your-libraries.md)
+         + [라이브러리 등급 가져오기](places-web-service-api/api-usage/manage-libraries/get-a-librarys-rank.md)
+      + 관심 영역 관리 {#manage-pois}
+         + [POI 관리 개요](places-web-service-api/api-usage/manage-pois/manage-pois.md)
+         + [POI 만들기](places-web-service-api/api-usage/manage-pois/create-a-poi.md)
+         + [POI 읽기](places-web-service-api/api-usage/manage-pois/read-a-poi.md)
+         + [POI 업데이트](places-web-service-api/api-usage/manage-pois/update-a-poi.md)
+         + [POI 삭제](places-web-service-api/api-usage/manage-pois/delete-a-poi.md)
+         + [라이브러리의 모든 POI 보기](places-web-service-api/api-usage/manage-pois/read-all-pois-in-a-library.md)
+         + [조직의 모든 POI 보기](places-web-service-api/api-usage/manage-pois/read-all-pois-in-your-organization.md)
          + 일괄 처리 API {#batch-apis}
-            + [일괄 처리 API 개요](places-rest-apis/api-usage/manage-pois/batch-apis/batch-apis.md)
-            + [여러 POI 만들기](places-rest-apis/api-usage/manage-pois/batch-apis/create-multiple-pois.md)
-            + [여러 POI 업데이트](places-rest-apis/api-usage/manage-pois/batch-apis/update-multiple-pois.md)
-            + [여러 POI 삭제](places-rest-apis/api-usage/manage-pois/batch-apis/delete-multiple-pois.md)
-      + [쿼리 API](places-rest-apis/api-usage/query-apis.md)
-+ 위치 UI {#places-database-management-1}
-   + [위치 UI](places-database-management-1/places-database-management.md)
-   + [위치 UI에서 라이브러리 관리](places-database-management-1/manage-libraries-in-the-places-ui.md)
-   + [위치 UI에서 POI 관리](places-database-management-1/managing-pois-in-the-places-ui.md)
-+ 위치를 사용하여 SDK 구성 {#configure-places-with-sdk}
-   + [위치를 사용하여 SDK 구성](configure-places-in-the-sdk/configure-places-in-the-sdk.md)
-   + 위치 확장 {#places-extension}
-      + [위치 확장](configure-places-in-the-sdk/places-extension/places-extension.md)
-      + [API 참조 배치](configure-places-in-the-sdk/places-extension/places-api-reference.md)
-      + [이벤트 참조 배치](configure-places-in-the-sdk/places-extension/places-event-ref.md)
-      + [사용자 정의 위치 개체](configure-places-in-the-sdk/places-extension/cust-places-objects.md)
-   + 위치 모니터 확장 {#places-monitor-extension}
-      + [위치 모니터 확장](configure-places-in-the-sdk/places-monitor-extension/places-monitor-extension.md)
-      + [위치 모니터 확장 사용](configure-places-in-the-sdk/places-monitor-extension/using-places-monitor-extension.md)
-      + [자체 모니터 사용](configure-places-in-the-sdk/places-monitor-extension/using-your-own-monitor.md)
-      + [배치 모니터 API 참조](configure-places-in-the-sdk/places-monitor-extension/places-monitor-api-reference.md)
-   + [위치 속성에 대한 규칙 만들기](configure-places-in-the-sdk/create-rule-places-property.md)
+            + [일괄 처리 API 개요](places-web-service-api/api-usage/manage-pois/batch-apis/batch-apis.md)
+            + [여러 POI 만들기](places-web-service-api/api-usage/manage-pois/batch-apis/create-multiple-pois.md)
+            + [여러 POI 업데이트](places-web-service-api/api-usage/manage-pois/batch-apis/update-multiple-pois.md)
+            + [여러 POI 삭제](places-web-service-api/api-usage/manage-pois/batch-apis/delete-multiple-pois.md)
+      + [쿼리 API](places-web-service-api/api-usage/query-apis.md)
++ Mobile SDK용 익스텐션 배치 {#places-ext-aep-sdks}
+   + [위치 확장](places-ext-aep-sdks/places-extension/places-extension.md)
+   + [API 참조 배치](places-ext-aep-sdks/places-extension/places-api-reference.md)
+   + [이벤트 참조 배치](places-ext-aep-sdks/places-extension/places-event-ref.md)
+   + [사용자 정의 위치 개체](places-ext-aep-sdks/places-extension/cust-places-objects.md)
++ 위치 모니터 확장{#places-monitor-extension}
+   + [위치 모니터 확장](places-ext-aep-sdks/places-monitor-extension/places-monitor-extension.md)
+   + [위치 모니터 확장 사용](places-ext-aep-sdks/places-monitor-extension/using-places-monitor-extension.md)
+   + [배치 모니터 API 참조](places-ext-aep-sdks/places-monitor-extension/places-monitor-api-reference.md)
++ 경험 플랫폼 실행 워크플로우의 일부로 위치 사용 {#use-places-launch-workflow}
+   + [데이터 요소 정의](use-places-launch-workflow/define-data-elements.md)
+   + [위치 시작 및 종료 규칙 만들기](use-places-launch-workflow/create-rule-places-property.md)
++ [고유한 모니터링 솔루션을 사용하여 위치 사용](using-your-own-monitor.md)
++ [활성 영역 모니터링 없이 위치 사용](use-places-without-active-monitoring.md)
 + [위치 데이터를 사용하여 경험 플랫폼 시작 규칙 및 데이터 요소 구성](rules-data-elements-places-data.md)
-+ [장소 사용 사례](places-use-cases.md)
-+ [FAQ 배치](places-faqs.md)
-+ [Adobe Campaign Standard에서 위치 사용](using-places-with-acs.md)
++ 다른 Adobe 솔루션과 함께 위치 사용 {#use-places-with-other-solutions}
+   + Adobe Analytics에서 위치 사용 {#places-adobe-analytics}
+      + [Adobe Analytics에서 위치 사용](use-places-with-other-solutions/places-adobe-analytics/use-places-adobe-analytics.md)
+   + Mobile Services for Messaging에서 위치 사용 {#places-mobile-svcs-messaging}
+      + [Mobile Services for Messaging에서 위치 사용](use-places-with-other-solutions/places-mobile-svcs-for-messaging/use-places-mobie-svcs-messaging.md)
+   + Adobe Campaign Standard에서 위치 사용 {#places-acs}
+      + [푸시 알림과 함께 위치 사용](use-places-with-other-solutions/places-acs/places-acs-push-notifications.md)
+      + [인앱 메시지와 함께 위치 사용](use-places-with-other-solutions/places-acs/places-acs-in-app-messages.md)
+   + Adobe Target에서 위치 사용 {#places-target}
+      + [Adobe Target에서 위치 사용](use-places-with-other-solutions/places-target/places-target.md)
++ 위치 테스트 및 유효성 검사 {#places-testing-validation}
+   + [위치 테스트 및 유효성 검사](places-testing-validation/test-validate-places.md)
++ [FAQ](places-faqs.md)
