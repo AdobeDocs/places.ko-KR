@@ -4,7 +4,7 @@ seo-title: 위치 확장
 description: 위치 확장 기능을 사용하면 사용자의 위치를 기반으로 할 수 있습니다.
 seo-description: 위치 확장 기능을 사용하면 사용자의 위치를 기반으로 할 수 있습니다.
 translation-type: tm+mt
-source-git-commit: ef720c112bc0de386e070094629c5bab69938e76
+source-git-commit: fd1b37a0f50d93de1efff4cb38fc23253f02d517
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: ef720c112bc0de386e070094629c5bab69938e76
 ## Adobe Experience Platform Launch에서 위치 확장 설치
 
 1. 경험 플랫폼 론치에서 **[!UICONTROL Extensions]** 탭을 클릭합니다.
-2. 탭에서 **[!UICONTROL Catalog]** 확장자를 찾아 **[!UICONTROL Adobe Places]** **[!UICONTROL Install]**&#x200B;클릭합니다.
+2. 탭에서 **[!UICONTROL Catalog]** 확장자를 찾아 **[!UICONTROL Places]** **[!UICONTROL Install]**&#x200B;클릭합니다.
 3. 이 속성에 사용할 위치 라이브러리를 선택합니다. 앱에서 액세스할 수 있는 라이브러리입니다.
 4. 클릭 **[!UICONTROL Save]**.
 
@@ -26,7 +26,7 @@ source-git-commit: ef720c112bc0de386e070094629c5bab69938e76
 
    Experience Platform Launch에서의 게시에 대한 자세한 내용은 게시를 [참조하십시오](https://docs.adobelaunch.com/launch-reference/publishing).
 
-### 위치 확장 구성 {#configure-places-extension}
+### Configure the Places extension {#configure-places-extension}
 
 ![](//help/assets/places-extension.png)
 
