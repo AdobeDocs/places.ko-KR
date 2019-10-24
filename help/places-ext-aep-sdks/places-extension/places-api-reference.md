@@ -4,7 +4,7 @@ seo-title: API 참조 배치
 description: 장소의 API 참조에 대한 정보입니다.
 seo-description: 장소의 API 참조에 대한 정보입니다.
 translation-type: tm+mt
-source-git-commit: ef720c112bc0de386e070094629c5bab69938e76
+source-git-commit: fd1b37a0f50d93de1efff4cb38fc23253f02d517
 
 ---
 
@@ -50,7 +50,7 @@ public class GeofenceTransitionsIntentService extends IntentService {
         List<Geofence> geofences = geofencingEvent.getTriggeringGeofences();
 
         if (geofences.size() > 0) {
-          // Call Adobe Places API to process information
+          // Call the Places API to process information
           Places.processGeofence(geofences.get(0), geofencingEvent.getGeofenceTransition());
         }
     }
@@ -107,7 +107,7 @@ public class GeofenceTransitionsIntentService extends IntentService {
 
     protected void onHandleIntent(Intent intent) {
         GeofencingEvent geofencingEvent = GeofencingEvent.fromIntent(intent);
-        // Call Adobe Places API to process information
+        // Call the Places API to process information
         Places.processGeofenceEvent(geofencingEvent);
     }
 }
