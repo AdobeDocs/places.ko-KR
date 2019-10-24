@@ -1,17 +1,17 @@
 ---
-title: 릴리스 노트
+title: Adobe Experience Platform Places 릴리스 노트
 seo-title: Adobe Experience Platform Places 릴리스 노트.
 description: Adobe Experience Platform Places 릴리스 노트.
 seo-description: Adobe Experience Platform Places 릴리스 노트.
 translation-type: tm+mt
-source-git-commit: fd1b37a0f50d93de1efff4cb38fc23253f02d517
+source-git-commit: 9fc484fd44c74ad77255668e4fbd7bc1642932e2
 
 ---
 
 
 # 릴리스 노트 {#release-notes}
 
-다음은 장소에 대한 릴리스 노트입니다.
+다음은 Adobe Experience Platform Places(위치)에 대한 릴리스 노트입니다.
 
 ## 2019년 10월 9일
 
