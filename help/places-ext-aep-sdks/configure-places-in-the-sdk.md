@@ -4,7 +4,7 @@ seo-title: Places 확장 기능을 사용하여 SDK 구성
 description: '위치 확장 기능을 사용하여 SDK를 구성하여 모바일 앱에서 위치 인식을 활성화할 수 있습니다. '
 seo-description: '위치 확장 기능을 사용하여 SDK를 구성하여 모바일 앱에서 위치 인식을 활성화할 수 있습니다. '
 translation-type: tm+mt
-source-git-commit: ef720c112bc0de386e070094629c5bab69938e76
+source-git-commit: fd1b37a0f50d93de1efff4cb38fc23253f02d517
 
 ---
 
@@ -19,15 +19,15 @@ source-git-commit: ef720c112bc0de386e070094629c5bab69938e76
 
 1. Launch에서 위치 확장을 구성합니다.
 
-   자세한 내용은 Launch *에서 위치 확장 구성을 참조하십시오*.
+   자세한 내용은 Places *확장의* Launch에서 위치 확장 [구성을 참조하십시오](/help/places-ext-aep-sdks/places-extension/places-extension.md).
 
 1. 위치 확장을 모바일 앱에 추가합니다.
 
-   자세한 내용은 앱에 *위치 확장*&#x200B;추가를 참조하십시오.
+   자세한 내용은 *위치 확장의* 앱에 위치 확장 [추가를](/help/places-ext-aep-sdks/places-extension/places-extension.md)참조하십시오.
 
 1. Mobile Core 확장 프로그램에 위치 등록을 참조하십시오.
 
-   자세한 내용은 Adobe Places를 *Mobile 코어로*&#x200B;등록을 참조하십시오.
+   자세한 내용은 Places *확장의* Mobile 코어에 위치 [등록을](/help/places-ext-aep-sdks/places-extension/places-extension.md)참조하십시오.
 
 ## 위치 모니터 확장 구성
 
