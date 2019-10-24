@@ -4,7 +4,7 @@ seo-title: POI 만들기
 description: 위치 UI를 사용하여 POI를 만듭니다.
 seo-description: 위치 UI를 사용하여 POI를 만듭니다.
 translation-type: tm+mt
-source-git-commit: fdfeb8c17820c4eb0eae249da39be4eebece22d3
+source-git-commit: fd1b37a0f50d93de1efff4cb38fc23253f02d517
 
 ---
 
@@ -13,7 +13,7 @@ source-git-commit: fdfeb8c17820c4eb0eae249da39be4eebece22d3
 
 POI(관심 영역)는 맵의 위치 또는 지점으로서 사용자에게 관심 있는 곳입니다. 카페, 레스토랑 등의 위치를 갖추고 있습니다.
 
-1. Adobe ID 파섹
+1. Adobe ID로 장소에 로그인합니다.
 2. 오른쪽 상단에서 글머리 기호 목록처럼 보이는 아이콘을 클릭한 다음 을 클릭합니다 **[!UICONTROL New]**.
 3. POI의 이름을 입력합니다.
 4. 라이브러리를 선택하거나 추가합니다.
