@@ -1,16 +1,16 @@
 ---
-product: places
+product: Adobe Experience Platform Places
 audience: 최종 사용자
-user-guide-title: Adobe Places 도움말
+user-guide-title: Adobe Experience Platform Places 도움말
 translation-type: tm+mt
-source-git-commit: cc5162bd71a22eec1ca8645a351e11695fd5eb16
+source-git-commit: fd1b37a0f50d93de1efff4cb38fc23253f02d517
 
 ---
 
 
-# Adobe Places 도움말 {#using}
+# Adobe Experience Platform Places 도움말 {#using}
 
-+ [Adobe Places 개요](home.md)
++ [Adobe Experience Platform Places 개요](home.md)
 + [릴리스 노트](release-notes.md)
 + [시작하기](getting-started.md)
 + 관심 영역 관리 인터페이스 배치 {#poi-mgmt-ui}
