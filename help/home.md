@@ -1,19 +1,19 @@
 ---
-title: Adobe Experience Platform Places
-seo-title: Adobe Experience Platform Places
-description: '위치는 모바일 사용자의 참여를 이해하는 데 중요한 컨텍스트입니다. 모바일 앱 개발자는 이러한 맥락에서 앱 디자인을 향상시키고 보다 개인화되고 매력적인 경험을 제공할 수 있습니다. '
-seo-description: '위치는 모바일 사용자의 참여를 이해하는 데 중요한 컨텍스트입니다. 모바일 앱 개발자는 이러한 맥락에서 앱 디자인을 향상시키고 보다 개인화되고 매력적인 경험을 제공할 수 있습니다. '
+title: Adobe Experience Platform 위치 서비스
+seo-title: Adobe Experience Platform 위치 서비스
+description: '위치 서비스는 모바일 사용자의 참여를 이해하는 데 중요한 컨텍스트입니다. 모바일 앱 개발자는 이러한 맥락에서 앱 디자인을 향상시키고 보다 개인화되고 매력적인 경험을 제공할 수 있습니다. '
+seo-description: '위치 서비스는 모바일 사용자의 참여를 이해하는 데 중요한 컨텍스트입니다. 모바일 앱 개발자는 이러한 맥락에서 앱 디자인을 향상시키고 보다 개인화되고 매력적인 경험을 제공할 수 있습니다. '
 translation-type: tm+mt
-source-git-commit: 6ff72eb72ce3ae1abf805b7b542721a7e4915824
+source-git-commit: 85ce31329ad155e5c835be286c18e6609b88167b
 
 ---
 
 
 # 개요 {#home}
 
-Adobe Experience Platform Places(위치)는 모바일 사용자의 참여를 이해하는 데 중요한 컨텍스트 역할을 합니다. 모바일 앱 개발자는 이러한 맥락에서 앱 디자인을 향상시키고 보다 개인화되고 매력적인 경험을 제공할 수 있습니다. Places는 모바일 앱 개발자가 유연한 관심 영역 데이터베이스(POI)와 함께 사용하기 쉬운 리치 SDK 인터페이스를 사용하여 위치 컨텍스트를 이해할 수 있도록 하는 지리적 위치 서비스입니다.
+Adobe Experience Platform Location Service(위치 서비스)는 모바일 사용자의 참여를 이해하는 데 중요한 컨텍스트입니다. 모바일 앱 개발자는 이러한 맥락에서 앱 디자인을 향상시키고 보다 개인화되고 매력적인 경험을 제공할 수 있습니다. Places는 모바일 앱 개발자가 유연한 관심 영역 데이터베이스(POI)와 함께 사용하기 쉬운 리치 SDK 인터페이스를 사용하여 위치 컨텍스트를 이해할 수 있도록 하는 지리적 위치 서비스입니다.
 
-장소에서는 다음을 수행할 수 있습니다.
+위치 서비스를 사용하면 다음을 수행할 수 있습니다.
 
 * 다른 Adobe Experience Cloud 솔루션과 함께 사용할 수 있는 POI의 데이터베이스를 만들고 관리할 수 있습니다.
 * 추가 속성을 지정하여 사용자 지정 메타데이터를 POI에 연결하여 보다 풍부하고 의미 있게 만들 수 있습니다.
@@ -30,21 +30,21 @@ Adobe Experience Platform Places(위치)는 모바일 사용자의 참여를 이
 * 위치 컨텍스트에서 고객 프로파일을 사용하여 오프라인 행동을 기반으로 고객을 세그먼트화할 수 있습니다.
 * 고객과 연관성 높은 스토어의 경험을 갖춘 사용자를 타깃팅할 수 있습니다.
 
-## Brandon의 "위치 소개" 비디오에 대한 자리 표시자 추가
+## Brandon에서 "위치 서비스 소개" 비디오에 대한 자리 표시자 추가
 
-## 장소 사용 사례
+## 위치 서비스 사용 사례
 
 이 섹션 개선
 
-## 구성 요소 배치
+## 위치 서비스 구성 요소
 
-위치는 다음 구성 요소로 구성됩니다.
+위치 서비스는 다음 구성 요소로 구성됩니다.
 
 * **웹 서비스 배치**
 
    REST API를 사용하여 POI를 만들고 관리할 수 있습니다. REST API에 대한 자세한 내용은 라이브러리 [관리 및 POI](/help/web-service-api/api-usage/manage-libraries/manage-libraries.md) 관리를 참조하십시오 [](/help/web-service-api/api-usage/manage-pois/manage-pois.md).
 
-* **위치 UI**
+* **위치 서비스 UI**
 
    맵에서 POI를 시각화하여 공간 컨텍스트를 파악하고 POI 및 사용자 정의 메타데이터를 추가/편집할 수 있습니다.
 
