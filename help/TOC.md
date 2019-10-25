@@ -3,14 +3,14 @@ product: Adobe Experience Platform 위치 서비스
 audience: 최종 사용자
 user-guide-title: Adobe Experience Platform 위치 서비스
 translation-type: tm+mt
-source-git-commit: 717250d3d6b11badde74df7e85ac5cce8cf0ef80
+source-git-commit: 5cb539b41426b177f17ff1ff44988ff646259d3f
 
 ---
 
 
 # Adobe Experience Platform 위치 서비스 도움말 {#using}
 
-+ [Adobe Experience Platform Places 개요](home.md)
++ [Adobe Experience Platform 위치 서비스 개요](home.md)
 + [릴리스 노트](release-notes.md)
 + [시작하기](getting-started.md)
 + 관심 영역 관리 인터페이스 {#poi-mgmt-ui}
@@ -64,8 +64,8 @@ source-git-commit: 717250d3d6b11badde74df7e85ac5cce8cf0ef80
    + [시작 및 종료 규칙 만들기](use-places-launch-workflow/create-rule-places-property.md)
 + 다른 Adobe 솔루션과 함께 위치 서비스 사용 {#use-places-with-other-solutions}
    + Adobe Analytics {#places-adobe-analytics}
-      + [Adobe Analytics로 위치 데이터 보내기](use-places-with-other-solutions/places-adobe-analytics/use-places-adobe-analytics.md)
-      + [위치 데이터를 포함하는 Adobe Analytics에서 보고서 실행](use-places-with-other-solutions/places-adobe-analytics/run-reports-aa-places-data.md)
+      + [Adobe Analytics로 위치 서비스 데이터 보내기](use-places-with-other-solutions/places-adobe-analytics/use-places-adobe-analytics.md)
+      + [Adobe Analytics에서 위치 서비스 데이터를 포함하는 보고서 실행](use-places-with-other-solutions/places-adobe-analytics/run-reports-aa-places-data.md)
    + Mobile Services for Messaging {#places-mobile-svcs-messaging}
       + [Mobile Services for Messaging](use-places-with-other-solutions/places-mobile-svcs-for-messaging/use-places-mobie-svcs-messaging.md)
       + [푸시 메시지](use-places-with-other-solutions/places-mobile-svcs-for-messaging/mobile-svcs-messaging-push.md)
@@ -74,7 +74,7 @@ source-git-commit: 717250d3d6b11badde74df7e85ac5cce8cf0ef80
       + [푸시 알림](use-places-with-other-solutions/places-acs/places-acs-push-notifications.md)
       + [인앱 메시지](use-places-with-other-solutions/places-acs/places-acs-in-app-messages.md)
    + Adobe Target {#places-target}
-      + [Adobe Target에서 위치 사용](use-places-with-other-solutions/places-target/places-target.md)
+      + [Adobe Target에서 위치 서비스 사용](use-places-with-other-solutions/places-target/places-target.md)
 + Testing and validation {#places-testing-validation}
    + [위치 테스트 및 유효성 검사](places-testing-validation/test-validate-places.md)
 + [FAQ](places-faqs.md)
