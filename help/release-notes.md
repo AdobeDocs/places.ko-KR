@@ -1,17 +1,17 @@
 ---
-title: Adobe Experience Platform Places 릴리스 노트
-seo-title: Adobe Experience Platform Places 릴리스 노트.
-description: Adobe Experience Platform Places 릴리스 노트.
-seo-description: Adobe Experience Platform Places 릴리스 노트.
+title: 릴리스 노트
+seo-title: 릴리스 노트
+description: Adobe Experience Platform 위치 서비스에 대한 릴리스 노트입니다.
+seo-description: Adobe Experience Platform 위치 서비스에 대한 릴리스 노트입니다.
 translation-type: tm+mt
-source-git-commit: 9fc484fd44c74ad77255668e4fbd7bc1642932e2
+source-git-commit: 6ff72eb72ce3ae1abf805b7b542721a7e4915824
 
 ---
 
 
 # 릴리스 노트 {#release-notes}
 
-다음은 Adobe Experience Platform Places(위치)에 대한 릴리스 노트입니다.
+릴리스 노트는 다음과 같습니다.
 
 ## 2019년 10월 9일
 
@@ -31,7 +31,7 @@ source-git-commit: 9fc484fd44c74ad77255668e4fbd7bc1642932e2
 
 이 릴리스에서는 다음과 같은 업데이트가 수행되었습니다.
 
-### UI 업데이트 배치
+### UI 업데이트
 
 위치 UI에 대한 업데이트 목록은 다음과 같습니다.
 
@@ -54,7 +54,7 @@ source-git-commit: 9fc484fd44c74ad77255668e4fbd7bc1642932e2
 
 이 릴리스에서는 다음과 같은 업데이트가 수행되었습니다.
 
-### 위치 모니터 시작 확장 2.0.0
+### Monitor Launch Extension 2.0.0
 
 * 위치 모니터 2.0에 대한 Android 및 iOS 설치 지침을 업데이트했습니다.
 
@@ -72,7 +72,7 @@ source-git-commit: 9fc484fd44c74ad77255668e4fbd7bc1642932e2
 
    새 API: `public static void stop (final boolean clearData);`
 
-* 위치 API의 사용을 `getNearbyPointsOfInterest` 업데이트하여 오류 시나리오를 보다 효과적으로 처리합니다.
+* 오류 시나리오를 보다 효과적으로 처리하도록 API `getNearbyPointsOfInterest` 사용을 업데이트했습니다.
 
 ## 2019년 7월 25일
 
@@ -195,12 +195,12 @@ Places의 첫 번째 릴리스로서, 고객은 실제 위치 데이터를 통�
 
 다음은 이번 릴리스의 주요 기능입니다.
 
-#### 위치 UI
+#### 위치 서비스 UI
 
 관심 영역(POI)을 보고 관리할 수 있는 관리 UI를 발표했습니다. 또한 POI를 라이브러리에 구성할 수 있습니다. 도시, 주 및 카테고리와 같은 표준 메타데이터 외에도 사용자 정의 메타데이터를 POI에 추가할 수 있습니다.
 
-* 위치 UI를 보려면 https://places.adobe.com으로 [이동하십시오](https://places.adobe.com).
-* 위치 UI를 시작하려면 시작하기를 [참조하십시오](/help/getting-started.md).
+* UI를 보려면 https://places.adobe.com으로 [이동하십시오](https://places.adobe.com).
+* UI를 시작하려면 시작하기를 [참조하십시오](/help/getting-started.md).
 
 #### 위치 확장
 
@@ -224,7 +224,7 @@ Places의 첫 번째 릴리스로서, 고객은 실제 위치 데이터를 통�
 
    API에는 Python 유틸리티가 제공됩니다.
 
-위치 API에 대한 자세한 내용은 웹 [서비스](/help/places-web-service-api/places-web-services.md)배치를 참조하십시오.
+위치 API에 대한 자세한 내용은 웹 서비스 [API를 참조하십시오](/help/web-service-api/places-web-services.md).
 
 ### 출시 예정
 
