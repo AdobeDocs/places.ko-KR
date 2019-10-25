@@ -4,7 +4,7 @@ seo-title: Adobe Experience Platform Places
 description: '위치는 모바일 사용자의 참여를 이해하는 데 중요한 컨텍스트입니다. 모바일 앱 개발자는 이러한 맥락에서 앱 디자인을 향상시키고 보다 개인화되고 매력적인 경험을 제공할 수 있습니다. '
 seo-description: '위치는 모바일 사용자의 참여를 이해하는 데 중요한 컨텍스트입니다. 모바일 앱 개발자는 이러한 맥락에서 앱 디자인을 향상시키고 보다 개인화되고 매력적인 경험을 제공할 수 있습니다. '
 translation-type: tm+mt
-source-git-commit: 9fc484fd44c74ad77255668e4fbd7bc1642932e2
+source-git-commit: 6ff72eb72ce3ae1abf805b7b542721a7e4915824
 
 ---
 
@@ -42,7 +42,7 @@ Adobe Experience Platform Places(위치)는 모바일 사용자의 참여를 이
 
 * **웹 서비스 배치**
 
-   REST API를 사용하여 POI를 만들고 관리할 수 있습니다. REST API에 대한 자세한 내용은 라이브러리 [관리 및 POI](/help/places-web-service-api/api-usage/manage-libraries/manage-libraries.md) 관리를 참조하십시오 [](/help/places-web-service-api/api-usage/manage-pois/manage-pois.md).
+   REST API를 사용하여 POI를 만들고 관리할 수 있습니다. REST API에 대한 자세한 내용은 라이브러리 [관리 및 POI](/help/web-service-api/api-usage/manage-libraries/manage-libraries.md) 관리를 참조하십시오 [](/help/web-service-api/api-usage/manage-pois/manage-pois.md).
 
 * **위치 UI**
 
