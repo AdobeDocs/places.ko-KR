@@ -4,7 +4,7 @@ seo-title: '웹 서비스 API 개요 '
 description: Adobe 고객은 Adobe Experience Cloud와 Adobe Experience Platform 솔루션에 적합한 위치 데이터와 적절한 경험을 적시에 적시에 적소에 제공할 수 있는 서비스를 제공합니다.
 seo-description: Adobe 고객은 Adobe Experience Cloud와 Adobe Experience Platform 솔루션에 적합한 위치 데이터와 적절한 경험을 적시에 적시에 적소에 제공할 수 있는 서비스를 제공합니다.
 translation-type: tm+mt
-source-git-commit: e204958ac3acbf5fb45d2347987f35557be70e43
+source-git-commit: e899cde6230353c8b34090c793983dc570e8115e
 
 ---
 
@@ -39,17 +39,3 @@ Places REST API를 사용하면 조직의 POI를 사용하여 프로그래밍 �
 
 * 사용 가능한 API와 사용 방법에 대한 자세한 내용은 라이브러리 관리 및 [POI](/help/web-service-api/api-usage/manage-libraries/manage-libraries.md) 관리를 [참조하십시오](/help/web-service-api/api-usage/manage-pois/manage-pois.md).
 * 이러한 API의 헤더 및 매개 변수에 대한 자세한 내용은 [머리글 및 매개 변수를](/help/web-service-api/api-usage/headers-and-parameters.md)참조하십시오.
-
-## 조직 요구 사항 {#org-requirements}
-
-웹 서비스 REST API에 액세스하려면 시스템 관리자에게 다음 작업이 완료되었는지 확인하십시오.
-
-* 위치가 프로비저닝되어 조직에 표시됩니다.
-* 조직에 추가되었습니다.
-* 조직의 위치에 추가되었습니다.
-
-   자세한 내용은 FAQ *에서 사용자 추가 및 경험* 플랫폼 시작을 [참조하십시오](/help/places-faqs.md).
-
-* 귀하를 조직에 위치 개발자로 추가했습니다.
-
-   개발자 역할에 대한 자세한 내용은 개발자 [관리를 참조하십시오](https://helpx.adobe.com/enterprise/using/manage-developers.html).
