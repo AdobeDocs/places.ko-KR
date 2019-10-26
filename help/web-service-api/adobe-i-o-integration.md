@@ -4,12 +4,32 @@ seo-title: Adobe I/O 통합 개요
 description: Adobe I/O 통합 만들기에 대한 정보입니다.
 seo-description: Adobe I/O 통합 만들기에 대한 정보입니다.
 translation-type: tm+mt
-source-git-commit: 6ff72eb72ce3ae1abf805b7b542721a7e4915824
+source-git-commit: 3a9653dcc7f5d18b717c4bb59424b8cad7104dd7
 
 ---
 
 
-# Adobe I/O 통합 개요 {#adobeio-integration}
+# Adobe I/O 통합 {#adobeio-integration}
+
+이 정보는 Adobe I/O 및 위치 통합을 만드는 방법을 보여줍니다.
+
+## 사용자 액세스를 위한 사전 요구 사항
+
+조직의 시스템 관리자에게 다음 작업이 완료되었는지 확인합니다.
+
+* 조직의 관리 콘솔에 핵심 서비스가 나타납니다.
+* 조직에 추가되었습니다.
+* 귀사는 조직에서 핵심 서비스를 배치할 사용자로 추가되었습니다.
+
+   자세한 내용은 *위치 서비스에 사용자 또는 개발자 추가 및 FAQ에서* 경험 플랫폼 시작 프로필을 [참조하십시오](/help/places-faqs.md).
+
+* 귀사는 귀사에서 핵심 서비스를 제공하기 위해 개발자로 추가되었습니다.
+
+   개발자 추가에 대한 자세한 내용은 *위치 서비스에 사용자 또는 개발자 추가 및 FAQ에서* 경험 플랫폼 [시작 프로필을](/help/places-faqs.md)참조하십시오.
+
+   개발자 역할에 대한 자세한 내용은 개발자 [관리를 참조하십시오](https://helpx.adobe.com/enterprise/using/manage-developers.html).
+
+### REST API 요청
 
 Places REST API에 대한 각 요청에는 다음 항목이 필요합니다.
 
@@ -19,8 +39,6 @@ Places REST API에 대한 각 요청에는 다음 항목이 필요합니다.
 
 Adobe I/O와의 통합에서는 JWT(JSON Web Token)를 사용하여 이러한 항목과 베어러 토큰을 요청하는 방법을 제공합니다.
 
-## 추가 정보
-
 * JWT에 대한 자세한 내용은 JSON [웹 토큰 소개를 참조하십시오](https://jwt.io/introduction/).
 * 위치에 대한 통합을 만들려면 아래 위치 *통합* 만들기 섹션을 참조하십시오.
 * API 키 통합, JWT 및 공개 키 인증서 생성에 대한 자세한 내용은 Adobe I/O [인증 개요를 참조하십시오](https://www.adobe.io/apis/cloudplatform/console/authentication/gettingstarted.html).
@@ -29,7 +47,7 @@ Adobe I/O와의 통합에서는 JWT(JSON Web Token)를 사용하여 이러한 �
 >
 >Adobe I/O 콘솔에 로그인할 수 없거나, Experience Platform Location Service가 통합 만들기 페이지의 **&#x200B;옵션이 아닌 경우, 웹 서비스 API의 *조직 요구 사항* 개요를 [참조하십시오](/help/web-service-api/places-web-services.md).
 
-## 위치 통합 만들기 {#create-places-integration}
+## 위치 통합 만들기
 
 위치 통합을 만들려면 다음 작업을 완료하십시오.
 
@@ -75,7 +93,7 @@ Adobe I/O와의 통합에서는 JWT(JSON Web Token)를 사용하여 이러한 �
 
 다음 비디오에서는 키 쌍을 생성하는 과정을 안내합니다.
 
-![](/help/assets/places_integration_video.gif)
+![통합 비디오](/help/assets/places_integration_video.gif)
 
 ### Adobe I/O 콘솔에서 위치 통합 만들기
 
@@ -125,4 +143,3 @@ JWT 토큰을 생성하려면
 >[!IMPORTANT]
 >
 >Adobe 액세스 토큰은 24시간 **동안만** 유효하므로 샘플 CURL 명령(5단계)을 저장합니다. 액세스 토큰이 더 이상 유효하지 않은 경우 토큰을 다시 생성해야 합니다.
-
