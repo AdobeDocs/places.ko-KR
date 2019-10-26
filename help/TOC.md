@@ -3,7 +3,7 @@ product: Adobe Experience Platform 위치 서비스
 audience: 최종 사용자
 user-guide-title: Adobe Experience Platform 위치 서비스
 translation-type: tm+mt
-source-git-commit: 5cb539b41426b177f17ff1ff44988ff646259d3f
+source-git-commit: 3a9653dcc7f5d18b717c4bb59424b8cad7104dd7
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: 5cb539b41426b177f17ff1ff44988ff646259d3f
    + [새 POI 만들기](poi-mgmt-ui/create-a-poi-ui.md)
    + [이전에 만든 POI 관리](poi-mgmt-ui/managing-pois-in-the-places-ui.md)
    + [POI에서 메타데이터 사용 전략](poi-mgmt-ui/metadata-with-pois.md)
-   + [POI 일괄 업로드](poi-mgmt-ui/bulk-upload-pois.md)
+   + [POI 대량 업로드](poi-mgmt-ui/bulk-upload-pois.md)
    + [여러 라이브러리 관리](poi-mgmt-ui/manage-libraries-in-the-places-ui.md)
 + 웹 서비스 API {#web-service-api}
    + [웹 서비스 API 개요](web-service-api/places-web-services.md)
