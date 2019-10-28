@@ -4,7 +4,7 @@ seo-title: 데이터 요소 정의
 description: 이 섹션에서는 Experience Platform Launch for Places에서 데이터 요소를 만들고, 사용하고, 게시하는 방법에 대한 정보를 제공합니다.
 seo-description: '이 섹션에서는 Experience Platform Launch for Places에서 데이터 요소를 만들고, 사용하고, 게시하는 방법에 대한 정보를 제공합니다. '
 translation-type: tm+mt
-source-git-commit: fd98249c01fba93250dc7111798c76f3c96c6e20
+source-git-commit: 573f2bb368bd8384f5b465819600a1668b0bdda8
 
 ---
 
@@ -30,10 +30,10 @@ source-git-commit: fd98249c01fba93250dc7111798c76f3c96c6e20
 각 POI에는 다음 데이터 참조가 포함되어 있습니다.
 
 * **[!UICONTROL Category]**:POI 부문
-* **[!IUICONTROL 구/군/시]**:POI 시
+* **[!UICONTROL City]**:POI 시
 * **[!UICONTROL Country]**:POI 국가
-* **[UICONTROL Latitude]**:POI의 위도
-* **[UICONTROL 경도]**:POI의 경도
+* **[!UICONTROL Latitude]**:POI의 위도
+* **[!UICONTROL Longitude]**:POI의 경도
 * **[!UICONTROL Metadata]**:POI의 사용자 지정 메타데이터
 * **[!UICONTROL Name]**:POI 지역
 * **[!UICONTROL Radius]**:POI 반경
