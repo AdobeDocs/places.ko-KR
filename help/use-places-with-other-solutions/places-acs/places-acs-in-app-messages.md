@@ -4,14 +4,12 @@ seo-title: 위치 서비스가 있는 인앱 메시지
 description: 이 섹션에서는 Campaign Standard에서 인앱 메시지와 함께 Campaign Standard의 푸시 메시지를 사용하는 방법에 대한 정보를 제공합니다.
 seo-description: '이 섹션에서는 Campaign Standard에서 인앱 메시지와 함께 "Campaign Standard의 푸시 메시지"를 사용하는 방법에 대한 정보를 제공합니다. '
 translation-type: tm+mt
-source-git-commit: 0612e2fb06e45ff25ad580e3336be3eb48bb39b9
+source-git-commit: fd98249c01fba93250dc7111798c76f3c96c6e20
 
 ---
 
 
 # 위치 서비스가 있는 인앱 메시지 {#in-app-messages-loc-service}
-
-(Ivan의 비디오)
 
 이 정보는 Adobe Experience Platform 위치 서비스 정보를 사용하여 인앱 메시지 또는 로컬 알림을 전송하는 방법을 이해하는 데 도움이 됩니다.
 
