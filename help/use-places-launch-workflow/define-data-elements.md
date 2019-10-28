@@ -4,7 +4,7 @@ seo-title: 데이터 요소 정의
 description: 이 섹션에서는 Experience Platform Launch for Places에서 데이터 요소를 만들고, 사용하고, 게시하는 방법에 대한 정보를 제공합니다.
 seo-description: '이 섹션에서는 Experience Platform Launch for Places에서 데이터 요소를 만들고, 사용하고, 게시하는 방법에 대한 정보를 제공합니다. '
 translation-type: tm+mt
-source-git-commit: 573f2bb368bd8384f5b465819600a1668b0bdda8
+source-git-commit: 5d438fdd712c85101d546ed82f8ad155010cfb91
 
 ---
 
@@ -45,8 +45,6 @@ source-git-commit: 573f2bb368bd8384f5b465819600a1668b0bdda8
 1. 앱의 속성 페이지에서 **[!UICONTROL Data Elements]** 탭을 클릭합니다.
 
 2. 클릭 **[!UICONTROL Create New Data Element]**.
-
-   ![데이터 요소 만들기](/help/assets/create-de-2-v3.png)
 
 3. 설치된 확장 프로그램 목록에서 을 **[!UICONTROL Places]**&#x200B;찾습니다.
 
