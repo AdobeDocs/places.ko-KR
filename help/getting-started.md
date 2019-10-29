@@ -4,7 +4,7 @@ seo-title: 시작하기
 description: 위치 서비스 시작을 참조하십시오.
 seo-description: 위치 서비스 시작을 참조하십시오.
 translation-type: tm+mt
-source-git-commit: fb8bfc92f7af5ee30da395b7ee2d9c4eb2a87c09
+source-git-commit: accfa6ba009ad3419481d9bd3b498143228099fc
 
 ---
 
@@ -15,9 +15,11 @@ source-git-commit: fb8bfc92f7af5ee30da395b7ee2d9c4eb2a87c09
 
 >[!VIDEO](https://www.youtube.com/watch?v=aV6i_ayxWCw)
 
+## 위치 서비스 사용
+
 위치 서비스를 사용하려면 다음 작업을 완료하십시오.
 
-## 1.사용자가 위치 서비스를 사용하도록 제공되었는지 확인
+### 1.사용자가 위치 서비스를 사용하도록 제공되었는지 확인
 
 위치 서비스 제품 컨텍스트는 모든 Experience Cloud 조직과 함께 사용할 수 있습니다.
 
@@ -30,7 +32,7 @@ source-git-commit: fb8bfc92f7af5ee30da395b7ee2d9c4eb2a87c09
    지역 담금에 대해 Adobe에서 제공한 지역 모니터링을 사용하려면 위치 모니터 확장을 설치합니다. 자세한 내용은 위치 모니터 [확장](/help/places-ext-aep-sdks/places-monitor-extension/places-monitor-extension.md)기능을 참조하십시오.
 
 
-## 2.POI 만들기
+### 2.POI 만들기
 
 POI(관심 영역)는 조직에 대해 생성하는 지오펜스(geo-fence)이며, 다음 방법 중 하나로 POI를 만들 수 있습니다.
 
@@ -43,7 +45,7 @@ POI(관심 영역)는 조직에 대해 생성하는 지오펜스(geo-fence)이�
    자세한 내용은 웹 서비스 [API를 참조하십시오](/help/web-service-api/places-web-services.md).
 
 
-## 3.위치 확장 및 위치 모니터 확장 구성
+### 3.위치 확장 및 위치 모니터 확장 구성
 
 위치 확장 및 모니터 확장 구성에 대한 자세한 내용은 다음 정보를 참조하십시오.
 
