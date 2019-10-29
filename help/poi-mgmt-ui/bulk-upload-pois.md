@@ -4,7 +4,7 @@ seo-title: POI 일괄 업로드
 description: 이 섹션에서는 POI를 일괄 업로드하는 방법에 대한 정보를 제공합니다.
 seo-description: 이 섹션에서는 POI를 일괄 업로드하는 방법에 대한 정보를 제공합니다.
 translation-type: tm+mt
-source-git-commit: 3a9653dcc7f5d18b717c4bb59424b8cad7104dd7
+source-git-commit: 31462861efa807583c245963d8496eecdd3cf92e
 
 ---
 
@@ -13,7 +13,7 @@ source-git-commit: 3a9653dcc7f5d18b717c4bb59424b8cad7104dd7
 
 웹 서비스 API를 사용하여 .csv 파일의 POI를 POI 데이터베이스로 일괄 가져오는 작업을 단순화하기 위해 Python 스크립트 세트가 만들어졌습니다. 이러한 스크립트는 이 오픈 소스 [git 보고서에서 다운로드할 수 있습니다](https://github.com/adobe/places-scripts).
 
-이러한 스크립트를 실행하기 전에 웹 서비스 API에 액세스할 수 있도록 하려면 Adobe *I/O 통합 개요에서* 사용자 액세스에 [대한 사전 요구](/help/web-service-api/adobe-i-o-integration.md)사항을 참조하십시오.
+이러한 스크립트를 실행하기 전에 웹 서비스 API에 액세스하려면 Adobe *I/O 통합 개요에서* 사용자 액세스에 [대한](/help/web-service-api/adobe-i-o-integration.md)사전 요구 사항을 참조하십시오.
 
 다음은 스크립트에 대한 정보입니다.
 
@@ -23,7 +23,7 @@ source-git-commit: 3a9653dcc7f5d18b717c4bb59424b8cad7104dd7
 
 ## CSV 파일로 내보낼 때 시간별 세부기간이 작동하지 않는 문제를 해결했습니다
 
-샘플 .csv 파일은 `places_sample.csv`이 패키지의 일부이며 필요한 헤더와 샘플 데이터 행을 포함합니다. 이러한 헤더는 모두 소문자이며 위치 데이터베이스에 사용되는 예약된 메타데이터 키에 해당합니다. 헤더를 추가하면 각 POI에 대한 별도의 메타데이터 섹션에서 POI 데이터베이스에 키/값 쌍으로 추가 열이 추가됩니다.
+샘플 .csv 파일은 `places_sample.csv`이 패키지의 일부이며 필요한 헤더와 샘플 데이터 행을 포함합니다. 이러한 헤더는 모두 소문자이며 위치 데이터베이스에 사용되는 예약된 메타데이터 키에 해당합니다. .csv 파일에 추가하는 열은 각 POI에 대한 별도의 메타데이터 섹션에 키/값 쌍으로 POI 데이터베이스에 추가되고 헤더 값이 키로 사용됩니다.
 
 다음은 사용해야 하는 열과 값의 목록입니다.
 
@@ -55,17 +55,18 @@ source-git-commit: 3a9653dcc7f5d18b717c4bb59424b8cad7104dd7
    * 유효한 값은 "", #3E76D0, #AA99E8, #DC2ABA, #FC685B, #FC962E, #F6C436, #BECE5D, #61B56입니다. b 및 #3DC8DE.
    * 값을 비워 두면 위치 서비스 UI에서 파란색을 기본 색상으로 사용합니다.
 
-      이 값은 각각 파란색, 자주색, 퓨시아, 주황색, 연한 주황, 노랑, 연한 녹색, 녹색 및 연한 파란색에 해당합니다.
+      값은 파란색(#3E76D0), 자주색(#AA99E8), 푸시아(#DC2ABA), 주황(#FC685B), 연한 주황(#FC962E), 노란색(#F6C436), 연한 녹색( #BECE5D), 녹색(#61B56B) 및 연한 파랑(#3DC8DE)이 각각 표시됩니다.
 
 * 아이콘 - 위치 서비스 UI 맵에서 POI 위치를 나타내는 핀의 아이콘으로 사용됩니다.
-   * 유효한 값은 "", 앵커, 비커, 벨, 탐색, 책, 브러시, 건물, 계산기, 카메라, 쇼핑 카트, 시계, 상자, 회중, 팔로우, 입찰, 리본, 학습, 망치, 하트, 홈, 홈, 키, 사서함, 개인, 홍보, 통화, 통화, 프로모션, 금전, 선물, 시작, 별표, 핀, 타켓, 엄지, 엄지, 엄지, 축소판, 여성, 그리고 렌치.
+
+   * 유효한 값은 "", 상점, 호텔베드, 자동차, 기차, 배, 스타디움, 무스팩, 앵커, 벨, 입찰, 책, 서류 상자, 찾아보기, 브러시, 빌딩, 카메라, 시계, 교육, 손전등, 팔로우, 게임, 여성, 남성, 선물, 하트, 하트, 시작, 조명, 사서함, 핀, 프로모션, 리본, 쇼핑 카트, 스타, 대상, 대상 teapot, thumbDown, thumbUp, trap, trophy, tranch.
    * 값을 비워 두면 UI에서 별을 기본 아이콘으로 사용합니다.
 
 * 언급되지 않은 열은 비워 둘 수 있습니다.
 
 ## 스크립트 실행
 
-1. 파일을 해당 디렉토리로 다운로드합니다.
+1. git 보고서에서 [로컬](https://github.com/adobe/places-scripts) 디렉토리로 파일을 다운로드합니다.
 1. 텍스트 편집기에서 파일을 열고 다음 작업을 `config.py` 완료합니다.
 
    a.다음 변수 값을 문자열로 편집합니다.
@@ -76,15 +77,15 @@ source-git-commit: 3a9653dcc7f5d18b717c4bb59424b8cad7104dd7
 
    * `access_code`
 
-      Adobe IMS에 대한 호출에서 얻은 액세스 코드입니다.
+      Adobe IMS에 대한 호출에서 얻은 액세스 코드입니다. 이 액세스 코드를 얻는 방법에 대한 자세한 내용은 [사용자 액세스에](/help/web-service-api/adobe-i-o-integration.md) 대한 사전 요구 사항을 참조하십시오.
 
    * `org_id`
 
-      POI 파섹
+      POI 파섹 조직 ID를 얻는 방법에 대한 자세한 내용은 사용자 액세스에 [대한 전제 조건을 참조하십시오.](/help/web-service-api/adobe-i-o-integration.md).
 
    * `api_key`
 
-      Adobe I/O Places 통합에서 가져온 Places REST API 키입니다.
+      Adobe I/O Places 통합에서 가져온 Places REST API 키입니다. API 키를 얻는 방법에 대한 자세한 내용은 사용자 액세스에 [대한 전제 조건을 참조하십시오.](/help/web-service-api/adobe-i-o-integration.md).
    b.변경 내용을 저장합니다.
 
 1. 터미널 창에서 `…/places-scripts/import/` 디렉토리로 이동합니다.
@@ -112,6 +113,3 @@ source-git-commit: 3a9653dcc7f5d18b717c4bb59424b8cad7104dd7
 ## 단위 테스트
 
 단위 테스트는 `tests.py` 파일에 있으며 각 풀 요청 전에 실행되어야 하며 모두 통과해야 합니다. 새로운 코드와 함께 추가 테스트를 추가해야 합니다. 테스트를 실행하려면 `…/places-scripts/import/` 디렉토리로 이동한 다음 터미널에 `python ./places_import.py` 입력합니다.
-
-
-
