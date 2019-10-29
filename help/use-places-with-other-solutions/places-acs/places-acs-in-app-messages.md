@@ -4,7 +4,7 @@ seo-title: 위치 서비스가 있는 인앱 메시지
 description: 이 섹션에서는 Campaign Standard에서 인앱 메시지와 함께 Campaign Standard의 푸시 메시지를 사용하는 방법에 대한 정보를 제공합니다.
 seo-description: '이 섹션에서는 Campaign Standard에서 인앱 메시지와 함께 "Campaign Standard의 푸시 메시지"를 사용하는 방법에 대한 정보를 제공합니다. '
 translation-type: tm+mt
-source-git-commit: fd98249c01fba93250dc7111798c76f3c96c6e20
+source-git-commit: 95c29df19f61e7854e39b47e39471f7f1e94b736
 
 ---
 
@@ -54,6 +54,4 @@ source-git-commit: fd98249c01fba93250dc7111798c76f3c96c6e20
 
 Adobe Campaign Standard와 함께 위치 서비스를 사용하면 지리적 펜스 항목 및 종료를 기반으로 메시지를 세그먼트화하고 사용자에게 타깃팅할 수 있는 강력한 도구를 사용할 수 있습니다. 이러한 간단한 통합을 통해 보다 개인화되고 상황에 맞는 활용 사례를 구축할 수 있습니다.
 
-## 위치 메타데이터를 기반으로 Campaign Standard에서 다른 트리거 만들기
-
-(이 정보는 제공됩니까?)
+>[!VIDEO](https://www.youtube.com/watch?v=ikiTTQw9c-o)
