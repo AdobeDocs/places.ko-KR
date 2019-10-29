@@ -4,12 +4,12 @@ seo-title: Adobe I/O 통합 개요
 description: Adobe I/O 통합 만들기에 대한 정보입니다.
 seo-description: Adobe I/O 통합 만들기에 대한 정보입니다.
 translation-type: tm+mt
-source-git-commit: f99930325a3d94bcc60595e69306c51d6b81caa6
+source-git-commit: 95c29df19f61e7854e39b47e39471f7f1e94b736
 
 ---
 
 
-# Adobe I/O 통합 {#adobeio-integration}
+# 통합 개요 및 사전 요구 사항 {#integration-prereqs}
 
 이 정보는 Adobe I/O 및 위치 통합을 만드는 방법을 보여줍니다.
 
