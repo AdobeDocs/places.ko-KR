@@ -4,7 +4,7 @@ seo-title: Adobe Experience Platform 위치 서비스
 description: '위치 서비스는 모바일 사용자의 참여를 이해하는 데 중요한 컨텍스트입니다. 모바일 앱 개발자는 이러한 맥락에서 앱 디자인을 향상시키고 보다 개인화되고 매력적인 경험을 제공할 수 있습니다. '
 seo-description: '위치 서비스는 모바일 사용자의 참여를 이해하는 데 중요한 컨텍스트입니다. 모바일 앱 개발자는 이러한 맥락에서 앱 디자인을 향상시키고 보다 개인화되고 매력적인 경험을 제공할 수 있습니다. '
 translation-type: tm+mt
-source-git-commit: fd98249c01fba93250dc7111798c76f3c96c6e20
+source-git-commit: a5eee2378475885a2aef9867ff2c38a8881c9bbe
 
 ---
 
@@ -19,7 +19,7 @@ Adobe Experience Platform Location Service(위치 서비스)는 모바일 사용
 * 추가 속성을 지정하여 사용자 지정 메타데이터를 POI에 연결하여 보다 풍부하고 의미 있게 만들 수 있습니다.
 * 맵에서 POI를 시각화하여 공간 컨텍스트를 손쉽게 파악하고 메타데이터 속성을 추가/편집할 수 있습니다.
 * Adobe Experience Platform Launch에서 SDK를 구성하여 위치 기반 규칙 및 메타데이터 기반 조건을 정의합니다.
-* 모니터 장치의 위치에 작성해야 하는 코드를 줄이고 Adobe의 위치 모니터를 사용하여 위치별 규칙을 자동으로 트리거합니다.
+* 모니터 장치의 위치에 작성해야 하는 코드를 줄이고 위치 확장 기능을 사용하여 위치별 규칙을 자동으로 트리거합니다.
 
 이를 통해 위치 신호에서 언제 어디에서나 실시간으로 조치를 취할 수 있습니다. 최적의 컨텍스트에 따라 모바일 참여도 향상
 
@@ -76,7 +76,7 @@ Adobe Experience Platform Location Service(위치 서비스)는 모바일 사용
 
 * 라이브러리는 **** 하나의 POI가 아닌 세트에 규칙을 쉽게 첨부하도록 그룹화된 POI 컬렉션입니다.
 
-* SDK **익스텐션은** Places SDK를 모바일 앱에 통합하는 데 필요한 Experience Platform Launch 익스텐션입니다.
+* Places SDK **익스텐션은** Places SDK를 모바일 앱에 통합하는 데 필요한 Experience Platform Launch 익스텐션입니다.
 
    사용자 경험에 위치 컨텍스트를 추가하기 위해 다른 모바일 SDK와 함께 사용되는 확장입니다.
 
