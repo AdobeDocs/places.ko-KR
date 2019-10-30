@@ -4,7 +4,7 @@ seo-title: 쿼리 API
 description: 쿼리 API 이해 및 사용
 seo-description: 쿼리 API 이해 및 사용
 translation-type: tm+mt
-source-git-commit: 6ae0c8d90cad4c437e1db7f562a0bc9c6b072ce6
+source-git-commit: e2070c629b5a4e4bcf3a364023e0f87b526ed4cb
 
 ---
 
