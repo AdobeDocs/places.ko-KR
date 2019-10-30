@@ -10,7 +10,7 @@ tutorials-url: https://experienceleague.adobe.com/
 git-repo: https://git.corp.adobe.com/AdobeDocs/places.en
 index: true
 translation-type: tm+mt
-source-git-commit: 35353d02b791bcb234a45b612b0bc481b604afdf
+source-git-commit: 8b9b84a12c40e93ecd1aea1cee5d44c37dc439e8
 
 ---
 
@@ -31,7 +31,7 @@ metadata.md 파일에는 리포지토리의 사용 안내서 TOC.md 파일에 �
 | tutorials-title | 튜토리얼이 적절하지 않을 때 거의 사용되지 않음 |
 | tutorials-url | 비디오 튜토리얼 — Helpx 튜토리얼 또는 KT 튜토리얼 링크 |
 | mini-toc-levels | 오른쪽 레일에 나타나는 제목 수준 개수를 결정합니다. 기본값은 2입니다. |
-| git-repo | 공동 작업 리포지토리 위치를 지정합니다. 공개된 문서에 github.com 미러링 사용 |
+| git-repo | https://github.com/AdobeDocs/places.en |
 | 색인 | 소프트 출시에 대해 index=no 설정 |
 
 TOC.md 파일에서
