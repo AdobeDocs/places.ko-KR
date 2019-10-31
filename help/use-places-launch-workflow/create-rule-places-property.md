@@ -4,14 +4,14 @@ seo-title: 위치 속성에 대한 규칙 만들기
 description: '위치 SDK는 현재 위치를 추적하고, 현재 위치에 대해 구성된 POI를 모니터링하며, 이러한 POI에 대한 시작 및 종료 이벤트를 추적합니다. '
 seo-description: '위치 SDK는 현재 위치를 추적하고, 현재 위치에 대해 구성된 POI를 모니터링하며, 이러한 POI에 대한 시작 및 종료 이벤트를 추적합니다. '
 translation-type: tm+mt
-source-git-commit: 9feb88f1ccec83c96d08ac5bd48e43d7d9c247c8
+source-git-commit: 84b23934a6e9f9fd61c068693bae3daca24de253
 
 ---
 
 
 # 시작 및 종료 규칙 만들기 {#create-entry-exit-rules}
 
-모바일 애플리케이션에 위치 및 위치 모니터 확장이 설치되어 있는 경우 위치 시작 및 종료 이벤트를 포함하여 트리거되거나 에어컨이 설정된 위치 데이터를 포함하는 Adobe Experience Platform Launch에서 규칙을 만들 수 있습니다.
+모바일 애플리케이션에 위치 및 위치 모니터 확장 기능이 설치되어 있는 경우 Adobe Experience Platform Launch에서 위치 시작 및 종료 이벤트를 비롯한 위치 데이터를 트리거하거나 조건부로 지정한 규칙을 만들 수 있습니다.
 
 ## 규칙
 
@@ -54,7 +54,7 @@ source-git-commit: 9feb88f1ccec83c96d08ac5bd48e43d7d9c247c8
 
 >[!CAUTION]
 >
->이 예에서는 미국의 모든 커피숍의 POI 라이브러리를 만들었다고 가정합니다. POI 및 라이브러리 만들기에 대한 자세한 내용은 POI [만들기](https://placesdocs.com/places-services-by-adobe-documentation/places-database-management-1/managing-pois-in-the-places-ui#create-a-poi) 및 라이브러리 [만들기를 참조하십시오](https://placesdocs.com/places-services-by-adobe-documentation/places-database-management-1/manage-libraries#create-a-library).
+>이 예에서는 미국의 모든 커피숍의 POI 라이브러리를 만들었다고 가정합니다. POI 및 라이브러리 만들기에 대한 자세한 내용은 [POI 만들기](/help/poi-mgmt-ui/create-a-poi-ui.md) 및 *여러 라이브러리* 관리에서 라이브러리 [만들기를](https://docs.adobe.com/content/help/en/places/using/poi-mgmt-ui/manage-libraries-in-the-places-ui.html)참조하십시오.
 
 다음 절차는 샌프란시스코에 커피숍에 들어갈 때 Slack으로 다시 게시물을 보내는 규칙을 만드는 방법의 예입니다.
 
@@ -128,6 +128,6 @@ source-git-commit: 9feb88f1ccec83c96d08ac5bd48e43d7d9c247c8
 
 ### 입장 및 종료 이상의 사고
 
-Launch에서 규칙을 트리거하기 위해 지리 펜스 항목 및 종료를 사용하는 것은 매우 강력하지만 위치 데이터를 다른 이벤트를 실행하기 위한 조건으로 사용할 수도 있습니다. 예를 들어 앱 내의 특정 trackAction 호출 이벤트를 기반으로 모바일 코어 추적 동작 이벤트 트리거를 실행할 수 있습니다. 이 이벤트를 기반으로, 작업이 수행되기 전에 이벤트에 추가 위치 조건을 배치할 수 있습니다. 예를 들어 구매 `trackAction` 이벤트가 발생하면 인앱 설문 조사를 열지만 사용자의 현재 위치에 특정 위치 서비스 메타데이터가 포함된 **경우에만** 열 수 있습니다.
+위치 서비스 geo-fence 항목 및 종료를 사용하여 Experience Platform Launch의 규칙을 트리거하는 것은 매우 강력하지만, 위치 데이터를 다른 이벤트를 실행하기 위한 조건으로 사용할 수도 있습니다. 예를 들어 앱 내의 특정 trackAction 호출 이벤트를 기반으로 모바일 코어 추적 동작 이벤트 트리거를 실행할 수 있습니다. 이 이벤트를 기반으로, 작업이 수행되기 전에 이벤트에 추가 위치 조건을 배치할 수 있습니다. 예를 들어 구매 `trackAction` 이벤트가 발생하면 인앱 설문 조사를 열지만 사용자의 현재 위치에 특정 위치 서비스 메타데이터가 포함된 **경우에만** 열 수 있습니다.
 
 ![조건 만들기](/help/assets/places-condition.png)
