@@ -4,7 +4,7 @@ seo-title: Adobe Analytics로 위치 데이터 보내기
 description: 이 섹션에서는 위치 데이터를 Analytics로 보내는 방법에 대한 정보를 제공합니다.
 seo-description: '이 섹션에서는 위치 데이터를 Analytics로 보내는 방법에 대한 정보를 제공합니다. '
 translation-type: tm+mt
-source-git-commit: a76e91775efd92ce56f2dc5cbdcc65786855b5c3
+source-git-commit: fc1dd9e36bf45a2e7c17c3d9dbbed66b28cb8b07
 
 ---
 
@@ -41,7 +41,7 @@ After Places가 시작 및 종료 이벤트를 전송하면 Experience Platform 
 
 5. 클릭 **[!UICONTROL Keep Changes]**.
 
-   !["이벤트 선택"](/help/assets/pt-selectEvent.png)
+   !["이벤트 선택"](/help/assets/ad-setEvent.png)
 
 
 ## 3.조건 추가
@@ -81,13 +81,13 @@ After Places가 시작 및 종료 이벤트를 전송하면 Experience Platform 
 
    다음 예제에서는 이 시작 이벤트를 트리거한 POI의 이름과 `TrackAction` `poi.name` 같은 추가 컨텍스트 데이터를 사용하여 Analytics로 호출이 전송됩니다.
 
-   !["작업 설정"](/help/assets/pt-setAction.png)
+   !["작업 설정"](/help/assets/ad-setAction.png)
 
 ## 5.규칙을 저장하고 속성을 다시 빌드합니다.
 
 구성을 완료한 후 규칙이 다음 이미지와 같은지 확인합니다.
 
-!["규칙이 만들어짐"](/help/assets/pt-ruleComplete.png)
+!["규칙이 만들어짐"](/help/assets/ad-ruleComplete.png)
 
 1. 클릭 **[!UICONTROL Save]**
 
