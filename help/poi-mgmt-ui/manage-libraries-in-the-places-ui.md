@@ -4,12 +4,12 @@ seo-title: 위치 UI에서 라이브러리 관리
 description: 위치 UI를 사용하여 라이브러리를 관리합니다.
 seo-description: 위치 UI를 사용하여 라이브러리를 관리합니다.
 translation-type: tm+mt
-source-git-commit: fd1b37a0f50d93de1efff4cb38fc23253f02d517
+source-git-commit: 84b23934a6e9f9fd61c068693bae3daca24de253
 
 ---
 
 
-# 위치 UI에서 라이브러리 관리 {#manage-libraries-places-ui}
+# Manage libraries {#manage-libraries-places-ui}
 
 라이브러리는 POI의 컬렉션입니다. 라이브러리에는 최대 150,000개의 POI가 있고 Experience Cloud 조직당 최대 100개의 라이브러리가 있을 수 있습니다.
 
