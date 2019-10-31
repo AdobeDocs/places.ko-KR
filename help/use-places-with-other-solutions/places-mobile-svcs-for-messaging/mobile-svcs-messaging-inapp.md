@@ -4,7 +4,7 @@ seo-title: 인앱 알림
 description: 이 섹션에서는 인앱 메시지에 위치 사용을 보여 줍니다.
 seo-description: 이 섹션에서는 인앱 메시지에 위치 사용을 보여 줍니다.
 translation-type: tm+mt
-source-git-commit: 95c29df19f61e7854e39b47e39471f7f1e94b736
+source-git-commit: a76e91775efd92ce56f2dc5cbdcc65786855b5c3
 
 ---
 
@@ -29,7 +29,7 @@ Mobile Services를 사용하면 Analytics로 전송되는 위치 데이터를 �
 * 경고
 * 로컬 알림
 
-이러한 유형은 SDK에 의해 트리거되기 때문에 인앱 메시지입니다. 앱이 백그라운드에 있을 때 로컬 알림이 표시되므로 푸시 알림의 모양과 느낌이 듭니다. 앱이 백그라운드에 있을 때 사용자가 POI에 들어오거나 종료하면 이러한 알림도 실시간으로 전달됩니다. 자세한 내용은 위치 모니터 [확장을 참조하십시오.](/help/places-ext-aep-sdks/places-monitor-extension/places-monitor-extension.md)
+이러한 유형은 SDK에 의해 트리거되기 때문에 인앱 메시지입니다. 앱이 백그라운드에 있을 때 로컬 알림이 표시되므로 푸시 알림의 모양과 느낌이 듭니다. 앱이 백그라운드에 있을 때 사용자가 POI에 들어오거나 종료하면 이러한 알림도 실시간으로 전달됩니다. 자세한 내용은 위치 모니터 [확장을](/help/places-ext-aep-sdks/places-monitor-extension/places-monitor-extension.md)참조하십시오.
 
 ### 전제 조건
 
@@ -51,18 +51,18 @@ Mobile Services를 사용하면 Analytics로 전송되는 위치 데이터를 �
 
 ## 동작 만들기
 
-이렇게 하려면:
+작업을 만들려면
 
 1. **확장을 선택합니다.[!UICONTROL Adobe Analytics]**
 1. 드롭다운 **[!UICONTROL Action type]** 목록에서 **[!UICONTROL Track.]**
 1. 작업 이름을 입력합니다.
-1. 오른쪽 창에서 키 및 값 쌍을 **[!UICONTROL Context Data]**&#x200B;선택하여 Analytics로 전송할 컨텍스트 데이터를 설정합니다.
+1. 오른쪽 창에서 키-값 쌍을 **[!UICONTROL Context Data]**&#x200B;선택하여 Analytics로 전송할 컨텍스트 데이터를 설정합니다.
 
-예를 들어 키와 ** **[!UICONTROL poiname]**[!UICONTROL `{%%Last Entered POI Name}`키로 선택할 수 있습니다.]
+예를 들어 `poiname` 키와 값으로 선택할 `{%%Last Entered POI Name}` 수 있습니다.
 
 >[!TIP]
 >
->Analytics 처리 규칙을 설정하여 이 컨텍스트 데이터를 선택할 수 있습니다. For more information, see [Processing Rules](https://docs.adobe.com/content/help/en/analytics/implementation/analytics-basics/ref-processing-rules.html). 작업 *만들기의 예에서,*&#x200B;작업은 Analytics로 전송되는 POIentry 이벤트를 설명하는 `poiname` 컨텍스트로 이 이벤트를 보냅니다.
+>Analytics 처리 규칙을 설정하여 이 컨텍스트 데이터를 선택할 수 있습니다. For more information, see [Processing Rules](https://docs.adobe.com/content/help/en/analytics/implementation/analytics-basics/ref-processing-rules.html). 작업 *만들기의 예에서,*&#x200B;작업은 Analytics로 전송되는 POI 항목 이벤트를 설명하는 `poiname` 컨텍스트로 을 보냅니다.
 
 ![작업 만들기](/help/assets/configure-action.png)
 
@@ -70,7 +70,7 @@ Mobile Services를 사용하면 Analytics로 전송되는 위치 데이터를 �
 
 ![완료된 규칙](/help/assets/create-a-rule.png)
 
-## AMS에서 인앱 메시지 만들기
+## Mobile Services에서 인앱 메시지 만들기
 
 트리거 매개 변수의 일부로, 다음 방법 중 하나를 사용하여 위치 서비스의 데이터를 사용하여 메시지 대상을 만들 수 있습니다.
 
@@ -83,4 +83,6 @@ Mobile Services를 사용하면 Analytics로 전송되는 위치 데이터를 �
 
    ![트리거 매개 변수](/help/assets/trigger-parameters.png)
 
-* Mobile Services의 트리거 *및 트레이트* 페이지의 위치 머리글의 매개 변수는 위치 서비스의 데이터와 함께 작동하지 않습니다. 이러한 매개 변수는 Mobile Services에서 생성된 레거시 위치 데이터베이스에 대해서만 적용됩니다.
+* Mobile Services의 트리거 *및 트레이트* 페이지의 위치 머리글의 매개 변수는 위치 서비스의 데이터와 함께 작동하지 않습니다.
+
+   이러한 매개 변수는 Mobile Services에서 생성된 레거시 위치 데이터베이스에 대해서만 적용됩니다.
