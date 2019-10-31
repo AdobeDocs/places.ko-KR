@@ -4,7 +4,7 @@ seo-title: POI 일괄 업로드
 description: 이 섹션에서는 POI를 일괄 업로드하는 방법에 대한 정보를 제공합니다.
 seo-description: 이 섹션에서는 POI를 일괄 업로드하는 방법에 대한 정보를 제공합니다.
 translation-type: tm+mt
-source-git-commit: 31462861efa807583c245963d8496eecdd3cf92e
+source-git-commit: a76e91775efd92ce56f2dc5cbdcc65786855b5c3
 
 ---
 
@@ -13,7 +13,7 @@ source-git-commit: 31462861efa807583c245963d8496eecdd3cf92e
 
 웹 서비스 API를 사용하여 .csv 파일의 POI를 POI 데이터베이스로 일괄 가져오는 작업을 단순화하기 위해 Python 스크립트 세트가 만들어졌습니다. 이러한 스크립트는 이 오픈 소스 [git 보고서에서 다운로드할 수 있습니다](https://github.com/adobe/places-scripts).
 
-이러한 스크립트를 실행하기 전에 웹 서비스 API에 액세스하려면 Adobe *I/O 통합 개요에서* 사용자 액세스에 [대한](/help/web-service-api/adobe-i-o-integration.md)사전 요구 사항을 참조하십시오.
+이러한 스크립트를 실행하기 전에 웹 서비스 API에 액세스하려면 *통합 개요 및 전제 조건에* 있는 사용자 액세스에 [대한](/help/web-service-api/adobe-i-o-integration.md)사전 요구 사항을 참조하십시오.
 
 다음은 스크립트에 대한 정보입니다.
 
@@ -52,7 +52,7 @@ source-git-commit: 31462861efa807583c245963d8496eecdd3cf92e
 다음 열 값은 위치 서비스 UI에서 사용됩니다.
 
 * 색상 - 위치 서비스 UI 맵에서 POI 위치를 나타내는 핀의 색상으로 사용됩니다.
-   * 유효한 값은 "", #3E76D0, #AA99E8, #DC2ABA, #FC685B, #FC962E, #F6C436, #BECE5D, #61B56입니다. b 및 #3DC8DE.
+   * 유효한 값은 "", #3E76D0, #AA99E8, #DC2ABA, #FC685B, #FC962E, #F6C436, #BECE5D, #61B56입니다. b 및 #3DC8DE 및 ""을(를) 참조하십시오.
    * 값을 비워 두면 위치 서비스 UI에서 파란색을 기본 색상으로 사용합니다.
 
       값은 파란색(#3E76D0), 자주색(#AA99E8), 푸시아(#DC2ABA), 주황(#FC685B), 연한 주황(#FC962E), 노란색(#F6C436), 연한 녹색( #BECE5D), 녹색(#61B56B) 및 연한 파랑(#3DC8DE)이 각각 표시됩니다.
@@ -60,6 +60,11 @@ source-git-commit: 31462861efa807583c245963d8496eecdd3cf92e
 * 아이콘 - 위치 서비스 UI 맵에서 POI 위치를 나타내는 핀의 아이콘으로 사용됩니다.
 
    * 유효한 값은 "", 상점, 호텔베드, 자동차, 기차, 배, 스타디움, 무스팩, 앵커, 벨, 입찰, 책, 서류 상자, 찾아보기, 브러시, 빌딩, 카메라, 시계, 교육, 손전등, 팔로우, 게임, 여성, 남성, 선물, 하트, 하트, 시작, 조명, 사서함, 핀, 프로모션, 리본, 쇼핑 카트, 스타, 대상, 대상 teapot, thumbDown, thumbUp, trap, trophy, tranch.
+
+      아이콘 값은 다음 그림에 표시되는 순서대로 나열됩니다.
+
+      ![ui의 아이콘](/help/assets/UI_icons.png)
+
    * 값을 비워 두면 UI에서 별을 기본 아이콘으로 사용합니다.
 
 * 언급되지 않은 열은 비워 둘 수 있습니다.
@@ -73,19 +78,19 @@ source-git-commit: 31462861efa807583c245963d8496eecdd3cf92e
 
    * `csv_file_path`
 
-      파일 `.csv` 경로입니다.
+      이 경로는 `.csv` 파일의 경로입니다.
 
    * `access_code`
 
-      Adobe IMS에 대한 호출에서 얻은 액세스 코드입니다. 이 액세스 코드를 얻는 방법에 대한 자세한 내용은 [사용자 액세스에](/help/web-service-api/adobe-i-o-integration.md) 대한 사전 요구 사항을 참조하십시오.
+      Adobe IMS에 대한 호출에서 얻은 액세스 코드입니다. 이 액세스 코드를 얻는 방법에 대한 자세한 내용은 통합 *개요 및 사전 요구 사항* 중에서 사용자 액세스에 [필요한](/help/web-service-api/adobe-i-o-integration.md)사전 요구 사항을 참조하십시오.
 
    * `org_id`
 
-      POI 파섹 조직 ID를 얻는 방법에 대한 자세한 내용은 사용자 액세스에 [대한 전제 조건을 참조하십시오.](/help/web-service-api/adobe-i-o-integration.md).
+      POI 파섹 조직 ID를 얻는 방법에 대한 자세한 내용은 통합 *개요 및 전제 조건에* 있는 사용자 액세스에 [대한](/help/web-service-api/adobe-i-o-integration.md)전제 조건을 참조하십시오.
 
    * `api_key`
 
-      Adobe I/O Places 통합에서 가져온 Places REST API 키입니다. API 키를 얻는 방법에 대한 자세한 내용은 사용자 액세스에 [대한 전제 조건을 참조하십시오.](/help/web-service-api/adobe-i-o-integration.md).
+      Adobe I/O Places 통합에서 가져온 Places REST API 키입니다. API 키를 얻는 방법에 대한 자세한 내용은 통합 *개요 및 사전 요구 사항* 중 사용자 액세스에 [필요한](/help/web-service-api/adobe-i-o-integration.md)사전 요구 사항을 참조하십시오.
    b.변경 내용을 저장합니다.
 
 1. 터미널 창에서 `…/places-scripts/import/` 디렉토리로 이동합니다.
