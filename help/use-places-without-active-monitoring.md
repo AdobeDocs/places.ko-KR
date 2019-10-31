@@ -1,21 +1,23 @@
 ---
-title: '활성 영역 모니터링 없이 위치 사용 '
-seo-title: '활성 영역 모니터링 없이 위치 사용 '
-description: 이 섹션에서는 활성 영역 모니터링 없이 위치 사용 방법에 대한 정보를 제공합니다.
-seo-description: 이 섹션에서는 활성 영역 모니터링 없이 위치를 사용하는 방법에 대한 정보를 제공합니다.
+title: '활성 지역 모니터링 없이 위치 서비스 사용 '
+seo-title: '활성 지역 모니터링 없이 위치 서비스 사용 '
+description: 이 섹션에서는 활성 지역 모니터링 없이 위치 서비스 위치를 사용하는 방법에 대한 정보를 제공합니다.
+seo-description: 이 섹션에서는 활성 지역 모니터링 없이 위치 서비스를 사용하는 방법에 대한 정보를 제공합니다.
 translation-type: tm+mt
-source-git-commit: ba918bfdb989ba4037409b17d799ef596064b676
+source-git-commit: 84b23934a6e9f9fd61c068693bae3daca24de253
 
 ---
 
 
-# 활성 영역 모니터링 없이 위치 사용 {#use-places-without-active-monitoring}
+# 활성 지역 모니터링 없이 위치 서비스 사용 {#use-places-without-active-monitoring}
 
-애플리케이션에 대한 사용 사례는 활성 지역 모니터링이 필요하지 않을 수 있습니다. Adobe Places는 사용자의 위치 데이터를 다른 Experience Platform 제품과 통합하는 데 계속 사용할 수 있습니다.
+애플리케이션에 대한 사용 사례는 활성 영역 모니터링이 필요하지 않을 수 있습니다. Adobe Places는 사용자의 위치 데이터를 다른 Experience Platform 제품과 통합하는 데 계속 사용할 수 있습니다.
 
 이 섹션에서는 사용자의 위치(위도 및 경도)를 수집할 때에만 POI 멤버십 확인을 완료하는 방법에 대해 설명합니다.
 
-****&#x200B;사전 요구 사항:개발자는 대상 플랫폼의 운영 체제에서 제공하는 API를 사용하여 장치의 위치를 수집합니다.
+## 전제 조건
+
+개발자는 대상 플랫폼의 운영 체제에서 제공하는 API를 사용하여 장치의 위치를 수집합니다.
 
 >[!TIP]
 >
@@ -80,7 +82,6 @@ public class LocationBroadcastReceiver extends BroadcastReceiver {
     }
 }
 ```
-
 
 ### Objective-C
 
@@ -229,9 +230,11 @@ func handleUpdatedPOIs(_ nearbyPois:[ACPPlacesPoi]) {
 
 ## 전체 샘플 구현
 
-다음 코드 샘플에서는 장치의 현재 위치를 검색하고, 필요한 이벤트를 트리거하며, 한 번의 방문 시 동일한 위치에 대해 여러 항목을 가져오지 않는 방법을 보여 줍니다.
+아래 코드 샘플에서는 장치의 현재 위치를 검색하고, 필요한 이벤트를 트리거하며, 한 번의 방문 시 동일한 위치에 대해 여러 항목을 가져오지 않는 방법을 보여 줍니다.
 
 >[!IMPORTANT]
+>
+>
 이러한 코드 조각은 **단지** 예입니다. 개발자는 해당 기능을 구현할 방법을 결정해야 하며, 대상 운영 체제에서 권장하는 우수 사례를 고려해야 합니다.
 
 ### Android
