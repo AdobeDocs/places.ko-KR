@@ -4,7 +4,7 @@ seo-title: 위치 데이터를 포함하는 Adobe Analytics에서 보고서 실�
 description: 이 섹션에서는 위치 데이터를 포함하는 Analytics에서 보고서를 실행하는 방법에 대한 정보를 제공합니다.
 seo-description: 이 섹션에서는 위치 데이터를 포함하는 Analytics에서 보고서를 실행하는 방법에 대한 정보를 제공합니다.
 translation-type: tm+mt
-source-git-commit: a76e91775efd92ce56f2dc5cbdcc65786855b5c3
+source-git-commit: fc1dd9e36bf45a2e7c17c3d9dbbed66b28cb8b07
 
 ---
 
@@ -39,7 +39,7 @@ After Places가 시작 및 종료 이벤트를 전송하면 Experience Platform 
 
 이제 이 규칙에 포함할 트리거를 결정할 수 있습니다. 이 예에서는 트리거가 모든 `TrackAction` 호출을 기반으로 합니다. 이벤트를 구성한 후 을 클릭합니다 **[!UICONTROL Keep Changes]**.
 
-!["이벤트 만들기"](/help/assets/ad-setEvent.png)
+!["이벤트 만들기"](/help/assets/pt-selectEvent.png)
 
 
 ## 2.조건 추가
@@ -60,7 +60,7 @@ After Places가 시작 및 종료 이벤트를 전송하면 Experience Platform 
 
 5. 클릭 **[!UICONTROL Keep Changes]**.
 
-!["조건 만들기"](/help/assets/ad-setCondition.png)
+!["조건 만들기"](/help/assets/pt-setCondition.png)
 
 ## 3.작업 정의
 
