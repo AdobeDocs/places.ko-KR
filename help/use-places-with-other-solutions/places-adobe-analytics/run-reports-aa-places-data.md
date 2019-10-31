@@ -4,7 +4,7 @@ seo-title: 위치 데이터를 포함하는 Adobe Analytics에서 보고서 실�
 description: 이 섹션에서는 위치 데이터를 포함하는 Analytics에서 보고서를 실행하는 방법에 대한 정보를 제공합니다.
 seo-description: 이 섹션에서는 위치 데이터를 포함하는 Analytics에서 보고서를 실행하는 방법에 대한 정보를 제공합니다.
 translation-type: tm+mt
-source-git-commit: 0612e2fb06e45ff25ad580e3336be3eb48bb39b9
+source-git-commit: a76e91775efd92ce56f2dc5cbdcc65786855b5c3
 
 ---
 
@@ -22,14 +22,14 @@ After Places가 시작 및 종료 이벤트를 전송하면 Experience Platform 
 1. 탭에서 을 **[!UICONTROL Rules]** 클릭합니다 **[!UICONTROL Create New Rule]**.
 
    다음 정보를 숙지하십시오.
-   * 이 속성에 대한 기존 규칙이 없는 경우 이 단추는 화면 가운데에 있게 됩니다.
-   * 속성에 규칙이 있는 경우 이 단추는 화면의 오른쪽 상단에 있습니다.
+   * 이 속성에 대한 기존 규칙이 없는 경우 **[!UICONTROL Create New Rule]** 단추가 화면 가운데에 표시됩니다.
+   * 속성에 규칙이 있는 경우 **[!UICONTROL Create New Rule]** 단추는 화면의 오른쪽 상단에 있습니다.
 
 ## 1.이벤트 선택
 
 1. 규칙 목록에서 쉽게 알아볼 수 있도록 규칙에 의미 있는 이름을 지정합니다.
 
-   이 예에서, 규칙의 이름은 Analytics 추적 **작업 이벤트에 위치 데이터 첨자입니다**.
+   이 예에서는 규칙의 이름이 **[!UICONTROL Attach Places Data to Analytics Track Action Events]**&#x200B;지정됩니다.
 
 2. 섹션에서 **[!UICONTROL Events]** 을 클릭합니다 **[!UICONTROL Add]**.
 
@@ -46,7 +46,7 @@ After Places가 시작 및 종료 이벤트를 전송하면 Experience Platform 
 
 >[!IMPORTANT]
 >
->규칙에 조건을 추가하려면 이 단계를 완료하십시오. 그렇지 않은 경우 아래 작업 *정의* 섹션으로 건너뜁니다.
+>규칙에 조건을 추가하려면 이 절차를 완료하십시오. 그렇지 않은 경우 아래 작업 *정의* 섹션으로 건너뜁니다.
 
 이 예에서는 규칙이 AT&amp;T 고객에 대해서만 트리거되도록 하는 조건이 생성됩니다.
 
@@ -80,7 +80,7 @@ After Places가 시작 및 종료 이벤트를 전송하면 Experience Platform 
 
 !["작업 만들기"](/help/assets/pt-setAction.png)
 
-## 4.규칙 저장 및 속성 다시 빌드
+## 4.규칙을 저장하고 속성을 다시 빌드합니다.
 
 구성을 완료한 후 규칙이 다음 이미지와 같은지 확인합니다.
 
