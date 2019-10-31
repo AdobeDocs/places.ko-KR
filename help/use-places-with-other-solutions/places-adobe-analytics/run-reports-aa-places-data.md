@@ -4,7 +4,7 @@ seo-title: 위치 데이터를 포함하는 Adobe Analytics에서 보고서 실�
 description: 이 섹션에서는 위치 데이터를 포함하는 Analytics에서 보고서를 실행하는 방법에 대한 정보를 제공합니다.
 seo-description: 이 섹션에서는 위치 데이터를 포함하는 Analytics에서 보고서를 실행하는 방법에 대한 정보를 제공합니다.
 translation-type: tm+mt
-source-git-commit: fc1dd9e36bf45a2e7c17c3d9dbbed66b28cb8b07
+source-git-commit: 7ca51580a4cfa9c00431ad3972bd10e2a12dfbd1
 
 ---
 
@@ -25,7 +25,7 @@ After Places가 시작 및 종료 이벤트를 전송하면 Experience Platform 
    * 이 속성에 대한 기존 규칙이 없는 경우 **[!UICONTROL Create New Rule]** 단추가 화면 가운데에 표시됩니다.
    * 속성에 규칙이 있는 경우 **[!UICONTROL Create New Rule]** 단추는 화면의 오른쪽 상단에 있습니다.
 
-## 1.이벤트 선택
+## 2.이벤트 선택
 
 1. 규칙 목록에서 쉽게 알아볼 수 있도록 규칙에 의미 있는 이름을 지정합니다.
 
@@ -42,7 +42,7 @@ After Places가 시작 및 종료 이벤트를 전송하면 Experience Platform 
 !["이벤트 만들기"](/help/assets/pt-selectEvent.png)
 
 
-## 2.조건 추가
+## 3.조건 추가
 
 >[!IMPORTANT]
 >
@@ -62,7 +62,7 @@ After Places가 시작 및 종료 이벤트를 전송하면 Experience Platform 
 
 !["조건 만들기"](/help/assets/pt-setCondition.png)
 
-## 3.작업 정의
+## 4.작업 정의
 
 1. 섹션에서 **[!UICONTROL Actions]** 을 클릭합니다 **[!UICONTROL Add]**.
 
@@ -80,7 +80,7 @@ After Places가 시작 및 종료 이벤트를 전송하면 Experience Platform 
 
 !["작업 만들기"](/help/assets/pt-setAction.png)
 
-## 4.규칙을 저장하고 속성을 다시 빌드합니다.
+## 5.규칙을 저장하고 속성을 다시 빌드합니다.
 
 구성을 완료한 후 규칙이 다음 이미지와 같은지 확인합니다.
 
