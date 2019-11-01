@@ -4,7 +4,7 @@ seo-title: 데이터 요소 정의
 description: 이 섹션에서는 Experience Platform Launch for Places에서 데이터 요소를 만들고, 사용하고, 게시하는 방법에 대한 정보를 제공합니다.
 seo-description: '이 섹션에서는 Experience Platform Launch for Places에서 데이터 요소를 만들고, 사용하고, 게시하는 방법에 대한 정보를 제공합니다. '
 translation-type: tm+mt
-source-git-commit: 5d438fdd712c85101d546ed82f8ad155010cfb91
+source-git-commit: a2e30282789d9834e5c65502e28ddb25f3c55dfa
 
 ---
 
@@ -44,17 +44,17 @@ source-git-commit: 5d438fdd712c85101d546ed82f8ad155010cfb91
 
 1. 앱의 속성 페이지에서 **[!UICONTROL Data Elements]** 탭을 클릭합니다.
 
-2. 클릭 **[!UICONTROL Create New Data Element]**.
+1. 클릭 **[!UICONTROL Create New Data Element]**.
 
-3. 설치된 확장 프로그램 목록에서 을 **[!UICONTROL Places]**&#x200B;찾습니다.
+1. 설치된 확장 프로그램 목록에서 을 **[!UICONTROL Places]**&#x200B;찾습니다.
 
-4. 드롭다운 **[!UICONTROL Data Element Type]** 목록에서 이 데이터 요소에 대한 데이터 참조를 선택합니다.
+1. 드롭다운 **[!UICONTROL Data Element Type]** 목록에서 이 데이터 요소에 대한 데이터 참조를 선택합니다.
 
-5. POI 대상을 선택합니다.
+1. POI 대상을 선택합니다.
 
-6. 이 데이터 요소가 사용자 지정 메타데이터 참조인 경우 메타데이터 키를 선택합니다.
+1. 이 데이터 요소가 사용자 지정 메타데이터 참조인 경우 메타데이터 키를 선택합니다.
 
-7. 데이터 요소의 이름을 입력하고 를 **[!UICONTROL Save]**&#x200B;클릭합니다.
+1. 데이터 요소의 이름을 입력하고 를 **[!UICONTROL Save]**&#x200B;클릭합니다.
 
    ![데이터 요소 만들기](/help/assets/create-de-7-v3.png)
 
