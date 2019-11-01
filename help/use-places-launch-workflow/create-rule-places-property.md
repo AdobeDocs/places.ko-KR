@@ -4,7 +4,7 @@ seo-title: 위치 속성에 대한 규칙 만들기
 description: '위치 SDK는 현재 위치를 추적하고, 현재 위치에 대해 구성된 POI를 모니터링하며, 이러한 POI에 대한 시작 및 종료 이벤트를 추적합니다. '
 seo-description: '위치 SDK는 현재 위치를 추적하고, 현재 위치에 대해 구성된 POI를 모니터링하며, 이러한 POI에 대한 시작 및 종료 이벤트를 추적합니다. '
 translation-type: tm+mt
-source-git-commit: 84b23934a6e9f9fd61c068693bae3daca24de253
+source-git-commit: a2e30282789d9834e5c65502e28ddb25f3c55dfa
 
 ---
 
@@ -71,44 +71,44 @@ source-git-commit: 84b23934a6e9f9fd61c068693bae3daca24de253
 경험 플랫폼 론치에서 데이터 요소를 만들려면:
 
 1. 데이터 요소 **탭을** 클릭합니다.
-2. Click **Add Data Element**.
-3. 예를 들어 현재 커피숍 **이름과**&#x200B;같은 이름을 입력합니다.
-4. 확장 **프로그램** 드롭다운 목록에서 위치 - 베타 **를 선택합니다**.
-5. 데이터 **요소에서**&#x200B;시를 **선택합니다**.
-6. 오른쪽 창에서 현재 POI를 **선택합니다**.
-7. **저장**&#x200B;을 클릭합니다.
+1. Click **Add Data Element**.
+1. 예를 들어 현재 커피숍 **이름과**&#x200B;같은 이름을 입력합니다.
+1. 확장 **프로그램** 드롭다운 목록에서 위치 - 베타 **를 선택합니다**.
+1. 데이터 **요소에서**&#x200B;시를 **선택합니다**.
+1. 오른쪽 창에서 현재 POI를 **선택합니다**.
+1. **저장**&#x200B;을 클릭합니다.
 
 ### Experience Platform Launch for Places에서 규칙 만들기
 
 ![규칙 만들기](/help/assets/placesrule.png)
 
 1. 경험 플랫폼 론치에서 **[!UICONTROL Rules]** 탭을 클릭합니다.
-2. 클릭 **[!UICONTROL Add Rule]**.
-3. 예를 들어 규칙의 이름을 입력합니다 **[!UICONTROL Track entry for coffee shop in SF]**.
+1. 클릭 **[!UICONTROL Add Rule]**.
+1. 예를 들어 규칙의 이름을 입력합니다 **[!UICONTROL Track entry for coffee shop in SF]**.
 
 ### 이벤트를 만듭니다
 
 1. 이벤트 섹션에서 을 클릭합니다 **[!UICONTROL + Add]**. 이벤트는 규칙을 실행할 시기를 결정합니다.
-2. 드롭다운 **[!UICONTROL Extension]** 목록에서 선택합니다 **[!UICONTROL Places – Beta]**.
-3. 드롭다운 **[!UICONTROL Event Type]** 목록에서 선택합니다 **[!UICONTROL Enter POI]**.
-4. 에서 **[!UICONTROL Name]**&#x200B;이벤트의 이름을 입력합니다(예: **[!UICONTROL Entering a coffee shop]**).
-5. 클릭 **[!UICONTROL Keep Changes]**.
+1. 드롭다운 **[!UICONTROL Extension]** 목록에서 선택합니다 **[!UICONTROL Places – Beta]**.
+1. 드롭다운 **[!UICONTROL Event Type]** 목록에서 선택합니다 **[!UICONTROL Enter POI]**.
+1. 에서 **[!UICONTROL Name]**&#x200B;이벤트의 이름을 입력합니다(예: **[!UICONTROL Entering a coffee shop]**).
+1. 클릭 **[!UICONTROL Keep Changes]**.
 
 ### 조건 만들기
 
 1. 조건 섹션에서 을 **[!UICONTROL +Add]**&#x200B;클릭합니다. 조건은 수행할 작업에 대해 충족해야 하는 기준을 결정합니다.
-2. 에서 **[!UICONTROL Logic Type]**&#x200B;조건이 충족되는 경우 작업을 실행할 수 있도록 하는 [일반]을 선택합니다.
-3. 드롭다운 **[!UICONTROL Extension]** 목록에서 선택합니다 **[!UICONTROL Places – Beta]**.
-4. 에서 **[!UICONTROL Condition Type]**&#x200B;을 선택합니다 **[!UICONTROL City]**.
-5. Type a condition name, for example, **[!UICONTROL Coffee shop in SF]**.
-6. 오른쪽 창에서 을 클릭하고 **[!UICONTROL Current POI]**&#x200B;드롭다운 목록에서 도시 **[!UICONTROL San Francisco]** 중 하나로 선택합니다.
-7. 클릭 **[!UICONTROL Keep Changes]**.
+1. 에서 **[!UICONTROL Logic Type]**&#x200B;조건이 충족되는 경우 작업을 실행할 수 있도록 하는 [일반]을 선택합니다.
+1. 드롭다운 **[!UICONTROL Extension]** 목록에서 선택합니다 **[!UICONTROL Places – Beta]**.
+1. 에서 **[!UICONTROL Condition Type]**&#x200B;을 선택합니다 **[!UICONTROL City]**.
+1. Type a condition name, for example, **[!UICONTROL Coffee shop in SF]**.
+1. 오른쪽 창에서 을 클릭하고 **[!UICONTROL Current POI]**&#x200B;드롭다운 목록에서 도시 **[!UICONTROL San Francisco]** 중 하나로 선택합니다.
+1. 클릭 **[!UICONTROL Keep Changes]**.
 
 ### 동작 만들기
 
 1. In the **[!UICONTROL Actions]** section, click **[!UICONTROL + Add]**.
-2. 드롭다운 **[!UICONTROL Extension]** 목록에서 기본 **[!UICONTROL Mobile Core]** 옵션을 선택된 상태로 둡니다.
-3. 작업 유형(예: )을 선택합니다 **[!UICONTROL Send Postback]**.
+1. 드롭다운 **[!UICONTROL Extension]** 목록에서 기본 **[!UICONTROL Mobile Core]** 옵션을 선택된 상태로 둡니다.
+1. 작업 유형(예: )을 선택합니다 **[!UICONTROL Send Postback]**.
 
    a.에서 **[!UICONTROL URL]** Slack의 포스트백 URL을 입력합니다(예: `https://hooks.slack.com/services/`).
 
@@ -120,7 +120,7 @@ source-git-commit: 84b23934a6e9f9fd61c068693bae3daca24de253
 
    d.시간 초과 값(예: )을 선택합니다 **[!UICONTROL 5]**.
 
-4. 클릭 **[!UICONTROL Keep Changes]**.
+1. 클릭 **[!UICONTROL Keep Changes]**.
 
 ### 규칙 게시
 
