@@ -4,7 +4,7 @@ seo-title: FAQ
 description: 이 항목에서는 일부 FAQ에 대한 추가 정보를 제공합니다.
 seo-description: 이 항목에서는 일부 FAQ에 대한 추가 정보를 제공합니다.
 translation-type: tm+mt
-source-git-commit: 6ae0c8d90cad4c437e1db7f562a0bc9c6b072ce6
+source-git-commit: a2e30282789d9834e5c65502e28ddb25f3c55dfa
 
 ---
 
@@ -91,7 +91,7 @@ SDK(위치 모니터)가 인근 POI의 새 목록을 받으면 각 POI의 운영
 
       이전에 Experience Platform Launch에 사용자를 추가한 경우 여러 프로필이 나열될 수 있습니다.
 
-2. 올바른 프로필을 선택합니다.
+1. 올바른 프로필을 선택합니다.
 
    a.기본 프로필의 이름을 클릭합니다.
 
@@ -145,7 +145,7 @@ SDK(위치 모니터)가 인근 POI의 새 목록을 받으면 각 POI의 운영
 
    g.을 **[!UICONTROL Save]**&#x200B;클릭합니다.
 
-2. 사용자를 추가할 **[!UICONTROL Places Core Services]**&#x200B;수 있습니다.
+1. 사용자를 추가할 **[!UICONTROL Places Core Services]**&#x200B;수 있습니다.
 
    >[!TIP]
    >
