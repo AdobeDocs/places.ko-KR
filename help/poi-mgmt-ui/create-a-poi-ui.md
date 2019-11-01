@@ -4,7 +4,7 @@ seo-title: POI 만들기
 description: 위치 UI를 사용하여 POI를 만듭니다.
 seo-description: 위치 UI를 사용하여 POI를 만듭니다.
 translation-type: tm+mt
-source-git-commit: 32c670773421406591ba85a628760553ce6ad840
+source-git-commit: a2e30282789d9834e5c65502e28ddb25f3c55dfa
 
 ---
 
@@ -14,16 +14,16 @@ source-git-commit: 32c670773421406591ba85a628760553ce6ad840
 관심 영역 \(POI\)은 조직 또는 회사에 중요한 지도의 위치 또는 지점입니다. 카페, 레스토랑, 소매점, 경기장 등의 위치를 갖추고 있습니다. 특정 관심 영역을 위해 지엽으로 둘러싸인 지역에 입장한 사용자가 모바일 경험을 개인화할 수 있도록 관심 영역을 정의할 수 있습니다. 기업은 개인화된 경험을 넘어 관심 영역을 만들어 위치 트래픽 패턴을 분석하고 더 잘 이해할 수 있습니다. 대규모 소매 체인은 모바일 애플리케이션이 있는 사용자에 대한 분석 결과를 얻기 위해 모든 스토어 위치에 대한 POI를 생성하도록 선택할 수 있습니다.
 
 1. Adobe ID로 위치 서비스에 로그인합니다.
-2. 오른쪽 상단에서 을 클릭합니다 **[!UICONTROL New]**.
-3. POI의 이름을 입력합니다.
-4. 라이브러리를 선택합니다.
-5. 반경을 입력하거나 선택합니다.
+1. 오른쪽 상단에서 을 클릭합니다 **[!UICONTROL New]**.
+1. POI의 이름을 입력합니다.
+1. 라이브러리를 선택합니다.
+1. 반경을 입력하거나 선택합니다.
 
    반경은 최소 거리이며 권장 값은 100m입니다.
 
    ![POI 정의](/help/assets/define_poi.png)
 
-6. 다음 단계는 선택 사항입니다.
+1. 다음 단계는 선택 사항입니다.
 
    a.POI 아이콘을 선택합니다.
 
@@ -31,7 +31,7 @@ source-git-commit: 32c670773421406591ba85a628760553ce6ad840
 
    c.POI의 범주를 지정합니다.
 
-7. 섹션을 **[!UICONTROL Location]** 확장합니다.
+1. 섹션을 **[!UICONTROL Location]** 확장합니다.
 
    a.주소를 입력합니다.
 
@@ -47,7 +47,7 @@ source-git-commit: 32c670773421406591ba85a628760553ce6ad840
 
    정확한 위도와 경도를 모르면 핀을 떨어뜨리는 것이 유용하다.
 
-8. 섹션을 **[!UICONTROL Metadata]** 확장하고 을 클릭합니다 **[!UICONTROL Add Metadata]**.
+1. 섹션을 **[!UICONTROL Metadata]** 확장하고 을 클릭합니다 **[!UICONTROL Add Metadata]**.
 
    메타데이터를 사용하면 위치를 추가로 정의할 수 있으며 다른 Adobe 솔루션 워크플로우에서 사용할 수 있으므로 고객을 추가로 개선할 수 있습니다.
 
@@ -55,4 +55,4 @@ source-git-commit: 32c670773421406591ba85a628760553ce6ad840
 
    b.키 값을 입력합니다.
 
-9. 을 **[!UICONTROL Confirm]** 클릭한 다음 **[!UICONTROL  Save]**&#x200B;을 클릭합니다.
+1. 을 **[!UICONTROL Confirm]** 클릭한 다음 **[!UICONTROL  Save]**&#x200B;을 클릭합니다.
