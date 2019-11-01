@@ -4,7 +4,7 @@ seo-title: 위치 모니터 확장 사용
 description: 위치 모니터 확장 기능을 설치, 구성 및 사용하는 방법에 대한 정보입니다.
 seo-description: '위치 모니터 확장 기능을 설치, 구성 및 사용하는 방법에 대한 정보입니다. '
 translation-type: tm+mt
-source-git-commit: ef720c112bc0de386e070094629c5bab69938e76
+source-git-commit: a2e30282789d9834e5c65502e28ddb25f3c55dfa
 
 ---
 
@@ -16,9 +16,9 @@ source-git-commit: ef720c112bc0de386e070094629c5bab69938e76
 ## Experience Platform Launch에서 위치 모니터 확장 설치
 
 1. 경험 플랫폼 론치에서 **[!UICONTROL Extensions]** 탭을 클릭합니다.
-2. 탭에서 **[!UICONTROL Catalog]** 확장 기능을 찾아 설치를 **[!UICONTROL Places Monitor]** 클릭합니다 ****.
-3. 클릭 **[!UICONTROL Save]**.
-4. 게시 프로세스에 따라 SDK 구성을 업데이트합니다.
+1. 탭에서 **[!UICONTROL Catalog]** 확장 기능을 찾아 설치를 **[!UICONTROL Places Monitor]** 클릭합니다 ****.
+1. 클릭 **[!UICONTROL Save]**.
+1. 게시 프로세스에 따라 SDK 구성을 업데이트합니다.
 
 ### 위치 모니터 확장 구성 {#configure-places-monitor-extension}
 
@@ -38,7 +38,7 @@ Android에서 다음 단계를 완료하십시오.
 
 1. 앱의 등급 파일을 사용하여 위치 모니터 확장 기능과 위치 확장 기능을 프로젝트에 추가합니다.
 
-2. 또한 최신 Google 위치 서비스를 gradle 파일에 포함합니다.
+1. 또한 최신 Google 위치 서비스를 gradle 파일에 포함합니다.
 
    ```java
    implementation 'com.adobe.marketing.mobile:places:1.+'
@@ -47,7 +47,7 @@ Android에서 다음 단계를 완료하십시오.
    implementation 'com.google.android.gms:play-services-location:16.0.0'
    ```
 
-3. 애플리케이션의 기본 활동에서 위치 모니터 확장 기능을 가져옵니다.
+1. 애플리케이션의 기본 활동에서 위치 모니터 확장 기능을 가져옵니다.
 
    ```java
    import com.adobe.marketing.mobile.PlacesMonitor;
@@ -58,7 +58,7 @@ Android에서 다음 단계를 완료하십시오.
 iOS에서 다음 단계를 완료하십시오.
 
 1. 코드를 추가하여 프로젝트에 라이브러리를 추가합니다 `Podfile` . `pod 'ACPPlacesMonitor'`
-2. 위치 및 위치 모니터 라이브러리를 가져옵니다.
+1. 위치 및 위치 모니터 라이브러리를 가져옵니다.
 
 #### Objective-C
 
