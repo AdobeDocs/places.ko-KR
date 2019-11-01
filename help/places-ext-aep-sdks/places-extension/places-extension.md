@@ -4,7 +4,7 @@ seo-title: 위치 확장
 description: 위치 확장 기능을 사용하면 사용자의 위치를 기반으로 할 수 있습니다.
 seo-description: 위치 확장 기능을 사용하면 사용자의 위치를 기반으로 할 수 있습니다.
 translation-type: tm+mt
-source-git-commit: fd1b37a0f50d93de1efff4cb38fc23253f02d517
+source-git-commit: a2e30282789d9834e5c65502e28ddb25f3c55dfa
 
 ---
 
@@ -16,13 +16,13 @@ source-git-commit: fd1b37a0f50d93de1efff4cb38fc23253f02d517
 ## Adobe Experience Platform Launch에서 위치 확장 설치
 
 1. 경험 플랫폼 론치에서 **[!UICONTROL Extensions]** 탭을 클릭합니다.
-2. 탭에서 **[!UICONTROL Catalog]** 확장자를 찾아 **[!UICONTROL Places]** **[!UICONTROL Install]**&#x200B;클릭합니다.
-3. 이 속성에 사용할 위치 라이브러리를 선택합니다. 앱에서 액세스할 수 있는 라이브러리입니다.
-4. 클릭 **[!UICONTROL Save]**.
+1. 탭에서 **[!UICONTROL Catalog]** 확장자를 찾아 **[!UICONTROL Places]** **[!UICONTROL Install]**&#x200B;클릭합니다.
+1. 이 속성에 사용할 위치 라이브러리를 선택합니다. 앱에서 액세스할 수 있는 라이브러리입니다.
+1. 클릭 **[!UICONTROL Save]**.
 
    클릭하면 Experience Platform SDK가 **[!UICONTROL Save]**&#x200B;선택한 라이브러리에서 POI를 배치 서비스를 검색합니다. 앱을 빌드할 때 POI 데이터는 라이브러리 다운로드에 포함되지 않지만, 런타임 시 POI의 위치 기반 하위 세트가 최종 사용자의 GPS 좌표에 다운로드됩니다.
 
-5. 게시 프로세스를 완료하여 SDK 구성을 업데이트합니다.
+1. 게시 프로세스를 완료하여 SDK 구성을 업데이트합니다.
 
    Experience Platform Launch에서의 게시에 대한 자세한 내용은 게시를 [참조하십시오](https://docs.adobelaunch.com/launch-reference/publishing).
 
@@ -45,7 +45,7 @@ Java를 사용하여 앱에 위치 확장을 추가하려면:
    implementation 'com.adobe.marketing.mobile:sdk-core:1.+'
    ```
 
-2. 애플리케이션의 기본 활동에서 위치 확장을 가져옵니다.
+1. 애플리케이션의 기본 활동에서 위치 확장을 가져옵니다.
 
    ```java
    import com.adobe.marketing.mobile.Places;
@@ -65,13 +65,13 @@ Objective-C 또는 Swift를 사용하여 앱에 위치 확장을 추가하려면
 
    또는 Copods를 사용하지 않는 경우 Github의 [릴리스 페이지에서](https://github.com/Adobe-Marketing-Cloud/acp-sdks/releases/) Mobile Core 및 Places 라이브러리를 수동으로 포함할 수 있습니다.
 
-2. 코드 업데이트:
+1. 코드 업데이트:
 
    ```objective-c
    pod update
    ```
 
-3. Xcode를 열고 AppDelegate 클래스에서 코어 및 위치 헤더를 가져옵니다.
+1. Xcode를 열고 AppDelegate 클래스에서 코어 및 위치 헤더를 가져옵니다.
 
    **Objective-C**
 
