@@ -4,7 +4,7 @@ seo-title: 위치 테스트 및 유효성 검사
 description: 이 섹션에서는 위치를 테스트하고 검증할 수 있는 방법에 대한 정보를 제공합니다.
 seo-description: 이 섹션에서는 위치를 테스트하고 검증할 수 있는 방법에 대한 정보를 제공합니다.
 translation-type: tm+mt
-source-git-commit: 39374c1457d33f4cd4014c78fb8daaaa59e5d62d
+source-git-commit: 181185d441a6a4740b2e8770adcb71e81e2e816e
 
 ---
 
@@ -33,8 +33,8 @@ source-git-commit: 39374c1457d33f4cd4014c78fb8daaaa59e5d62d
 | 5 | 테스트를 위해 올바른 환경이 구성되어 있는지 확인합니다. 실행 환경 ID는 Launch 개발 환경과 일치해야 합니다. | 확인됨 |
 | 6 | 테스트할 각 POI에 대한 GPX 파일을 만듭니다. 로컬 개발 환경에서 GPX 파일을 사용하여 위치 항목을 시뮬레이션할 수 있습니다. GPX 파일 만들기 및 사용에 대한 자세한 내용은 다음을 참조하십시오.iOS <br>[시뮬레이터용 GPX 파일 [닫힘]](https://stackoverflow.com/questions/17292783/gpx-files-for-ios-simulator)<br>[https://mapstogpx.com/mobiledev.](https://mapstogpx.com/mobiledev.php)<br>[phpLOCATION 모바일 앱 테스트](https://qacumtester.wordpress.com/2014/02/27/location-testing-in-mobile-apps/) | GPX 파일은 앱 프로젝트에서 만들어 로드됩니다. |
 | 7 | 다른 작업을 하지 않고도 Android Studio 또는 XCode에서 애플리케이션을 실행하고 추적 위치에 대한 액세스를 요청하는 적절한 경고를 볼 수 있습니다. 항상 *허용* 권한을 클릭합니다.<br><br>장치 시뮬레이터를 사용하는 대신 컴퓨터에 연결된 실제 장치를 사용하는 것이 좋습니다. | IDE를 통해 로드된 애플리케이션에 위치 요청 프롬프트가 표시되어야 합니다. |
-| 8 | 위치 권한이 승인되면 응용 프로그램 콘솔에서 호출되었음을 나타내는 메시지가 `ACPExtensionEventName : requestgetnearbyplaces`표시됩니다. XCode 또는 Android 스튜디오에서 서로 다른 위치를 전환하면 특정 POI에 대한 시작 이벤트가 생성됩니다. | `ACPExtensionEventName : requestgetnearbyplaces` 는 다른 위치를 시뮬레이션할 때 표시됩니다. |
-| 9 | 선택한 위치가 가까운 POI에 근접한 경우 모니터 확장 프로그램이 현재 위치에서 가장 가까운 20개의 POI를 모니터링하기 시작합니다. 콘솔의 메시지는 다음과 같습니다. `[AdobeExperienceSDK DEBUG <com.adobe.placesMonitor>]: Received a new list of POIs from Places:`Adobe | XCode 또는 Android 스튜디오에서 서로 다른 위치를 전환하면 특정 POI에 대한 시작 이벤트가 생성됩니다. |
+| 8 | 위치 권한이 승인되면 위치 SDK는 장치의 현재 위치를 검색할 예정이며 위치 모니터 확장 프로그램은 현재 위치에서 가장 가까운 20개의 POI를 모니터링합니다 | 표 아래의 로그 샘플을 참조하십시오. |
+| 9 | XCode 또는 Android 스튜디오에서 서로 다른 위치를 전환하면 특정 POI에 대한 시작 이벤트가 생성됩니다. 아래 로그는 POI에 액세스할 때 필요합니다. | 표 아래의 로그 샘플을 참조하십시오. |
 | 10 | 위치 모니터가 가까운 POI를 찾은 후 위치 설정을 전송하여 테스트해야 합니다. 론치에서 위치 확장을 사용하여 지역 펜스 항목을 기반으로 트리거하는 새 규칙을 만듭니다. 그런 다음 Mobile Core를 사용하여 포스트백을 전송하여 새 동작을 만듭니다. Slack Webhook 앱을 만들면 위치 항목 및 종료를 볼 수 있습니다. Slack Webhook 앱을 만드는 방법에 대한 자세한 내용은 수신 [Webhook을 사용하여 메시지 전송을 참조하십시오.](https://api.slack.com/messaging/webhooks) |  |
 | 10a | 론치에서 다음을 포함하여 위치 확장 기능에 대한 데이터 요소를 추가했는지 확인합니다.현재 <br>POI<br><br>이름<br>현재 POI<br>위도Current POI<br>긴 POI<br>이름LatLat<br><br><br>마지막LatLatLatLatLatered Last Clended Long Name마지막 Ended Long Timestamp |  |
 | 10b | Event = Places를 사용하여 새 규칙 만들기→POI 입력 |  |
@@ -71,3 +71,47 @@ source-git-commit: 39374c1457d33f4cd4014c78fb8daaaa59e5d62d
 | 19 | 셀룰러만 사용할 수 있고 Wifi가 꺼진 상태에서 테스트를 수행합니다. |  |
 | 20 | 셀룰러 및 Wifi를 모두 켜서 테스트를 수행합니다. |  |
 |  | **SUMMARY POINT** 현장 <br>테스트는 개발 테스트와 긴밀하게 일치해야 합니다. POI 지역 펜스에서 보낸 시간, 셀 신호 가용성, 인근 와이파이 액세스 포인트의 강도와 같이 사용자 위치를 결정할 때 발생할 수 있는 몇 가지 환경적 요인이 있다는 것을 염두에 두십시오. |  |
+
+## 로그 샘플
+
+**** 8단계:위치 업데이트 중 iOS 및 Android 로그가 필요합니다.
+
+**iOS**
+
+```
+[AdobeExperienceSDK DEBUG <com.adobe.placesMonitor>]: Authorization status changed: Always
+[AdobeExperienceSDK DEBUG <Places>]: Requesting 20 nearby POIs for device location (<lat>, <longitude>)
+[AdobeExperienceSDK DEBUG <Places>]: Response from Places Query Service contained <n> nearby POIs
+[AdobeExperienceSDK DEBUG <com.adobe.placesMonitor>]: Received a new list of POIs from Places: (
+<ACPPlacePoi: 0x600002b75a40> Name: <poi name>; ID:<poi id>; Center: (<lat>, <long>); Radius: <radius>
+..
+..)   
+```
+
+**Android**
+
+```
+PlacesMonitor - All location settings are satisfied to monitor location
+PlacesMonitor - PlacesMonitorInternal : New location obtained: <latitude> <longitude> Attempting to get the near by pois
+PlacesExtension - Dispatching nearby places event with n POIs
+PlacesMonitor - Attempting to Monitor POI with id <poi id> name <poi name> latitude <lat> longitude <longitude>
+PlacesMonitor - Attempting to Monitor POI with id <poi id> name <poi name> latitude <lat> longitude <longitude>
+PlacesMonitor - Attempting to Monitor POI with id <poi id> name <poi name> latitude <lat> longitude <longitude>
+...
+...
+PlacesMonitor - Successfully added n fences for monitoring
+```
+
+**** 9단계:이벤트 중 iOS 및 Android 로그가 필요합니다.
+
+**iOS**
+
+```
+[AdobeExperienceSDK TRACE <Places>]: Dispatching Places region entry event for place ID <poiId>
+```
+
+**Android**
+
+```
+PlacesExtension -  Dispatching Places Region Event for <poi name> with eventType entry
+```
