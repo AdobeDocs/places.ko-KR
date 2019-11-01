@@ -4,14 +4,12 @@ seo-title: 릴리스 노트
 description: Adobe Experience Platform 위치 서비스에 대한 릴리스 노트입니다.
 seo-description: Adobe Experience Platform 위치 서비스에 대한 릴리스 노트입니다.
 translation-type: tm+mt
-source-git-commit: 6ff72eb72ce3ae1abf805b7b542721a7e4915824
+source-git-commit: a5e5d5792d1a0368936f5f54e86a7ce9726a9122
 
 ---
 
 
 # 릴리스 노트 {#release-notes}
-
-릴리스 노트는 다음과 같습니다.
 
 ## 2019년 10월 9일
 
