@@ -4,12 +4,12 @@ seo-title: 푸시 알림
 description: 이 섹션에서는 푸시 알림과 함께 위치를 사용하는 방법을 보여줍니다.
 seo-description: 이 섹션에서는 푸시 알림과 함께 위치를 사용하는 방법을 보여줍니다.
 translation-type: tm+mt
-source-git-commit: a76e91775efd92ce56f2dc5cbdcc65786855b5c3
+source-git-commit: 60c274c309a2c86b67d6c19ea28ae300a37d723a
 
 ---
 
 
-# 푸시 알림(#places-push-messaging)
+# 푸시 알림
 
 Mobile Services를 사용하면 푸시 알림을 Adobe Analytics 세그먼트에 보낼 수 있습니다. 위치 서비스에서 POI와의 내역 상호 작용을 사용하여 푸시 메시지의 대상을 세그먼트화할 수 있습니다. 예를 들어 지난 30일 동안 스토어에 있었던 사용자에게 메시지를 보낼 수 있습니다.
 
