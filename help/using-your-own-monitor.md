@@ -4,7 +4,7 @@ seo-title: 자체 모니터 사용
 description: '또한 Places 확장 API를 사용하여 모니터링 서비스를 사용하고 위치와 통합할 수 있습니다. '
 seo-description: '또한 Places 확장 API를 사용하여 모니터링 서비스를 사용하고 위치와 통합할 수 있습니다. '
 translation-type: tm+mt
-source-git-commit: 5d558755d816f4aa05a7a76cad12bab45c1dc282
+source-git-commit: a2e30282789d9834e5c65502e28ddb25f3c55dfa
 
 ---
 
@@ -23,7 +23,7 @@ iOS에서 다음 단계를 완료하십시오.
 
 1. iOS의 핵심 위치 서비스에서 얻은 위치 업데이트를 위치 확장 프로그램으로 전달합니다.
 
-2. 위치 `getNearbyPointsOfInterest` 확장 API를 사용하여 현재 위치 주위의 *n* 개체 배열을 `ACPPlacesPoi` 가져옵니다.
+1. 위치 `getNearbyPointsOfInterest` 확장 API를 사용하여 현재 위치 주위의 *n* 개체 배열을 `ACPPlacesPoi` 가져옵니다.
 
    ```objective-c
    - (void) locationManager: (CLLocationManager*) manager didUpdateLocations: (NSArray<CLLocation*>*) locations {
@@ -35,7 +35,7 @@ iOS에서 다음 단계를 완료하십시오.
    }
    ```
 
-3. 가져온 `ACPPlacesPOI` 개체에서 정보를 추출하고 해당 POI를 모니터링합니다.
+1. 가져온 `ACPPlacesPOI` 개체에서 정보를 추출하고 해당 POI를 모니터링합니다.
 
    ```objective-c
    - (void) startMonitoringGeoFences: (NSArray*) newGeoFences {
@@ -60,7 +60,7 @@ iOS에서 다음 단계를 완료하십시오.
 
 1. Google Play 서비스 또는 Android 위치 서비스에서 얻은 위치 업데이트를 위치 확장 프로그램으로 전달합니다.
 
-2. Places `getNearbyPointsOfInterest` Extension API를 사용하여 현재 위치 주위의 `PlacesPoi` 개체 목록을 가져옵니다.
+1. Places `getNearbyPointsOfInterest` Extension API를 사용하여 현재 위치 주위의 `PlacesPoi` 개체 목록을 가져옵니다.
 
    ```java
        LocationCallback callback = new LocationCallback() {
@@ -79,7 +79,7 @@ iOS에서 다음 단계를 완료하십시오.
            };
    ```
 
-3. 가져온 `PlacesPOI` 개체에서 데이터를 추출하고 해당 POI를 모니터링합니다.
+1. 가져온 `PlacesPOI` 개체에서 데이터를 추출하고 해당 POI를 모니터링합니다.
 
    ```java
    private void startMonitoringFences(final List<PlacesPOI> nearByPOIs) {
