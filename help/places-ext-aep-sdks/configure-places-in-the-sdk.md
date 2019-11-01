@@ -4,7 +4,7 @@ seo-title: Places 확장 기능을 사용하여 SDK 구성
 description: '위치 확장 기능을 사용하여 SDK를 구성하여 모바일 앱에서 위치 인식을 활성화할 수 있습니다. '
 seo-description: '위치 확장 기능을 사용하여 SDK를 구성하여 모바일 앱에서 위치 인식을 활성화할 수 있습니다. '
 translation-type: tm+mt
-source-git-commit: fd1b37a0f50d93de1efff4cb38fc23253f02d517
+source-git-commit: a2e30282789d9834e5c65502e28ddb25f3c55dfa
 
 ---
 
@@ -37,14 +37,14 @@ source-git-commit: fd1b37a0f50d93de1efff4cb38fc23253f02d517
 
    자세한 내용은 Launch *에서 위치 모니터링 확장 구성을 참조하십시오*.
 
-2. 위치 모니터 확장 기능을 모바일 앱에 추가합니다.
+1. 위치 모니터 확장 기능을 모바일 앱에 추가합니다.
 
    자세한 내용은 앱에 *위치 모니터 확장*&#x200B;추가를 참조하십시오.
 
-3. 위치 모니터를 Mobile Core 익스텐션으로 등록합니다.
+1. 위치 모니터를 Mobile Core 익스텐션으로 등록합니다.
 
    자세한 내용은 Mobile Core로 *위치 모니터 등록을 참조하십시오*.
 
-4. 백그라운드에서 위치 업데이트를 활성화합니다.
+1. 백그라운드에서 위치 업데이트를 활성화합니다.
 
    자세한 내용은 *백그라운드에서*&#x200B;위치 업데이트 활성화를 참조하십시오.
