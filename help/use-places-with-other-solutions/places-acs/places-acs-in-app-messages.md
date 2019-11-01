@@ -4,7 +4,7 @@ seo-title: 위치 서비스가 있는 인앱 메시지
 description: 이 섹션에서는 Campaign Standard에서 인앱 메시지와 함께 Campaign Standard의 푸시 메시지를 사용하는 방법에 대한 정보를 제공합니다.
 seo-description: '이 섹션에서는 Campaign Standard에서 인앱 메시지와 함께 "Campaign Standard의 푸시 메시지"를 사용하는 방법에 대한 정보를 제공합니다. '
 translation-type: tm+mt
-source-git-commit: a76e91775efd92ce56f2dc5cbdcc65786855b5c3
+source-git-commit: a2e30282789d9834e5c65502e28ddb25f3c55dfa
 
 ---
 
@@ -29,9 +29,9 @@ source-git-commit: a76e91775efd92ce56f2dc5cbdcc65786855b5c3
 ## 지역 펜스 항목 또는 종료를 기반으로 인앱 메시지 보내기
 
 1. Adobe Campaign Standard 인스턴스에서 을 클릭합니다 **[!UICONTROL Create In-App message]**.
-2. 메시지 유형에 대해 을 **[!UICONTROL Target all users of a Mobile application]**&#x200B;선택합니다.
-3. 을 **[!UICONTROL Next]** 클릭하고 일반 세부 사항을 입력합니다.
-4. 왼쪽 창에서 위치 서비스와 관련된 다양한 트리거를 사용할 수 있는지 확인합니다.
+1. 메시지 유형에 대해 을 **[!UICONTROL Target all users of a Mobile application]**&#x200B;선택합니다.
+1. 을 **[!UICONTROL Next]** 클릭하고 일반 세부 사항을 입력합니다.
+1. 왼쪽 창에서 위치 서비스와 관련된 다양한 트리거를 사용할 수 있는지 확인합니다.
 
    * 사용자가 POI 지역 울타리를 입력한 경우 인앱 메시지를 표시하도록 선택할 수 있습니다.
    * 위치 서비스 UI에 정의된 메타데이터를 사용하여 대상을 필터링할 수도 있습니다.
@@ -39,7 +39,7 @@ source-git-commit: a76e91775efd92ce56f2dc5cbdcc65786855b5c3
 
    !["인앱 메시지 위치 메타데이터"](/help/assets/last-entered-vacation.png)
 
-5. 전달을 **[!UICONTROL Next]** 위한 인앱 메시지 작성을 완료하려면 을 클릭합니다.
+1. 전달을 **[!UICONTROL Next]** 위한 인앱 메시지 작성을 완료하려면 을 클릭합니다.
 
    !["이벤트 만들기"](/help/assets/prepare-ACS.png)
 
