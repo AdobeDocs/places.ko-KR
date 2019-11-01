@@ -4,7 +4,7 @@ seo-title: 위치 데이터를 포함하는 Adobe Analytics에서 보고서 실�
 description: 이 섹션에서는 위치 데이터를 포함하는 Analytics에서 보고서를 실행하는 방법에 대한 정보를 제공합니다.
 seo-description: 이 섹션에서는 위치 데이터를 포함하는 Analytics에서 보고서를 실행하는 방법에 대한 정보를 제공합니다.
 translation-type: tm+mt
-source-git-commit: 7ca51580a4cfa9c00431ad3972bd10e2a12dfbd1
+source-git-commit: a2e30282789d9834e5c65502e28ddb25f3c55dfa
 
 ---
 
@@ -31,11 +31,11 @@ After Places가 시작 및 종료 이벤트를 전송하면 Experience Platform 
 
    이 예에서는 규칙의 이름이 **[!UICONTROL Attach Places Data to Analytics Track Action Events]**&#x200B;지정됩니다.
 
-2. 섹션에서 **[!UICONTROL Events]** 을 클릭합니다 **[!UICONTROL Add]**.
+1. 섹션에서 **[!UICONTROL Events]** 을 클릭합니다 **[!UICONTROL Add]**.
 
-3. 드롭다운 **[!UICONTROL Extension]** 목록에서 선택합니다 **[!UICONTROL Mobile Core]**.
+1. 드롭다운 **[!UICONTROL Extension]** 목록에서 선택합니다 **[!UICONTROL Mobile Core]**.
 
-4. 드롭다운 **[!UICONTROL Event Type]** 목록에서 선택합니다 **[!UICONTROL Track Action]**.
+1. 드롭다운 **[!UICONTROL Event Type]** 목록에서 선택합니다 **[!UICONTROL Track Action]**.
 
 이제 이 규칙에 포함할 트리거를 결정할 수 있습니다. 이 예에서는 트리거가 모든 `TrackAction` 호출을 기반으로 합니다. 이벤트를 구성한 후 을 클릭합니다 **[!UICONTROL Keep Changes]**.
 
@@ -52,13 +52,13 @@ After Places가 시작 및 종료 이벤트를 전송하면 Experience Platform 
 
 1. 섹션에서 **[!UICONTROL Conditions]** 을 클릭합니다 **[!UICONTROL Add]**.
 
-2. 드롭다운 **[!UICONTROL Extension]** 목록에서 모바일 **[!UICONTORL 코어를 선택합니다]**.
+1. 드롭다운 **[!UICONTROL Extension]** 목록에서 모바일 **[!UICONTORL 코어를 선택합니다]**.
 
-3. 드롭다운 **[!UICONTROL Condition Type]** 목록에서 선택합니다 **[!UICONTROL Carrier Name]**.
+1. 드롭다운 **[!UICONTROL Condition Type]** 목록에서 선택합니다 **[!UICONTROL Carrier Name]**.
 
-4. 오른쪽 창에서 **[!UICONTROL AT&T]** 확인란을 선택합니다.
+1. 오른쪽 창에서 **[!UICONTROL AT&T]** 확인란을 선택합니다.
 
-5. 클릭 **[!UICONTROL Keep Changes]**.
+1. 클릭 **[!UICONTROL Keep Changes]**.
 
 !["조건 만들기"](/help/assets/pt-setCondition.png)
 
@@ -66,13 +66,13 @@ After Places가 시작 및 종료 이벤트를 전송하면 Experience Platform 
 
 1. 섹션에서 **[!UICONTROL Actions]** 을 클릭합니다 **[!UICONTROL Add]**.
 
-2. 드롭다운 **[!UICONTROL Extension]** 목록에서 선택합니다 **[!UICONTROL Mobile Core]**.
+1. 드롭다운 **[!UICONTROL Extension]** 목록에서 선택합니다 **[!UICONTROL Mobile Core]**.
 
-3. 드롭다운 **[!UICONTROL Action Type]** 목록에서 선택합니다 **[!UICONTROL Attach Data]**.
+1. 드롭다운 **[!UICONTROL Action Type]** 목록에서 선택합니다 **[!UICONTROL Attach Data]**.
 
-4. 오른쪽 창의 **[!UICONTROL JSON Payload]** 필드에 이 이벤트에 추가될 데이터를 입력합니다.
+1. 오른쪽 창의 **[!UICONTROL JSON Payload]** 필드에 이 이벤트에 추가될 데이터를 입력합니다.
 
-5. 클릭 **[!UICONTROL Keep Changes]**.
+1. 클릭 **[!UICONTROL Keep Changes]**.
 
 오른쪽 창에서, 이 이벤트를 수신하는 확장이 이벤트를 듣기 전에 SDK 이벤트에 데이터를 추가하는 자유 형식 JSON 페이로드를 추가할 수 있습니다. 이 예에서 일부 컨텍스트 데이터는 Analytics 확장에서 처리하기 전에 이 이벤트에 추가됩니다. 추가된 컨텍스트 데이터는 이제 나가는 Analytics 히트에 있습니다.
 
@@ -88,4 +88,4 @@ After Places가 시작 및 종료 이벤트를 전송하면 Experience Platform 
 
 1. 클릭 **[!UICONTROL Save]**
 
-2. Launch 속성을 다시 빌드하여 올바른 환경에 배포합니다.
+1. Launch 속성을 다시 빌드하여 올바른 환경에 배포합니다.
