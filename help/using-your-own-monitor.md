@@ -4,7 +4,7 @@ seo-title: 자체 모니터 사용
 description: 또한 Places 확장 API를 사용하여 모니터링 서비스를 사용하고 위치와 통합할 수 있습니다.
 seo-description: 또한 Places 확장 API를 사용하여 모니터링 서비스를 사용하고 위치와 통합할 수 있습니다.
 translation-type: tm+mt
-source-git-commit: 95dd010db8a860ebf489d04c7a70ec9cda8b3fb1
+source-git-commit: d12dae0e30fab8639260c2c55accb4b79096382d
 
 ---
 
@@ -23,16 +23,15 @@ iOS에서 다음 단계를 완료하십시오.
 
 1. iOS의 핵심 위치 서비스에서 얻은 위치 업데이트를 위치 확장 프로그램으로 전달합니다.
 
-1. 위치 `getNearbyPointsOfInterest` 확장 API를 사용하여 현재 위치 주위의 *n* 개체 배열을 `ACPPlacesPoi` 가져옵니다.
+1. 위치 `getNearbyPointsOfInterest` 확장 API를 사용하여 현재 위치 주위의 `ACPPlacesPoi` 개체 배열을 가져옵니다.
 
    ```objective-c
    - (void) locationManager: (CLLocationManager*) manager didUpdateLocations: (NSArray<CLLocation*>*) locations {
        [ACPPlaces getNearbyPointsOfInterest:currentLocation limit:10 callback: ^ (NSArray<ACPPlacesPoi*>* _Nullable nearbyPoi) {
            [self startMonitoringGeoFences:nearbyPoi];
        }];
-   }
-   ```
-
+   }```
+   
 1. 가져온 `ACPPlacesPOI` 개체에서 정보를 추출하고 해당 POI를 모니터링합니다.
 
    ```objective-c
