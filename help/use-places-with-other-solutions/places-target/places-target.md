@@ -2,9 +2,9 @@
 title: Adobe Target
 seo-title: Adobe Target
 description: 이 섹션에서는 Adobe Target에서 위치 서비스를 사용하는 방법에 대한 정보를 제공합니다.
-seo-description: '이 섹션에서는 Adobe Target에서 위치 서비스를 사용하는 방법에 대한 정보를 제공합니다. '
+seo-description: 이 섹션에서는 Adobe Target에서 위치 서비스를 사용하는 방법에 대한 정보를 제공합니다.
 translation-type: tm+mt
-source-git-commit: a2e30282789d9834e5c65502e28ddb25f3c55dfa
+source-git-commit: 95dd010db8a860ebf489d04c7a70ec9cda8b3fb1
 
 ---
 
@@ -54,7 +54,7 @@ Places 확장 프로그램이 시작 및 종료에 대한 이벤트를 전송하
 
 1. 드롭다운 **[!UICONTROL Condition Type]** 목록에서 선택합니다 **[!UICONTROL Launches]**.
 
-1. 오른쪽 창에서 **[!UICONTROL 사용자가 앱을 5배**&#x200B;이상 실행했다고 인식하도록 드롭다운 목록 및 번호 컨트롤을 수정합니다.
+1. 오른쪽 창에서 조건이 읽도록 드롭다운 목록 및 번호 컨트롤을 수정합니다 **[!UICONTROL User has launched the app greater than or equal to 5 times]**.
 
 1. 클릭 **[!UICONTROL Keep Changes]**.
 
@@ -76,11 +76,11 @@ Places 확장 프로그램이 시작 및 종료에 대한 이벤트를 전송하
 
 다음 예에서 `poiCity` 및 `poiName` 값은 Target 이벤트에서 처리되는 각 요청에 **[!UICONTROL mboxparameters]** 대해 에 추가됩니다. 새 키에 대한 값은 이 이벤트 처리 시 SDK에서 동적으로 결정됩니다.
 
->[!TIP
->]
+>[!TIP]
+>
 >이 JSON 페이로드에 `request` 개체에 대한 특수 표기법이 사용됩니다. 원래 이벤트에서 익명 `request` 개체의 배열입니다. 데이터 첨부를 사용하여 배열의 모든 개체에 데이터를 연결할 때 배열이 포함되어 있다고 알려진 키의 `[*]` 표기법으로 인해 페이로드가 해당 배열의 모든 개체에 적용됩니다.
 >
->의 표기법은 `request[*]` 배열의 각 개체에 대해 _for으로 소리내어 읽을 `request` 수 있습니다.
+>의 표기법은 `request[*]` 배열의 _`request`_&#x200B;각 개체에 대해 소리내어 읽을 수 있습니다.
 
 ![이벤트 추가](/help/assets/ad-setAction_target.png)
 
