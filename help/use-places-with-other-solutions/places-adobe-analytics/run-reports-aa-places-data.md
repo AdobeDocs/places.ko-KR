@@ -4,7 +4,7 @@ seo-title: 위치 데이터를 포함하는 Adobe Analytics에서 보고서 실�
 description: 이 섹션에서는 위치 데이터를 포함하는 Analytics에서 보고서를 실행하는 방법에 대한 정보를 제공합니다.
 seo-description: 이 섹션에서는 위치 데이터를 포함하는 Analytics에서 보고서를 실행하는 방법에 대한 정보를 제공합니다.
 translation-type: tm+mt
-source-git-commit: a2e30282789d9834e5c65502e28ddb25f3c55dfa
+source-git-commit: 95dd010db8a860ebf489d04c7a70ec9cda8b3fb1
 
 ---
 
@@ -39,7 +39,7 @@ After Places가 시작 및 종료 이벤트를 전송하면 Experience Platform 
 
 이제 이 규칙에 포함할 트리거를 결정할 수 있습니다. 이 예에서는 트리거가 모든 `TrackAction` 호출을 기반으로 합니다. 이벤트를 구성한 후 을 클릭합니다 **[!UICONTROL Keep Changes]**.
 
-!["이벤트 만들기"](/help/assets/pt-selectEvent.png)
+!["이벤트 만들기"](/help/assets/ad-setEvent_use-analytics-data.png)
 
 
 ## 3.조건 추가
@@ -60,7 +60,7 @@ After Places가 시작 및 종료 이벤트를 전송하면 Experience Platform 
 
 1. 클릭 **[!UICONTROL Keep Changes]**.
 
-!["조건 만들기"](/help/assets/pt-setCondition.png)
+!["조건 만들기"](/help/assets/ad-setCondition_use-analytics-data.png)
 
 ## 4.작업 정의
 
@@ -78,13 +78,13 @@ After Places가 시작 및 종료 이벤트를 전송하면 Experience Platform 
 
 다음 예에서 `poi.city` 및 `poi.name` 값은 Analytics 이벤트의 컨텍스트 데이터에 추가됩니다. 새 키에 대한 값은 이 이벤트가 처리될 때 SDK에 의해 동적으로 결정됩니다.
 
-!["작업 만들기"](/help/assets/pt-setAction.png)
+!["작업 만들기"](/help/assets/ad-setAction_use-analytics-data.png)
 
 ## 5.규칙을 저장하고 속성을 다시 빌드합니다.
 
 구성을 완료한 후 규칙이 다음 이미지와 같은지 확인합니다.
 
-!["규칙이 완료되었습니다."](/help/assets/pt-ruleComplete.png)
+!["규칙이 완료되었습니다."](/help/assets/ad-ruleComplete_use-analytics-data.png)
 
 1. 클릭 **[!UICONTROL Save]**
 
