@@ -2,9 +2,9 @@
 title: Adobe Analytics로 위치 데이터 보내기
 seo-title: Adobe Analytics로 위치 데이터 보내기
 description: 이 섹션에서는 위치 데이터를 Analytics로 보내는 방법에 대한 정보를 제공합니다.
-seo-description: '이 섹션에서는 위치 데이터를 Analytics로 보내는 방법에 대한 정보를 제공합니다. '
+seo-description: 이 섹션에서는 위치 데이터를 Analytics로 보내는 방법에 대한 정보를 제공합니다.
 translation-type: tm+mt
-source-git-commit: a2e30282789d9834e5c65502e28ddb25f3c55dfa
+source-git-commit: 95dd010db8a860ebf489d04c7a70ec9cda8b3fb1
 
 ---
 
@@ -41,7 +41,7 @@ After Places가 시작 및 종료 이벤트를 전송하면 Experience Platform 
 
 1. 클릭 **[!UICONTROL Keep Changes]**.
 
-   !["이벤트 선택"](/help/assets/ad-setEvent_use-analytics-data.png)
+   !["이벤트 선택"](/help/assets/pt-selectEvent.png)
 
 
 ## 3.조건 추가
@@ -62,7 +62,7 @@ After Places가 시작 및 종료 이벤트를 전송하면 Experience Platform 
 
 1. 클릭 **[!UICONTROL Keep Changes]**.
 
-   !["조건 설정"](/help/assets/ad-setCondition_use-analytics-data.png)
+   !["조건 설정"](/help/assets/pt-setCondition.png)
 
 
 ## 4.작업 정의
@@ -81,15 +81,14 @@ After Places가 시작 및 종료 이벤트를 전송하면 Experience Platform 
 
    다음 예제에서는 이 시작 이벤트를 트리거한 POI의 이름과 `TrackAction` `poi.name` 같은 추가 컨텍스트 데이터를 사용하여 Analytics로 호출이 전송됩니다.
 
-   !["작업 설정"](/help/assets/ad-setAction_use-analytics-data.png)
+   !["작업 설정"](/help/assets/pt-setAction.png)
 
 ## 5.규칙을 저장하고 속성을 다시 빌드합니다.
 
 구성을 완료한 후 규칙이 다음 이미지와 같은지 확인합니다.
 
-!["규칙이 만들어짐"](/help/assets/ad-ruleComplete_use-analytics-data.png)
+!["규칙이 만들어짐"](/help/assets/pt-ruleComplete.png)
 
 1. 클릭 **[!UICONTROL Save]**
 
 1. Launch 속성을 다시 빌드하여 올바른 환경에 배포합니다.
-
