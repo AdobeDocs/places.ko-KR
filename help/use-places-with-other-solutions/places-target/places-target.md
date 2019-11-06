@@ -4,7 +4,7 @@ seo-title: Adobe Target
 description: 이 섹션에서는 Adobe Target에서 위치 서비스를 사용하는 방법에 대한 정보를 제공합니다.
 seo-description: 이 섹션에서는 Adobe Target에서 위치 서비스를 사용하는 방법에 대한 정보를 제공합니다.
 translation-type: tm+mt
-source-git-commit: d12dae0e30fab8639260c2c55accb4b79096382d
+source-git-commit: 2169bcdc5957c2542dd11875223ea96c3d10b0bc
 
 ---
 
@@ -88,7 +88,7 @@ Places 확장 프로그램이 시작 및 종료에 대한 이벤트를 전송하
 
 구성을 완료한 후 규칙이 다음 이미지와 같은지 확인합니다.
 
-![완료된 규칙](/help/assets/ad-ruleComplete_target.png)
+![완료된 규칙](/help/assets/ad-ruleComplete-target.png)
 
 1. 클릭 **[!UICONTROL Save]**
 
