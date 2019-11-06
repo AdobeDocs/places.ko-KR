@@ -4,7 +4,7 @@ seo-title: Adobe Target
 description: 이 섹션에서는 Adobe Target에서 위치 서비스를 사용하는 방법에 대한 정보를 제공합니다.
 seo-description: 이 섹션에서는 Adobe Target에서 위치 서비스를 사용하는 방법에 대한 정보를 제공합니다.
 translation-type: tm+mt
-source-git-commit: 2169bcdc5957c2542dd11875223ea96c3d10b0bc
+source-git-commit: 27f4e5397caf14e24bcbc4a2d276647e72a6d115
 
 ---
 
@@ -82,7 +82,7 @@ Places 확장 프로그램이 시작 및 종료에 대한 이벤트를 전송하
 >
 >의 표기법은 `request[*]` 배열의 _`request`_&#x200B;각 개체에 대해 소리내어 읽을 수 있습니다.
 
-![작업 정의](/help/assets/ad-setAction_target.png)
+![작업 정의](/help/assets/ad-setAction-target.png)
 
 ## 5.규칙 저장 및 속성 다시 빌드
 
