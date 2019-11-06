@@ -4,14 +4,14 @@ seo-title: Places 확장 기능을 사용하여 SDK 구성
 description: '위치 확장 기능을 사용하여 SDK를 구성하여 모바일 앱에서 위치 인식을 활성화할 수 있습니다. '
 seo-description: '위치 확장 기능을 사용하여 SDK를 구성하여 모바일 앱에서 위치 인식을 활성화할 수 있습니다. '
 translation-type: tm+mt
-source-git-commit: a2e30282789d9834e5c65502e28ddb25f3c55dfa
+source-git-commit: 61256ee0f01775bf09a3aee06b6e7253527fc383
 
 ---
 
 
 # Places 확장 기능을 사용하여 SDK 구성 {#configure-sdk-places-extension}
 
-모바일 앱에서 위치 인식을 활성화하려면 위치 확장 기능과 선택적으로 위치 모니터링 확장 기능을 사용하여 SDK를 구성합니다. SDK 구성을 비롯한 자세한 내용은 [장소(베타) 확장](/help/configure-places-in-the sdk/places-extension/places-extension.md)을 참조하십시오.
+모바일 앱에서 위치 인식을 활성화하려면, 위치 확장 기능 및 선택적으로 위치 모니터링 확장 기능을 사용하여 SDK를 구성합니다. SDK 구성을 비롯한 자세한 내용은 장소( [베타) 확장을](/help/places-ext-aep-sdks/places-extension/places-extension.md)참조하십시오.
 
 ## 위치 확장 구성
 
