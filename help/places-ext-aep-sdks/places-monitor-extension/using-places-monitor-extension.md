@@ -2,9 +2,9 @@
 title: 위치 모니터 확장 사용
 seo-title: 위치 모니터 확장 사용
 description: 위치 모니터 확장 기능을 설치, 구성 및 사용하는 방법에 대한 정보입니다.
-seo-description: '위치 모니터 확장 기능을 설치, 구성 및 사용하는 방법에 대한 정보입니다. '
+seo-description: 위치 모니터 확장 기능을 설치, 구성 및 사용하는 방법에 대한 정보입니다.
 translation-type: tm+mt
-source-git-commit: a2e30282789d9834e5c65502e28ddb25f3c55dfa
+source-git-commit: 419df41a0abeac1ac2a77f32bfa818b4edf3baeb
 
 ---
 
@@ -15,7 +15,7 @@ source-git-commit: a2e30282789d9834e5c65502e28ddb25f3c55dfa
 
 ## Experience Platform Launch에서 위치 모니터 확장 설치
 
-1. 경험 플랫폼 론치에서 **[!UICONTROL Extensions]** 탭을 클릭합니다.
+1. In Experience Platform Launch, click the **[!UICONTROL Extensions]** tab.
 1. 탭에서 **[!UICONTROL Catalog]** 확장 기능을 찾아 설치를 **[!UICONTROL Places Monitor]** 클릭합니다 ****.
 1. 클릭 **[!UICONTROL Save]**.
 1. 게시 프로세스에 따라 SDK 구성을 업데이트합니다.
@@ -107,7 +107,9 @@ public class MobileApp extends Application {
 }
 ```
 
-**** 중요:위치 모니터링은 위치 확장명에 따라 다릅니다. 위치 모니터 확장 기능을 수동으로 설치할 때 프로젝트에 `places.aar` 라이브러리를 추가해야 합니다.
+>[!IMPORTANT]
+>
+>위치 모니터링은 위치 확장명에 따라 다릅니다. 위치 모니터 확장명을 수동으로 설치하는 경우, 프로젝트에 `places.aar` 라이브러리를 추가해야 합니다.
 
 ## iOS
 
@@ -125,7 +127,7 @@ iOS 앱에서`application:didFinishLaunchingWithOptions`모바일 코어에 `Pla
         [ACPPlacesMonitor start];
     }];
 
-    return YES; 
+    return YES;
 }
 ```
 
@@ -140,7 +142,7 @@ func application(_ application: UIApplication, didFinishLaunchingWithOptions lau
         // do other initialization required for the SDK
         ACPPlacesMonitor.start()
     })
-    
+
     // Override point for customization after application launch.        
     return true
 }
@@ -148,7 +150,7 @@ func application(_ application: UIApplication, didFinishLaunchingWithOptions lau
 
 >[!IMPORTANT]
 >
->위치 모니터링은 위치 확장명에 따라 다릅니다. 위치 모니터 확장 기능을 수동으로 설치하는 경우 프로젝트에 `libACPPlaces_iOS.a` 라이브러리를 추가해야 합니다.
+>위치 모니터링은 위치 확장명에 따라 다릅니다. When manually installing the Places Monitor extension, ensure that you also add the `libACPPlaces_iOS.a` library to your project.
 
 
 ## 매니페스트에 권한 추가
@@ -163,7 +165,7 @@ func application(_ application: UIApplication, didFinishLaunchingWithOptions lau
 <manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.adobe.placesapp">
   <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     // Only for Android apps targeting API level 29 and above
-  <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" /> 
+  <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
   <application>        
     ...    
   </application>
@@ -189,4 +191,3 @@ iOS 파섹 위치 모니터 확장 기능의 백그라운드에서 위치 업데
 >앱이 iOS 10 및 이전 버전을 지원하는 경우 `NSLocationAlwaysUsageDescription` 키도 필요합니다.
 
 ![](/help/assets/using-the-places-monitor_2.png)
-
