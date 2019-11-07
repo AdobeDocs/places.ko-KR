@@ -1,10 +1,10 @@
 ---
-title: '활성 지역 모니터링 없이 위치 서비스 사용 '
-seo-title: '활성 지역 모니터링 없이 위치 서비스 사용 '
+title: 활성 지역 모니터링 없이 위치 서비스 사용
+seo-title: 활성 지역 모니터링 없이 위치 서비스 사용
 description: 이 섹션에서는 활성 지역 모니터링 없이 위치 서비스 위치를 사용하는 방법에 대한 정보를 제공합니다.
 seo-description: 이 섹션에서는 활성 지역 모니터링 없이 위치 서비스를 사용하는 방법에 대한 정보를 제공합니다.
 translation-type: tm+mt
-source-git-commit: 84b23934a6e9f9fd61c068693bae3daca24de253
+source-git-commit: 419df41a0abeac1ac2a77f32bfa818b4edf3baeb
 
 ---
 
@@ -68,17 +68,18 @@ public class LocationBroadcastReceiver extends BroadcastReceiver {
 
         // ask the Places SDK for the 10 nearest Points of Interest based on the user's location
         Places.getNearbyPointsOfInterest(currentLocation, 10,
-                new AdobeCallback<List<PlacesPOI>>() {
-                    @Override
-                    public void call(List<PlacesPOI> pois) {
-                        // pois is the 10 nearest POIs based on the location
-                    }
-                }, new AdobeCallback<PlacesRequestError>() {
-                    @Override
-                    public void call(PlacesRequestError placesRequestError) {
-                        // Look for the placesRequestError and handle the error accordingly
-                    }
-                });
+            new AdobeCallback<List<PlacesPOI>>() {
+                @Override
+                public void call(List<PlacesPOI> pois) {
+                    // pois is the 10 nearest POIs based on the location
+                }
+            }, new AdobeCallback<PlacesRequestError>() {
+                @Override
+                public void call(PlacesRequestError placesRequestError) {
+                    // Look for the placesRequestError and handle the error accordingly
+                }
+            }
+        );
     }
 }
 ```
@@ -122,8 +123,8 @@ SDK는 사용자가 현재 각 POI 내에 있는지 여부를 포함하여 가�
 >[!IMPORTANT]
 >
 >앱이 한 번의 방문에서 여러 시작 이벤트를 트리거하지 않도록 사용자가 입력한 지역 목록을 유지합니다. SDK에서 인근 POI의 응답을 처리할 때 해당 지역이 목록에 없는 경우에만 시작 이벤트를 트리거합니다.
-
-다음 코드 샘플에서는 `NSUserDefaults` (iOS) 및 `SharedPreferences` (Android)가 사용됩니다.
+>
+>다음 코드 샘플에서는 `NSUserDefaults` (iOS) 및 `SharedPreferences` (Android)를 사용하여 지역 목록을 관리합니다.
 
 ### Android
 
@@ -265,18 +266,19 @@ public class LocationBroadcastReceiver extends BroadcastReceiver {
 
         // ask the Places SDK for the 10 nearest Points of Interest based on the user's location
         Places.getNearbyPointsOfInterest(currentLocation, 10,
-                new AdobeCallback<List<PlacesPOI>>() {
-                    @Override
-                    public void call(List<PlacesPOI> pois) {
-                        // pois is the 10 nearest POIs based on the location
-                        handleUpdatedPOIs(pois);
-                    }
-                }, new AdobeCallback<PlacesRequestError>() {
-                    @Override
-                    public void call(PlacesRequestError placesRequestError) {
-                        // Look for the placesRequestError and handle the error accordingly
-                    }
-                });
+            new AdobeCallback<List<PlacesPOI>>() {
+                @Override
+                public void call(List<PlacesPOI> pois) {
+                    // pois is the 10 nearest POIs based on the location
+                    handleUpdatedPOIs(pois);
+                }
+            }, new AdobeCallback<PlacesRequestError>() {
+                @Override
+                public void call(PlacesRequestError placesRequestError) {
+                    // Look for the placesRequestError and handle the error accordingly
+                }
+            }
+        );
     }
 
     void handleUpdatedPOIs(final List<PlacesPOI> nearbyPois) {
