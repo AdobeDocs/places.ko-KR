@@ -4,7 +4,7 @@ seo-title: 위치 모니터 확장 사용
 description: 위치 모니터 확장 기능을 설치, 구성 및 사용하는 방법에 대한 정보입니다.
 seo-description: 위치 모니터 확장 기능을 설치, 구성 및 사용하는 방법에 대한 정보입니다.
 translation-type: tm+mt
-source-git-commit: 419df41a0abeac1ac2a77f32bfa818b4edf3baeb
+source-git-commit: 7609711db8b53dfbf0a387632c47133e9b9d0f07
 
 ---
 
@@ -102,7 +102,7 @@ public class MobileApp extends Application {
             MobileCore.start(null);
         } catch (Exception e) {
             //Log the exception
-         }
+        }
     }
 }
 ```
