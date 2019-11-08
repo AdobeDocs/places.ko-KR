@@ -3,7 +3,7 @@ product: Adobe Experience Platform 위치 서비스
 audience: 최종 사용자
 user-guide-title: Adobe Experience Platform 위치 서비스
 translation-type: tm+mt
-source-git-commit: 419df41a0abeac1ac2a77f32bfa818b4edf3baeb
+source-git-commit: 7609711db8b53dfbf0a387632c47133e9b9d0f07
 
 ---
 
@@ -66,6 +66,7 @@ source-git-commit: 419df41a0abeac1ac2a77f32bfa818b4edf3baeb
    + Adobe Analytics {#places-adobe-analytics}
       + [POI 항목 및 종료 데이터를 Analytics로 보내기](use-places-with-other-solutions/places-adobe-analytics/use-places-adobe-analytics.md)
       + [Analytics 요청에 위치 컨텍스트 추가](use-places-with-other-solutions/places-adobe-analytics/run-reports-aa-places-data.md)
+      + [Analytics 작업 공간의 위치 데이터에 대한 보고서](use-places-with-other-solutions/places-adobe-analytics/places-in-workspace.md)
    + Adobe Mobile Services {#places-mobile-svcs-messaging}
       + [Adobe Mobile Services](use-places-with-other-solutions/places-mobile-svcs-for-messaging/use-places-mobie-svcs-messaging.md)
       + [푸시 알림](use-places-with-other-solutions/places-mobile-svcs-for-messaging/mobile-svcs-messaging-push.md)
