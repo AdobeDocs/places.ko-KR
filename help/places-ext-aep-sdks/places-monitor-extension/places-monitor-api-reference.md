@@ -1,10 +1,10 @@
 ---
 title: 배치 모니터 API 참조
 seo-title: 배치 모니터 API 참조
-description: '위치 모니터용 API 목록입니다. '
+description: 위치 모니터용 API 목록입니다.
 seo-description: '위치 모니터용 API 목록입니다.  '
 translation-type: tm+mt
-source-git-commit: ef720c112bc0de386e070094629c5bab69938e76
+source-git-commit: 7609711db8b53dfbf0a387632c47133e9b9d0f07
 
 ---
 
@@ -319,11 +319,11 @@ PlacesMonitor.setLocationPermission(PlacesMonitorLocationPermission.ALWAYS_ALLOW
 
 * `ACPPlacesRequestAuthorizationLevelWhenInUse`
 
-   앱이 사용 중인 동안 위치 서비스를 사용할 수 있는 사용자의 권한을 요청합니다. 사용자 프롬프트에는 앱 Info.plist 파일의 `NSLocationWhenInUseUsageDescription` 키의 텍스트가 포함되며 이 메서드를 호출할 때는 키가 있어야 합니다. 자세한 내용은 requestWhenInUseAuthorization [에 대한 Apple 설명서를 참조하십시오](https://developer.apple.com/documentation/corelocation/cllocationmanager/1620562-requestwheninuseauthorization).
+   앱이 사용 중인 동안 위치 서비스를 사용할 수 있는 사용자의 권한을 요청합니다. 사용자 프롬프트에는 앱 Info.plist 파일의 `NSLocationWhenInUseUsageDescription` 키 텍스트가 포함되며 이 메서드를 호출할 때는 키가 있어야 합니다. 자세한 내용은 requestWhenInUseAuthorization [에 대한 Apple 설명서를 참조하십시오](https://developer.apple.com/documentation/corelocation/cllocationmanager/1620562-requestwheninuseauthorization).
 
 * `ACPPlacesRequestMonitorAuthorizationLevelAlways`
 
-   앱이 백그라운드에 있을 때에도 위치 서비스를 요청하려면 이 열거형을 사용하십시오. 앱의 Info.plist에 `NSLocationAlwaysUsageDescription` 키와 `NSLocationWhenInUseUsageDescription` 키가 있어야 합니다. 이러한 키는 사용자 프롬프트 동안 표시되는 텍스트를 정의합니다. 자세한 내용은 Apple [설명서를 참조하십시오](https://developer.apple.com/documentation/corelocation/cllocationmanager/1620551-requestalwaysauthorization).
+   앱이 백그라운드에 있을 때에도 위치 서비스를 요청하려면 이 열거형을 사용하십시오. 앱의 Info.plist에 `NSLocationAlwaysUsageDescription` 키와 `NSLocationWhenInUseUsageDescription` 키가 있어야 합니다. 이러한 키는 사용자 프롬프트 동안 표시되는 텍스트를 정의합니다. 자세한 내용은 requestAlwaysAuthorization에 [대한 Apple 설명서를 참조하십시오](https://developer.apple.com/documentation/corelocation/cllocationmanager/1620551-requestalwaysauthorization).
 
 `ACPPlacesRequestAuthorizationLevelAlways` 는 기본 요청 인증 값입니다.
 
@@ -336,7 +336,7 @@ PlacesMonitor.setLocationPermission(PlacesMonitorLocationPermission.ALWAYS_ALLOW
 #### 구문
 
 ```objective-c
-+ (void) setRequestAuthorizationLevel: (ACPPlacesRequestAuthorizationLevel) requestAuthorizationLevel
++ (void) setRequestAuthorizationLevel: (ACPPlacesRequestAuthorizationLevel) requestAuthorizationLevel;
 ```
 
 #### 예
@@ -354,7 +354,7 @@ PlacesMonitor.setLocationPermission(PlacesMonitorLocationPermission.ALWAYS_ALLOW
 
 ```objective-c
 // set the request authorization level
-[ACPPlacesMonitor setRequestAuthorizationLevel: ACPPlacesRequestAuthorizationLevelAlways]
+[ACPPlacesMonitor setRequestAuthorizationLevel: ACPPlacesRequestAuthorizationLevelAlways];
 ```
 
 ## 모니터링 모드(iOS만 해당)
