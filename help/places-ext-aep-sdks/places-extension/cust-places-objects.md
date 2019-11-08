@@ -3,7 +3,7 @@ title: 사용자 정의 위치 개체
 seo-title: Places API에 사용할 사용자 정의 기본 클래스입니다.
 seo-description: Places API에 사용할 사용자 정의 기본 클래스입니다.
 translation-type: tm+mt
-source-git-commit: ef720c112bc0de386e070094629c5bab69938e76
+source-git-commit: 7609711db8b53dfbf0a387632c47133e9b9d0f07
 
 ---
 
@@ -37,3 +37,38 @@ source-git-commit: ef720c112bc0de386e070094629c5bab69938e76
 @end
 ```
 
+## Android
+
+### PlacesPOI
+
+```java
+// only showing public methods available in the class
+public class PlacesPOI {
+    // returns the identifier for the POI
+    public String getIdentifier();
+
+    // returns the name for the POI
+    public String getName();
+
+    // returns whether the device is currently inside of this POI
+    public boolean containsUser();
+
+    // sets whether the device is currently inside of this POI
+    public void setContainsUser(final boolean containsUser);
+
+    // returns the latitude of the POI's center
+    public double getLatitude();
+
+    // returns the latitude of the POI's center
+    public double getLongitude();
+
+    // returns the radius of the POI
+    public int getRadius();
+
+    // returns map of meta data for the POI
+    public Map<String, String> getMetadata();
+
+    // returns the library to which this POI belongs
+    public String getLibrary();
+}
+```
