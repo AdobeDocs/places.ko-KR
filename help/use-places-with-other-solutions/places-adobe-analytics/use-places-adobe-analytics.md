@@ -1,15 +1,15 @@
 ---
-title: Adobe Analytics로 위치 데이터 보내기
-seo-title: Adobe Analytics로 위치 데이터 보내기
-description: 이 섹션에서는 위치 데이터를 Analytics로 보내는 방법에 대한 정보를 제공합니다.
-seo-description: 이 섹션에서는 위치 데이터를 Analytics로 보내는 방법에 대한 정보를 제공합니다.
+title: POI 항목 및 종료 데이터를 Analytics로 보내기
+seo-title: POI 항목 및 종료 데이터를 Analytics로 보내기
+description: 이 섹션에서는 POI 항목 및 종료 데이터를 Analytics로 보내는 방법에 대한 정보를 제공합니다.
+seo-description: 이 섹션에서는 POI 항목 및 종료 데이터를 Analytics로 보내는 방법에 대한 정보를 제공합니다.
 translation-type: tm+mt
-source-git-commit: 95dd010db8a860ebf489d04c7a70ec9cda8b3fb1
+source-git-commit: 7609711db8b53dfbf0a387632c47133e9b9d0f07
 
 ---
 
 
-# Adobe Analytics로 위치 데이터 보내기 {#places-data-analytics}
+# POI 항목 및 종료 데이터를 Analytics로 보내기 {#places-data-analytics}
 
 
 >[!IMPORTANT]
