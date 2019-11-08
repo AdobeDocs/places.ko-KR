@@ -1,15 +1,15 @@
 ---
-title: 위치 데이터를 포함하는 Adobe Analytics에서 보고서 실행
-seo-title: 위치 데이터를 포함하는 Adobe Analytics에서 보고서 실행
-description: 이 섹션에서는 위치 데이터를 포함하는 Analytics에서 보고서를 실행하는 방법에 대한 정보를 제공합니다.
-seo-description: 이 섹션에서는 위치 데이터를 포함하는 Analytics에서 보고서를 실행하는 방법에 대한 정보를 제공합니다.
+title: Analytics 요청에 위치 컨텍스트 추가
+seo-title: Analytics 요청에 위치 컨텍스트 추가
+description: 이 섹션에서는 Analytics 요청에 위치 컨텍스트를 추가하는 방법에 대한 정보를 제공합니다.
+seo-description: 이 섹션에서는 Analytics 요청에 위치 컨텍스트를 추가하는 방법에 대한 정보를 제공합니다.
 translation-type: tm+mt
-source-git-commit: 95dd010db8a860ebf489d04c7a70ec9cda8b3fb1
+source-git-commit: 7609711db8b53dfbf0a387632c47133e9b9d0f07
 
 ---
 
 
-# 위치 데이터를 포함하는 Adobe Analytics에서 보고서 실행 {#run-reports-aa-locserv-data}
+# Analytics 요청에 위치 컨텍스트 추가 {#run-reports-aa-locserv-data}
 
 >[!IMPORTANT]
 >
