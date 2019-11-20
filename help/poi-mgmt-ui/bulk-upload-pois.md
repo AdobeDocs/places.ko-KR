@@ -4,7 +4,7 @@ seo-title: POI 일괄 업로드
 description: 이 섹션에서는 POI를 일괄 업로드하는 방법에 대한 정보를 제공합니다.
 seo-description: 이 섹션에서는 POI를 일괄 업로드하는 방법에 대한 정보를 제공합니다.
 translation-type: tm+mt
-source-git-commit: a76e91775efd92ce56f2dc5cbdcc65786855b5c3
+source-git-commit: 3e2bf2ce011f9770209af08bd0abf0b16f84fbc0
 
 ---
 
@@ -45,7 +45,7 @@ source-git-commit: a76e91775efd92ce56f2dc5cbdcc65786855b5c3
 
 * `radius`
 
-   10에서 2000 사이의 값입니다.
+   10에서 20,000 사이의 값입니다.
 
 ### 열 값
 
