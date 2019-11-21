@@ -1,9 +1,9 @@
 ---
-product: Adobe Experience Platform 위치 서비스
-audience: 최종 사용자
-user-guide-title: Adobe Experience Platform 위치 서비스
+product: Adobe Experience Platform Location Service
+audience: end-user
+user-guide-title: Adobe Experience Platform Location Service
 translation-type: tm+mt
-source-git-commit: 7609711db8b53dfbf0a387632c47133e9b9d0f07
+source-git-commit: a5ac49b0a18ce52fb71b2920d04918539b35294b
 
 ---
 
@@ -14,7 +14,8 @@ source-git-commit: 7609711db8b53dfbf0a387632c47133e9b9d0f07
 + [릴리스 노트](release-notes.md)
 + [시작하기](getting-started.md)
 + 관심 영역 관리 인터페이스 {#poi-mgmt-ui}
-   + [새 POI 만들기](poi-mgmt-ui/create-a-poi-ui.md)
+   + [관심 영역 관리 인터페이스 개요](poi-mgmt-ui/poi-mgmt-ui-overview.md)
+   + [POI 만들기](poi-mgmt-ui/create-a-poi-ui.md)
    + [이전에 만든 POI 관리](poi-mgmt-ui/managing-pois-in-the-places-ui.md)
    + [POI에서 메타데이터 사용 전략](poi-mgmt-ui/metadata-with-pois.md)
    + [POI 대량 업로드](poi-mgmt-ui/bulk-upload-pois.md)
@@ -23,6 +24,7 @@ source-git-commit: 7609711db8b53dfbf0a387632c47133e9b9d0f07
    + [웹 서비스 API 개요](web-service-api/places-web-services.md)
    + [통합 사전 요구 사항](web-service-api/adobe-i-o-integration.md)
    + API 사용 {#api-usage}
+      + [API 사용 개요](web-service-api/api-usage/api-usage-overview.md)
       + [머리글 및 매개 변수](web-service-api/api-usage/headers-and-parameters.md)
       + Manage libraries {#manage-libraries}
          + [라이브러리 관리 개요](web-service-api/api-usage/manage-libraries/manage-libraries.md)
