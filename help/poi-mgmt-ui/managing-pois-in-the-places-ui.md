@@ -4,12 +4,12 @@ seo-title: 기존 POI 관리
 description: 위치 서비스 UI에서 기존 POI를 편집, 삭제 또는 필터링할 수 있습니다.
 seo-description: 위치 서비스 UI에서 기존 POI를 편집, 삭제 또는 필터링할 수 있습니다.
 translation-type: tm+mt
-source-git-commit: 32c670773421406591ba85a628760553ce6ad840
+source-git-commit: 8d6b796326c5fbb3f2af996766fc9c05046ec653
 
 ---
 
 
-# 기존 POI 관리
+# 기존 POI 관리 {#managing-existing-pois}
 
 위치 UI를 사용하여 위치 데이터베이스에서 POI와 라이브러리를 만들고 관리합니다.
 
