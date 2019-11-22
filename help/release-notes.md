@@ -4,12 +4,21 @@ seo-title: 릴리스 노트
 description: Adobe Experience Platform 위치 서비스에 대한 릴리스 노트입니다.
 seo-description: Adobe Experience Platform 위치 서비스에 대한 릴리스 노트입니다.
 translation-type: tm+mt
-source-git-commit: a5e5d5792d1a0368936f5f54e86a7ce9726a9122
+source-git-commit: 7fd44ab0135ec77f4b235cc65b943b40d535717c
 
 ---
 
 
 # 릴리스 노트 {#release-notes}
+
+## 2019년 11월 22일
+
+* **PlacesMonitor 2.1.1**
+
+   * **Android**
+
+      * 이제 모니터가 Android 장치의 부트를 인식하며, 필요한 경우 장치의 현재 위치를 기반으로 OS에 지오펜스 등록을 다시 등록합니다.
+      * 때때로 시작/종료 이벤트가 삭제되는 경합 조건을 수정했습니다.
 
 ## 2019년 10월 9일
 
@@ -141,7 +150,7 @@ source-git-commit: a5e5d5792d1a0368936f5f54e86a7ce9726a9122
 
 이 릴리스에서는 다음과 같은 업데이트가 수행되었습니다.
 
-**Android Places 1.2.0**
+**Android Places 1.1.0**
 
 * 개별 Geofence를 처리하는 새 API가 추가되었습니다.
 * 여러 연속 시작 이벤트를 방지하기 위한 버그 수정.
@@ -156,7 +165,7 @@ Android용 위치 모니터의 초기 릴리스.
 
 ## 2019년 5월 2일
 
-**Android Places 1.2.0**
+**Android Places 1.1.0**
 
 * errorCallback이 있고 오류 이유를 나타내는 errorCode와 함께 호출되는 getNearByPlaces에 대한 새 API를 도입했습니다.
 * 이제 위치 확장 기능은 구성을 얻을 때까지 이벤트를 대기시킵니다.
