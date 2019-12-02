@@ -4,12 +4,12 @@ seo-title: 푸시 알림
 description: 이 섹션에서는 Campaign Standard에서 푸시 알림과 함께 위치를 사용하는 방법에 대한 정보를 제공합니다.
 seo-description: '이 섹션에서는 Campaign Standard에서 푸시 알림과 함께 위치를 사용하는 방법에 대한 정보를 제공합니다. '
 translation-type: tm+mt
-source-git-commit: a2e30282789d9834e5c65502e28ddb25f3c55dfa
+source-git-commit: 4ee8adb73f6dec15030a160c27edbeca71d3507b
 
 ---
 
 
-# Experience Platform Location Service를 통한 푸시 알림 {#push-notifications}
+# 위치 서비스를 통한 푸시 알림 {#push-notifications}
 
 이 안내서에서는 내역 위치 정보를 사용하여 Adobe Campaign Standard를 통해 전달된 푸시 알림을 타깃팅하는 방법을 보여줍니다.
 
@@ -42,7 +42,7 @@ source-git-commit: a2e30282789d9834e5c65502e28ddb25f3c55dfa
 
    !["Campaign Standard의 푸시 메시지"](/help/assets/ACS_Push1.png)
 
-1. 위의 1-4 단계를 반복하여 마지막으로 입력한 POI 위도, *마지막으로 입력한 POI 경도*&#x200B;및 *마지막으로 입력한 POI*&#x200B;반경에 대한 데이터 요소를 *만듭니다*.
+1. Repeat the steps 1-4 above and create data elements for *Last Entered POI Latitude*, *Last Entered POI Longitude*, and *Last Entered POI Radius*.
 
 위치 서비스에 대한 데이터 요소 외에도 앱 ID 및 Experience Cloud ID에 대한 *모바일* 코어 데이터 요소를 *만들어야 합니다*.
 
@@ -120,7 +120,7 @@ Experience Platform Launch의 규칙을 사용하면 이벤트 트리거를 기�
 
    카운트 업데이트가 표시되지 않으면 POI 이름을 입력했을 수 있습니다. 이 POI에는 어떤 장치도 응모를 트리거하지 않았습니다. 다양한 테스트 장치에서 POI 항목 목록을 볼 수 있으므로 이러한 상황에서는 Slack 웹 후크를 사용하는 것이 중요합니다.
 1. 추가 POI 위치 필터를 드래그하여 메시지에 여러 POI를 포함할 수 있습니다.
-1. 전달에 대한 푸시 알림 만들기를 **[!UICONTROL Next]** 완료하려면 을 클릭합니다.
+1. Click **[!UICONTROL Next]** to finish creating the push notification for delivery.
 
    !["ACS의 푸시 메시지 3"](/help/assets/ACS_push3.html)
 
