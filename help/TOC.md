@@ -3,7 +3,7 @@ product: Adobe Experience Platform Location Service
 audience: end-user
 user-guide-title: Adobe Experience Platform Location Service
 translation-type: tm+mt
-source-git-commit: a34c7a43b867b62646a48b457413ccc8fd3672ad
+source-git-commit: 4ee8adb73f6dec15030a160c27edbeca71d3507b
 
 ---
 
@@ -67,6 +67,7 @@ source-git-commit: a34c7a43b867b62646a48b457413ccc8fd3672ad
    + [시작 및 종료 규칙 만들기](use-places-launch-workflow/create-rule-places-property.md)
 + 다른 Adobe 솔루션과 함께 위치 서비스 사용 {#use-places-with-other-solutions}
    + Adobe Analytics {#places-adobe-analytics}
+      + [Adobe Analytics에서 위치 서비스 사용](use-places-with-other-solutions/places-adobe-analytics/use-places-analytics-overview.md)
       + [POI 항목 및 종료 데이터를 Analytics로 보내기](use-places-with-other-solutions/places-adobe-analytics/use-places-adobe-analytics.md)
       + [Analytics 요청에 위치 컨텍스트 추가](use-places-with-other-solutions/places-adobe-analytics/run-reports-aa-places-data.md)
       + [Analytics 작업 공간의 위치 데이터에 대한 보고서](use-places-with-other-solutions/places-adobe-analytics/places-in-workspace.md)
@@ -75,6 +76,7 @@ source-git-commit: a34c7a43b867b62646a48b457413ccc8fd3672ad
       + [푸시 알림](use-places-with-other-solutions/places-mobile-svcs-for-messaging/mobile-svcs-messaging-push.md)
       + [인앱 알림](use-places-with-other-solutions/places-mobile-svcs-for-messaging/mobile-svcs-messaging-inapp.md)
    + Adobe Campaign Standard {#places-acs}
+      + [Adobe Campaign Standard에서 위치 서비스 사용](use-places-with-other-solutions/places-acs/places-acs-overview.md)
       + [푸시 알림](use-places-with-other-solutions/places-acs/places-acs-push-notifications.md)
       + [인앱 메시지](use-places-with-other-solutions/places-acs/places-acs-in-app-messages.md)
    + Adobe Target {#places-target}
