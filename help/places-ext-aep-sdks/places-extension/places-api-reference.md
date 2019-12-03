@@ -4,7 +4,7 @@ seo-title: API 참조 배치
 description: 장소의 API 참조에 대한 정보입니다.
 seo-description: 장소의 API 참조에 대한 정보입니다.
 translation-type: tm+mt
-source-git-commit: 69173bdbd1a69ae1b75ba70e775a4603d1f1b8fc
+source-git-commit: 77bd510506d950348452eb26386cd25fe570fa65
 
 ---
 
@@ -347,4 +347,39 @@ Places.clear();
 
 ```objectivec
 [ACPPlaces clear];
+```
+
+## 위치 인증 상태 설정
+
+### setAuthorizationStatus(Android)
+
+곧 출시됩니다
+
+### setAuthorizationStatus(iOS)
+
+_[ACPPlaces v1.3.0부터 사용 가능]_
+
+위치 확장 프로그램에서 인증 상태를 설정합니다.
+
+제공된 상태는 [위치] 공유 상태에 저장되며 참조용으로만 사용됩니다.
+이 메서드를 호출해도 이 장치의 실제 위치 인증 상태에 영향을 주지 않습니다.
+
+장치 인증 상태가 변경되면 사용자의 `locationManager:didChangeAuthorizationStatus:` 방법이 `CLLocationManagerDelegate` 호출됩니다. 이 방법 내에서 새 `CLAuthorizationStatus` 값을 ACPPlays API로 전달해야 `setAuthorizationStatus:` 합니다.
+
+**구문**
+
+다음은 이 메서드에 대한 구문입니다.
+
+```objectivec
++ (void) setAuthorizationStatus: (CLAuthorizationStatus) status;
+```
+
+**예**
+
+다음은 이 메서드의 코드 샘플입니다.
+
+```objectivec
+- (void) locationManager: (CLLocationManager*) manager didChangeAuthorizationStatus: (CLAuthorizationStatus) status {    
+    [ACPPlaces setAuthorizationStatus:status];
+}
 ```
