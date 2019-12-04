@@ -4,7 +4,7 @@ seo-title: API 참조 배치
 description: 장소의 API 참조에 대한 정보입니다.
 seo-description: 장소의 API 참조에 대한 정보입니다.
 translation-type: tm+mt
-source-git-commit: 5d4974a341f6d0009ad93a9eea2f940ac9d8e871
+source-git-commit: 379278f7677d7d3cdc697d78c54693d0a3c62e02
 
 ---
 
@@ -357,7 +357,7 @@ Places.clear();
 
 ### setAuthorizationStatus(iOS)
 
-*[ACPPlaces v1.3.0부터 사용 가능]*
+*ACPPlaces v1.3.0부터 사용 가능*
 
 위치 확장 프로그램에서 인증 상태를 설정합니다.
 
