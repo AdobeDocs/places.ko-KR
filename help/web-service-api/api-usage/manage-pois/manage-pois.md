@@ -1,10 +1,8 @@
 ---
 title: POI 관리 개요
-seo-title: POI 관리 개요
 description: 'POI를 이해하고 사용하여 작업 '
-seo-description: 'POI를 이해하고 사용하여 작업 '
 translation-type: tm+mt
-source-git-commit: e204958ac3acbf5fb45d2347987f35557be70e43
+source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 ---
 
