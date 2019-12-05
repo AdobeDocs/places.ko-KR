@@ -1,10 +1,8 @@
 ---
 title: 인앱 알림
-seo-title: 인앱 알림
 description: 이 섹션에서는 인앱 메시지에 위치 사용을 보여 줍니다.
-seo-description: 이 섹션에서는 인앱 메시지에 위치 사용을 보여 줍니다.
 translation-type: tm+mt
-source-git-commit: a76e91775efd92ce56f2dc5cbdcc65786855b5c3
+source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 ---
 
@@ -62,7 +60,7 @@ Mobile Services를 사용하면 Analytics로 전송되는 위치 데이터를 �
 
 >[!TIP]
 >
->Analytics 처리 규칙을 설정하여 이 컨텍스트 데이터를 선택할 수 있습니다. For more information, see [Processing Rules](https://docs.adobe.com/content/help/en/analytics/implementation/analytics-basics/ref-processing-rules.html). 작업 *만들기의 예에서,*&#x200B;작업은 Analytics로 전송되는 POI 항목 이벤트를 설명하는 `poiname` 컨텍스트로 을 보냅니다.
+>Analytics 처리 규칙을 설정하여 이 컨텍스트 데이터를 선택할 수 있습니다. 자세한 내용은 [처리 규칙](https://docs.adobe.com/content/help/en/analytics/implementation/analytics-basics/ref-processing-rules.html)을 참조하십시오. 작업 *만들기의 예에서,*&#x200B;작업은 Analytics로 전송되는 POI 항목 이벤트를 설명하는 `poiname` 컨텍스트로 을 보냅니다.
 
 ![작업 만들기](/help/assets/configure-action.png)
 
