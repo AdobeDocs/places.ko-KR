@@ -1,10 +1,8 @@
 ---
 title: Experience Platform 시작 워크플로우의 일부로 위치 서비스 사용
-seo-title: Experience Platform 시작 워크플로우의 일부로 위치 서비스 사용
 description: 이 섹션에서는 위치 서비스와 함께 사용할 수 있는 경험 플랫폼 론치에서 데이터 요소를 정의하고 시작 및 종료 규칙을 만드는 방법에 대한 정보를 제공합니다.
-seo-description: 이 섹션에서는 위치 서비스와 함께 사용할 수 있는 경험 플랫폼 론치에서 데이터 요소를 정의하고 시작 및 종료 규칙을 만드는 방법에 대한 정보를 제공합니다
 translation-type: tm+mt
-source-git-commit: 02616ae6fe046fb6f4905283734f72d670b72ec0
+source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 ---
 
