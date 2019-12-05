@@ -1,10 +1,8 @@
 ---
 title: Analytics 작업 공간의 위치 데이터에 대한 보고서
-seo-title: Analytics 작업 공간의 위치 데이터에 대한 보고서
 description: 이 섹션에서는 Analytics 작업 공간에서 위치 데이터를 보고하는 방법에 대한 정보를 제공합니다.
-seo-description: 이 섹션에서는 Analytics 작업 공간에서 위치 데이터를 보고하는 방법에 대한 정보를 제공합니다.
 translation-type: tm+mt
-source-git-commit: 4ee8adb73f6dec15030a160c27edbeca71d3507b
+source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 ---
 
