@@ -1,10 +1,8 @@
 ---
 title: Adobe Experience Platform 위치 서비스 액세스
-seo-title: Adobe Experience Platform 위치 서비스 액세스
 description: 이 섹션에서는 사용자가 위치 서비스에 액세스할 수 있도록 위치 서비스 및 경험 플랫폼 론치에 사용자를 추가하는 방법에 대한 정보를 제공합니다.
-seo-description: 이 섹션에서는 사용자가 위치 서비스에 액세스할 수 있도록 위치 서비스 및 경험 플랫폼 론치에 사용자를 추가하는 방법에 대한 정보를 제공합니다.
 translation-type: tm+mt
-source-git-commit: 1b4482c8e4cf825c0182421fe00f8b86b411c11b
+source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 ---
 
