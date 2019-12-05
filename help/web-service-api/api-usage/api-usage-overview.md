@@ -1,10 +1,8 @@
 ---
 title: API 사용 개요
-seo-title: API 사용 개요
 description: 이 섹션에서는 위치 서비스에 사용할 수 있는 REST API에 대한 정보를 제공합니다.
-seo-description: 이 섹션에서는 위치 서비스에 사용할 수 있는 REST API에 대한 정보를 제공합니다.
 translation-type: tm+mt
-source-git-commit: 885cc8c9b306cf6e25381a355898a0229670a696
+source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 ---
 
