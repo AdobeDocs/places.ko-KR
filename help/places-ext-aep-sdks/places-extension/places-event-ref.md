@@ -1,10 +1,8 @@
 ---
 title: 이벤트 참조 배치
-seo-title: 이벤트 참조 배치
 description: '위치 확장자가 처리하는 이벤트 목록입니다. '
-seo-description: '위치 확장자가 처리하는 이벤트 목록입니다.  '
 translation-type: tm+mt
-source-git-commit: ef720c112bc0de386e070094629c5bab69938e76
+source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 ---
 
