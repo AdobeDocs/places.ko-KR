@@ -1,10 +1,8 @@
 ---
 title: 위치 속성에 대한 규칙 만들기
-seo-title: 위치 속성에 대한 규칙 만들기
 description: '위치 SDK는 현재 위치를 추적하고, 현재 위치에 대해 구성된 POI를 모니터링하며, 이러한 POI에 대한 시작 및 종료 이벤트를 추적합니다. '
-seo-description: '위치 SDK는 현재 위치를 추적하고, 현재 위치에 대해 구성된 POI를 모니터링하며, 이러한 POI에 대한 시작 및 종료 이벤트를 추적합니다. '
 translation-type: tm+mt
-source-git-commit: a2e30282789d9834e5c65502e28ddb25f3c55dfa
+source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 ---
 
@@ -54,14 +52,14 @@ source-git-commit: a2e30282789d9834e5c65502e28ddb25f3c55dfa
 
 >[!CAUTION]
 >
->이 예에서는 미국의 모든 커피숍의 POI 라이브러리를 만들었다고 가정합니다. POI 및 라이브러리 만들기에 대한 자세한 내용은 [POI 만들기](/help/poi-mgmt-ui/create-a-poi-ui.md) 및 *여러 라이브러리* 관리에서 라이브러리 [만들기를](https://docs.adobe.com/content/help/en/places/using/poi-mgmt-ui/manage-libraries-in-the-places-ui.html)참조하십시오.
+>이 예에서는 사용자가 미국의 모든 커피숍에 대한 POI 라이브러리를 생성한 것으로 가정합니다. For more information about creating POIs and libraries, see [Create a POI](/help/poi-mgmt-ui/create-a-poi-ui.md) and *Create a Library* in [Manage multiple libraries](https://docs.adobe.com/content/help/en/places/using/poi-mgmt-ui/manage-libraries-in-the-places-ui.html).
 
 다음 절차는 샌프란시스코에 커피숍에 들어갈 때 Slack으로 다시 게시물을 보내는 규칙을 만드는 방법의 예입니다.
 
 이벤트, 조건 및 작업은 다음과 같은 방법으로 정의됩니다.
 
 * **이벤트**:응모 이벤트를 배치합니다.
-* **조건**:현재 POI를 **위한** 도시는 샌프란시스코
+* **조건**: **현재 POI**&#x200B;를 위한 도시는 샌프란시스코임
 * **작업**:고객이 입력한 커피숍 이름을 Slack으로 포스트백을 보내십시오.
 
 ### 전제 조건
@@ -74,7 +72,7 @@ source-git-commit: a2e30282789d9834e5c65502e28ddb25f3c55dfa
 1. Click **Add Data Element**.
 1. 예를 들어 현재 커피숍 **이름과**&#x200B;같은 이름을 입력합니다.
 1. 확장 **프로그램** 드롭다운 목록에서 위치 - 베타 **를 선택합니다**.
-1. 데이터 **요소에서**&#x200B;시를 **선택합니다**.
+1. **데이터 요소**&#x200B;에서 **구/군/시**&#x200B;를 선택합니다.
 1. 오른쪽 창에서 현재 POI를 **선택합니다**.
 1. **저장**&#x200B;을 클릭합니다.
 
@@ -82,7 +80,7 @@ source-git-commit: a2e30282789d9834e5c65502e28ddb25f3c55dfa
 
 ![규칙 만들기](/help/assets/placesrule.png)
 
-1. 경험 플랫폼 론치에서 **[!UICONTROL Rules]** 탭을 클릭합니다.
+1. In Experience Platform Launch, click the **[!UICONTROL Rules]** tab.
 1. 클릭 **[!UICONTROL Add Rule]**.
 1. 예를 들어 규칙의 이름을 입력합니다 **[!UICONTROL Track entry for coffee shop in SF]**.
 
@@ -97,11 +95,11 @@ source-git-commit: a2e30282789d9834e5c65502e28ddb25f3c55dfa
 ### 조건 만들기
 
 1. 조건 섹션에서 을 **[!UICONTROL +Add]**&#x200B;클릭합니다. 조건은 수행할 작업에 대해 충족해야 하는 기준을 결정합니다.
-1. 에서 **[!UICONTROL Logic Type]**&#x200B;조건이 충족되는 경우 작업을 실행할 수 있도록 하는 [일반]을 선택합니다.
+1. In **[!UICONTROL Logic Type]**, select Regular, which allows actions to execute if the condition is met.
 1. 드롭다운 **[!UICONTROL Extension]** 목록에서 선택합니다 **[!UICONTROL Places – Beta]**.
 1. 에서 **[!UICONTROL Condition Type]**&#x200B;을 선택합니다 **[!UICONTROL City]**.
 1. Type a condition name, for example, **[!UICONTROL Coffee shop in SF]**.
-1. 오른쪽 창에서 을 클릭하고 **[!UICONTROL Current POI]**&#x200B;드롭다운 목록에서 도시 **[!UICONTROL San Francisco]** 중 하나로 선택합니다.
+1. In the right pane, click **[!UICONTROL Current POI]**, and in the drop-down list, select **[!UICONTROL San Francisco]** as one of your cities.
 1. 클릭 **[!UICONTROL Keep Changes]**.
 
 ### 동작 만들기
