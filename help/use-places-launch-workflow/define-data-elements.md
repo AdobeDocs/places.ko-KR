@@ -1,10 +1,8 @@
 ---
 title: 데이터 요소 정의
-seo-title: 데이터 요소 정의
 description: 이 섹션에서는 Experience Platform Launch for Places에서 데이터 요소를 만들고, 사용하고, 게시하는 방법에 대한 정보를 제공합니다.
-seo-description: '이 섹션에서는 Experience Platform Launch for Places에서 데이터 요소를 만들고, 사용하고, 게시하는 방법에 대한 정보를 제공합니다. '
 translation-type: tm+mt
-source-git-commit: a2e30282789d9834e5c65502e28ddb25f3c55dfa
+source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 ---
 
