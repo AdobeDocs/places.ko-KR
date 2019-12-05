@@ -1,10 +1,8 @@
 ---
 title: 'Adobe Campaign Standard에서 위치 서비스 사용 '
-seo-title: Adobe Campaign Standard에서 위치 서비스 사용
 description: '이 섹션은 Campaign Standard에서 위치 서비스를 사용하는 방법에 대한 개요입니다. '
-seo-description: 이 섹션은 Campaign Standard에서 위치 서비스를 사용하는 방법에 대한 개요입니다.
 translation-type: tm+mt
-source-git-commit: 4ee8adb73f6dec15030a160c27edbeca71d3507b
+source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 ---
 
