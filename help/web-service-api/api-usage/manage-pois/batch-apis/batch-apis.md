@@ -1,10 +1,8 @@
 ---
 title: 일괄 처리 API
-seo-title: 일괄 처리 API
 description: 일괄 처리 API를 사용하면 여러 POI를 생성, 업데이트 및 삭제할 수 있습니다.
-seo-description: 일괄 처리 API를 사용하면 여러 POI를 생성, 업데이트 및 삭제할 수 있습니다.
 translation-type: tm+mt
-source-git-commit: 6ff72eb72ce3ae1abf805b7b542721a7e4915824
+source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 ---
 
