@@ -1,10 +1,8 @@
 ---
 title: 푸시 알림
-seo-title: 푸시 알림
 description: 이 섹션에서는 Campaign Standard에서 푸시 알림과 함께 위치를 사용하는 방법에 대한 정보를 제공합니다.
-seo-description: '이 섹션에서는 Campaign Standard에서 푸시 알림과 함께 위치를 사용하는 방법에 대한 정보를 제공합니다. '
 translation-type: tm+mt
-source-git-commit: 4ee8adb73f6dec15030a160c27edbeca71d3507b
+source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 ---
 
