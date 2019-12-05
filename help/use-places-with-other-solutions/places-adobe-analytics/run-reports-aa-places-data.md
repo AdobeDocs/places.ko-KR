@@ -1,10 +1,8 @@
 ---
 title: Analytics 요청에 위치 컨텍스트 추가
-seo-title: Analytics 요청에 위치 컨텍스트 추가
 description: 이 섹션에서는 Analytics 요청에 위치 컨텍스트를 추가하는 방법에 대한 정보를 제공합니다.
-seo-description: 이 섹션에서는 Analytics 요청에 위치 컨텍스트를 추가하는 방법에 대한 정보를 제공합니다.
 translation-type: tm+mt
-source-git-commit: 7609711db8b53dfbf0a387632c47133e9b9d0f07
+source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 ---
 
