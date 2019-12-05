@@ -1,10 +1,8 @@
 ---
 title: 다른 Adobe 솔루션과 함께 위치 서비스 사용
-seo-title: 다른 Adobe 솔루션과 함께 위치 서비스 사용
 description: 이 섹션에서는 다른 Adobe 솔루션과 함께 위치 서비스를 사용하는 방법을 보여줍니다.
-seo-description: 이 섹션에서는 다른 Adobe 솔루션과 함께 위치 서비스를 사용하는 방법을 보여줍니다.
 translation-type: tm+mt
-source-git-commit: 299afc48c5962c3180578d5352b97096ad0395dc
+source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 ---
 
