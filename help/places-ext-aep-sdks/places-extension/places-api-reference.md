@@ -1,10 +1,8 @@
 ---
 title: API 참조 배치
-seo-title: API 참조 배치
 description: 장소의 API 참조에 대한 정보입니다.
-seo-description: 장소의 API 참조에 대한 정보입니다.
 translation-type: tm+mt
-source-git-commit: 379278f7677d7d3cdc697d78c54693d0a3c62e02
+source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 ---
 
