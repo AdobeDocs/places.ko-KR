@@ -1,10 +1,8 @@
 ---
 title: '웹 서비스 API 개요 '
-seo-title: '웹 서비스 API 개요 '
 description: Adobe 고객은 Adobe Experience Cloud와 Adobe Experience Platform 솔루션에 적합한 위치 데이터와 적절한 경험을 적시에 적시에 적소에 제공할 수 있는 서비스를 제공합니다.
-seo-description: Adobe 고객은 Adobe Experience Cloud와 Adobe Experience Platform 솔루션에 적합한 위치 데이터와 적절한 경험을 적시에 적시에 적소에 제공할 수 있는 서비스를 제공합니다.
 translation-type: tm+mt
-source-git-commit: e2070c629b5a4e4bcf3a364023e0f87b526ed4cb
+source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 ---
 
