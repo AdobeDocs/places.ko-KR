@@ -1,10 +1,8 @@
 ---
 title: 배치 모니터 API 참조
-seo-title: 배치 모니터 API 참조
 description: 위치 모니터용 API 목록입니다.
-seo-description: '위치 모니터용 API 목록입니다.  '
 translation-type: tm+mt
-source-git-commit: 7609711db8b53dfbf0a387632c47133e9b9d0f07
+source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 ---
 
