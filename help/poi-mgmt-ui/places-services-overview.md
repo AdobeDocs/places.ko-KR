@@ -1,10 +1,8 @@
 ---
 title: 위치 서비스 개요
-seo-title: 위치 서비스 개요
 description: '이 섹션에서는 관심 영역(POI)을 만들고 사용하는 방법에 대한 정보를 제공합니다. '
-seo-description: '이 섹션에서는 관심 영역(POI)을 만들고 사용하는 방법에 대한 정보를 제공합니다.  '
 translation-type: tm+mt
-source-git-commit: f6c92bbd4fb21999f5c96ea0df8ede6919d1bc79
+source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 ---
 
