@@ -1,10 +1,8 @@
 ---
 title: 활용 사례
-seo-title: 장소의 사용 사례
 description: 이 항목에서는 장소의 사용 사례에 대한 세부 정보를 제공합니다.
-seo-description: 이 항목에서는 장소의 사용 사례에 대한 세부 정보를 제공합니다.
 translation-type: tm+mt
-source-git-commit: ef3d77eba407013e1f701ed001ef9ab7b3818e07
+source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 ---
 
