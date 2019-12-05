@@ -1,10 +1,8 @@
 ---
 title: 메시지에 Mobile Services와 위치 사용
-seo-title: 메시지에 Mobile Services와 위치 사용
 description: 이 섹션에서는 메시지에 Mobile Services와 함께 위치를 사용하는 방법을 보여줍니다.
-seo-description: 이 섹션에서는 메시지에 Mobile Services와 함께 위치를 사용하는 방법을 보여줍니다.
 translation-type: tm+mt
-source-git-commit: accfa6ba009ad3419481d9bd3b498143228099fc
+source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 ---
 
