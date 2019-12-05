@@ -1,8 +1,14 @@
 ---
-source-git-commit: 9b5ed11499da580e48ae27affda238ce6d91f435
+title: Adobe Experience Platform 위치 서비스 액세스
+seo-title: Adobe Experience Platform 위치 서비스 액세스
+description: 이 섹션에서는 사용자가 위치 서비스에 액세스할 수 있도록 위치 서비스 및 경험 플랫폼 론치에 사용자를 추가하는 방법에 대한 정보를 제공합니다.
+seo-description: 이 섹션에서는 사용자가 위치 서비스에 액세스할 수 있도록 위치 서비스 및 경험 플랫폼 론치에 사용자를 추가하는 방법에 대한 정보를 제공합니다.
 translation-type: tm+mt
+source-git-commit: 1b4482c8e4cf825c0182421fe00f8b86b411c11b
 
 ---
+
+
 # Adobe Experience Platform 위치 서비스 액세스 {#adding-user-launch-places}
 
 Adobe Experience Cloud 홈의 [빠른 액세스 메뉴에서 플랫폼 위치](https://experience.adobe.com)서비스에 액세스할 수 있습니다.
