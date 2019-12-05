@@ -4,7 +4,7 @@ seo-title: 시작하기
 description: 위치 서비스 시작을 참조하십시오.
 seo-description: 위치 서비스 시작을 참조하십시오.
 translation-type: tm+mt
-source-git-commit: 66472aa1800bcf36fb1d7f7129da70a573f355ab
+source-git-commit: 1c5a63b6f7eb56be2240756c31d6ca03a0bfb0da
 
 ---
 
@@ -25,7 +25,7 @@ source-git-commit: 66472aa1800bcf36fb1d7f7129da70a573f355ab
 
 * 관리 콘솔의 위치 서비스 및 경험 플랫폼 시작 제품 컨텍스트 아래에 사용자로 나열되었는지 확인합니다.
 
-   자세한 내용은 FAQ에서 *Experience Platform 시작 및 위치 서비스에* 사용자 [추가를](/help/places-faqs.md)참조하십시오.
+   자세한 내용은 위치 서비스에 *대한 액세스 권한 얻기에서 경험 플랫폼 시작 및 위치 서비스에* 사용자 [추가를 참조하십시오](/help/places-gain-access.md).
 
 
 ### 2.POI 만들기
