@@ -1,10 +1,8 @@
 ---
 title: 라이브러리 관리
-seo-title: 라이브러리 관리
 description: REST API 라이브러리 배치 관리를 참조하십시오.
-seo-description: REST API 라이브러리 배치 관리를 참조하십시오.
 translation-type: tm+mt
-source-git-commit: 6ff72eb72ce3ae1abf805b7b542721a7e4915824
+source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 ---
 
