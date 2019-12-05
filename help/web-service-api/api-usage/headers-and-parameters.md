@@ -1,10 +1,8 @@
 ---
 title: 머리글 및 매개 변수
-seo-title: 머리글 및 매개 변수
 description: Places REST API에서 사용할 수 있는 머리글 및 매개 변수
-seo-description: Places REST API에서 사용할 수 있는 머리글 및 매개 변수
 translation-type: tm+mt
-source-git-commit: 6ae0c8d90cad4c437e1db7f562a0bc9c6b072ce6
+source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 ---
 
