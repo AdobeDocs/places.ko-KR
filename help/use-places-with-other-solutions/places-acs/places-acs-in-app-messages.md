@@ -1,10 +1,8 @@
 ---
 title: 위치 서비스가 있는 인앱 메시지
-seo-title: 위치 서비스가 있는 인앱 메시지
 description: 이 섹션에서는 Campaign Standard에서 인앱 메시지와 함께 Campaign Standard의 푸시 메시지를 사용하는 방법에 대한 정보를 제공합니다.
-seo-description: '이 섹션에서는 Campaign Standard에서 인앱 메시지와 함께 "Campaign Standard의 푸시 메시지"를 사용하는 방법에 대한 정보를 제공합니다. '
 translation-type: tm+mt
-source-git-commit: a2e30282789d9834e5c65502e28ddb25f3c55dfa
+source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 ---
 
@@ -39,7 +37,7 @@ source-git-commit: a2e30282789d9834e5c65502e28ddb25f3c55dfa
 
    !["인앱 메시지 위치 메타데이터"](/help/assets/last-entered-vacation.png)
 
-1. 전달을 **[!UICONTROL Next]** 위한 인앱 메시지 작성을 완료하려면 을 클릭합니다.
+1. Click the **[!UICONTROL Next]** to finish creating the In-app message for delivery.
 
    !["이벤트 만들기"](/help/assets/prepare-ACS.png)
 
