@@ -1,10 +1,8 @@
 ---
 title: 활성 지역 모니터링 없이 위치 서비스 사용
-seo-title: 활성 지역 모니터링 없이 위치 서비스 사용
 description: 이 섹션에서는 활성 지역 모니터링 없이 위치 서비스 위치를 사용하는 방법에 대한 정보를 제공합니다.
-seo-description: 이 섹션에서는 활성 지역 모니터링 없이 위치 서비스를 사용하는 방법에 대한 정보를 제공합니다.
 translation-type: tm+mt
-source-git-commit: 419df41a0abeac1ac2a77f32bfa818b4edf3baeb
+source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 ---
 
@@ -235,8 +233,7 @@ func handleUpdatedPOIs(_ nearbyPois:[ACPPlacesPoi]) {
 
 >[!IMPORTANT]
 >
->
-이러한 코드 조각은 **단지** 예입니다. 개발자는 해당 기능을 구현할 방법을 결정해야 하며, 대상 운영 체제에서 권장하는 우수 사례를 고려해야 합니다.
+>이러한 코드 조각은 **단지** 예입니다. 개발자는 해당 기능을 구현할 방법을 결정해야 하며, 대상 운영 체제에서 권장하는 우수 사례를 고려해야 합니다.
 
 ### Android
 
