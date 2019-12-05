@@ -1,10 +1,8 @@
 ---
 title: 여러 POI 만들기
-seo-title: 여러 POI 만들기
 description: 일괄 처리 API를 사용하여 여러 POI를 만듭니다.
-seo-description: 일괄 처리 API를 사용하여 여러 POI를 만듭니다.
 translation-type: tm+mt
-source-git-commit: 6ae0c8d90cad4c437e1db7f562a0bc9c6b072ce6
+source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 ---
 
