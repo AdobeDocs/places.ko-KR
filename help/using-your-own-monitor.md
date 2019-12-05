@@ -1,10 +1,8 @@
 ---
 title: 자체 모니터 사용
-seo-title: 자체 모니터 사용
 description: 또한 Places 확장 API를 사용하여 모니터링 서비스를 사용하고 위치와 통합할 수 있습니다.
-seo-description: 또한 Places 확장 API를 사용하여 모니터링 서비스를 사용하고 위치와 통합할 수 있습니다.
 translation-type: tm+mt
-source-git-commit: 419df41a0abeac1ac2a77f32bfa818b4edf3baeb
+source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 ---
 
