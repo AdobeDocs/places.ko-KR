@@ -1,10 +1,8 @@
 ---
 title: Adobe Experience Platform 위치 서비스
-seo-title: Adobe Experience Platform 위치 서비스
 description: '위치 서비스는 모바일 사용자의 참여를 이해하는 데 중요한 컨텍스트입니다. 모바일 앱 개발자는 이러한 맥락에서 앱 디자인을 향상시키고 보다 개인화되고 매력적인 경험을 제공할 수 있습니다. '
-seo-description: '위치 서비스는 모바일 사용자의 참여를 이해하는 데 중요한 컨텍스트입니다. 모바일 앱 개발자는 이러한 맥락에서 앱 디자인을 향상시키고 보다 개인화되고 매력적인 경험을 제공할 수 있습니다. '
 translation-type: tm+mt
-source-git-commit: ecb059400d9203884faab6fd2f627251eeaeea38
+source-git-commit: c20e720d23121970bb2fa1c63a2fd1e81c84b977
 
 ---
 
