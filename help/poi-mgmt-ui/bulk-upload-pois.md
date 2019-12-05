@@ -1,10 +1,8 @@
 ---
 title: POI 일괄 업로드
-seo-title: POI 일괄 업로드
 description: 이 섹션에서는 POI를 일괄 업로드하는 방법에 대한 정보를 제공합니다.
-seo-description: 이 섹션에서는 POI를 일괄 업로드하는 방법에 대한 정보를 제공합니다.
 translation-type: tm+mt
-source-git-commit: 3e2bf2ce011f9770209af08bd0abf0b16f84fbc0
+source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 ---
 
