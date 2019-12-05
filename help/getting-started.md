@@ -4,7 +4,7 @@ seo-title: 시작하기
 description: 위치 서비스 시작을 참조하십시오.
 seo-description: 위치 서비스 시작을 참조하십시오.
 translation-type: tm+mt
-source-git-commit: accfa6ba009ad3419481d9bd3b498143228099fc
+source-git-commit: 66472aa1800bcf36fb1d7f7129da70a573f355ab
 
 ---
 
@@ -26,10 +26,6 @@ source-git-commit: accfa6ba009ad3419481d9bd3b498143228099fc
 * 관리 콘솔의 위치 서비스 및 경험 플랫폼 시작 제품 컨텍스트 아래에 사용자로 나열되었는지 확인합니다.
 
    자세한 내용은 FAQ에서 *Experience Platform 시작 및 위치 서비스에* 사용자 [추가를](/help/places-faqs.md)참조하십시오.
-
-* Experience Platform Launch의 모바일 앱 속성에 위치 확장이 설치되어 있는지 확인합니다.
-
-   지역 담금에 대해 Adobe에서 제공한 지역 모니터링을 사용하려면 위치 모니터 확장을 설치합니다. 자세한 내용은 위치 모니터 [확장](/help/places-ext-aep-sdks/places-monitor-extension/places-monitor-extension.md)기능을 참조하십시오.
 
 
 ### 2.POI 만들기
