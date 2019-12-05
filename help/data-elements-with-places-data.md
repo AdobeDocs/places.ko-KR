@@ -1,10 +1,8 @@
 ---
 title: 위치 데이터를 사용한 경험 플랫폼 실행 데이터 요소
-seo-title: 위치 데이터를 사용한 경험 플랫폼 실행 데이터 요소
 description: '데이터 요소는 데이터 사전(또는 데이터 맵)의 기본 구성단위입니다.  '
-seo-description: '데이터 요소는 데이터 사전(또는 데이터 맵)의 기본 구성단위입니다.  '
 translation-type: tm+mt
-source-git-commit: ef3d77eba407013e1f701ed001ef9ab7b3818e07
+source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 ---
 
