@@ -1,10 +1,8 @@
 ---
 title: 시작하기
-seo-title: 시작하기
 description: 위치 서비스 시작을 참조하십시오.
-seo-description: 위치 서비스 시작을 참조하십시오.
 translation-type: tm+mt
-source-git-commit: 879c367ea24d8bd0e1f5595a88a97bb1ff47c6da
+source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 ---
 
