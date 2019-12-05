@@ -1,10 +1,8 @@
 ---
 title: 위치 모니터 확장
-seo-title: 위치 모니터 확장
 description: 위치 모니터 익스텐션은 운영 체제와의 상호 작용을 처리하여 사용자와 가장 가까운 POI를 등록하고 모니터링합니다.
-seo-description: '위치 모니터 익스텐션은 운영 체제와의 상호 작용을 처리하여 사용자와 가장 가까운 POI를 등록하고 모니터링합니다. '
 translation-type: tm+mt
-source-git-commit: ef720c112bc0de386e070094629c5bab69938e76
+source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 ---
 
