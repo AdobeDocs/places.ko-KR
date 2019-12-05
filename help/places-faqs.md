@@ -1,10 +1,8 @@
 ---
 title: FAQ
-seo-title: FAQ
 description: 이 항목에서는 일부 FAQ에 대한 추가 정보를 제공합니다.
-seo-description: 이 항목에서는 일부 FAQ에 대한 추가 정보를 제공합니다.
 translation-type: tm+mt
-source-git-commit: f4b8bccc154df346e67ef17295d7c6b42c68b26d
+source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 ---
 
