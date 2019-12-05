@@ -1,10 +1,8 @@
 ---
 title: 위치 모니터 확장 사용
-seo-title: 위치 모니터 확장 사용
 description: 위치 모니터 확장 기능을 설치, 구성 및 사용하는 방법에 대한 정보입니다.
-seo-description: 위치 모니터 확장 기능을 설치, 구성 및 사용하는 방법에 대한 정보입니다.
 translation-type: tm+mt
-source-git-commit: 7609711db8b53dfbf0a387632c47133e9b9d0f07
+source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 ---
 
