@@ -1,10 +1,8 @@
 ---
 title: POI 만들기
-seo-title: POI 만들기
 description: 위치 UI를 사용하여 POI를 만듭니다.
-seo-description: 위치 UI를 사용하여 POI를 만듭니다.
 translation-type: tm+mt
-source-git-commit: 58218dac5df3fdb1ff660368af52e43409f99c95
+source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 ---
 
