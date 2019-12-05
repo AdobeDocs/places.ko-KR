@@ -1,10 +1,8 @@
 ---
 title: Adobe I/O 통합 개요
-seo-title: Adobe I/O 통합 개요
 description: Adobe I/O 통합 만들기에 대한 정보입니다.
-seo-description: Adobe I/O 통합 만들기에 대한 정보입니다.
 translation-type: tm+mt
-source-git-commit: ec2b0f8ba94cecc5709d4d700490913978454ef1
+source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 ---
 
@@ -106,7 +104,7 @@ Adobe I/O와의 통합에서는 JWT(JSON Web Token)를 사용하여 이러한 �
    **[!UICONTROL Access an API]** 는 기본 위치입니다.
 
 1. 두 개 이상의 Experience Cloud 조직에 액세스할 수 있는 경우 오른쪽 상단의 드롭다운 목록에서 조직을 선택합니다.
-1. 아래에서 **[!UICONTROL Experience Cloud]**&#x200B;통합할 Adobe 서비스로 선택하고 **[!UICONTROL Places]** **[!UICONTROL Continue]**&#x200B;클릭합니다.
+1. Under **[!UICONTROL Experience Cloud]**, select **[!UICONTROL Places]** as the Adobe service to which you want to integrate and click **[!UICONTROL Continue]**.
 1. 을 선택하고 **[!UICONTROL New integration]** 클릭합니다 **[!UICONTROL Continue]**.
 1. 새 통합 만들기 화면에서 이름과 설명을 입력합니다.
 1. 위에서 만든 `xxxx_public.crt` 파일을 드래그하여 **[!UICONTROL Public keys certificates]** 놓기 영역으로 놓습니다.
@@ -138,9 +136,9 @@ Adobe I/O와의 통합에서는 JWT(JSON Web Token)를 사용하여 이러한 �
 JWT 토큰을 생성하려면
 
 1. 텍스트 편집기에서 위에서 만든 `private.key` 파일을 엽니다.
-1. 탭에서 키의 내용을 복사하여 **[!UICONTROL JWT]** **[!UICONTROL Paste private key]** 필드에 붙여 넣습니다.
+1. On the **[!UICONTROL JWT]** tab, copy the contents of the key and paste it in the **[!UICONTROL Paste private key]** field.
 1. 클릭 **[!UICONTROL Generate JWT]**.
-1. 섹션에서 **[!UICONTROL Sample CURL command]** **[!UICONTROL Copy]** 명령 프롬프트 또는 터미널 창에서 내용을 클릭하여 붙여 넣습니다.
+1. In the **[!UICONTROL Sample CURL command]** section, click **[!UICONTROL Copy]** and paste the contents in your command prompt or terminal window.
 1. 키보드를 눌러 명령을 **[!UICONTROL Enter]** 실행합니다.
 1. 및 `"token_type": "bearer"` 값을 찾습니다 `"access_token"` .
 
