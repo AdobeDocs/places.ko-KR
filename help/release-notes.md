@@ -1,10 +1,8 @@
 ---
 title: 릴리스 노트
-seo-title: 릴리스 노트
 description: Adobe Experience Platform 위치 서비스에 대한 릴리스 노트입니다.
-seo-description: Adobe Experience Platform 위치 서비스에 대한 릴리스 노트입니다.
 translation-type: tm+mt
-source-git-commit: ef129b7b168444edaf58ef55331efdf2f55a993f
+source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 ---
 
