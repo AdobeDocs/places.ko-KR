@@ -1,10 +1,8 @@
 ---
 title: 푸시 알림
-seo-title: 푸시 알림
 description: 이 섹션에서는 푸시 알림과 함께 위치를 사용하는 방법을 보여줍니다.
-seo-description: 이 섹션에서는 푸시 알림과 함께 위치를 사용하는 방법을 보여줍니다.
 translation-type: tm+mt
-source-git-commit: 60c274c309a2c86b67d6c19ea28ae300a37d723a
+source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 ---
 
