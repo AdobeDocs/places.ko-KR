@@ -4,12 +4,14 @@ seo-title: Adobe Experience Platform 위치 서비스
 description: '위치 서비스는 모바일 사용자의 참여를 이해하는 데 중요한 컨텍스트입니다. 모바일 앱 개발자는 이러한 맥락에서 앱 디자인을 향상시키고 보다 개인화되고 매력적인 경험을 제공할 수 있습니다. '
 seo-description: '위치 서비스는 모바일 사용자의 참여를 이해하는 데 중요한 컨텍스트입니다. 모바일 앱 개발자는 이러한 맥락에서 앱 디자인을 향상시키고 보다 개인화되고 매력적인 경험을 제공할 수 있습니다. '
 translation-type: tm+mt
-source-git-commit: 9fd6c1fdd740a021d7612aa33693c392bff53994
+source-git-commit: ecb059400d9203884faab6fd2f627251eeaeea38
 
 ---
 
 
 # Adobe Experience Platform 위치 서비스 개요 {#home}
+
+!["Adobe Experience Platform Location Service"](/help/assets/LocationHeader.png)
 
 위치는 모바일 사용자를 파악하고 참여를 유도하는 중요한 컨텍스트입니다. 모바일 앱 개발자는 이러한 맥락에서 앱 디자인을 향상시키고 보다 개인화되고 매력적인 경험을 제공할 수 있습니다.
 
@@ -72,20 +74,20 @@ Adobe Experience Platform Location Service(위치 서비스)는 위치 인식과
 
    이 POI 유형은 저전력 블루투스 신호를 방출하여 위치를 나타내는 물리적 장치입니다. 비콘 지원이 향후 릴리스에서 제공될 예정입니다.
 
-* 라이브러리는 **** 하나의 POI가 아닌 세트에 규칙을 쉽게 첨부하도록 그룹화된 POI 컬렉션입니다.
+* **라이브러리**&#x200B;는 POI의 컬렉션으로, POI 1개가 아닌 세트에 규칙을 쉽게 연결하도록 그룹화됩니다.
 
 * Extension **은** Places SDK를 모바일 앱에 통합하는 데 필요한 Experience Platform Launch 확장입니다.
 
    사용자 경험에 위치 컨텍스트를 추가하기 위해 다른 모바일 SDK와 함께 사용되는 확장입니다.
 
-* 조직은 **** Adobe Experience Cloud에서 귀사를 식별하는 Adobe 법인입니다.
+* **조직**&#x200B;은 Adobe Experience Cloud에서 귀사를 식별하는 Adobe 엔티티입니다.
 
    일반적으로 조직은 회사 이름입니다. 그러나 회사는 둘 이상의 조직을 가질 수 있습니다. 조직 관리자는 그룹 및 사용자를 구성하고 Single Sign-On 기능을 구성할 수 있습니다.
 
-* orgID **는** Adobe Experience Platform에서 조직을 나타내는 ID입니다.
+* **orgID**&#x200B;는 Adobe Experience Platform에서 조직을 나타내는 ID입니다.
 
    자세한 내용은 orgID [찾기를 참조하십시오](https://forums.adobe.com/thread/2339895).
 
 * The **Experience Cloud ID** service provides a universal, persistent ID that identifies your visitors across all the solutions in the Experience Cloud.
 
-   자세한 내용은 개요를 [참조하십시오](https://docs.adobe.com/content/help/en/id-service/using/intro/overview.html).
+   For more information, see [Overview](https://docs.adobe.com/content/help/en/id-service/using/intro/overview.html).
