@@ -1,10 +1,8 @@
 ---
 title: 관심 영역 관리 인터페이스 개요
-seo-title: 관심 영역 관리 인터페이스 개요
 description: 이 섹션에서는 위치 서비스 UI 파섹
-seo-description: 이 섹션에서는 위치 서비스 UI 파섹
 translation-type: tm+mt
-source-git-commit: 8d6b796326c5fbb3f2af996766fc9c05046ec653
+source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 ---
 
