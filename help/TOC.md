@@ -1,9 +1,9 @@
 ---
-product: Adobe Experience Platform Location Service
+product: adobe experience platform
 audience: end-user
 user-guide-title: Adobe Experience Platform Location Service
 translation-type: tm+mt
-source-git-commit: 967726c02b725d8d7aca657754f1ae30f79a665d
+source-git-commit: c88c8f8e7e3bb9ea3af85948e682e75e894ad782
 
 ---
 
