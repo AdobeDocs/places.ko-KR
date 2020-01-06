@@ -80,45 +80,45 @@ source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 ![규칙 만들기](/help/assets/placesrule.png)
 
-1. In Experience Platform Launch, click the **[!UICONTROL Rules]** tab.
-1. 클릭 **[!UICONTROL Add Rule]**.
+1. In Experience Platform Launch, click the **[!UICONTROL Rules]**tab.
+1. **[!UICONTROL Add Rule]**를 클릭합니다.
 1. 예를 들어 규칙의 이름을 입력합니다 **[!UICONTROL Track entry for coffee shop in SF]**.
 
 ### 이벤트를 만듭니다
 
 1. 이벤트 섹션에서 을 클릭합니다 **[!UICONTROL + Add]**. 이벤트는 규칙을 실행할 시기를 결정합니다.
-1. 드롭다운 **[!UICONTROL Extension]** 목록에서 선택합니다 **[!UICONTROL Places – Beta]**.
-1. 드롭다운 **[!UICONTROL Event Type]** 목록에서 선택합니다 **[!UICONTROL Enter POI]**.
-1. 에서 **[!UICONTROL Name]**&#x200B;이벤트의 이름을 입력합니다(예: **[!UICONTROL Entering a coffee shop]**).
-1. 클릭 **[!UICONTROL Keep Changes]**.
+1. 드롭다운 **[!UICONTROL Extension]**목록에서 선택합니다**[!UICONTROL Places – Beta]**.
+1. 드롭다운 **[!UICONTROL Event Type]**목록에서 선택합니다**[!UICONTROL Enter POI]**.
+1. 에서 **[!UICONTROL Name]**이벤트의 이름을 입력합니다(예:**[!UICONTROL Entering a coffee shop]**).
+1. **[!UICONTROL Keep Changes]**를 클릭합니다.
 
 ### 조건 만들기
 
-1. 조건 섹션에서 을 **[!UICONTROL +Add]**&#x200B;클릭합니다. 조건은 수행할 작업에 대해 충족해야 하는 기준을 결정합니다.
+1. 조건 섹션에서 을 **[!UICONTROL +Add]**클릭합니다. 조건은 수행할 작업에 대해 충족해야 하는 기준을 결정합니다.
 1. In **[!UICONTROL Logic Type]**, select Regular, which allows actions to execute if the condition is met.
-1. 드롭다운 **[!UICONTROL Extension]** 목록에서 선택합니다 **[!UICONTROL Places – Beta]**.
-1. 에서 **[!UICONTROL Condition Type]**&#x200B;을 선택합니다 **[!UICONTROL City]**.
+1. 드롭다운 **[!UICONTROL Extension]**목록에서 선택합니다**[!UICONTROL Places – Beta]**.
+1. 에서 **[!UICONTROL Condition Type]**을 선택합니다**[!UICONTROL City]**.
 1. Type a condition name, for example, **[!UICONTROL Coffee shop in SF]**.
-1. In the right pane, click **[!UICONTROL Current POI]**, and in the drop-down list, select **[!UICONTROL San Francisco]** as one of your cities.
-1. 클릭 **[!UICONTROL Keep Changes]**.
+1. In the right pane, click **[!UICONTROL Current POI]**, and in the drop-down list, select**[!UICONTROL San Francisco]** as one of your cities.
+1. **[!UICONTROL Keep Changes]**를 클릭합니다.
 
 ### 동작 만들기
 
-1. In the **[!UICONTROL Actions]** section, click **[!UICONTROL + Add]**.
-1. 드롭다운 **[!UICONTROL Extension]** 목록에서 기본 **[!UICONTROL Mobile Core]** 옵션을 선택된 상태로 둡니다.
+1. In the **[!UICONTROL Actions]**section, click**[!UICONTROL + Add]**.
+1. 드롭다운 **[!UICONTROL Extension]**목록에서 기본**[!UICONTROL Mobile Core]** 옵션을 선택된 상태로 둡니다.
 1. 작업 유형(예: )을 선택합니다 **[!UICONTROL Send Postback]**.
 
-   a.에서 **[!UICONTROL URL]** Slack의 포스트백 URL을 입력합니다(예: `https://hooks.slack.com/services/`).
+   a.에서 **[!UICONTROL URL]**Slack의 포스트백 URL을 입력합니다(예:`https://hooks.slack.com/services/`).
 
-   b.게시물 본문을 전송하려면 **[!UICONTROL Add Post Body]** 확인란을 선택합니다.
+   b.게시물 본문을 전송하려면 **[!UICONTROL Add Post Body]**확인란을 선택합니다.
 
-   c.에서 게시물 본문을 **[!UICONTROL Post Body]**&#x200B;추가합니다(예: `{ "text": "A customer has entered" }`
+   c.에서 게시물 본문을 **[!UICONTROL Post Body]**추가합니다(예:`{ "text": "A customer has entered" }`
 
    c.예를 들어 컨텐츠 유형을 입력합니다 **[!UICONTROL application/json]**.
 
    d.시간 초과 값(예: )을 선택합니다 **[!UICONTROL 5]**.
 
-1. 클릭 **[!UICONTROL Keep Changes]**.
+1. **[!UICONTROL Keep Changes]**를 클릭합니다.
 
 ### 규칙 게시
 
