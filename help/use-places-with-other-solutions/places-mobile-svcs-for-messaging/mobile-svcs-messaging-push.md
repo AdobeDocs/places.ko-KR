@@ -27,10 +27,10 @@ Mobile Services를 사용하면 푸시 알림을 Adobe Analytics 세그먼트에
 
 ## 알림 보내기
 
-푸시 알림 **[!UICONTROL Audience]** 만들기 *워크플로우의* 탭에서 다음 방법 중 하나로 이 메시지의 대상을 만들 수 있습니다.
+푸시 알림 **[!UICONTROL Audience]**만들기&#x200B;*워크플로우의*탭에서 다음 방법 중 하나로 이 메시지의 대상을 만들 수 있습니다.
 
-* 드롭다운 **[!UICONTROL Analytics Segments]** 목록에서 이전에 만든 Adobe Analytics 세그먼트를 선택합니다.
+* 드롭다운 **[!UICONTROL Analytics Segments]**목록에서 이전에 만든 Adobe Analytics 세그먼트를 선택합니다.
 
-* 섹션에서 사용 가능한 사용자 지정 세그먼트 매개 변수를 사용하여 대상을 **[!UICONTROL Custom Segment]** 만듭니다.
+* 섹션에서 사용 가능한 사용자 지정 세그먼트 매개 변수를 사용하여 대상을 **[!UICONTROL Custom Segment]**만듭니다.
 
 ![푸시 메시지 설정](/help/assets/push-set-up.png)
