@@ -156,7 +156,7 @@ source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 이 릴리스에서는 다음과 같은 업데이트가 수행되었습니다.
 
-**Android Places 1.1.0**
+**Android Places 1.2.0**
 
 * 개별 Geofence를 처리하는 새 API가 추가되었습니다.
 * 여러 연속 시작 이벤트를 방지하기 위한 버그 수정.
@@ -171,7 +171,7 @@ Android용 위치 모니터의 초기 릴리스.
 
 ## 2019년 5월 2일
 
-**Android Places 1.1.0**
+**Android Places 1.2.0**
 
 * errorCallback이 있고 오류 이유를 나타내는 errorCode와 함께 호출되는 getNearByPlaces에 대한 새 API를 도입했습니다.
 * 이제 위치 확장 기능은 구성을 얻을 때까지 이벤트를 대기시킵니다.
