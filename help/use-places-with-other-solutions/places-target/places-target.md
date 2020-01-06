@@ -15,7 +15,7 @@ Places 확장 프로그램이 시작 및 종료에 대한 이벤트를 전송하
 
 ## 1.규칙 만들기
 
-1. 탭에서 을 **[!UICONTROL Rules]** 클릭합니다 **[!UICONTROL Create New Rule]**.
+1. 탭에서 을 **[!UICONTROL Rules]**클릭합니다**[!UICONTROL Create New Rule]**.
 
    다음 정보를 숙지하십시오.
 
@@ -26,15 +26,15 @@ Places 확장 프로그램이 시작 및 종료에 대한 이벤트를 전송하
 
 1. 규칙 목록에서 쉽게 알아볼 수 있도록 규칙에 의미 있는 이름을 지정합니다.
 
-   이 예에서는 규칙의 이름이 **[!UICONTROL Attach Places Data to Target Content Requested]**&#x200B;지정됩니다.
+   이 예에서는 규칙의 이름이 **[!UICONTROL Attach Places Data to Target Content Requested]**지정됩니다.
 
-1. 섹션에서 **[!UICONTROL Events]** 을 클릭합니다 **[!UICONTROL Add]**.
+1. 섹션에서 **[!UICONTROL Events]**을 클릭합니다**[!UICONTROL Add]**.
 
-1. 드롭다운 **[!UICONTROL Extension]** 목록에서 선택합니다 **[!UICONTROL Adobe Target]**.
+1. 드롭다운 **[!UICONTROL Extension]**목록에서 선택합니다**[!UICONTROL Adobe Target]**.
 
-1. 드롭다운 **[!UICONTROL Event Type]** 목록에서 선택합니다 **[!UICONTROL Content Requested]**.
+1. 드롭다운 **[!UICONTROL Event Type]**목록에서 선택합니다**[!UICONTROL Content Requested]**.
 
-1. 클릭 **[!UICONTROL Keep Changes]**.
+1. **[!UICONTROL Keep Changes]**를 클릭합니다.
 
 ![이벤트 추가](/help/assets/ad-setEvent_target.png)
 
@@ -46,33 +46,33 @@ Places 확장 프로그램이 시작 및 종료에 대한 이벤트를 전송하
 
 다음 예제에서는 앱을 5회 이상 실행한 사용자만 규칙이 트리거되도록 하는 조건이 만들어집니다.
 
-1. 섹션에서 **[!UICONTROL Conditions]** 을 클릭합니다 **[!UICONTROL Add]**.
+1. 섹션에서 **[!UICONTROL Conditions]**을 클릭합니다**[!UICONTROL Add]**.
 
-1. 드롭다운 **[!UICONTROL Extension]** 목록에서 선택합니다 **[!UICONTROL Mobile Core]**.
+1. 드롭다운 **[!UICONTROL Extension]**목록에서 선택합니다**[!UICONTROL Mobile Core]**.
 
-1. 드롭다운 **[!UICONTROL Condition Type]** 목록에서 선택합니다 **[!UICONTROL Launches]**.
+1. 드롭다운 **[!UICONTROL Condition Type]**목록에서 선택합니다**[!UICONTROL Launches]**.
 
 1. 오른쪽 창에서 조건이 읽도록 드롭다운 목록 및 번호 컨트롤을 수정합니다 **[!UICONTROL User has launched the app greater than or equal to 5 times]**.
 
-1. 클릭 **[!UICONTROL Keep Changes]**.
+1. **[!UICONTROL Keep Changes]**를 클릭합니다.
 
 ![조건 추가](/help/assets/ad-setCondition_target.png)
 
 ## 4.작업 정의
 
-1. 섹션에서 **[!UICONTROL Actions]** 을 클릭합니다 **[!UICONTROL Add]**.
+1. 섹션에서 **[!UICONTROL Actions]**을 클릭합니다**[!UICONTROL Add]**.
 
-1. 드롭다운 **[!UICONTROL Extension]** 목록에서 선택합니다 **[!UICONTROL Mobile Core]**.
+1. 드롭다운 **[!UICONTROL Extension]**목록에서 선택합니다**[!UICONTROL Mobile Core]**.
 
-1. 드롭다운 **[!UICONTROL Action Type]** 목록에서 선택합니다 **[!UICONTROL Attach Data]**.
+1. 드롭다운 **[!UICONTROL Action Type]**목록에서 선택합니다**[!UICONTROL Attach Data]**.
 
-1. 오른쪽 창의 **[!UICONTROL JSON Payload]** 필드에 이 이벤트에 추가될 데이터를 입력합니다.
+1. 오른쪽 창의 **[!UICONTROL JSON Payload]**필드에 이 이벤트에 추가될 데이터를 입력합니다.
 
-1. 클릭 **[!UICONTROL Keep Changes]**.
+1. **[!UICONTROL Keep Changes]**를 클릭합니다.
 
 오른쪽 창에서, 이 이벤트에 대한 익스텐션에서 수신하기 전에 SDK 이벤트에 데이터를 추가하는 자유 형식 JSON 페이로드를 추가할 수 있습니다.
 
-다음 예에서 `poiCity` 및 `poiName` 값은 Target 이벤트에서 처리되는 각 요청에 **[!UICONTROL mboxparameters]** 대해 에 추가됩니다. 새 키에 대한 값은 이 이벤트 처리 시 SDK에서 동적으로 결정됩니다.
+다음 예에서 `poiCity` 및 `poiName` 값은 Target 이벤트에서 처리되는 각 요청에 **[!UICONTROL mboxparameters]**대해 에 추가됩니다. 새 키에 대한 값은 이 이벤트 처리 시 SDK에서 동적으로 결정됩니다.
 
 >[!TIP]
 >
