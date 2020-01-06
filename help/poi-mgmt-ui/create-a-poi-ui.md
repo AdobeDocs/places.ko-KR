@@ -27,21 +27,21 @@ POI(Point of Interest)는 조직 또는 회사에 중요한 지도의 위치 또
    1. 아이콘의 색상을 선택합니다.
    1. POI의 범주를 지정합니다.
 
-1. 섹션을 **[!UICONTROL Location]** 확장합니다.
+1. Expand the **[!UICONTROL Location]**section.
 
    1. 주소를 입력합니다.
    1. 구/군/시를 입력합니다.
    1. 상태 이름을 입력합니다.
    1. 국가 이름을 입력합니다.
    1. 위도 또는 경도를 선택하거나 입력합니다(필수).
-   1. 클릭 **[!UICONTROL Drop Pin on Map]**.
+   1. **[!UICONTROL Drop Pin on Map]**를 클릭합니다.
    정확한 위도와 경도를 모르면 핀을 떨어뜨리는 것이 유용하다.
 
-1. 섹션을 **[!UICONTROL Metadata]** 확장하고 을 클릭합니다 **[!UICONTROL Add Metadata]**.
+1. 섹션을 **[!UICONTROL Metadata]**확장하고 을 클릭합니다**[!UICONTROL Add Metadata]**.
 
    메타데이터를 사용하면 위치를 추가로 정의할 수 있으며 다른 Adobe 솔루션 워크플로우에서 사용할 수 있으므로 고객을 추가로 개선할 수 있습니다.
 
    1. 키 이름을 입력합니다.
    1. 키 값을 입력합니다.
 
-1. 클릭 **[!UICONTROL  Save]**.
+1. **[!UICONTROL  Save]**를 클릭합니다.
