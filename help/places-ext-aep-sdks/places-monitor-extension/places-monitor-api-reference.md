@@ -317,7 +317,7 @@ PlacesMonitor.setLocationPermission(PlacesMonitorLocationPermission.ALWAYS_ALLOW
 
 * `ACPPlacesRequestAuthorizationLevelWhenInUse`
 
-   앱이 사용 중인 동안 위치 서비스를 사용할 수 있는 사용자의 권한을 요청합니다. 사용자 프롬프트에는 앱 Info.plist 파일의 `NSLocationWhenInUseUsageDescription` 키 텍스트가 포함되며 이 메서드를 호출할 때는 키가 있어야 합니다. 자세한 내용은 requestWhenInUseAuthorization [에 대한 Apple 설명서를 참조하십시오](https://developer.apple.com/documentation/corelocation/cllocationmanager/1620562-requestwheninuseauthorization).
+   앱이 사용 중인 동안 위치 서비스를 사용할 수 있는 사용자의 권한을 요청합니다. 사용자 프롬프트에는 앱 Info.plist 파일의 `NSLocationWhenInUseUsageDescription` 키의 텍스트가 포함되며 이 메서드를 호출할 때는 키가 있어야 합니다. 자세한 내용은 requestWhenInUseAuthorization [에 대한 Apple 설명서를 참조하십시오](https://developer.apple.com/documentation/corelocation/cllocationmanager/1620562-requestwheninuseauthorization).
 
 * `ACPPlacesRequestMonitorAuthorizationLevelAlways`
 
