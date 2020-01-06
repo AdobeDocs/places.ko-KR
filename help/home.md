@@ -9,7 +9,7 @@ source-git-commit: c20e720d23121970bb2fa1c63a2fd1e81c84b977
 
 # Adobe Experience Platform 위치 서비스 개요 {#home}
 
-!["Adobe Experience Platform Location Service"](/help/assets/LocationHeader.png)
+![&quot;Adobe Experience Platform Location Service&quot;](/help/assets/LocationHeader.png)
 
 위치는 모바일 사용자를 파악하고 참여를 유도하는 중요한 컨텍스트입니다. 모바일 앱 개발자는 이러한 맥락에서 앱 디자인을 향상시키고 보다 개인화되고 매력적인 경험을 제공할 수 있습니다.
 
@@ -27,7 +27,7 @@ Adobe Experience Platform Location Service(위치 서비스)는 위치 인식과
 
 다음은 위치를 사용할 수 있는 몇 가지 방법입니다.
 
-* 누군가 POI에 들어올 때 실시간 알림을 *보냅니다.경기장에 오신 것을 환영합니다."*
+* 누군가 POI에 들어올 때 실시간 알림을 *보냅니다.경기장에 오신 것을 환영합니다.&quot;*
 * 경쟁업체와 비교하여 자체 스토어의 발 트래픽을 분석할 수 있습니다.
 * 위치 컨텍스트에서 고객 프로파일을 사용하여 오프라인 행동을 기반으로 고객을 세그먼트화할 수 있습니다.
 * 고객과 연관성 높은 스토어의 경험을 갖춘 사용자를 타깃팅할 수 있습니다.
