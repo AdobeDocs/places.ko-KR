@@ -41,7 +41,7 @@ source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 | `name` | POI의 이름 | string | 512자 | both, optional\* | `"name": "My Favorite Place"` |
 | `description` | POI에 대한 설명 | string | 512자 | both, optional\* | `"description": "This is a very good place."` |
 | `location` | POI의 형식 및 좌표 배열 | 배열(혼합) | n/a | both | `"location": {"type": "Point", "coordinates": [-122.201007, 37.604713]` |
-| `type` | POI 유형 | string | 현재 지원되는 "포인트"만 | both, required | `"type": "Point"` |
+| `type` | POI 유형 | string | 현재 지원되는 &quot;포인트&quot;만 | both, required | `"type": "Point"` |
 | `coordinates` | POI의 경도 및 위도 | array(float) | 위도:-180 - 180, latitude -85 - 85 | both, required | `"coordinates": [-122.201007, 37.604713]` |
 | `radius` | POI 주위의 원형 지오펜스 크기 | float | 10 - 2000미터 | both, required | `"radius": 100` |
 | `country` | POI 국가 | string | 32자 | both, 선택 사항* | `"country": "United States"` |
