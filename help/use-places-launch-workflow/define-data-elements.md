@@ -40,19 +40,19 @@ source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 ### 데이터 요소 만들기
 
-1. 앱의 속성 페이지에서 **[!UICONTROL Data Elements]** 탭을 클릭합니다.
+1. 앱의 속성 페이지에서 **[!UICONTROL Data Elements]**탭을 클릭합니다.
 
-1. 클릭 **[!UICONTROL Create New Data Element]**.
+1. **[!UICONTROL Create New Data Element]**를 클릭합니다.
 
-1. 설치된 확장 프로그램 목록에서 을 **[!UICONTROL Places]**&#x200B;찾습니다.
+1. 설치된 확장 프로그램 목록에서 을 **[!UICONTROL Places]**찾습니다.
 
-1. 드롭다운 **[!UICONTROL Data Element Type]** 목록에서 이 데이터 요소에 대한 데이터 참조를 선택합니다.
+1. 드롭다운 **[!UICONTROL Data Element Type]**목록에서 이 데이터 요소에 대한 데이터 참조를 선택합니다.
 
 1. POI 대상을 선택합니다.
 
 1. 이 데이터 요소가 사용자 지정 메타데이터 참조인 경우 메타데이터 키를 선택합니다.
 
-1. 데이터 요소의 이름을 입력하고 를 **[!UICONTROL Save]**&#x200B;클릭합니다.
+1. 데이터 요소의 이름을 입력하고 를 **[!UICONTROL Save]**클릭합니다.
 
    ![데이터 요소 만들기](/help/assets/create-de-7-v3.png)
 
@@ -63,8 +63,8 @@ source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 ![데이터 요소 사용](/help/assets/use-de-v2.png)
 
-데이터 요소 선택기가 규칙 구성 요소에 없는 경우 데이터 요소 이름을 **[!UICONTROL %%]** 토큰으로 래핑하여 데이터 요소를 사용할 수 있습니다.
-예를 들어 데이터 요소 이름이 **[!UICONTROL Last POI City]**&#x200B;인 경우 텍스트 입력에 추가할 **[!UICONTROL LAST POI City]** 수 있습니다.
+데이터 요소 선택기가 규칙 구성 요소에 없는 경우 데이터 요소 이름을 **[!UICONTROL %%]**토큰으로 래핑하여 데이터 요소를 사용할 수 있습니다.
+예를 들어 데이터 요소 이름이**[!UICONTROL Last POI City]**&#x200B;인 경우 텍스트 입력에 추가할 **[!UICONTROL LAST POI City]**수 있습니다.
 
 
 ## 데이터 요소 게시
