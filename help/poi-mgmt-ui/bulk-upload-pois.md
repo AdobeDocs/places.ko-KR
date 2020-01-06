@@ -50,14 +50,14 @@ source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 다음 열 값은 위치 서비스 UI에서 사용됩니다.
 
 * 색상 - 위치 서비스 UI 맵에서 POI 위치를 나타내는 핀의 색상으로 사용됩니다.
-   * 유효한 값은 "", #3E76D0, #AA99E8, #DC2ABA, #FC685B, #FC962E, #F6C436, #BECE5D, #61B56입니다. b 및 #3DC8DE 및 ""을(를) 참조하십시오.
+   * 유효한 값은 &quot;&quot;, #3E76D0, #AA99E8, #DC2ABA, #FC685B, #FC962E, #F6C436, #BECE5D, #61B56입니다. b 및 #3DC8DE 및 &quot;&quot;을(를) 참조하십시오.
    * 값을 비워 두면 위치 서비스 UI에서 파란색을 기본 색상으로 사용합니다.
 
       값은 파란색(#3E76D0), 자주색(#AA99E8), 푸시아(#DC2ABA), 주황(#FC685B), 연한 주황(#FC962E), 노란색(#F6C436), 연한 녹색( #BECE5D), 녹색(#61B56B) 및 연한 파랑(#3DC8DE)이 각각 표시됩니다.
 
 * 아이콘 - 위치 서비스 UI 맵에서 POI 위치를 나타내는 핀의 아이콘으로 사용됩니다.
 
-   * 유효한 값은 "", 상점, 호텔베드, 자동차, 기차, 배, 스타디움, 무스팩, 앵커, 벨, 입찰, 책, 서류 상자, 찾아보기, 브러시, 빌딩, 카메라, 시계, 교육, 손전등, 팔로우, 게임, 여성, 남성, 선물, 하트, 하트, 시작, 조명, 사서함, 핀, 프로모션, 리본, 쇼핑 카트, 스타, 대상, 대상 teapot, thumbDown, thumbUp, trap, trophy, tranch.
+   * 유효한 값은 &quot;&quot;, 상점, 호텔베드, 자동차, 기차, 배, 스타디움, 무스팩, 앵커, 벨, 입찰, 책, 서류 상자, 찾아보기, 브러시, 빌딩, 카메라, 시계, 교육, 손전등, 팔로우, 게임, 여성, 남성, 선물, 하트, 하트, 시작, 조명, 사서함, 핀, 프로모션, 리본, 쇼핑 카트, 스타, 대상, 대상 teapot, thumbDown, thumbUp, trap, trophy, tranch.
 
       아이콘 값은 다음 그림에 표시되는 순서대로 나열됩니다.
 
@@ -92,7 +92,7 @@ source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
    b.변경 내용을 저장합니다.
 
 1. 터미널 창에서 `…/places-scripts/import/` 디렉토리로 이동합니다.
-1. Enter `python ./places_import.py` and press the **[!UICONTROL enter]** (**[!UICONTROL return]**) key.
+1. Enter `python ./places_import.py` and press the **[!UICONTROL enter]**(**[!UICONTROL return]**) key.
 
 
 ## CSV 사전 가져오기 검사
