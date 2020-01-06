@@ -55,7 +55,7 @@ Adobe I/O와의 통합에서는 JWT(JSON Web Token)를 사용하여 이러한 �
 
 자체 서명된 키를 생성하려면 다음을 수행합니다.
 
-1. 터미널 창에서 다음 줄을 복사하여 붙여 넣은 다음 각 줄을 붙여넣은 **[!UICONTROL Enter]** 후 누릅니다.
+1. 터미널 창에서 다음 줄을 복사하여 붙여 넣은 다음 각 줄을 붙여넣은 **[!UICONTROL Enter]**후 누릅니다.
 
    ```text
       mkdir keys
@@ -87,7 +87,7 @@ Adobe I/O와의 통합에서는 JWT(JSON Web Token)를 사용하여 이러한 �
 
 1. 파일과 `.key` 파일이 있는 디렉토리로 `.crt` 이동합니다.
 
-   예를 들어 iOS에서 **[!UICONTROL Macintosh HD]** &gt; **[!UICONTROL users]** &gt; **[!UICONTROL (your user name)]** &gt; **[!UICONTROL Keys]**&#x200B;로 이동합니다.
+   예를 들어 iOS에서 **[!UICONTROL Macintosh HD]**>**[!UICONTROL users]** > **[!UICONTROL (your user name)]**>**[!UICONTROL Keys]**&#x200B;로 이동합니다.
 
 다음 비디오에서는 키 쌍을 생성하는 과정을 안내합니다.
 
@@ -99,15 +99,15 @@ Adobe I/O와의 통합에서는 JWT(JSON Web Token)를 사용하여 이러한 �
 
 1. https://console.adobe.io [으로](https://console.adobe.io) 이동하여 Adobe ID로 로그인합니다.
 1. 빠른 시작 **섹션에서** 통합 **만들기를 클릭합니다**.
-1. 을 선택하고 **[!UICONTROL Access an API]** 클릭합니다 **[!UICONTROL Continue]**.
+1. 을 선택하고 **[!UICONTROL Access an API]**클릭합니다**[!UICONTROL Continue]**.
 
-   **[!UICONTROL Access an API]** 는 기본 위치입니다.
+   **[!UICONTROL Access an API]**는 기본 위치입니다.
 
 1. 두 개 이상의 Experience Cloud 조직에 액세스할 수 있는 경우 오른쪽 상단의 드롭다운 목록에서 조직을 선택합니다.
-1. Under **[!UICONTROL Experience Cloud]**, select **[!UICONTROL Places]** as the Adobe service to which you want to integrate and click **[!UICONTROL Continue]**.
-1. 을 선택하고 **[!UICONTROL New integration]** 클릭합니다 **[!UICONTROL Continue]**.
+1. Under **[!UICONTROL Experience Cloud]**, select**[!UICONTROL Places]** as the Adobe service to which you want to integrate and click **[!UICONTROL Continue]**.
+1. 을 선택하고 **[!UICONTROL New integration]**클릭합니다**[!UICONTROL Continue]**.
 1. 새 통합 만들기 화면에서 이름과 설명을 입력합니다.
-1. 위에서 만든 `xxxx_public.crt` 파일을 드래그하여 **[!UICONTROL Public keys certificates]** 놓기 영역으로 놓습니다.
+1. 위에서 만든 `xxxx_public.crt` 파일을 드래그하여 **[!UICONTROL Public keys certificates]**놓기 영역으로 놓습니다.
 1. 제품 프로필을 선택합니다.
 
    어떤 프로파일을 선택해야 할지 모르는 경우 시스템 관리자에게 문의하십시오.
@@ -118,11 +118,11 @@ Adobe I/O와의 통합에서는 JWT(JSON Web Token)를 사용하여 이러한 �
 
 1. 통합 세부 사항 페이지가 맨 위에 통합 이름과 함께 나타납니다.
 
-   이 **[!UICONTROL Overview]** 탭은 기본적으로 표시되며 API 키, 조직 ID, 기술 계정 ID 및 통합에 대한 기타 세부 정보를 표시합니다.
+   이 **[!UICONTROL Overview]**탭은 기본적으로 표시되며 API 키, 조직 ID, 기술 계정 ID 및 통합에 대한 기타 세부 정보를 표시합니다.
 
 ### 조직 ID 및 API 키 기록
 
-1. 통합 세부 사항 페이지에서 **[!UICONTROL Services]** 탭을 클릭하고 아래에 **[!UICONTROL Places]** 표시되는지 확인합니다 **[!UICONTROL Configured Services]**.
+1. 통합 세부 사항 페이지에서 **[!UICONTROL Services]**탭을 클릭하고 아래에**[!UICONTROL Places]** 표시되는지 확인합니다 **[!UICONTROL Configured Services]**.
 1. 탭에서 API 키(클라이언트 ID) 및 조직 ID를 찾아 기록합니다. **[!UICONTROL Overview]**
 
    이러한 ID는 각 REST API 요청에 필요합니다.
@@ -131,15 +131,15 @@ Adobe I/O와의 통합에서는 JWT(JSON Web Token)를 사용하여 이러한 �
 
 ### JWT 토큰 생성
 
-통합 세부 정보 페이지에서 JWT를 생성하고 교환 URL을 제공하여 통합을 테스트할 수 있도록 **[!UICONTROL JWT]** 탭을 클릭합니다.
+통합 세부 정보 페이지에서 JWT를 생성하고 교환 URL을 제공하여 통합을 테스트할 수 있도록 **[!UICONTROL JWT]**탭을 클릭합니다.
 
 JWT 토큰을 생성하려면
 
 1. 텍스트 편집기에서 위에서 만든 `private.key` 파일을 엽니다.
-1. On the **[!UICONTROL JWT]** tab, copy the contents of the key and paste it in the **[!UICONTROL Paste private key]** field.
-1. 클릭 **[!UICONTROL Generate JWT]**.
-1. In the **[!UICONTROL Sample CURL command]** section, click **[!UICONTROL Copy]** and paste the contents in your command prompt or terminal window.
-1. 키보드를 눌러 명령을 **[!UICONTROL Enter]** 실행합니다.
+1. On the **[!UICONTROL JWT]**tab, copy the contents of the key and paste it in the**[!UICONTROL Paste private key]** field.
+1. **[!UICONTROL Generate JWT]**를 클릭합니다.
+1. In the **[!UICONTROL Sample CURL command]**section, click**[!UICONTROL Copy]** and paste the contents in your command prompt or terminal window.
+1. 키보드를 눌러 명령을 **[!UICONTROL Enter]**실행합니다.
 1. 및 `"token_type": "bearer"` 값을 찾습니다 `"access_token"` .
 
    베어러 액세스 토큰의 값은 Places API 요청에서 사용할 값입니다.
