@@ -28,27 +28,27 @@ source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 이 예에서, 규칙의 작업은 Analytics 요청에 대해 정의된 다음 값을 가집니다.
 
-* **[!UICONTROL Action]** 의 값이 **[!UICONTROL Places Entry]**&#x200B;제공됩니다.
+* **[!UICONTROL Action]**의 값이**[!UICONTROL Places Entry]**&#x200B;제공됩니다.
 
-* 컨텍스트 데이터 키는 데이터 요소의 값으로 **[!UICONTROL poi.name]** 설정됩니다 **[!UICONTROL {%%POI Name%%}]**.
+* 컨텍스트 데이터 키는 데이터 요소의 값으로 **[!UICONTROL poi.name]**설정됩니다**[!UICONTROL {%%POI Name%%}]**.
 
-!["작업 설정"](/help/assets/pt-setAction.png)
+![&quot;작업 설정&quot;](/help/assets/pt-setAction.png)
 
 ## 2.Analytics 변수 만들기
 
 컨텍스트 데이터(1단계에서 전송됨)를 매핑하려면 먼저 Analytics 보고서 세트에 대해 변수를 만들어야 합니다. Analytics에서 변수를 만드는 방법에 대한 자세한 내용은 전환 [변수 \(eVar\)](https://docs.adobe.com/content/help/en/analytics/implementation/analytics-basics/ref-conversion-variables-evar.html)를 참조하십시오.
 
-이 예에서는 전환 변수가 **[!UICONTROL Evar2]**&#x200B;생성되어 이름이 **[!UICONTROL Places POI Name]**&#x200B;지정됩니다. 보고에 표시할 각 위치 변수에 대해 추가 변수를 만들어야 합니다.
+이 예에서는 전환 변수가 **[!UICONTROL Evar2]**생성되어 이름이**[!UICONTROL Places POI Name]**&#x200B;지정됩니다. 보고에 표시할 각 위치 변수에 대해 추가 변수를 만들어야 합니다.
 
-!["분석 변수 만들기"](/help/assets/aa-evar.png)
+![&quot;분석 변수 만들기&quot;](/help/assets/aa-evar.png)
 
 ## 3.처리 규칙 만들기
 
 이 단계는 컨텍스트 데이터(1단계)를 Analytics 변수(2단계)에 매핑하는 데 필요합니다. For more information on creating processing rules, see [Processing rules overview](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/processing-rules/processing-rules.html).
 
-이 예에서, 컨텍스트 데이터 값을 **[!UICONTROL poi.name]** 에 매핑하기 위해 처리 규칙이 **[!UICONTROL Places POI Name \(eVar2\)]**&#x200B;만들어졌습니다. 생성된 각 위치 변수에 대해 추가 처리 규칙을 만들어야 합니다.
+이 예에서, 컨텍스트 데이터 값을 **[!UICONTROL poi.name]**에 매핑하기 위해 처리 규칙이**[!UICONTROL Places POI Name \(eVar2\)]**&#x200B;만들어졌습니다. 생성된 각 위치 변수에 대해 추가 처리 규칙을 만들어야 합니다.
 
-!["처리 규칙 만들기"](/help/assets/aa-processing-rule.png)
+![&quot;처리 규칙 만들기&quot;](/help/assets/aa-processing-rule.png)
 
 ## 4.작업 공간에서 보고서 생성
 
@@ -56,10 +56,10 @@ source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 이 예에서는 보고서에 다음 설정이 있습니다.
 
-* Metric - **[!UICONTROL Occurrences]**
+* 지표 - **[!UICONTROL Occurrences]**
 
-* Dimension - **[!UICONTROL Action Name]**
+* 차원 - **[!UICONTROL Action Name]**
 
    * 차원별 분류 - **[!UICONTROL Places POI Name]**
 
-!["작업 공간에서 보고서 만들기"](/help/assets/aa-workspace.png)
+![&quot;작업 공간에서 보고서 만들기&quot;](/help/assets/aa-workspace.png)
