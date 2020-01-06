@@ -1,13 +1,12 @@
 ---
-title: Adobe Experience Platform 위치 서비스 액세스
+title: 'Adobe Experience Platform 위치 서비스 액세스 '
 description: 이 섹션에서는 사용자가 위치 서비스에 액세스할 수 있도록 위치 서비스 및 경험 플랫폼 론치에 사용자를 추가하는 방법에 대한 정보를 제공합니다.
 translation-type: tm+mt
-source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
+source-git-commit: e5d6c7f9ad1e2c9c37c1537aadc309ee20757156
 
 ---
 
-
-# Adobe Experience Platform 위치 서비스 액세스 {#adding-user-launch-places}
+# 위치 서비스 이용 {#adding-user-launch-places}
 
 Adobe Experience Cloud 홈의 [빠른 액세스 메뉴에서 플랫폼 위치](https://experience.adobe.com)서비스에 액세스할 수 있습니다.
 사용자 ID에 액세스 권한이 있으면 아래에 표시된 위치 서비스 아이콘이 표시됩니다.
@@ -47,11 +46,11 @@ Adobe Experience Platform 메뉴에서 플랫폼 위치 서비스에 액세스�
 
    ![셸 전환기](/help/assets/places_shell_switcher1.png)
 
-1. **[!UICONTROL Platform]**&#x200B;에서 **[!UICONTROL Administration]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL Platform]**에서**[!UICONTROL Administration]**&#x200B;를 클릭합니다.
 
    목록에 **관리가** 표시되지 않으면 관리자가 아닙니다. 이 절차를 완료하려면 조직 관리자에게 문의해야 합니다.
 
-1. Experience Cloud 관리 페이지의 **[!UICONTROL Admin Console]** 카드에서 을 클릭합니다 **[!UICONTROL Take me there]**.
+1. Experience Cloud 관리 페이지의 **[!UICONTROL Admin Console]**카드에서 을 클릭합니다**[!UICONTROL Take me there]**.
 
 1. 관리 콘솔에서 여러 조직에 대한 액세스 권한이 있는 경우 페이지의 오른쪽 상단에 올바른 조직이 선택되어 있는지 확인합니다.
 
@@ -61,7 +60,7 @@ Adobe Experience Platform 메뉴에서 플랫폼 위치 서비스에 액세스�
    >
    >조직에 대한 액세스 권한이 없는 경우 해당 조직에 대한 관리자 액세스 권한이 없습니다.
 
-1. Verify that the cards for **[!UICONTROL Adobe Experience Platform Launch]** and **[!UICONTROL Places Core Services]** are displayed.
+1. 카드의 **[!UICONTROL Adobe Experience Platform Launch]**및**[!UICONTROL Places Core Services]** 표시가 나타나는지 확인합니다.
 
    ![](/help/assets/places_provisioned1.png)
 
@@ -87,19 +86,19 @@ Adobe Experience Platform 메뉴에서 플랫폼 위치 서비스에 액세스�
 
    a.기본 프로필의 이름을 클릭합니다.
 
-   b.탭을 **[!UICONTROL Permissions]** 클릭합니다.
+   b.탭을 **[!UICONTROL Permissions]**클릭합니다.
 
-   c.옆에 **[!UICONTROL Edit]** 있는 을 클릭합니다 **[!UICONTROL Property Rights]**.
+   c.옆에 **[!UICONTROL Edit]**있는 을 클릭합니다**[!UICONTROL Property Rights]**.
 
    d.왼쪽 창에서 을 클릭합니다 **[!UICONTROL + Add all]**.
 
    이 단계에서는 사용 가능한 모든 권한을 포함된 권한 목록으로 이동합니다.
 
-   e.을 **[!UICONTROL Company Rights]**&#x200B;클릭합니다.
+   e.을 **[!UICONTROL Company Rights]**클릭합니다.
 
    f.왼쪽 창에서 을 클릭합니다 **[!UICONTROL + Manage Properties]**.
 
-   g.을 **[!UICONTROL Save]**&#x200B;클릭합니다.
+   g.을 **[!UICONTROL Save]**클릭합니다.
 
 >[!IMPORTANT]
 >
@@ -119,45 +118,45 @@ Adobe Experience Platform 메뉴에서 플랫폼 위치 서비스에 액세스�
 
    a.메뉴 모음에서 을 클릭합니다 **[!UICONTROL Overview]**.
 
-   b.카드에서 **[!UICONTROL Adobe Experience Platform Launch]** 다음을 확인합니다.
+   b.카드에서 **[!UICONTROL Adobe Experience Platform Launch]**다음을 확인합니다.
 
    * 카드 아래쪽에 두 개의 점이 표시됩니다.
    * 왼쪽에 있는 점은 검은색입니다.
 
       오른쪽에 점이 검은색이면 개발자만 추가할 수 있습니다. 사용자를 추가하려면 왼쪽의 점을 클릭합니다.
-   c.을 **[!UICONTROL + Add Users]**&#x200B;클릭합니다.
+   c.을 **[!UICONTROL + Add Users]**클릭합니다.
 
    d.사용자의 Adobe ID를 입력합니다.
 
    e.다음 단계 중 하나를 완료합니다.
 
-   * 새 사용자를 추가하는 경우 을 클릭하고 **[!UICONTROL New user]**&#x200B;사용자의 이름과 성을 입력합니다.
+   * 새 사용자를 추가하는 경우 을 클릭하고 **[!UICONTROL New user]**사용자의 이름과 성을 입력합니다.
    * 기존 사용자를 추가하는 경우 표시되는 사용자 이름을 클릭합니다.
-   f.드롭다운 **[!UICONTROL Please select a profile for this product]** 목록에서 이전에 편집한 프로필을 선택합니다.
+   f.드롭다운 **[!UICONTROL Please select a profile for this product]**목록에서 이전에 편집한 프로필을 선택합니다.
 
-   g.을 **[!UICONTROL Save]**&#x200B;클릭합니다.
+   g.을 **[!UICONTROL Save]**클릭합니다.
 
-1. 사용자를 추가할 **[!UICONTROL Places Core Services]**&#x200B;수 있습니다.
+1. 사용자를 추가할 **[!UICONTROL Places Core Services]**수 있습니다.
 
    >[!TIP]
    >
    >현재 모든 위치 서비스 사용자는 동일한 권한을 가지므로 권한을 편집할 필요가 없습니다.
 
-   a.카드에서 **[!UICONTROL Places Core Services]** 다음을 확인합니다.
+   a.카드에서 **[!UICONTROL Places Core Services]**다음을 확인합니다.
 
    * 카드 아래쪽에 두 개의 점이 표시됩니다.
    * 왼쪽에 있는 점은 검은색입니다.
-   b.을 **[!UICONTROL + Assign Users]**&#x200B;클릭합니다.
+   b.을 **[!UICONTROL + Assign Users]**클릭합니다.
 
    c.사용자의 Adobe ID를 입력합니다.
 
    d.다음 단계 중 하나를 완료합니다.
 
-   * 새 사용자를 추가하는 경우 을 클릭하고 **[!UICONTROL New user]**&#x200B;사용자의 이름과 성을 입력합니다.
+   * 새 사용자를 추가하는 경우 을 클릭하고 **[!UICONTROL New user]**사용자의 이름과 성을 입력합니다.
    * 기존 사용자를 추가하는 경우 표시되는 사용자 이름을 클릭합니다.
-   e.드롭다운 **[!UICONTROL Please select a profile for this product]** 목록에서 위치 프로필을 선택합니다.
+   e.드롭다운 **[!UICONTROL Please select a profile for this product]**목록에서 위치 프로필을 선택합니다.
 
-   f.을 **[!UICONTROL Save]**&#x200B;클릭합니다.
+   f.을 **[!UICONTROL Save]**클릭합니다.
 
 ### 개발자 추가
 
@@ -165,21 +164,21 @@ Adobe Experience Platform 메뉴에서 플랫폼 위치 서비스에 액세스�
 
 개발자를 추가하려면:
 
-1. On the **[!UICONTROL Places Core Services]** card, verify the following:
+1. On the **[!UICONTROL Places Core Services]**card, verify the following:
 
    * 카드 아래쪽에 두 개의 점이 표시됩니다.
-   * 오른쪽에 있는 점을 클릭하면 카드 하단에 **[!UICONTROL Assign Developers]** 표시됩니다.
+   * 오른쪽에 있는 점을 클릭하면 카드 하단에 **[!UICONTROL Assign Developers]**표시됩니다.
 
-1. 클릭 **[!UICONTROL + Assign Developers]**.
+1. **[!UICONTROL + Assign Developers]**를 클릭합니다.
 
 1. 사용자의 Adobe ID를 입력합니다.
 
 1. 다음 단계 중 하나를 완료합니다.
 
-   * 새 사용자를 추가하는 경우 을 클릭하고 **[!UICONTROL New user]** 사용자의 이름과 성을 입력합니다.
+   * 새 사용자를 추가하는 경우 을 클릭하고 **[!UICONTROL New user]**사용자의 이름과 성을 입력합니다.
    * 기존 사용자를 추가하는 경우 표시되는 사용자 이름을 클릭합니다.
 
-1. 드롭다운 **[!UICONTROL Please select a profile for this product]** 목록에서 위치 서비스 프로필을 선택합니다.
+1. 드롭다운 **[!UICONTROL Please select a profile for this product]**목록에서 위치 서비스 프로필을 선택합니다.
 
 1. **저장**&#x200B;을 클릭합니다.
 
