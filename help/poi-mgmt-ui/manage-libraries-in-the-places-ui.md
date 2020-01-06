@@ -24,29 +24,29 @@ source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 ## 라이브러리 만들기
 
 1. Adobe ID로 장소에 로그인합니다.
-1. 오른쪽 상단에서 **[!UICONTROL ...]** &gt; **[!UICONTROL Manage Libraries]**&#x200B;을 클릭합니다.
-1. 클릭 **[!UICONTROL New]**.
+1. 오른쪽 상단에서 **[!UICONTROL ...]**>**[!UICONTROL Manage Libraries]**&#x200B;을 클릭합니다.
+1. **[!UICONTROL New]**를 클릭합니다.
 1. 이름을 입력합니다.
-1. 클릭 **[!UICONTROL Confirm]**.
+1. **[!UICONTROL Confirm]**를 클릭합니다.
 
 ## 위치 UI에서 라이브러리 등급 변경
 
 1. Adobe ID로 장소에 로그인합니다.
-1. 오른쪽 상단에서 **[!UICONTROL ...]** &gt; **[!UICONTROL Manage Libraries]**&#x200B;을 클릭합니다.
+1. 오른쪽 상단에서 **[!UICONTROL ...]**>**[!UICONTROL Manage Libraries]**&#x200B;을 클릭합니다.
 1. 라이브러리 이름 왼쪽에 있는 아이콘을 클릭하고 라이브러리를 새 등급으로 드래그합니다.
 
 ## 라이브러리 이름 변경
 
 1. Adobe ID로 장소에 로그인합니다.
-1. 오른쪽 상단에서 **[!UICONTROL ...]** &gt; **[!UICONTROL Manage Libraries]**&#x200B;을 클릭합니다.
+1. 오른쪽 상단에서 **[!UICONTROL ...]**>**[!UICONTROL Manage Libraries]**&#x200B;을 클릭합니다.
 1. 삭제할 라이브러리를 찾습니다.
-1. 을 **[!UICONTROL ...]** 클릭하고 **[!UICONTROL Rename]**&#x200B;선택합니다.
+1. 을 **[!UICONTROL ...]**클릭하고**[!UICONTROL Rename]**&#x200B;선택합니다.
 1. 이름을 업데이트하고 을 클릭합니다 **[!UICONTROL Save]**.
 
 ## 라이브러리 삭제
 
 1. Adobe ID로 장소에 로그인합니다.
-1. 오른쪽 상단에서 **[!UICONTROL ...]** &gt; **[!UICONTROL Manage Libraries]**&#x200B;을 클릭합니다.
+1. 오른쪽 상단에서 **[!UICONTROL ...]**>**[!UICONTROL Manage Libraries]**&#x200B;을 클릭합니다.
 1. 삭제할 라이브러리를 찾습니다.
-1. 을 **[!UICONTROL ...]** 클릭하고 **[!UICONTROL Delete]**&#x200B;선택합니다.
+1. 을 **[!UICONTROL ...]**클릭하고**[!UICONTROL Delete]**&#x200B;선택합니다.
 
