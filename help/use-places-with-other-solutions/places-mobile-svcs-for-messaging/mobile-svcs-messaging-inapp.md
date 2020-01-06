@@ -51,10 +51,10 @@ Mobile Services를 사용하면 Analytics로 전송되는 위치 데이터를 �
 
 작업을 만들려면
 
-1. **확장을 선택합니다.[!UICONTROL Adobe Analytics]**
-1. 드롭다운 **[!UICONTROL Action type]** 목록에서 **[!UICONTROL Track.]**
+1. **[!UICONTROL Adobe Analytics]**확장을 선택합니다.
+1. 드롭다운 **[!UICONTROL Action type]**목록에서**[!UICONTROL Track.]**
 1. 작업 이름을 입력합니다.
-1. 오른쪽 창에서 키-값 쌍을 **[!UICONTROL Context Data]**&#x200B;선택하여 Analytics로 전송할 컨텍스트 데이터를 설정합니다.
+1. 오른쪽 창에서 키-값 쌍을 **[!UICONTROL Context Data]**선택하여 Analytics로 전송할 컨텍스트 데이터를 설정합니다.
 
 예를 들어 `poiname` 키와 값으로 선택할 `{%%Last Entered POI Name}` 수 있습니다.
 
@@ -77,7 +77,7 @@ Mobile Services를 사용하면 Analytics로 전송되는 위치 데이터를 �
 
    이 옵션은 시작과 같은 위치별 동작과 함께 사용하거나 론치나 단추 클릭과 같은 다른 이벤트의 컨텍스트로 사용할 수 있습니다.
 
-   다음은 이름에 있는 POI를 입력하는 사용자를 환영 받기 위해 인앱 메시지를 구성하는 **[!UICONTROL Adobe]** 방법의 예입니다.
+   다음은 이름에 있는 POI를 입력하는 사용자를 환영 받기 위해 인앱 메시지를 구성하는 **[!UICONTROL Adobe]**방법의 예입니다.
 
    ![트리거 매개 변수](/help/assets/trigger-parameters.png)
 
