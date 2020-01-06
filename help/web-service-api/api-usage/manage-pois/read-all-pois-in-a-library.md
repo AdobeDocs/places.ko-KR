@@ -165,5 +165,5 @@ curl -X GET 'https://api-places.adobe.io/places/placesapi/v1/libraries/<LIBRARYI
 
 >[!IMPORTANT]
 >
->", `<API KEY>``<TOKEN>`, and를 실제 값으로 `<ORGID>` 바꿉니다.
+>&quot;, `<API KEY>``<TOKEN>`, and를 실제 값으로 `<ORGID>` 바꿉니다.
 
