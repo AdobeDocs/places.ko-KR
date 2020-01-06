@@ -17,7 +17,7 @@ source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 1. Adobe ID를 사용하여 Places Service에 로그인합니다.
 1. 오른쪽 상단에서 글머리 기호 목록처럼 보이는 아이콘을 클릭합니다.
 1. 편집할 POI를 찾습니다.
-1. 을 **[!UICONTROL ...]** 클릭하고 **[!UICONTROL View Details]**&#x200B;선택합니다.
+1. 을 **[!UICONTROL ...]**클릭하고**[!UICONTROL View Details]**&#x200B;선택합니다.
 1. 정보를 업데이트하고 을 클릭합니다 **[!UICONTROL Save]**.
 
 ## POI 삭제
@@ -26,7 +26,7 @@ source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 1. Adobe ID를 사용하여 Places Service에 로그인합니다.
 1. 오른쪽 상단에서 글머리 기호 목록처럼 보이는 아이콘을 클릭합니다.
 1. 삭제할 POI를 찾습니다.
-1. 을 **[!UICONTROL ...]** 클릭하고 **[!UICONTROL Delete]**&#x200B;선택합니다.
+1. 을 **[!UICONTROL ...]**클릭하고**[!UICONTROL Delete]**&#x200B;선택합니다.
 
 ## 도시, 주, 국가 또는 메타데이터별로 POI 필터링
 
@@ -42,11 +42,11 @@ source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
    * 속성별:
 
-      a.속성 드롭다운 목록에서 **[!UICONTROL Country]**, **[!UICONTROL State]**&#x200B;또는 **[!UICONTROL City]**&#x200B;을 선택합니다.
+      a.속성 드롭다운 목록에서 **[!UICONTROL Country]**,**[!UICONTROL State]**&#x200B;또는 **[!UICONTROL City]**을 선택합니다.
 
       b.다음 줄에 값을 입력합니다.
 
-      예를 들어 선택하고 **[!UICONTROL State]** 입력할 수 **[!UICONTROL California]**&#x200B;있습니다.
+      예를 들어 선택하고 **[!UICONTROL State]**입력할 수**[!UICONTROL California]**&#x200B;있습니다.
 
    * 메타데이터 사용:
 
