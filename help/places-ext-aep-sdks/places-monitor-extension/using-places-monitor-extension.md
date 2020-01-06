@@ -13,9 +13,9 @@ source-git-commit: ac1d410a676557064d5390f8392f402541754478
 
 ## Experience Platform Launch에서 위치 모니터 확장 설치
 
-1. In Experience Platform Launch, click the **[!UICONTROL Extensions]** tab.
-1. 탭에서 **[!UICONTROL Catalog]** 확장 기능을 찾아 설치를 **[!UICONTROL Places Monitor]** 클릭합니다 ****.
-1. 클릭 **[!UICONTROL Save]**.
+1. In Experience Platform Launch, click the **[!UICONTROL Extensions]**tab.
+1. 탭에서 **[!UICONTROL Catalog]**확장 기능을 찾아 설치를**[!UICONTROL Places Monitor]** 클릭합니다 ****.
+1. **[!UICONTROL Save]**를 클릭합니다.
 1. 게시 프로세스에 따라 SDK 구성을 업데이트합니다.
 
 ### 위치 모니터 확장 구성 {#configure-places-monitor-extension}
