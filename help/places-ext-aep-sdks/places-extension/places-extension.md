@@ -13,12 +13,12 @@ source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 ## Adobe Experience Platform Launch에서 위치 확장 설치
 
-1. In Experience Platform Launch, click the **[!UICONTROL Extensions]** tab.
-1. 탭에서 **[!UICONTROL Catalog]** 확장자를 찾아 **[!UICONTROL Places]** **[!UICONTROL Install]**&#x200B;클릭합니다.
+1. In Experience Platform Launch, click the **[!UICONTROL Extensions]**tab.
+1. 탭에서 **[!UICONTROL Catalog]**확장자를 찾아**[!UICONTROL Places]** **[!UICONTROL Install]**클릭합니다.
 1. 이 속성에 사용할 위치 라이브러리를 선택합니다. 앱에서 액세스할 수 있는 라이브러리입니다.
-1. 클릭 **[!UICONTROL Save]**.
+1. **[!UICONTROL Save]**를 클릭합니다.
 
-   클릭하면 Experience Platform SDK가 **[!UICONTROL Save]**&#x200B;선택한 라이브러리에서 POI를 배치 서비스를 검색합니다. 앱을 빌드할 때 POI 데이터는 라이브러리 다운로드에 포함되지 않지만, 런타임 시 POI의 위치 기반 하위 세트가 최종 사용자의 GPS 좌표에 다운로드됩니다.
+   클릭하면 Experience Platform SDK가 **[!UICONTROL Save]**선택한 라이브러리에서 POI를 배치 서비스를 검색합니다. 앱을 빌드할 때 POI 데이터는 라이브러리 다운로드에 포함되지 않지만, 런타임 시 POI의 위치 기반 하위 세트가 최종 사용자의 GPS 좌표에 다운로드됩니다.
 
 1. 게시 프로세스를 완료하여 SDK 구성을 업데이트합니다.
 
