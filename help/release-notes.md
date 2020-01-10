@@ -2,12 +2,21 @@
 title: 릴리스 노트
 description: Adobe Experience Platform 위치 서비스에 대한 릴리스 노트입니다.
 translation-type: tm+mt
-source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
+source-git-commit: 585bcde256c79b9178a04ff66aa04c92f093c432
 
 ---
 
 
 # 릴리스 노트 {#release-notes}
+
+## 2020년 1월 9일
+
+* **ACPPlaces 1.4.0**
+
+   * **Android**
+
+      * 위치 서비스에 대한 장치 인증 상태를 `setAuthorizationStatus`설정하기 위해 새 API를 추가했습니다. 값은 저장되고 위치 공유 상태에 사용됩니다.
+
 
 ## 2019년 12월 3일
 
