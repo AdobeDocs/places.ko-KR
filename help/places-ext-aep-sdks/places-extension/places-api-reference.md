@@ -2,7 +2,7 @@
 title: API 참조 배치
 description: 장소의 API 참조에 대한 정보입니다.
 translation-type: tm+mt
-source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
+source-git-commit: 23437e28bdfb12f664481d22f9f6df0ba6c30329
 
 ---
 
@@ -351,7 +351,28 @@ Places.clear();
 
 ### setAuthorizationStatus(Android)
 
-곧 출시됩니다
+*Places v1.4.0부터 사용 가능*
+
+위치 확장 프로그램에서 인증 상태를 설정합니다.
+
+제공된 상태는 [위치] 공유 상태에 저장되며 참조용으로만 사용됩니다.
+이 메서드를 호출해도 이 장치의 실제 위치 인증 상태에 영향을 주지 않습니다.
+
+**구문**
+
+다음은 이 메서드에 대한 구문입니다.
+
+```java
+public static void setAuthorizationStatus(final PlacesAuthorizationStatus status);
+```
+
+**예**
+
+다음은 이 메서드의 코드 샘플입니다.
+
+```java
+Places.setAuthorizationStatus(PlacesAuthorizationStatus.ALWAYS);
+```
 
 ### setAuthorizationStatus(iOS)
 
