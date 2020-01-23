@@ -6,11 +6,11 @@ solution-hub-url: https://helpx.adobe.com/kr/support/experience-cloud.html
 getting-started-title: 시작하기
 getting-started-url: https://docs.adobe.com/content/help/en/places/using/getting-started.html
 tutorials-title: 자습서
-tutorials-url: https://experienceleague.adobe.com/
+tutorials-url: https://experienceleague.adobe.com/#recommended/solutions/experience-platform
 git-repo: https://git.corp.adobe.com/AdobeDocs/places.en
 index: true
 translation-type: tm+mt
-source-git-commit: 48dcc14ee9b98ba1ffb5c6dab4e9be2e245bd308
+source-git-commit: 671f807f4ecf23271b1c66d3ac021788f1fba4f3
 
 ---
 
