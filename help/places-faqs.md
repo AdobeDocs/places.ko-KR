@@ -2,14 +2,14 @@
 title: FAQ
 description: 이 항목에서는 일부 FAQ에 대한 추가 정보를 제공합니다.
 translation-type: tm+mt
-source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
+source-git-commit: 0ca2162f113fba6bfbd54443109068b1a506762b
 
 ---
 
 
 # FAQ
 
-다음은 위치 서비스에 대한 몇 가지 정보와 FAQ입니다.
+다음은 장소 서비스에 대한 몇 가지 정보와 FAQ입니다.
 
 ## 크기 및 안정성
 
