@@ -1,16 +1,16 @@
 ---
-product: Places Service, powered by Adobe Experience Platform
+product: Places Service
 audience: end-user
-user-guide-title: Places Service, powered by Adobe Experience Platform
+user-guide-title: Places Service
 translation-type: tm+mt
-source-git-commit: c22efc36f2eac6b20fc555d998c3988d8c31169e
+source-git-commit: b0b48dcc7179e603ae403449a0f7c5441c987767
 
 ---
 
 
-# Adobe Experience Platform 도움말 기반의 Places Service {#using}
+# Places Service {#using}
 
-+ [Adobe Experience Platform에서 제공하는 Places Service 개요](home.md)
++ [위치 서비스 개요](home.md)
 + [릴리스 노트](release-notes.md)
 + [시작하기](getting-started.md)
 + [장소 서비스 이용](places-gain-access.md)
