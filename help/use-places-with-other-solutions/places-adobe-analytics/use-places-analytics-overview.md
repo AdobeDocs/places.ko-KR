@@ -1,8 +1,8 @@
 ---
 title: Adobe Analytics에서 위치 서비스 사용
-description: 이 섹션에서는 Adobe Analytics에서 위치 서비스를 사용하는 방법에 대한 정보를 제공합니다.
+description: 이 섹션에서는 Adobe Analytics에서 장소 서비스를 사용하는 방법에 대한 정보를 제공합니다.
 translation-type: tm+mt
-source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
+source-git-commit: 0ca2162f113fba6bfbd54443109068b1a506762b
 
 ---
 
