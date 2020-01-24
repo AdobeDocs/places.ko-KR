@@ -2,12 +2,12 @@
 title: 라이브러리의 등급 설정
 description: Places REST API를 사용하여 라이브러리의 등급을 설정합니다.
 translation-type: tm+mt
-source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
+source-git-commit: 8a84fe2dc5a0efe94ce3121e589524e3c7a80c5e
 
 ---
 
 
-# 라이브러리의 등급 설정
+# 라이브러리의 등급 설정 {#set-rank-on-libraries}
 
 모든 라이브러리에서 등급 순서를 설정할 수 있는 PUT 메서드입니다.
 
