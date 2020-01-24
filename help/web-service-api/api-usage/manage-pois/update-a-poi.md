@@ -2,12 +2,12 @@
 title: POI 업데이트
 description: REST API를 사용하여 POI를 업데이트합니다.
 translation-type: tm+mt
-source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
+source-git-commit: 8a84fe2dc5a0efe94ce3121e589524e3c7a80c5e
 
 ---
 
 
-# POI 업데이트
+# POI 업데이트 {#update-a-poi}
 
 POI를 업데이트할 수 있는 PUT 메서드입니다.
 
