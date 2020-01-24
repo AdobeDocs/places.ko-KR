@@ -1,15 +1,15 @@
 ---
 title: 활성 지역 모니터링 없이 위치 서비스 사용
-description: 이 섹션에서는 활성 지역 모니터링 없이 위치 서비스 위치를 사용하는 방법에 대한 정보를 제공합니다.
+description: 이 섹션에서는 활성 지역 모니터링 없이 위치 서비스를 사용하는 방법에 대한 정보를 제공합니다.
 translation-type: tm+mt
-source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
+source-git-commit: 5a21e734c0ef56c815389a9f08b445bedaae557a
 
 ---
 
 
 # 활성 지역 모니터링 없이 위치 서비스 사용 {#use-places-without-active-monitoring}
 
-애플리케이션에 대한 사용 사례는 활성 영역 모니터링이 필요하지 않을 수 있습니다. Adobe Places는 사용자의 위치 데이터를 다른 Experience Platform 제품과 통합하는 데 계속 사용할 수 있습니다.
+애플리케이션에 대한 사용 사례는 활성 영역 모니터링이 필요하지 않을 수 있습니다. 위치 서비스는 여전히 사용자의 위치 데이터를 다른 경험 플랫폼 제품과 통합하는 데 사용할 수 있습니다.
 
 이 섹션에서는 사용자의 위치(위도 및 경도)를 수집할 때에만 POI 멤버십 확인을 완료하는 방법에 대해 설명합니다.
 
@@ -19,9 +19,9 @@ source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 >[!TIP]
 >
->앱의 사용 사례에 활성 지역 모니터링이 필요한 경우 위치 모니터 확장 기능을 [사용하여 읽으십시오](/help/places-ext-aep-sdks/places-monitor-extension/places-monitor-extension.md).
+>앱의 사용 사례에 활성 지역 모니터링이 필요한 경우 위치 [모니터 확장](/help/places-ext-aep-sdks/places-monitor-extension/places-monitor-extension.md)사용을 참조하십시오.
 
-활성 영역 모니터링 없이 위치를 사용하려면
+활성 지역 모니터링 없이 위치 서비스를 사용하려면
 
 ## 1.사용자 위치 수집
 
@@ -396,6 +396,6 @@ func handleUpdatedPOIs(_ nearbyPois:[ACPPlacesPoi]) {
 }
 ```
 
-시작 이벤트를 트리거할 뿐만 아니라 시작 이벤트로 인해 Launch에서 나머지 SDK에서 POI를 정의하는 모든 데이터를 사용할 수 `data elements` 있습니다. Launch를 `rules`사용하면 SDK에서 처리하는 들어오는 이벤트에 위치 데이터를 동적으로 연결할 수 있습니다. 예를 들어, 사용자가 있는 POI의 메타 데이터를 연결하고 데이터를 Analytics에 컨텍스트 데이터로 전송할 수 있습니다.
+시작 이벤트가 트리거되기 때문에 SDK에서 Places Service 시작 이벤트를 트리거하는 것 외에도, POI를 정의하는 모든 데이터는 Experience Platform Launch에서 나머지 SDK에서 사용할 수 `data elements` 있습니다. Experience Platform Launch를 `rules`사용하면 SDK에서 처리되는 수신 이벤트에 Places Service 데이터를 동적으로 연결할 수 있습니다. 예를 들어, 사용자가 있는 POI의 메타 데이터를 연결하고 데이터를 Analytics에 컨텍스트 데이터로 전송할 수 있습니다.
 
-자세한 내용은 다른 Adobe [솔루션과](/help/use-places-with-other-solutions/use-places-with-other-solutions.md)함께 위치 사용을 참조하십시오.
+자세한 내용은 다른 Adobe [솔루션과](/help/use-places-with-other-solutions/use-places-with-other-solutions.md)함께 위치 서비스 사용을 참조하십시오.
