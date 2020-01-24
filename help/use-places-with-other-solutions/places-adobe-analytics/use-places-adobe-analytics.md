@@ -2,7 +2,7 @@
 title: POI 항목 및 종료 데이터를 Analytics로 보내기
 description: 이 섹션에서는 POI 항목 및 종료 데이터를 Analytics로 보내는 방법에 대한 정보를 제공합니다.
 translation-type: tm+mt
-source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
+source-git-commit: 8a84fe2dc5a0efe94ce3121e589524e3c7a80c5e
 
 ---
 
@@ -12,9 +12,9 @@ source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 >[!IMPORTANT]
 >
->이 섹션에서는 애플리케이션에서 위치를 구현했다고 가정합니다. 위치 구현에 대한 자세한 내용은 위치 확장을 [참조하십시오](/help/places-ext-aep-sdks/places-extension/places-extension.md).
+>이 섹션에서는 애플리케이션에서 Places Service를 구현했다고 가정합니다. 위치 서비스 구현에 대한 자세한 내용은 위치 확장을 [참조하십시오](/help/places-ext-aep-sdks/places-extension/places-extension.md).
 
-After Places가 시작 및 종료 이벤트를 전송하면 Experience Platform Launch에서 규칙을 만들어 위치 데이터를 Adobe Analytics로 보낼 수 있습니다. 이 유형의 규칙을 만들려면 론치에서 속성을 선택하고 다음 단계를 완료하십시오.
+After Places Service가 시작 및 종료 이벤트를 전송하면 Experience Platform Launch에서 규칙을 만들어 Places Service 데이터를 Adobe Analytics로 보낼 수 있습니다. 이 유형의 규칙을 만들려면 론치에서 속성을 선택하고 다음 단계를 완료하십시오.
 
 ## 1.규칙 만들기
 
@@ -33,7 +33,7 @@ After Places가 시작 및 종료 이벤트를 전송하면 Experience Platform 
 
 1. In the **[!UICONTROL Events]**section, click**[!UICONTROL Add]**.
 
-1. 드롭다운 **[!UICONTROL Extension]**목록에서 선택합니다**[!UICONTROL Places]**.
+1. 드롭다운 **[!UICONTROL Extension]**목록에서 선택합니다**[!UICONTROL Places Service]**.
 
 1. 드롭다운 **[!UICONTROL Event Type]**목록에서 선택합니다**[!UICONTROL Enter POI]**.
 
@@ -52,7 +52,7 @@ After Places가 시작 및 종료 이벤트를 전송하면 Experience Platform 
 
 1. 섹션에서 **[!UICONTROL Conditions]**을 클릭합니다**[!UICONTROL Add]**.
 
-1. 드롭다운 **[!UICONTROL Extension]**목록에서 선택합니다**[!UICONTROL Places]**.
+1. 드롭다운 **[!UICONTROL Extension]**목록에서 선택합니다**[!UICONTROL Places Service]**.
 
 1. 드롭다운 **[!UICONTROL Condition Type]**목록에서 선택합니다**[!UICONTROL Name]**.
 
