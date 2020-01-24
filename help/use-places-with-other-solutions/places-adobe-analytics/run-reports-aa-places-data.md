@@ -2,7 +2,7 @@
 title: Analytics 요청에 위치 컨텍스트 추가
 description: 이 섹션에서는 Analytics 요청에 위치 컨텍스트를 추가하는 방법에 대한 정보를 제공합니다.
 translation-type: tm+mt
-source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
+source-git-commit: 0ca2162f113fba6bfbd54443109068b1a506762b
 
 ---
 
@@ -11,9 +11,9 @@ source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 >[!IMPORTANT]
 >
->이 문서에서는 애플리케이션에 Adobe Places가 구현되었다고 가정합니다. Adobe Places 구현에 대한 자세한 내용은 Places [확장을](/help/places-ext-aep-sdks/places-extension/places-extension.md)참조하십시오.
+>이 문서에서는 사용자가 응용 프로그램에 구현된 위치 서비스가 있다고 가정합니다. 위치 서비스 구현에 대한 자세한 내용은 위치 확장을 [참조하십시오](/help/places-ext-aep-sdks/places-extension/places-extension.md).
 
-After Places가 시작 및 종료 이벤트를 전송하면 Experience Platform Launch에서 규칙을 만들고 위치 데이터를 모든 Adobe Analytics 이벤트에 첨부할 수 있습니다. 이 유형의 규칙을 만들려면 론치에서 속성을 선택하고 다음 단계를 완료하십시오.
+After Places Service가 시작 및 종료 이벤트를 전송하면 Experience Platform Launch에서 규칙을 만들고 Places Service 데이터를 모든 Adobe Analytics 이벤트에 첨부할 수 있습니다. 이 유형의 규칙을 만들려면 론치에서 속성을 선택하고 다음 단계를 완료하십시오.
 
 ## 1.규칙 만들기
 
@@ -27,7 +27,7 @@ After Places가 시작 및 종료 이벤트를 전송하면 Experience Platform 
 
 1. 규칙 목록에서 쉽게 알아볼 수 있도록 규칙에 의미 있는 이름을 지정합니다.
 
-   이 예에서는 규칙의 이름이 **[!UICONTROL Attach Places Data to Analytics Track Action Events]**지정됩니다.
+   이 예에서는 규칙의 이름이 **[!UICONTROL Attach Places Service Data to Analytics Track Action Events]**지정됩니다.
 
 1. 섹션에서 **[!UICONTROL Events]**을 클릭합니다**[!UICONTROL Add]**.
 
@@ -50,7 +50,7 @@ After Places가 시작 및 종료 이벤트를 전송하면 Experience Platform 
 
 1. 섹션에서 **[!UICONTROL Conditions]**을 클릭합니다**[!UICONTROL Add]**.
 
-1. 드롭다운 **[!UICONTROL Extension]**목록에서 모바일**[!UICONTORL &#x200B;코어를 선택합니다]**.
+1. 드롭다운 **[!UICONTROL Extension]**목록에서 선택합니다**[!UICONTROL Mobile Core]**.
 
 1. 드롭다운 **[!UICONTROL Condition Type]**목록에서 선택합니다**[!UICONTROL Carrier Name]**.
 
