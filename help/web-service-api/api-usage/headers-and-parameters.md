@@ -1,19 +1,19 @@
 ---
 title: 머리글 및 매개 변수
-description: Places REST API에서 사용할 수 있는 머리글 및 매개 변수
+description: Places Service REST API에서 사용할 수 있는 머리글 및 매개 변수
 translation-type: tm+mt
-source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
+source-git-commit: 0ca2162f113fba6bfbd54443109068b1a506762b
 
 ---
 
 
 # 머리글 및 매개 변수 {#headers-and-parameters}
 
-다음은 REST API 위치에서 사용할 수 있는 헤더 및 매개 변수에 대한 세부 정보입니다.
+다음은 Places Service REST API에서 사용할 수 있는 헤더 및 매개 변수에 대한 세부 정보입니다.
 
 ## 지원되는 헤더
 
-| 헤더 | 설명 | 메서드 | 예 |
+| Header | 설명 | 메서드 | 예 |
 | :--- | :--- | :--- | :--- |
 | `Authorization` | 모바일 토큰 | 모든 |  |
 | `x-api-key` | API 키 | 모든 | `19776964b4cde49e08d8f62e5824f777b` |
