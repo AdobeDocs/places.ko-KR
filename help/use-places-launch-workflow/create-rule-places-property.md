@@ -1,15 +1,15 @@
 ---
-title: 위치 속성에 대한 규칙 만들기
+title: 위치 서비스 속성에 대한 규칙 만들기
 description: '위치 SDK는 현재 위치를 추적하고, 현재 위치에 대해 구성된 POI를 모니터링하며, 이러한 POI에 대한 시작 및 종료 이벤트를 추적합니다. '
 translation-type: tm+mt
-source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
+source-git-commit: c22efc36f2eac6b20fc555d998c3988d8c31169e
 
 ---
 
 
 # 시작 및 종료 규칙 만들기 {#create-entry-exit-rules}
 
-모바일 애플리케이션에 위치 및 위치 모니터 확장 기능이 설치되어 있는 경우 Adobe Experience Platform Launch에서 위치 시작 및 종료 이벤트를 비롯한 위치 데이터를 트리거하거나 조건부로 지정한 규칙을 만들 수 있습니다.
+위치 확장 기능과 위치 모니터 확장 기능이 모바일 애플리케이션에 설치되어 있는 경우 위치 시작 및 종료 이벤트를 포함하여 트리거되거나 에어컨이 설정된 위치 데이터를 포함하는 규칙을 Adobe Experience Platform Launch에서 만들 수 있습니다.
 
 ## 규칙
 
@@ -19,14 +19,14 @@ source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 * (선택 사항) 조건
 * 하나 이상의 작업
 
-### 이벤트 배치
+### 서비스 이벤트 배치
 
-규칙을 실행할 수 있는 다음 이벤트를 제공합니다.
+위치 서비스는 규칙을 실행할 수 있는 다음 이벤트를 제공합니다.
 
 * **POI를**&#x200B;입력합니다. 이 POI는 고객이 구성한 POI에 들어올 때 위치 SDK에 의해 트리거됩니다.
 * **POI를**&#x200B;종료합니다. POI는 고객이 구성된 POI를 종료할 때 위치 SDK에 의해 트리거됩니다.
 
-### 위치 조건
+### 장소 서비스 조건
 
 조건은 이벤트와 연관된 데이터 또는 해당 인스턴스의 확장 기능의 공유 상태가 작업을 수행하기 위해 충족해야 하는 기준을 정의합니다. 예를 들어 조건이 설정되면 샌프란시스코 시에만 있는 커피숍에 대한 입장 작업을 트리거할 수 있습니다.
 
@@ -39,7 +39,7 @@ source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 각 POI에는 다음 데이터 요소가 포함되어 있습니다.
 
 * ID
-* 이름:
+* 이름
 * 위도/경도
 * 반경
 * 도시, 국가, 주, 카테고리 등의 메타데이터
@@ -76,7 +76,7 @@ source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 1. 오른쪽 창에서 현재 POI를 **선택합니다**.
 1. **저장**&#x200B;을 클릭합니다.
 
-### Experience Platform Launch for Places에서 규칙 만들기
+### Experience Platform Launch for Places Service에서 규칙 만들기
 
 ![규칙 만들기](/help/assets/placesrule.png)
 
@@ -122,10 +122,10 @@ source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 ### 규칙 게시
 
-1. 규칙을 활성화하려면 게시해야 합니다. Experience Platform Launch에서 규칙 게시에 대한 자세한 내용은 게시를 [참조하십시오](https://docs.adobelaunch.com/launch-reference/publishing).
+1. 규칙을 활성화하려면 게시해야 합니다. Experience Platform Launch에서 규칙 게시에 대한 자세한 내용은 게시를 [참조하십시오](https://docs.adobe.com/content/help/en/launch/using/reference/publish/overview.html).
 
 ### 입장 및 종료 이상의 사고
 
-위치 서비스 geo-fence 항목 및 종료를 사용하여 Experience Platform Launch의 규칙을 트리거하는 것은 매우 강력하지만, 위치 데이터를 다른 이벤트를 실행하기 위한 조건으로 사용할 수도 있습니다. 예를 들어 앱 내의 특정 trackAction 호출 이벤트를 기반으로 모바일 코어 추적 동작 이벤트 트리거를 실행할 수 있습니다. 이 이벤트를 기반으로, 작업이 수행되기 전에 이벤트에 추가 위치 조건을 배치할 수 있습니다. 예를 들어 구매 `trackAction` 이벤트가 발생하면 인앱 설문 조사를 열지만 사용자의 현재 위치에 특정 위치 서비스 메타데이터가 포함된 **경우에만** 열 수 있습니다.
+Experience Platform Launch에서 위치 서비스 geo-fence 항목 및 종료를 사용하여 규칙을 트리거하는 것은 매우 강력하지만, 위치 데이터를 다른 이벤트를 실행하기 위한 조건으로 사용할 수도 있습니다. 예를 들어 앱 내의 특정 trackAction 호출 이벤트를 기반으로 모바일 코어 추적 동작 이벤트 트리거를 실행할 수 있습니다. 이 이벤트를 기반으로, 작업이 수행되기 전에 이벤트에 추가 위치 조건을 배치할 수 있습니다. 예를 들어 구매 `trackAction` 이벤트가 발생하면 인앱 설문 조사를 열지만 사용자의 현재 위치에 특정 위치 서비스 메타데이터가 포함된 **경우에만** 열 수 있습니다.
 
 ![조건 만들기](/help/assets/places-condition.png)
