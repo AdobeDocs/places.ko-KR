@@ -2,7 +2,7 @@
 title: 기존 POI 관리
 description: 위치 서비스 UI에서 기존 POI를 편집, 삭제 또는 필터링할 수 있습니다.
 translation-type: tm+mt
-source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
+source-git-commit: 5a21e734c0ef56c815389a9f08b445bedaae557a
 
 ---
 
@@ -32,7 +32,7 @@ source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 ![POI 필터링](/help/assets/filter_poi.png)
 
-1. Adobe ID 파섹
+1. Adobe ID를 사용하여 위치 서비스 UI에 로그인합니다.
 1. 오른쪽 상단에서 필터링 아이콘을 클릭합니다.
 1. 다음 방법 중 하나로 POI를 필터링할 수 있습니다.
 
@@ -61,6 +61,7 @@ source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 | ID | 각 POI에 할당된 고유 식별자 | 예 |
 | 이름 | POI에 지정된 친숙한 이름 | 예 |
 | 라이브러리 | 각 POI에는 조직에 대한 라이브러리가 할당되어 있어야 합니다. | 예 |
+| 반경 | POI 반경(미터 단위) | 예 |
 | 아이콘 | POI의 시각화를 지원합니다. | 예(지정된 기본값) |
 | 색상 | POI의 시각화를 지원합니다. | 예(지정된 기본값) |
 | 카테고리 | 모든 라이브러리의 모든 POI에서 공통으로 사용되는 카테고리의 공통 프레임워크를 할당합니다. | 아니요 |
