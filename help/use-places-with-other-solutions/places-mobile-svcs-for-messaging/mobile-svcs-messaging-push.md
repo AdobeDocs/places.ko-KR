@@ -1,8 +1,8 @@
 ---
 title: 푸시 알림
-description: 이 섹션에서는 푸시 알림과 함께 위치를 사용하는 방법을 보여줍니다.
+description: 이 섹션에서는 푸시 알림과 함께 위치 서비스를 사용하는 방법을 보여줍니다.
 translation-type: tm+mt
-source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
+source-git-commit: 0ca2162f113fba6bfbd54443109068b1a506762b
 
 ---
 
@@ -13,9 +13,9 @@ Mobile Services를 사용하면 푸시 알림을 Adobe Analytics 세그먼트에
 
 시작하기 전에 다음 작업을 완료했는지 확인합니다.
 
-* 위치 서비스 데이터가 Adobe Analytics에서 처리되었습니다.
+* 위치 서비스 데이터는 Adobe Analytics에서 처리되었습니다.
 
-   즉, 모바일 앱이 위치 서비스 데이터를 보고서 세트로 성공적으로 전송하고 데이터를 세그멘테이션에 사용할 수 있습니다.
+   즉, 모바일 앱이 Places Service 데이터를 보고서 세트로 성공적으로 전송하고 데이터를 세그멘테이션에 사용할 수 있습니다.
 
 * Mobile Services의 푸시 알림 채널이 설정되었습니다.
 
