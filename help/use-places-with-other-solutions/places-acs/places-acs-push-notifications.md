@@ -1,15 +1,15 @@
 ---
-title: 푸시 알림
-description: 이 섹션에서는 Campaign Standard에서 푸시 알림과 함께 위치를 사용하는 방법에 대한 정보를 제공합니다.
+title: 장소 서비스를 통한 푸시 알림
+description: 이 섹션에서는 Campaign Standard에서 푸시 알림과 함께 Places Service를 사용하는 방법에 대한 정보를 제공합니다.
 translation-type: tm+mt
-source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
+source-git-commit: 5a21e734c0ef56c815389a9f08b445bedaae557a
 
 ---
 
 
-# 위치 서비스를 통한 푸시 알림 {#push-notifications}
+# 장소 서비스를 통한 푸시 알림 {#push-notifications}
 
-이 안내서에서는 내역 위치 정보를 사용하여 Adobe Campaign Standard를 통해 전달된 푸시 알림을 타깃팅하는 방법을 보여줍니다.
+이 섹션에서는 내역 지역 정보를 사용하여 Adobe Campaign Standard를 통해 전달되는 푸시 알림을 타깃팅하는 방법을 알아봅니다.
 
 ## 전제 조건
 
@@ -20,36 +20,36 @@ source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 * Adobe Experience [Platform Mobile](https://aep-sdks.gitbook.io/docs/getting-started/get-the-sdk) SDK를 앱에 통합합니다.
 * Adobe Campaign [Standard](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard) Extension을 모바일 앱 구성에 추가합니다.
 
-* [위치 POI](/help/poi-mgmt-ui/create-a-poi-ui.md) 관리 인터페이스에서 POI를 만듭니다.
+* [Places Service](/help/poi-mgmt-ui/create-a-poi-ui.md) POI 관리 인터페이스에서 POI를 만듭니다.
 
 * 위치 확장을 [활성화하고 설치합니다](/help/places-ext-aep-sdks/places-extension/places-extension.md).
 
 
 ## Experience Platform Launch에서 데이터 요소 제작
 
-응용 프로그램에서 위치 서비스용 위치 및 위치 모니터 확장 기능이 제대로 작동하는지 확인한 후 Experience Platform Launch에서 데이터 요소를 만듭니다. 데이터 요소를 사용하면 Mobile SDK 이벤트 허브를 통해 제공되는 익스텐션에서 제공한 정보를 읽을 수 있으며 클라이언트 애플리케이션에서 데이터를 검색할 별칭으로 사용할 수 있습니다. 위치 확장 기능에서 데이터를 검색하고 위치 정보를 캠페인에 보내려면 몇 가지 데이터 요소를 만들어야 합니다.
+[위치 확장] 및 [위치 모니터] 확장 기능이 응용 프로그램에서 제대로 작동하는지 확인한 후 [경험 플랫폼 시작]에서 데이터 요소를 만들어야 합니다. 데이터 요소를 사용하면 Mobile SDK 이벤트 허브를 통해 제공되는 익스텐션에서 제공한 정보를 읽을 수 있으며 클라이언트 애플리케이션에서 데이터를 검색할 별칭으로 사용할 수 있습니다. 위치 확장 기능에서 데이터를 검색하고 위치 서비스 정보를 Campaign으로 전송하려면 몇 가지 데이터 요소를 만들어야 합니다.
 
 데이터 요소를 만들려면
 
 1. Experience Platform 시작 모바일 속성에서 **[!UICONTROL Data Elements]**탭을 클릭하고 데이터 요소**[!UICONTROLA&#x200B;추가를 클릭합니다]**.
-1. 드롭다운 **[!UICONTROL Extension]**목록에서 선택합니다**[!UICONTROL Places]**.
+1. 드롭다운 **[!UICONTROL Extension]**목록에서 선택합니다**[!UICONTROL Places Service]**.
 1. 드롭다운 **[!UICONTROL Data Element Type]**목록에서 선택합니다**[!UICONTROL Name]**.
 1. 오른쪽 창에서 사용자가 현재 있는 POI의 이름을 **[!UICONTROL Current POI]**검색하는 이름을 선택할 수 있습니다.
 
-   **[!UICONTROL Last Entered]**사용자가 마지막으로 입력한 POI의 이름을 검색하고 사용자가 마지막으로 남긴 POI의 이름을**[!UICONTROL Last Exited]** 제공합니다. 이 예에서는 데이터 요소의 이름을 선택하고 **[!UICONTROL Last Entered]**입력합니다(예:**[!UICONTROL Last Entered POI Name]** 클릭한 **[!UICONTROL Save]**경우).
+   **[!UICONTROL Last Entered]**사용자가 마지막으로 입력한 POI의 이름을 검색하고 사용자가 마지막으로 남긴 POI의 이름을**[!UICONTROL Last Exited]** 제공합니다. 이 예에서는 데이터 요소의 이름을 선택하고 **[!UICONTROL Last Entered]**입력했습니다(예:**[!UICONTROL Last Entered POI Name]** 클릭한 **[!UICONTROL Save]**경우).
 
    ![&quot;Campaign Standard의 푸시 메시지&quot;](/help/assets/ACS_Push1.png)
 
 1. Repeat the steps 1-4 above and create data elements for *Last Entered POI Latitude*, *Last Entered POI Longitude*, and *Last Entered POI Radius*.
 
-위치 서비스에 대한 데이터 요소 외에도 앱 ID 및 Experience Cloud ID에 대한 *모바일* 코어 데이터 요소를 *만들어야 합니다*.
+위치 서비스에 대한 데이터 요소 외에 앱 ID 및 Experience Cloud ID에 대한 *모바일* 코어 데이터 요소를 *만들어야 합니다*.
 
 ## 위치 데이터를 Adobe Campaign Standard로 전송하는 규칙 만들기
 
 Experience Platform Launch의 규칙을 사용하면 이벤트 트리거를 기반으로 복잡한 다중 솔루션 워크플로우를 만들 수 있습니다. 규칙을 사용하여 새 규칙을 만들거나 기존 규칙을 수정하고 업데이트를 모바일 애플리케이션에 동적으로 배포할 수 있습니다. 다음 예에서는 사용자가 지리적 제약을 받는 POI에 들어갈 때 규칙이 트리거됩니다. 규칙이 트리거되면 Adobe Experience Cloud ID를 기반으로 특정 사용자에 대한 특정 POI에 대한 항목을 기록하기 위한 업데이트가 Campaign Standard로 전송됩니다.
 
-1. Launch 모바일 속성의 **[!UICONTROL Rules]**탭에서 을 클릭합니다**[!UICONTROL Add Rule]**.
-1. 섹션에서 을 클릭하고 확장자로 **[!UICONTROL Events]****[!UICONTROL +]** **[!UICONTROL Places]**선택합니다.
+1. Experience Platform Launch 모바일 속성의 **[!UICONTROL Rules]**탭에서 을 클릭합니다**[!UICONTROL Add Rule]**.
+1. 섹션에서 을 클릭하고 확장자로 **[!UICONTROL Events]****[!UICONTROL +]** **[!UICONTROL Places Service]**선택합니다.
 1. For the **[!UICONTROL Event Type]**, select**[!UICONTROL Enter POI]**.
 1. 규칙 이름 지정(예: 사용자가 POI **를 입력함)**.
 1. **[!UICONTROL Keep Changes]**를 클릭합니다.
@@ -85,10 +85,8 @@ Experience Platform Launch의 규칙을 사용하면 이벤트 트리거를 기�
 
 >[!IMPORTANT]
 >
->* 항목이 트리거되고 있으며 올바른 데이터가 수집되고 있는지 확인하는 추가 작업으로 Slack 웹 후크 설정을 사용하는 것이 유용할 수 있습니다.
-
-
->* 규칙의 일부로 규칙과 모든 데이터 요소가 배포되도록 최근 변경 내용을 앱에 게시해야 합니다. 게시 후 모바일 애플리케이션을 다시 실행하여 최신 구성 업데이트를 받아야 합니다.
+>* 항목이 트리거되고 있으며 올바른 데이터가 수집되고 있는지 확인하는 추가 작업으로 Slack 웹 후크를 설정하는 것이 유용할 수 있습니다.
+>* 규칙의 일부로 규칙과 모든 데이터 요소가 배포되도록 최근 변경 내용을 앱에 게시해야 합니다. 게시한 후 모바일 애플리케이션을 다시 실행하여 최신 구성 업데이트를 가져옵니다.
 
 
 ## 위치 데이터를 사용하여 캠페인 메시지 타깃팅
@@ -117,9 +115,10 @@ Experience Platform Launch의 규칙을 사용하면 이벤트 트리거를 기�
 1. 맨 위에 있는 카운트를 다시 실행하여 대상자 크기 변경을 확인합니다.
 
    카운트 업데이트가 표시되지 않으면 POI 이름을 입력했을 수 있습니다. 이 POI에는 어떤 장치도 응모를 트리거하지 않았습니다. 다양한 테스트 장치에서 POI 항목 목록을 볼 수 있으므로 이러한 상황에서는 Slack 웹 후크를 사용하는 것이 중요합니다.
+
 1. 추가 POI 위치 필터를 드래그하여 메시지에 여러 POI를 포함할 수 있습니다.
 1. Click **[!UICONTROL Next]**to finish creating the push notification for delivery.
 
-   ![&quot;ACS의 푸시 메시지 3&quot;](/help/assets/ACS_push3.html)
+   ![&quot;ACS의 푸시 메시지 3&quot;](/help/assets/ACS_push3.png)
 
 Adobe Campaign Standard와 함께 위치 서비스를 사용하면 지역 펜스 항목 및 종료를 기반으로 메시지를 세그먼트화하고 사용자에게 타깃팅할 수 있는 강력한 도구를 사용할 수 있습니다. 이러한 통합을 통해 보다 개인화되고 상황에 맞는 활용 사례를 구축할 수 있습니다.
