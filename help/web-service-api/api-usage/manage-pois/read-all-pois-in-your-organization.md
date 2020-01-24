@@ -2,12 +2,12 @@
 title: 조직의 모든 POI 보기
 description: REST API를 사용하여 조직의 모든 POI를 읽습니다.
 translation-type: tm+mt
-source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
+source-git-commit: 8a84fe2dc5a0efe94ce3121e589524e3c7a80c5e
 
 ---
 
 
-# 조직의 모든 POI 보기
+# 조직의 모든 POI 보기 {#read-all-pois-org}
 
 조직의 모든 POI를 반환하는 GET 메서드입니다.
 
