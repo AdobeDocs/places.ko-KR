@@ -2,7 +2,7 @@
 title: 위치 확장
 description: 위치 확장 기능을 사용하면 사용자의 위치를 기반으로 할 수 있습니다.
 translation-type: tm+mt
-source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
+source-git-commit: 5a21e734c0ef56c815389a9f08b445bedaae557a
 
 ---
 
@@ -22,7 +22,7 @@ source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 1. 게시 프로세스를 완료하여 SDK 구성을 업데이트합니다.
 
-   Experience Platform Launch에서의 게시에 대한 자세한 내용은 게시를 [참조하십시오](https://docs.adobelaunch.com/launch-reference/publishing).
+   Experience Platform Launch에서의 게시에 대한 자세한 내용은 게시를 [참조하십시오](https://docs.adobe.com/content/help/en/launch/using/reference/publish/overview.html).
 
 ### Configure the Places extension {#configure-places-extension}
 
@@ -69,7 +69,7 @@ Objective-C 또는 Swift를 사용하여 앱에 위치 확장을 추가하려면
    pod update
    ```
 
-1. Xcode를 열고 AppDelegate 클래스에서 코어 및 위치 헤더를 가져옵니다.
+1. Xcode를 열고 AppDelegate 클래스에서 코어 및 위치 머리글을 가져옵니다.
 
    **Objective-C**
 
@@ -85,13 +85,13 @@ Objective-C 또는 Swift를 사용하여 앱에 위치 확장을 추가하려면
    import ACPPlaces
    ```
 
-### Mobile Core로 위치 등록 {#register-places-mobile-core}
+### Mobile Core로 위치 확장 등록 {#register-places-mobile-core}
 
-Android 및 iOS에서 Mobile Core에 위치를 등록해야 합니다.
+Android 및 iOS에서 Mobile Core에 위치 확장을 등록해야 합니다.
 
 #### Android
 
-앱의 `OnCreate` 메서드에서 위치 서비스 확장을 등록합니다.
+앱의 `OnCreate` 메서드에서 위치 확장을 등록합니다.
 
 ```java
 public class PlacesTestApp extends Application {
@@ -137,10 +137,10 @@ func application(_ application: UIApplication, didFinishLaunchingWithOptions lau
 
 ## 구성 키
 
-런타임에 프로그래밍 방식으로 SDK 구성을 업데이트하려면 다음 정보를 사용하여 위치 구성 값을 변경합니다. 자세한 내용은 구성 API [참조를 참조하십시오](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/configuration/configuration-api-reference).
+런타임에 프로그래밍 방식으로 SDK 구성을 업데이트하려면 다음 정보를 사용하여 Places 확장 구성 값을 변경합니다. 자세한 내용은 구성 API [참조를 참조하십시오](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/configuration/configuration-api-reference).
 
 | 키 | 필수 여부 | 설명 |
 | :--- | :--- | :--- |
-| `places.libraries` | 예 | 모바일 앱용 라이브러리를 배치합니다. 라이브러리 ID와 모바일 앱이 지원하는 라이브러리 이름을 지정합니다. |
-| `places.endpoint` | 예 | 라이브러리 및 POI에 대한 정보를 가져오는 데 사용되는 기본 경험 플랫폼 위치 쿼리 서비스 끝점입니다. |
+| `places.libraries` | 예 | Places extension libraries for the mobile app. 라이브러리 ID와 모바일 앱이 지원하는 라이브러리 이름을 지정합니다. |
+| `places.endpoint` | 예 | 라이브러리 및 POI에 대한 정보를 가져오는 데 사용되는 기본 위치 쿼리 서비스 끝점입니다. |
 
