@@ -2,12 +2,12 @@
 title: 라이브러리 삭제
 description: REST API를 사용하여 라이브러리를 삭제합니다.
 translation-type: tm+mt
-source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
+source-git-commit: 8a84fe2dc5a0efe94ce3121e589524e3c7a80c5e
 
 ---
 
 
-# 라이브러리 삭제
+# 라이브러리 삭제 {#delete-a-library}
 
 라이브러리를 삭제할 수 있는 DELETE 메서드입니다.
 
