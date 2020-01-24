@@ -1,21 +1,21 @@
 ---
-product: adobe experience platform
+product: Places Service, powered by Adobe Experience Platform
 audience: end-user
-user-guide-title: Adobe Experience Platform Location Service
+user-guide-title: Places Service, powered by Adobe Experience Platform
 translation-type: tm+mt
-source-git-commit: c88c8f8e7e3bb9ea3af85948e682e75e894ad782
+source-git-commit: c22efc36f2eac6b20fc555d998c3988d8c31169e
 
 ---
 
 
-# Adobe Experience Platform 위치 서비스 도움말 {#using}
+# Adobe Experience Platform 도움말 기반의 Places Service {#using}
 
-+ [Adobe Experience Platform 위치 서비스 개요](home.md)
++ [Adobe Experience Platform에서 제공하는 Places Service 개요](home.md)
 + [릴리스 노트](release-notes.md)
 + [시작하기](getting-started.md)
-+ [위치 서비스 이용](places-gain-access.md)
-+ 관심 영역 관리 인터페이스 {#poi-mgmt-ui}
-   + [관심 영역 관리 인터페이스 개요](poi-mgmt-ui/poi-mgmt-ui-overview.md)
++ [장소 서비스 이용](places-gain-access.md)
++ 배치 서비스 UI {#poi-mgmt-ui}
+   + [배치 서비스 UI 개요](poi-mgmt-ui/poi-mgmt-ui-overview.md)
    + [POI 만들기](poi-mgmt-ui/create-a-poi-ui.md)
    + [이전에 만든 POI 관리](poi-mgmt-ui/managing-pois-in-the-places-ui.md)
    + [POI에서 메타데이터 사용 전략](poi-mgmt-ui/metadata-with-pois.md)
@@ -62,8 +62,8 @@ source-git-commit: c88c8f8e7e3bb9ea3af85948e682e75e894ad782
       + [배치 모니터 API 참조](places-ext-aep-sdks/places-monitor-extension/places-monitor-api-reference.md)
 + [자체 모니터링 솔루션과 함께 위치 서비스 사용](using-your-own-monitor.md)
 + [활성 지역 모니터링 없이 위치 서비스 사용](use-places-without-active-monitoring.md)
-+ Experience Platform 시작 워크플로우의 일부로 위치 서비스 사용 {#use-places-launch-workflow}
-   + [Experience Platform 시작 워크플로우의 일부로 위치 서비스 사용](use-places-launch-workflow/places-launch-workflow.md)
++ Experience Platform 시작 워크플로우의 일부로 Places Service 사용 {#use-places-launch-workflow}
+   + [Experience Platform 시작 워크플로우의 일부로 Places Service 사용](use-places-launch-workflow/places-launch-workflow.md)
    + [데이터 요소 정의](use-places-launch-workflow/define-data-elements.md)
    + [시작 및 종료 규칙 만들기](use-places-launch-workflow/create-rule-places-property.md)
 + 다른 Adobe 솔루션과 함께 위치 서비스 사용 {#use-places-with-other-solutions}
@@ -83,5 +83,5 @@ source-git-commit: c88c8f8e7e3bb9ea3af85948e682e75e894ad782
    + Adobe Target {#places-target}
       + [Adobe Target에서 위치 서비스 사용](use-places-with-other-solutions/places-target/places-target.md)
 + Testing and validation {#places-testing-validation}
-   + [위치 서비스 테스트 및 유효성 검사](places-testing-validation/test-validate-places.md)
+   + [장소 서비스 테스트 및 유효성 검사](places-testing-validation/test-validate-places.md)
 + [FAQ](places-faqs.md)
