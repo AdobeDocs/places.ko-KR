@@ -2,7 +2,7 @@
 title: Adobe Target
 description: 이 섹션에서는 Adobe Target에서 위치 서비스를 사용하는 방법에 대한 정보를 제공합니다.
 translation-type: tm+mt
-source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
+source-git-commit: 0ca2162f113fba6bfbd54443109068b1a506762b
 
 ---
 
@@ -11,7 +11,7 @@ source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 이 문서에서는 애플리케이션에서 위치 확장을 구현했다고 가정합니다. 위치 확장 구현에 도움이 필요한 경우 위치 확장을 [참조하십시오](/help/places-ext-aep-sdks/places-extension/places-extension.md).
 
-Places 확장 프로그램이 시작 및 종료에 대한 이벤트를 전송하면 Launch의 규칙을 활용하여 Places 데이터를 Adobe Target SDK 이벤트에 첨부할 수 있습니다. 론치에서 원하는 속성을 선택한 상태에서 다음 작업을 완료하여 이 유형의 규칙을 만들 수 있습니다.
+Places 확장이 시작 및 종료에 대한 이벤트를 전송하면 Launch의 규칙을 활용하여 Places Service 데이터를 Adobe Target SDK 이벤트에 첨부할 수 있습니다. 론치에서 원하는 속성을 선택한 상태에서 다음 작업을 완료하여 이 유형의 규칙을 만들 수 있습니다.
 
 ## 1.규칙 만들기
 
@@ -26,7 +26,7 @@ Places 확장 프로그램이 시작 및 종료에 대한 이벤트를 전송하
 
 1. 규칙 목록에서 쉽게 알아볼 수 있도록 규칙에 의미 있는 이름을 지정합니다.
 
-   이 예에서는 규칙의 이름이 **[!UICONTROL Attach Places Data to Target Content Requested]**지정됩니다.
+   이 예에서는 규칙의 이름이 **[!UICONTROL Attach Places Service Data to Target Content Requested]**지정됩니다.
 
 1. 섹션에서 **[!UICONTROL Events]**을 클릭합니다**[!UICONTROL Add]**.
 
