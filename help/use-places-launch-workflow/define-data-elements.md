@@ -2,7 +2,7 @@
 title: 데이터 요소 정의
 description: 이 섹션에서는 Experience Platform Launch for Places에서 데이터 요소를 만들고, 사용하고, 게시하는 방법에 대한 정보를 제공합니다.
 translation-type: tm+mt
-source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
+source-git-commit: c22efc36f2eac6b20fc555d998c3988d8c31169e
 
 ---
 
@@ -33,7 +33,7 @@ source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 * **[!UICONTROL Latitude]**:POI의 위도
 * **[!UICONTROL Longitude]**:POI의 경도
 * **[!UICONTROL Metadata]**:POI의 사용자 지정 메타데이터
-* **[!UICONTROL Name]**:POI 지역
+* **[!UICONTROL Name]**:POI의 이름
 * **[!UICONTROL Radius]**:POI 반경
 * **[!UICONTROL Region ID]**:POI의 ID
 * **[!UICONTROL Region/State]**:POI의 지역, 주 또는 주
