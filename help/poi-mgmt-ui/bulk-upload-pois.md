@@ -2,7 +2,7 @@
 title: POI 일괄 업로드
 description: 이 섹션에서는 POI를 일괄 업로드하는 방법에 대한 정보를 제공합니다.
 translation-type: tm+mt
-source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
+source-git-commit: 8a84fe2dc5a0efe94ce3121e589524e3c7a80c5e
 
 ---
 
@@ -51,7 +51,7 @@ source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 * 색상 - 위치 서비스 UI 맵에서 POI 위치를 나타내는 핀의 색상으로 사용됩니다.
    * 유효한 값은 &quot;&quot;, #3E76D0, #AA99E8, #DC2ABA, #FC685B, #FC962E, #F6C436, #BECE5D, #61B56입니다. b 및 #3DC8DE 및 &quot;&quot;을(를) 참조하십시오.
-   * 값을 비워 두면 위치 서비스 UI에서 파란색을 기본 색상으로 사용합니다.
+   * 값이 비어 있으면 위치 서비스 UI에서 파란색을 기본 색상으로 사용합니다.
 
       값은 파란색(#3E76D0), 자주색(#AA99E8), 푸시아(#DC2ABA), 주황(#FC685B), 연한 주황(#FC962E), 노란색(#F6C436), 연한 녹색( #BECE5D), 녹색(#61B56B) 및 연한 파랑(#3DC8DE)이 각각 표시됩니다.
 
