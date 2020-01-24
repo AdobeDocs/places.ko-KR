@@ -2,14 +2,14 @@
 title: POI 관리 개요
 description: 'POI를 이해하고 사용하여 작업 '
 translation-type: tm+mt
-source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
+source-git-commit: 0ca2162f113fba6bfbd54443109068b1a506762b
 
 ---
 
 
 # POI 관리 개요 {#manage-pois}
 
-REST API를 사용하여 다음 작업을 완료할 수 있습니다.
+Places Service REST API를 사용하여 다음 작업을 완료할 수 있습니다.
 
 * [POI 만들기](/help/web-service-api/api-usage/manage-pois/create-a-poi.md)
 * [POI 읽기](/help/web-service-api/api-usage/manage-pois/read-a-poi.md)
