@@ -2,18 +2,18 @@
 title: API 참조 배치
 description: 장소의 API 참조에 대한 정보입니다.
 translation-type: tm+mt
-source-git-commit: 23437e28bdfb12f664481d22f9f6df0ba6c30329
+source-git-commit: 0ca2162f113fba6bfbd54443109068b1a506762b
 
 ---
 
 
 # API 참조 배치 {#places-api-reference}
 
-다음은 장소의 API 참조에 대한 정보입니다.
+다음은 위치 확장의 API 참조에 대한 정보입니다.
 
 ## 영역 이벤트 처리
 
-장치가 앱의 사전 정의된 위치 영역 경계 중 하나를 교차할 때, 지역과 이벤트 유형이 처리를 위해 SDK로 전달됩니다.
+장치가 앱의 사전 정의된 장소 서비스 영역 경계를 넘나들면, 지역과 이벤트 유형이 처리를 위해 SDK로 전달됩니다.
 
 ### ProcessGeofence(Android)
 
@@ -309,7 +309,7 @@ Places.getLastKnownLocation(new AdobeCallback<Location>() {
 
 ### 지우기(Android)
 
-공유 상태, 로컬 저장소 및 메모리 내 위치에 대한 클라이언트측 데이터를 지웁니다.
+공유 상태, 로컬 저장소 및 메모리 내 위치 확장 기능에 대한 클라이언트측 데이터를 지웁니다.
 
 **구문**
 
@@ -329,7 +329,7 @@ Places.clear();
 
 ### clear(iOS)
 
-공유 상태, 로컬 저장소 및 메모리 내 위치에 대한 클라이언트측 데이터를 지웁니다.
+공유 상태, 로컬 저장소 및 메모리 내 위치 확장 기능에 대한 클라이언트측 데이터를 지웁니다.
 
 **구문**
 
