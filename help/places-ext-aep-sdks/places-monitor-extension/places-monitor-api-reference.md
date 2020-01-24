@@ -2,7 +2,7 @@
 title: 배치 모니터 API 참조
 description: 위치 모니터용 API 목록입니다.
 translation-type: tm+mt
-source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
+source-git-commit: 5a21e734c0ef56c815389a9f08b445bedaae557a
 
 ---
 
@@ -139,7 +139,7 @@ PlacesMonitor.start();
 >
 >모니터링을 시작하려면 위치 서비스에 필요한 인증이 있어야 합니다.
 >
->* 응용 프로그램에 위치 서비스에 대한 인증이 제공되지 않은 경우 API에 대한 첫 번째 호출은 응용 프로그램에 대해 구성된 대로 위치 `start` 서비스를 사용할 수 있는 권한을 요청합니다.
+>* 응용 프로그램에 대해 Places Service에 대한 인증이 제공되지 않은 경우 API에 대한 첫 번째 호출은 응용 프로그램에 대해 구성된 `start` 대로 Places Service를 사용할 수 있는 권한을 요청합니다.
 >* 장치의 기능에 따라, 인증이 제공된 경우 위치 모니터는 현재 설정을 기준으로 사용자의 위치를 추적합니다. `ACPPlacesMonitorMode` 기본적으로 모니터는 `ACPPlacesMonitorModeSignificantChanges`사용합니다.
 
 
@@ -245,7 +245,7 @@ PlacesMonitor.updateLocation();
 
 ## 앱 위치 권한
 
-이 API를 사용하여 사용자에게 위치 서비스 사용 권한이 표시되고 권한이 부여된 위치 권한 유형을 설정할 수 있습니다.
+이 API를 사용하여 사용자에게 장소 서비스에 대해 사용할 수 있도록 요청되고 권한이 부여된 위치 권한 유형을 설정할 수 있습니다.
 
 ### SetLocationPermission(Android)
 
@@ -317,17 +317,17 @@ PlacesMonitor.setLocationPermission(PlacesMonitorLocationPermission.ALWAYS_ALLOW
 
 * `ACPPlacesRequestAuthorizationLevelWhenInUse`
 
-   앱이 사용 중인 동안 위치 서비스를 사용할 수 있는 사용자의 권한을 요청합니다. 사용자 프롬프트에는 앱 Info.plist 파일의 `NSLocationWhenInUseUsageDescription` 키의 텍스트가 포함되며 이 메서드를 호출할 때는 키가 있어야 합니다. 자세한 내용은 requestWhenInUseAuthorization [에 대한 Apple 설명서를 참조하십시오](https://developer.apple.com/documentation/corelocation/cllocationmanager/1620562-requestwheninuseauthorization).
+   앱이 사용 중인 동안 위치 서비스 사용 권한을 요청합니다. 사용자 프롬프트에는 앱 Info.plist 파일의 `NSLocationWhenInUseUsageDescription` 키의 텍스트가 포함되며 이 메서드를 호출할 때는 키가 있어야 합니다. 자세한 내용은 requestWhenInUseAuthorization [에 대한 Apple 설명서를 참조하십시오](https://developer.apple.com/documentation/corelocation/cllocationmanager/1620562-requestwheninuseauthorization).
 
 * `ACPPlacesRequestMonitorAuthorizationLevelAlways`
 
-   앱이 백그라운드에 있을 때에도 위치 서비스를 요청하려면 이 열거형을 사용하십시오. 앱의 Info.plist에 `NSLocationAlwaysUsageDescription` 키와 `NSLocationWhenInUseUsageDescription` 키가 있어야 합니다. 이러한 키는 사용자 프롬프트 동안 표시되는 텍스트를 정의합니다. 자세한 내용은 requestAlwaysAuthorization에 [대한 Apple 설명서를 참조하십시오](https://developer.apple.com/documentation/corelocation/cllocationmanager/1620551-requestalwaysauthorization).
+   앱이 백그라운드에 있는 경우에도 이 열거형을 사용하여 Places Service를 요청합니다. 앱의 Info.plist에 `NSLocationAlwaysUsageDescription` 키와 `NSLocationWhenInUseUsageDescription` 키가 있어야 합니다. 이러한 키는 사용자 프롬프트 동안 표시되는 텍스트를 정의합니다. 자세한 내용은 requestAlwaysAuthorization에 [대한 Apple 설명서를 참조하십시오](https://developer.apple.com/documentation/corelocation/cllocationmanager/1620551-requestalwaysauthorization).
 
 `ACPPlacesRequestAuthorizationLevelAlways` 는 기본 요청 인증 값입니다.
 
 >[!IMPORTANT]
 >
->사용 권한을 부여한 응용 프로그램은 백그라운드에서 발생하는 지역에서 시작/종료 이벤트를 트리거할 수 없습니다. `ACPPlacesRequestAuthorizationLevelWhenInUse`
+>사용 권한을 부여한 응용 프로그램은 백그라운드에서 발생하는 지역에서 시작/종료 이벤트를 트리거하지 않습니다. `ACPPlacesRequestAuthorizationLevelWhenInUse`
 
 다음은 이 API의 구문 및 예제 코드입니다.
 
