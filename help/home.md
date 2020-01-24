@@ -2,7 +2,7 @@
 title: Places Service
 description: '위치 서비스는 모바일 사용자의 참여를 이해하는 데 중요한 컨텍스트입니다. 모바일 앱 개발자는 이러한 맥락에서 앱 디자인을 향상시키고 보다 개인화되고 매력적인 경험을 제공할 수 있습니다. '
 translation-type: tm+mt
-source-git-commit: 3b78f68d8c5eb79ccf842b629510cc60f4ac52d2
+source-git-commit: 0341e1c818bf61bee01e02c91a67f184c7778c0d
 
 ---
 
