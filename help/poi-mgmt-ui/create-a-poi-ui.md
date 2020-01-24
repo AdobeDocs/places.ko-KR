@@ -1,8 +1,8 @@
 ---
 title: POI 만들기
-description: 위치 UI를 사용하여 POI를 만듭니다.
+description: 위치 서비스 UI를 사용하여 POI를 만듭니다.
 translation-type: tm+mt
-source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
+source-git-commit: 8a84fe2dc5a0efe94ce3121e589524e3c7a80c5e
 
 ---
 
@@ -11,7 +11,7 @@ source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 POI(Point of Interest)는 조직 또는 회사에 중요한 지도의 위치 또는 지점입니다. 카페, 레스토랑, 소매점, 경기장 등의 위치를 갖추고 있습니다. 특정 관심 영역을 위해 지엽으로 둘러싸인 지역에 입장한 사용자가 모바일 경험을 개인화할 수 있도록 관심 영역을 정의할 수 있습니다. 기업은 개인화된 경험을 넘어 관심 영역을 만들어 위치 트래픽 패턴을 분석하고 더 잘 이해할 수 있습니다. 대규모 소매 체인은 모바일 애플리케이션이 있는 사용자에 대한 분석 결과를 얻기 위해 모든 스토어 위치에 대한 POI를 생성하도록 선택할 수 있습니다.
 
-1. Adobe ID로 위치 서비스에 로그인합니다.
+1. Adobe ID로 위치 서비스 UI에 로그인합니다.
 1. 오른쪽 상단에서 을 클릭합니다 **[!UICONTROL New]**.
 1. POI의 이름을 입력합니다.
 1. 반경을 입력하거나 선택합니다.
