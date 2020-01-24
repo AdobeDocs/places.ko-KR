@@ -1,8 +1,8 @@
 ---
 title: 릴리스 노트
-description: Adobe Experience Platform 위치 서비스에 대한 릴리스 노트입니다.
+description: 장소 서비스에 대한 릴리스 노트입니다.
 translation-type: tm+mt
-source-git-commit: 585bcde256c79b9178a04ff66aa04c92f093c432
+source-git-commit: 0ca2162f113fba6bfbd54443109068b1a506762b
 
 ---
 
@@ -15,7 +15,7 @@ source-git-commit: 585bcde256c79b9178a04ff66aa04c92f093c432
 
    * **Android**
 
-      * 위치 서비스에 대한 장치 인증 상태를 `setAuthorizationStatus`설정하기 위해 새 API를 추가했습니다. 값은 저장되고 위치 공유 상태에 사용됩니다.
+      * 장소 서비스에 대한 장치 인증 상태를 `setAuthorizationStatus`설정하기 위한 새 API를 추가했습니다. 값은 저장되고 위치 공유 상태에 사용됩니다.
 
 
 ## 2019년 12월 3일
@@ -24,7 +24,7 @@ source-git-commit: 585bcde256c79b9178a04ff66aa04c92f093c432
 
    * **iOS**
 
-      * 위치 서비스에 대한 장치 인증 상태를 `setAuthorizationStatus`설정하기 위해 새 API를 추가했습니다. 값은 저장되고 위치 공유 상태에 사용됩니다.
+      * 장소 서비스에 대한 장치 인증 상태를 `setAuthorizationStatus`설정하기 위한 새 API를 추가했습니다. 값은 저장되고 위치 공유 상태에 사용됩니다.
 
 ## 2019년 11월 22일
 
@@ -211,13 +211,13 @@ iOS용 위치 모니터의 초기 릴리스.
 
 ### 베타 릴리스
 
-Places의 첫 번째 릴리스로서, 고객은 실제 위치 데이터를 통해 사용자 경험을 강화할 수 있는 다양한 툴을 제공합니다. 첫 번째 릴리스에서는 모바일 앱이 사용자 지정 위치 데이터를 검색하고 Adobe Experience Platform Launch를 통해 해당 데이터에 대한 조치를 취할 수 있도록 하는 것이 주된 사용 사례입니다.
+Places Service의 첫 번째 릴리스로서, 고객은 실제 위치 데이터로 사용자 경험을 개선할 수 있습니다. 첫 번째 릴리스에서는 모바일 앱이 사용자 지정 위치 데이터를 검색하고 Adobe Experience Platform Launch를 통해 해당 데이터에 대한 조치를 취할 수 있도록 하는 것이 주된 사용 사례입니다.
 
 ### 주요 기능
 
 다음은 이번 릴리스의 주요 기능입니다.
 
-#### 위치 서비스 UI
+#### 배치 서비스 UI
 
 관심 영역(POI)을 보고 관리할 수 있는 관리 UI를 발표했습니다. 또한 POI를 라이브러리에 구성할 수 있습니다. 도시, 주 및 카테고리와 같은 표준 메타데이터 외에도 사용자 정의 메타데이터를 POI에 추가할 수 있습니다.
 
@@ -226,7 +226,7 @@ Places의 첫 번째 릴리스로서, 고객은 실제 위치 데이터를 통�
 
 #### 위치 확장
 
-위치 확장 기능을 사용하여 위치 라이브러리를 모바일 앱에 추가하고 POI에 따라 작업할 수 있습니다. Experience Platform Launch의 규칙 빌더를 사용하면 사용자가 POI에 들어가서 나갈 때 실행할 작업을 트리거할 수 있습니다.
+Places Extension을 사용하면 Places Service 라이브러리를 모바일 앱에 추가하고 POI에 따라 작업할 수 있습니다. Experience Platform Launch의 규칙 빌더를 사용하면 사용자가 POI에 들어가서 나갈 때 실행할 작업을 트리거할 수 있습니다.
 
 위치 확장:
 
@@ -252,4 +252,4 @@ Places의 첫 번째 릴리스로서, 고객은 실제 위치 데이터를 통�
 
 #### Analytics 통합
 
-사용자가 POI(수동 호출) 내에 있을 때 장소 데이터베이스의 위치 컨텍스트 데이터를 모든 나가는 Analytics 호출에 자동으로 추가하도록 Analytics 확장 기능이 업데이트됩니다. 또한 이 업데이트를 사용하면 POI 시작 또는 종료(활성 호출)에서 직접 Analytics 추적 호출을 실행할 수 있습니다.
+사용자가 POI(수동 호출)에 있을 때 Places Service 데이터베이스의 위치 컨텍스트 데이터를 나가는 모든 Analytics 호출에 자동으로 추가하도록 Analytics 익스텐션이 업데이트됩니다. 또한 이 업데이트를 사용하면 POI 시작 또는 종료(활성 호출)에서 직접 Analytics 추적 호출을 실행할 수 있습니다.
