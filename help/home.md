@@ -1,19 +1,19 @@
 ---
-title: Adobe Experience Platform 위치 서비스
+title: Places Service
 description: '위치 서비스는 모바일 사용자의 참여를 이해하는 데 중요한 컨텍스트입니다. 모바일 앱 개발자는 이러한 맥락에서 앱 디자인을 향상시키고 보다 개인화되고 매력적인 경험을 제공할 수 있습니다. '
 translation-type: tm+mt
-source-git-commit: c20e720d23121970bb2fa1c63a2fd1e81c84b977
+source-git-commit: 3b78f68d8c5eb79ccf842b629510cc60f4ac52d2
 
 ---
 
 
-# Adobe Experience Platform 위치 서비스 개요 {#home}
+# Places Service {#home}
 
-![&quot;Adobe Experience Platform Location Service&quot;](/help/assets/LocationHeader.png)
+![&quot;장소 서비스&quot;](/help/assets/LocationHeader.png)
 
 위치는 모바일 사용자를 파악하고 참여를 유도하는 중요한 컨텍스트입니다. 모바일 앱 개발자는 이러한 맥락에서 앱 디자인을 향상시키고 보다 개인화되고 매력적인 경험을 제공할 수 있습니다.
 
-Adobe Experience Platform Location Service(위치 서비스)는 위치 인식과 함께 유연한 관심 영역 데이터베이스(POI)와 함께 사용하기 쉬운 리치 SDK 인터페이스를 사용하여 위치 컨텍스트를 파악할 수 있는 지리적 위치 서비스입니다.
+이전에 Adobe Experience Platform Location Service라고 알려졌던 Places Service는 위치 인식과 함께 유연한 관심 영역 데이터베이스(POI)와 함께 사용하기 쉬운 리치 SDK 인터페이스를 사용하여 위치 컨텍스트를 파악할 수 있는 지리적 위치 서비스
 
 위치 서비스를 사용하면 다음을 수행할 수 있습니다.
 
@@ -32,9 +32,9 @@ Adobe Experience Platform Location Service(위치 서비스)는 위치 인식과
 * 위치 컨텍스트에서 고객 프로파일을 사용하여 오프라인 행동을 기반으로 고객을 세그먼트화할 수 있습니다.
 * 고객과 연관성 높은 스토어의 경험을 갖춘 사용자를 타깃팅할 수 있습니다.
 
-## 위치 서비스 구성 요소
+## 배치 서비스 구성 요소
 
-위치 서비스는 다음 구성 요소로 구성됩니다.
+Places Service는 다음 구성 요소로 구성됩니다.
 
 * **웹 서비스**
 
@@ -88,4 +88,4 @@ Adobe Experience Platform Location Service(위치 서비스)는 위치 인식과
 
 * The **Experience Cloud ID** service provides a universal, persistent ID that identifies your visitors across all the solutions in the Experience Cloud.
 
-   For more information, see [Overview](https://docs.adobe.com/content/help/en/id-service/using/intro/overview.html).
+   자세한 내용은 개요를 [참조하십시오](https://docs.adobe.com/content/help/en/id-service/using/intro/overview.html).
