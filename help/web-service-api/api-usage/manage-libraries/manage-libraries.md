@@ -1,14 +1,14 @@
 ---
 title: 라이브러리 관리
-description: REST API 라이브러리 배치 관리를 참조하십시오.
+description: Places Service REST API 라이브러리 관리
 translation-type: tm+mt
-source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
+source-git-commit: 0ca2162f113fba6bfbd54443109068b1a506762b
 
 ---
 
 # 라이브러리 관리 개요 {#manage-libraries}
 
-REST API를 사용하여 다음 작업을 완료할 수 있습니다.
+Places Service REST API를 사용하여 다음 작업을 완료할 수 있습니다.
 
 * [라이브러리 만들기](/help/web-service-api/api-usage/manage-libraries/create-a-library.md)
 * [라이브러리 보기](/help/web-service-api/api-usage/manage-libraries/read-a-library.md)
