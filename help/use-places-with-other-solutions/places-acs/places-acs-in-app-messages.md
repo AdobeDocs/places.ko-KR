@@ -2,14 +2,14 @@
 title: 위치 서비스가 있는 인앱 메시지
 description: 이 섹션에서는 Campaign Standard에서 인앱 메시지와 함께 Campaign Standard의 푸시 메시지를 사용하는 방법에 대한 정보를 제공합니다.
 translation-type: tm+mt
-source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
+source-git-commit: 0ca2162f113fba6bfbd54443109068b1a506762b
 
 ---
 
 
-# 위치 서비스가 있는 인앱 메시지 {#in-app-messages-loc-service}
+# 위치 서비스를 사용한 인앱 메시지 {#in-app-messages-loc-service}
 
-이 정보는 Adobe Experience Platform 위치 서비스 정보를 사용하여 인앱 메시지 또는 로컬 알림을 전송하는 방법을 이해하는 데 도움이 됩니다.
+이 정보는 위치 서비스 정보를 사용하여 인앱 메시지 또는 로컬 알림을 전송하는 방법을 이해하는 데 도움이 됩니다.
 
 ## 전제 조건
 
@@ -20,7 +20,7 @@ source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 * Adobe Experience [Platform Mobile](https://aep-sdks.gitbook.io/docs/getting-started/get-the-sdk) SDK를 앱에 통합합니다.
 * Adobe Campaign [Standard](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard) Extension을 모바일 앱 구성에 추가합니다.
 
-* [위치 POI](/help/poi-mgmt-ui/create-a-poi-ui.md) 관리 인터페이스에서 POI를 만듭니다.
+* [Places Service](/help/poi-mgmt-ui/create-a-poi-ui.md) POI 관리 인터페이스에서 POI를 만듭니다.
 
 * 모바일 애플리케이션에서 [위치 확장](/help/places-ext-aep-sdks/places-extension/places-extension.md) 및 위치 [모니터 확장](/help/places-ext-aep-sdks/places-monitor-extension/places-monitor-extension.md) 기능을 설치하고 구성합니다.
 
@@ -45,6 +45,6 @@ source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
    ![&quot;음료 쿠폰&quot;](/help/assets/drink-coupon-on-app.png)
 
-Adobe Campaign Standard와 함께 위치 서비스를 사용하면 지리적 펜스 항목 및 종료를 기반으로 메시지를 세그먼트화하고 사용자에게 타깃팅할 수 있는 강력한 도구를 사용할 수 있습니다. 이러한 통합을 통해 보다 개인화되고 상황에 맞는 활용 사례를 구축할 수 있습니다.
+Adobe Campaign Standard와 함께 위치 서비스를 사용하면 지역 펜스 항목 및 종료를 기반으로 메시지를 세그먼트화하고 사용자에게 타깃팅할 수 있는 강력한 도구를 사용할 수 있습니다. 이러한 통합을 통해 보다 개인화되고 상황에 맞는 활용 사례를 구축할 수 있습니다.
 
 >[!VIDEO](https://www.youtube.com/watch?v=ikiTTQw9c-o)
