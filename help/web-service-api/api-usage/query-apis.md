@@ -2,7 +2,7 @@
 title: 개요
 description: 쿼리 API 이해 및 사용
 translation-type: tm+mt
-source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
+source-git-commit: 0ca2162f113fba6bfbd54443109068b1a506762b
 
 ---
 
@@ -20,7 +20,7 @@ GET https://query.places.adobe.com/placesedgequery
 
 다음 입력을 통해 서비스는 호출자와 가장 가까운 POI 목록을 반환합니다.
 
-* 호출자의 위치 \(위도, 경도\)입니다.
+* 호출자의 위치(위도, 경도).
 * 검색에 포함할 POI 라이브러리의 ID입니다.
 * 반환할 최대 POI 수입니다.  기본값은 100입니다.
 
