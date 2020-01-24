@@ -2,12 +2,12 @@
 title: POI 삭제
 description: REST API를 사용하여 POI를 삭제합니다.
 translation-type: tm+mt
-source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
+source-git-commit: 8a84fe2dc5a0efe94ce3121e589524e3c7a80c5e
 
 ---
 
 
-# POI 삭제
+# POI 삭제 {#delete-a-poi}
 
 POI를 삭제할 수 있는 DELETE 메서드입니다.
 
