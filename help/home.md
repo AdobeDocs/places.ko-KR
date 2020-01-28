@@ -2,14 +2,14 @@
 title: Places Service
 description: '위치 서비스는 모바일 사용자의 참여를 이해하는 데 중요한 컨텍스트입니다. 모바일 앱 개발자는 이러한 맥락에서 앱 디자인을 향상시키고 보다 개인화되고 매력적인 경험을 제공할 수 있습니다. '
 translation-type: tm+mt
-source-git-commit: 0341e1c818bf61bee01e02c91a67f184c7778c0d
+source-git-commit: 05b4d29aa7925f7a43e70c644e3cb88045cbe446
 
 ---
 
 
 # Places Service {#home}
 
-![&quot;장소 서비스&quot;](/help/assets/LocationHeader.png)
+![&quot;장소 서비스&quot;](/help/assets/places-service-header.png)
 
 위치는 모바일 사용자를 파악하고 참여를 유도하는 중요한 컨텍스트입니다. 모바일 앱 개발자는 이러한 맥락에서 앱 디자인을 향상시키고 보다 개인화되고 매력적인 경험을 제공할 수 있습니다.
 
