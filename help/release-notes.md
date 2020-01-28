@@ -2,12 +2,21 @@
 title: 릴리스 노트
 description: 장소 서비스에 대한 릴리스 노트입니다.
 translation-type: tm+mt
-source-git-commit: 0ca2162f113fba6bfbd54443109068b1a506762b
+source-git-commit: 04644763a40898432c4b821ca24366c19dda0437
 
 ---
 
 
 # 릴리스 노트 {#release-notes}
+
+## 2020년 1월 27일
+
+* **PlacesMonitor 2.2.0**
+
+   * **Android**
+
+      * 새 위치 API를 호출하여 앱이 실행될 때와 앱이 실행되는 동안 인증이 변경될 때 위치 인증 상태를 수집합니다.
+      * setRequestLocationPermission API 및 더 이상 사용되지 않는 setLocationPermission API가 추가되었습니다.
 
 ## 2020년 1월 9일
 
@@ -17,6 +26,13 @@ source-git-commit: 0ca2162f113fba6bfbd54443109068b1a506762b
 
       * 장소 서비스에 대한 장치 인증 상태를 `setAuthorizationStatus`설정하기 위한 새 API를 추가했습니다. 값은 저장되고 위치 공유 상태에 사용됩니다.
 
+## 2019년 12월 4일
+
+* **PlacesMonitor 2.1.2**
+
+   * **iOS**
+
+      * Places API를 호출하여 변경 시 장치에서 CLAuauthorizationStatus를 수집합니다.
 
 ## 2019년 12월 3일
 
@@ -25,6 +41,14 @@ source-git-commit: 0ca2162f113fba6bfbd54443109068b1a506762b
    * **iOS**
 
       * 장소 서비스에 대한 장치 인증 상태를 `setAuthorizationStatus`설정하기 위한 새 API를 추가했습니다. 값은 저장되고 위치 공유 상태에 사용됩니다.
+
+## 2019년 11월 25일
+
+* **PlacesMonitor 2.1.1**
+
+   * **iOS**
+
+      * 여러 창 프로젝트 옵션을 사용하여 코드 프로젝트에 대한 가져오기 문을 수정했습니다.
 
 ## 2019년 11월 22일
 
