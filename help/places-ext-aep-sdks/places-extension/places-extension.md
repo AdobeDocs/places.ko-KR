@@ -2,7 +2,7 @@
 title: 위치 확장
 description: 위치 확장 기능을 사용하면 사용자의 위치를 기반으로 할 수 있습니다.
 translation-type: tm+mt
-source-git-commit: 5a21e734c0ef56c815389a9f08b445bedaae557a
+source-git-commit: 36ea8616aa05f5b825a2a4c791a00c5b3f332e9f
 
 ---
 
@@ -13,12 +13,12 @@ source-git-commit: 5a21e734c0ef56c815389a9f08b445bedaae557a
 
 ## Adobe Experience Platform Launch에서 위치 확장 설치
 
-1. In Experience Platform Launch, click the **[!UICONTROL Extensions]**tab.
-1. 탭에서 **[!UICONTROL Catalog]**확장자를 찾아**[!UICONTROL Places]** **[!UICONTROL Install]**클릭합니다.
+1. In Experience Platform Launch, click the **[!UICONTROL Extensions]** tab.
+1. 탭에서 **[!UICONTROL Catalog]** 확장자를 찾아 **[!UICONTROL Places]** **[!UICONTROL Install]**&#x200B;클릭합니다.
 1. 이 속성에 사용할 위치 라이브러리를 선택합니다. 앱에서 액세스할 수 있는 라이브러리입니다.
-1. **[!UICONTROL Save]**를 클릭합니다.
+1. **[!UICONTROL Save]**&#x200B;를 클릭합니다.
 
-   클릭하면 Experience Platform SDK가 **[!UICONTROL Save]**선택한 라이브러리에서 POI를 배치 서비스를 검색합니다. 앱을 빌드할 때 POI 데이터는 라이브러리 다운로드에 포함되지 않지만, 런타임 시 POI의 위치 기반 하위 세트가 최종 사용자의 GPS 좌표에 다운로드됩니다.
+   클릭하면 Experience Platform SDK가 **[!UICONTROL Save]**&#x200B;선택한 라이브러리에서 POI를 배치 서비스를 검색합니다. 앱을 빌드할 때 POI 데이터는 라이브러리 다운로드에 포함되지 않지만, 런타임 시 POI의 위치 기반 하위 세트가 최종 사용자의 GPS 좌표에 다운로드됩니다.
 
 1. 게시 프로세스를 완료하여 SDK 구성을 업데이트합니다.
 
@@ -135,6 +135,88 @@ func application(_ application: UIApplication, didFinishLaunchingWithOptions lau
 }
 ```
 
+### 위치 멤버십 기간 수정 {#places-ttl}
+
+특히 장치가 백그라운드 위치 업데이트를 받지 않는 경우 위치 데이터가 빠르게 오래된 상태가 될 수 있습니다.
+
+구성 `places.membershipttl` 설정을 설정하여 장치에 [배치] 멤버십 데이터를 라이브로 저장할 시간을 제어합니다. 전달된 값은 [위치] 상태가 장치에 대해 유효한 상태로 유지되는 시간(초)을 나타냅니다.
+
+#### Android
+
+호출하기 전에 필요한 변경 사항을 사용하여 구성을 `MobileCore.start()` 업데이트하는 콜백에서 `lifecycleStart`다음을 수행합니다.
+
+```java
+public class PlacesTestApp extends Application {
+
+    @Override
+    public void onCreate() {
+        super.onCreate();
+        MobileCore.setApplication(this);
+
+        try {
+            Places.registerExtension();
+            MobileCore.start(new AdobeCallback() {
+                @Override
+                public void call(Object o) {
+                    // switch to your App ID from Launch
+                    MobileCore.configureWithAppID("my-app-id");
+
+                    final Map<String, Object> config = new HashMap<>();
+                    config.put("places.membershipttl", 30);
+                    MobileCore.updateConfiguration(config);
+
+                    MobileCore.lifecycleStart(null);
+                }
+            });
+        } catch (Exception e) {
+            Log.e("PlacesTestApp", e.getMessage());
+        }
+    }
+}
+```
+
+#### iOS
+
+On the first line in the callback of `ACPCore`&#39;s `start:` method, `updateConfiguration:`
+
+**Objective-C**
+
+```objective-c
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    // make other sdk registration calls
+
+    const UIApplicationState appState = application.applicationState;
+    [ACPCore start:^{
+        [ACPCore updateConfiguration:@{@"places.membershipttl":@(30)}];
+
+        if (appState != UIApplicationStateBackground) {
+            [ACPCore lifecycleStart:nil];            
+        }
+    }];
+
+    return YES;
+}
+```
+
+**Swift**
+
+```swift
+func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+    // make other sdk registration calls
+
+    let appState = application.applicationState;            
+    ACPCore.start {
+        ACPCore.updateConfiguration(["places.membershipttl" : 30])
+
+        if appState != .background {
+            ACPCore.lifecycleStart(nil)
+        }    
+    }
+
+    return true;
+}
+```
+
 ## 구성 키
 
 런타임에 프로그래밍 방식으로 SDK 구성을 업데이트하려면 다음 정보를 사용하여 Places 확장 구성 값을 변경합니다. 자세한 내용은 구성 API [참조를 참조하십시오](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/configuration/configuration-api-reference).
@@ -143,4 +225,4 @@ func application(_ application: UIApplication, didFinishLaunchingWithOptions lau
 | :--- | :--- | :--- |
 | `places.libraries` | 예 | Places extension libraries for the mobile app. 라이브러리 ID와 모바일 앱이 지원하는 라이브러리 이름을 지정합니다. |
 | `places.endpoint` | 예 | 라이브러리 및 POI에 대한 정보를 가져오는 데 사용되는 기본 위치 쿼리 서비스 끝점입니다. |
-
+| `places.membershipttl` | 아니요 | 기본값은 3600(1시간 초)입니다. 장치의 멤버십 정보가 유효한 기간(초)을 나타냅니다. |
