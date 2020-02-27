@@ -2,12 +2,25 @@
 title: 릴리스 노트
 description: 장소 서비스에 대한 릴리스 노트입니다.
 translation-type: tm+mt
-source-git-commit: 4038972cc56c144c0e7d702d0f80c7f76f275aa4
+source-git-commit: 36ea8616aa05f5b825a2a4c791a00c5b3f332e9f
 
 ---
 
 
 # 릴리스 노트 {#release-notes}
+
+## 2020년 2월 20일
+
+* **AcppLays 1.3.1(iOS)**
+
+   * 이제 확장을 배치하면 Core SDK의 이벤트 허브에 버전 정보를 보고합니다.
+   * 이제 장치 POI 멤버십 정보는 수집일로부터 1시간의 기본 실시간 시간을 갖습니다. 자세한 내용은 [장소 멤버십 기간 수정을 참조하십시오.](places-ext-aep-sdks/places-extension/places-extension.md#places-ttl)
+
+
+* **위치 1.4.1(Android)**
+
+   * 이제 확장을 배치하면 Core SDK의 이벤트 허브에 버전 정보를 보고합니다.
+   * 이제 장치 POI 멤버십 정보는 수집일로부터 1시간의 기본 실시간 시간을 갖습니다. 자세한 내용은 [장소 멤버십 기간 수정을 참조하십시오.](places-ext-aep-sdks/places-extension/places-extension.md#places-ttl)
 
 ## 2020년 1월 27일
 
@@ -20,7 +33,7 @@ source-git-commit: 4038972cc56c144c0e7d702d0f80c7f76f275aa4
 
 ## 2020년 1월 9일
 
-* **ACPPlaces 1.4.0**
+* **Places 1.4.0**
 
    * **Android**
 
