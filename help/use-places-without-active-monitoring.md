@@ -2,7 +2,7 @@
 title: 활성 지역 모니터링 없이 위치 서비스 사용
 description: 이 섹션에서는 활성 지역 모니터링 없이 위치 서비스를 사용하는 방법에 대한 정보를 제공합니다.
 translation-type: tm+mt
-source-git-commit: 5a21e734c0ef56c815389a9f08b445bedaae557a
+source-git-commit: d123d16c822c48d8727de3c0c22bff8ea7c66981
 
 ---
 
@@ -398,4 +398,4 @@ func handleUpdatedPOIs(_ nearbyPois:[ACPPlacesPoi]) {
 
 시작 이벤트가 트리거되기 때문에 SDK에서 Places Service 시작 이벤트를 트리거하는 것 외에도, POI를 정의하는 모든 데이터는 Experience Platform Launch에서 나머지 SDK에서 사용할 수 `data elements` 있습니다. Experience Platform Launch를 `rules`사용하면 SDK에서 처리되는 수신 이벤트에 Places Service 데이터를 동적으로 연결할 수 있습니다. 예를 들어, 사용자가 있는 POI의 메타 데이터를 연결하고 데이터를 Analytics에 컨텍스트 데이터로 전송할 수 있습니다.
 
-자세한 내용은 다른 Adobe [솔루션과](/help/use-places-with-other-solutions/use-places-with-other-solutions.md)함께 위치 서비스 사용을 참조하십시오.
+자세한 내용은 다른 Adobe [솔루션과](/help/use-places-with-other-solutions/places-adobe-analytics/use-places-analytics-overview.md)함께 위치 서비스 사용을 참조하십시오.
