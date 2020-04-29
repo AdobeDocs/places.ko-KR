@@ -2,7 +2,7 @@
 title: FAQ
 description: 이 항목에서는 일부 FAQ에 대한 추가 정보를 제공합니다.
 translation-type: tm+mt
-source-git-commit: 8691dbf061ac020a60d3880fe16951dcc79040cb
+source-git-commit: 5846577f10eb1d570465ad7f888feba6dd958ec9
 
 ---
 
@@ -10,6 +10,10 @@ source-git-commit: 8691dbf061ac020a60d3880fe16951dcc79040cb
 # FAQ
 
 다음은 장소 서비스에 대한 몇 가지 정보와 FAQ입니다.
+
+## v4 SDK의 trackLocation에서 마이그레이션
+
+v4 SDK에서 마이그레이션하고 API로 대체하고자 하는 `trackLocation` 경우 활성 지역 모니터링 없이 [위치 서비스 사용 항목을 참조하십시오](use-places-without-active-monitoring.md).
 
 ## 크기 및 안정성
 
@@ -31,7 +35,6 @@ Places Service POI 관리 인터페이스에서 고객은 특정 라이브러리
 
 지역 모니터링은 승인된 앱에 대한 등록 직후 시작됩니다. 그러나 경계 통과만 이벤트를 생성하므로 즉시 이벤트를 받을 것으로 예상하지는 않습니다. 특히 등록 시 사용자의 위치가 이미 해당 지역 내에 있는 경우 위치 관리자가 자동으로 이벤트를 생성하지 않습니다. 대신, 응용 프로그램은 이벤트가 생성되어 위임자에게 전송되기 전에 사용자가 영역 경계를 넘을 때까지 기다려야 합니다.
 
-모니터링할 영역 세트를 지정할 때는 현명하게 사용하십시오. 영역은 공유 시스템 리소스이며 시스템 전체 영역에서 사용할 수 있는 총 지역 수는 제한됩니다. 따라서 코어 위치는 단일 앱에서 동시에 모니터링할 수 있는 지역 수를 20개로 제한합니다. 이 제한을 해결하려면 사용자의 가까운 지역에 해당 지역만 등록하십시오.
+모니터링할 영역 세트를 지정할 때는 현명하게 사용하십시오. 영역은 공유 시스템 리소스이며 시스템 전체 영역에서 사용할 수 있는 총 지역 수는 제한됩니다. 따라서 코어 위치는 단일 앱에서 동시에 모니터링할 수 있는 영역의 수를 20개로 제한합니다. 이 제한을 해결하려면 사용자의 가까운 지역에 해당 지역만 등록하십시오.
 
 [Apple 개발자 사이트] (https://developer.apple.com/library/archive/documentation/UserExperience/Conceptual/LocationAwarenessPG/RegionMonitoring/RegionMonitoring.html#//apple_ref/doc/uid/TP40009497-CH9-SW11)에 대한 추가 정보 보기
-
