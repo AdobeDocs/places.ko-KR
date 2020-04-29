@@ -2,7 +2,7 @@
 title: 활성 지역 모니터링 없이 위치 서비스 사용
 description: 이 섹션에서는 활성 지역 모니터링 없이 위치 서비스를 사용하는 방법에 대한 정보를 제공합니다.
 translation-type: tm+mt
-source-git-commit: d123d16c822c48d8727de3c0c22bff8ea7c66981
+source-git-commit: 5846577f10eb1d570465ad7f888feba6dd958ec9
 
 ---
 
@@ -10,8 +10,6 @@ source-git-commit: d123d16c822c48d8727de3c0c22bff8ea7c66981
 # 활성 지역 모니터링 없이 위치 서비스 사용 {#use-places-without-active-monitoring}
 
 애플리케이션에 대한 사용 사례는 활성 영역 모니터링이 필요하지 않을 수 있습니다. 위치 서비스는 여전히 사용자의 위치 데이터를 다른 경험 플랫폼 제품과 통합하는 데 사용할 수 있습니다.
-
-이 섹션에서는 사용자의 위치(위도 및 경도)를 수집할 때에만 POI 멤버십 확인을 완료하는 방법에 대해 설명합니다.
 
 ## 전제 조건
 
@@ -38,7 +36,7 @@ source-git-commit: d123d16c822c48d8727de3c0c22bff8ea7c66981
 
 ### Android
 
-다음은 Android에서 [`BroadcastReceiver`](https://codelabs.developers.google.com/codelabs/background-location-updates-android-o/index.html?index=..%2F..index#5)다음을 사용하는 샘플 구현입니다.
+다음은 Android에서 [`BroadcastReceiver`](https://codelabs.developers.google.com/codelabs/background-location-updates-android-o/index.html?index=..%2F...index#5)다음을 사용하는 샘플 구현입니다.
 
 ```java
 public class LocationBroadcastReceiver extends BroadcastReceiver {
@@ -84,7 +82,7 @@ public class LocationBroadcastReceiver extends BroadcastReceiver {
 
 ### Objective-C
 
-다음은 iOS의 샘플 구현입니다. [`CLLocationManagerDelegate`](https://developer.apple.com/documentation/corelocation/cllocationmanager?language=objc) 방법은 [`locationManager:didUpdateLocations:`](https://developer.apple.com/documentation/corelocation/cllocationmanagerdelegate/1423615-locationmanager?language=objc)다음과 같습니다.
+다음은 iOS용 샘플 구현입니다. 이 코드는 다음 페이지에서 [`locationManager:didUpdateLocations:`](https://developer.apple.com/documentation/corelocation/cllocationmanagerdelegate/1423615-locationmanager?language=objc) 메서드를 구현하고 [`CLLocationManagerDelegate`](https://developer.apple.com/documentation/corelocation/cllocationmanager?language=objc)있습니다.
 
 ```objectivec
 - (void) locationManager:(CLLocationManager*)manager didUpdateLocations:(NSArray<CLLocation*>*)locations {
@@ -100,7 +98,7 @@ public class LocationBroadcastReceiver extends BroadcastReceiver {
 
 ### Swift
 
-다음은 iOS의 샘플 구현입니다. [`CLLocationManagerDelegate`](https://developer.apple.com/documentation/corelocation/cllocationmanager) 방법은 [`locationManager(_:didUpdateLocations:)`](https://developer.apple.com/documentation/corelocation/cllocationmanagerdelegate/1423615-locationmanager)다음과 같습니다.
+다음은 iOS용 샘플 구현입니다. 이 코드는 다음 페이지에서 [`locationManager(_:didUpdateLocations:)`](https://developer.apple.com/documentation/corelocation/cllocationmanagerdelegate/1423615-locationmanager) 메서드를 구현하고 [`CLLocationManagerDelegate`](https://developer.apple.com/documentation/corelocation/cllocationmanager)있습니다.
 
 ```swift
 func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
@@ -114,9 +112,21 @@ func locationManager(_ manager: CLLocationManager, didUpdateLocations locations:
 }
 ```
 
-## 3.사용자가 POI에 있을 때 시작 이벤트 트리거
+## 3.Analytics 요청에 위치 데이터 첨부
 
-SDK는 사용자가 현재 각 POI 내에 있는지 여부를 포함하여 가까운 POI 목록을 반환합니다. 사용자가 POI에 있는 경우 SDK가 해당 영역에 대한 시작 이벤트를 트리거하도록 할 수 있습니다.
+Places SDK는 API를 `getNearbyPointsOfInterest` 호출하여 Launch의 데이터 요소를 통해 장치에 대한 모든 POI 데이터를 사용할 수 있도록 합니다. 데이터 첨부 [규칙을 사용하여](https://aep-sdks.gitbook.io/docs/resources/user-guides/attach-data) 위치 데이터를 Analytics에 향후 요청에 자동으로 추가할 수 있습니다. 이렇게 하면 장치의 위치가 수집될 때 Analytics에 대한 일회성 호출이 필요하지 않습니다.
+
+이 [항목에 대한 자세한 내용은 Analytics](use-places-with-other-solutions/places-adobe-analytics/run-reports-aa-places-data.md) 요청에 위치 컨텍스트 추가를 참조하십시오.
+
+## 선택 사항 - 사용자가 POI에 있을 때 시작 이벤트를 트리거합니다.
+
+>[!TIP]
+>
+>위치 데이터를 캡처하는 권장 방법은 Analytics 요청에 [위치 데이터를](#attach-places-data-to-your-analytics-requests)첨부하는 것입니다.
+>
+>사용 사례에 따라 SDK에 의해 [지역 시작 이벤트를](places-ext-aep-sdks/places-extension/places-event-ref.md#processregionevent) 트리거해야 하는 경우, 아래에 설명된 대로 수동으로 수행해야 합니다.
+
+API에서 반환되는 목록에는 `getNearbyPointsOfInterest` 사용자가 현재 POI 내에 있는지 여부를 나타내는 [사용자 지정 개체가](places-ext-aep-sdks/places-extension/cust-places-objects.md) 포함되어 있습니다. 사용자가 POI에 있는 경우 SDK가 해당 영역에 대한 시작 이벤트를 트리거하도록 할 수 있습니다.
 
 >[!IMPORTANT]
 >
@@ -229,7 +239,9 @@ func handleUpdatedPOIs(_ nearbyPois:[ACPPlacesPoi]) {
 
 ## 전체 샘플 구현
 
-아래 코드 샘플에서는 장치의 현재 위치를 검색하고, 필요한 이벤트를 트리거하며, 한 번의 방문 시 동일한 위치에 대해 여러 항목을 가져오지 않는 방법을 보여 줍니다.
+아래 코드 샘플에서는 장치의 현재 위치를 검색하고, 필요한 시작 이벤트를 트리거하며, 한 번의 방문 시 동일한 위치에 대해 여러 항목을 가져오지 않는 방법을 보여 줍니다.
+
+이 코드 샘플에는 사용자가 POI에 있을 때 시작 이벤트를 [트리거하는 선택적 단계가 포함되어 있습니다](#trigger-entry-events-when-the-user-is-in-a-poi).
 
 >[!IMPORTANT]
 >
