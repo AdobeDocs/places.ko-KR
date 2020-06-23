@@ -2,9 +2,9 @@
 title: 위치 확장
 description: 위치 확장 기능을 사용하면 사용자의 위치에 따라 작업을 수행할 수 있습니다.
 translation-type: tm+mt
-source-git-commit: 0a9a4a713e7e7a49495d11cf26da8981e91b8ed2
+source-git-commit: 0ac139fce666540b36a8c82fe4c05974e12e987f
 workflow-type: tm+mt
-source-wordcount: '676'
+source-wordcount: '678'
 ht-degree: 5%
 
 ---
@@ -14,18 +14,18 @@ ht-degree: 5%
 
 위치 확장 기능을 사용하면 사용자의 위치에 따라 작업을 수행할 수 있습니다. 이 익스텐션은 위치 쿼리 서비스 API에 대한 인터페이스입니다. 이 확장은 GPS 좌표 및 지리 정보 영역 이벤트를 포함하는 이벤트를 수신함으로써 규칙 엔진에서 처리하는 새 이벤트를 전달합니다. 또한 위치 확장 기능은 API에서 검색하는 앱 데이터에 대해 가장 가까운 POI 목록을 검색하여 전달합니다. API가 반환하는 영역은 캐시 및 지속성 내에 저장되므로 제한된 오프라인 처리를 허용합니다.
 
-## Adobe Experience Platform Launch에서 위치 확장 설치
+## Adobe Experience Platform 시작 시 위치 확장 설치
 
 1. In Experience Platform Launch, click the **[!UICONTROL Extensions]** tab.
 1. 탭에서 **[!UICONTROL Catalog]** 확장자를 찾아 **[!UICONTROL Places]** 클릭합니다 **[!UICONTROL Install]**.
 1. 이 속성에 사용할 위치 라이브러리를 선택합니다. 앱에서 액세스할 수 있는 라이브러리입니다.
 1. **[!UICONTROL Save]**&#x200B;를 클릭합니다.
 
-   클릭하면, 경험 플랫폼 SDK가 선택한 라이브러리 **[!UICONTROL Save]**&#x200B;에서 위치 서비스에 대해 POI를 검색합니다. 앱을 빌드할 때 POI 데이터는 라이브러리 다운로드에 포함되지 않지만, 위치 기반 POI의 하위 세트가 런타임 시 최종 사용자의 장치로 다운로드되고 사용자의 GPS 좌표를 기반으로 합니다.
+   클릭하면 Experience Platform SDK가 선택한 라이브러리 **[!UICONTROL Save]**&#x200B;에서 위치 서비스에 POI를 검색합니다. 앱을 빌드할 때 POI 데이터는 라이브러리 다운로드에 포함되지 않지만, 위치 기반 POI의 하위 세트가 런타임 시 최종 사용자의 장치로 다운로드되고 사용자의 GPS 좌표를 기반으로 합니다.
 
 1. 게시 프로세스를 완료하여 SDK 구성을 업데이트합니다.
 
-   Experience Platform Launch에서의 게시에 대한 자세한 내용은 게시를 [참조하십시오](https://docs.adobe.com/content/help/ko-KR/launch/using/reference/publish/overview.html).
+   Experience Platform Launch에서 게시에 대한 자세한 내용은 [게시를 참조하십시오](https://docs.adobe.com/content/help/ko-KR/launch/using/reference/publish/overview.html).
 
 ### Configure the Places extension {#configure-places-extension}
 
@@ -35,9 +35,9 @@ ht-degree: 5%
 
 Android 및 iOS 앱에 위치 확장을 추가할 수 있습니다. iOS 또는 Android 애플리케이션에 위치를 추가하는 단계는 아래에 나와 있습니다. 또한 Cordova 및 React Native에서도 사용할 수 있습니다. 이러한 플랫폼 중 하나로 개발할 때 애플리케이션에 위치를 추가하는 경우 함께 제공되는 링크를 참조하십시오.
 
-**Cordova ACPPlaces**: https://github.com/adobe/cordova-acpplaces/blob/master/README.md
+**[Cordova Places Plugin](https://github.com/adobe/cordova-acpplaces/blob/master/README.md)**
 
-**기본 작업 영역**&#x200B;반응: https://github.com/adobe/react-native-acpplaces/blob/master/README.md
+**[Responsive Native Places Plugin](https://github.com/adobe/react-native-acpplaces/blob/master/README.md)**
 
 ### Android
 
