@@ -2,15 +2,31 @@
 title: 릴리스 노트
 description: 장소 서비스에 대한 릴리스 노트입니다.
 translation-type: tm+mt
-source-git-commit: f5fa6005396e3c5b5b8eb92c7c920d2d0d974743
+source-git-commit: 3f986697179eb9c0af1d9b54daf67793a99b8491
 workflow-type: tm+mt
-source-wordcount: '1419'
+source-wordcount: '1503'
 ht-degree: 3%
 
 ---
 
 
 # 릴리스 노트 {#release-notes}
+
+## 2020년 7월 8일
+
+* **위치 및 위치 모니터 확장**
+
+   * 반응형 기본 애플리케이션에 대해 위치 및 장소 모니터 익스텐션이 [추가되었습니다.](https://aep-sdks.gitbook.io/docs/resources/upgrading-to-aep/current-sdk-versions#react-native)
+   * Cordova 응용 프로그램에 대해 위치 및 배치 모니터 확장 [기능이 추가되었습니다.](https://aep-sdks.gitbook.io/docs/resources/upgrading-to-aep/current-sdk-versions#cordova)
+   * 자세한 내용은 다음을 참조하십시오. [위치 확장 사용](https://docs.adobe.com/content/help/en/places/using/places-ext-aep-sdks/places-extension/places-extension.html)
+
+
+## 2020년 5월 12일
+
+* **Places Service**
+
+   * &quot;POI 가져오기&quot; 단추를 사용하여 CSV 파일에서 POI 대량 가져오기
+   * 여러 POI 선택 및 메타데이터 값 일괄 편집 또는 추가
 
 ## 2020년 5월 6일
 
@@ -213,7 +229,7 @@ ht-degree: 3%
 
 위치 UI에서 다음 문제를 수정했습니다.
 
-* Adobe Experience Cloud의 나머지 솔루션과 일치하도록 [장소]에서 솔루션 전환기를 업데이트했습니다.
+* 다른 Experience Cloud에 맞게 위치(Places)의 솔루션 전환기를 업데이트했습니다.
 * 등급 변경 사항이 없는 경우 등급이 저장되던 문제를 수정했습니다.
 * UI에서 허용된 최소 반경을 10m로 늘렸습니다.
 * 필드의 숫자를 모두 삭제하면 반경 필드가 다시 20m로 재설정되던 문제가 해결되었습니다.
@@ -268,7 +284,7 @@ iOS용 위치 모니터의 초기 릴리스.
 
 ### 베타 릴리스
 
-Places Service의 첫 번째 릴리스입니다. 이 툴셋은 고객이 실제 위치 데이터를 통해 사용자 경험을 개선할 수 있도록 해줍니다. 첫 번째 릴리스에서는 모바일 앱에서 사용자 지정 위치 데이터를 검색하고 Adobe Experience Platform Launch를 통해 해당 데이터에 대응할 수 있도록 하는 것이 주요 사용 사례입니다.
+Places Service의 첫 번째 릴리스입니다. 이 툴셋은 고객이 실제 위치 데이터를 통해 사용자 경험을 개선할 수 있도록 해줍니다. 첫 번째 릴리스에서는 모바일 앱이 사용자 지정 위치 데이터를 검색하고 Adobe Experience Platform 시작을 통해 해당 데이터에 대해 작동할 수 있도록 하는 것이 주된 사용 사례입니다.
 
 ### 주요 기능
 
@@ -283,7 +299,7 @@ Places Service의 첫 번째 릴리스입니다. 이 툴셋은 고객이 실제 
 
 #### 위치 확장
 
-Places Extension을 사용하여 모바일 앱에 Places Service 라이브러리를 추가하고 POI에 대해 작업할 수 있습니다. 경험 플랫폼 론치의 규칙 빌더를 사용하여 사용자가 POI에 입장하고 나갈 때 실행하는 작업을 트리거할 수 있습니다.
+Places Extension을 사용하여 모바일 앱에 Places Service 라이브러리를 추가하고 POI에 대해 작업할 수 있습니다. Experience Platform Launch의 규칙 빌더를 사용하면 사용자가 POI에 입장하고 나갈 때 실행할 작업을 트리거할 수 있습니다.
 
 위치 확장:
 
@@ -309,4 +325,4 @@ Places Extension을 사용하여 모바일 앱에 Places Service 라이브러리
 
 #### Analytics 통합
 
-사용자가 POI(수동 호출)에 있을 때 Places Service 데이터베이스의 위치 컨텍스트 데이터를 모든 발신 Analytics 호출에 자동으로 추가하도록 Analytics 익스텐션이 업데이트됩니다. 또한 이 업데이트를 통해 규칙 만들기에서 POI 시작 또는 종료(활성 호출)에서 직접 Analytics 추적 호출을 실행할 수 있습니다.
+사용자가 POI(수동 호출)에 있을 때 나가는 모든 Analytics 호출에 Places Service 데이터베이스의 위치 컨텍스트 데이터를 자동으로 추가하도록 Analytics 확장이 업데이트됩니다. 또한 이 업데이트를 통해 규칙 만들기에서 POI 시작 또는 종료(활성 호출)에서 직접 Analytics 추적 호출을 실행할 수 있습니다.
