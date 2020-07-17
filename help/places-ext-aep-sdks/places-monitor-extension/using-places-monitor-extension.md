@@ -2,7 +2,10 @@
 title: 위치 모니터 확장 사용
 description: 위치 모니터 확장 기능을 설치, 구성 및 사용하는 방법에 대한 정보입니다.
 translation-type: tm+mt
-source-git-commit: ac1d410a676557064d5390f8392f402541754478
+source-git-commit: 7fdaace59886225b7fd9b0eba8cc6c2a139fa2d7
+workflow-type: tm+mt
+source-wordcount: '491'
+ht-degree: 6%
 
 ---
 
@@ -11,11 +14,11 @@ source-git-commit: ac1d410a676557064d5390f8392f402541754478
 
 위치 모니터 확장 기능을 사용하려면 다음 작업을 완료하십시오.
 
-## Experience Platform Launch에서 위치 모니터 확장 설치
+## Experience Platform Launch에 위치 모니터 확장 설치
 
-1. In Experience Platform Launch, click the **[!UICONTROL Extensions]**tab.
-1. 탭에서 **[!UICONTROL Catalog]**확장 기능을 찾아 설치를**[!UICONTROL Places Monitor]** 클릭합니다 ****.
-1. **[!UICONTROL Save]**를 클릭합니다.
+1. In Experience Platform Launch, click the **[!UICONTROL Extensions]** tab.
+1. 탭에서 **[!UICONTROL Catalog]** 확장 **[!UICONTROL Places Monitor]** 기능을 찾아 설치를 **클릭합니다**.
+1. **[!UICONTROL Save]**&#x200B;를 클릭합니다.
 1. 게시 프로세스에 따라 SDK 구성을 업데이트합니다.
 
 ### 위치 모니터 확장 구성 {#configure-places-monitor-extension}
@@ -24,9 +27,17 @@ source-git-commit: ac1d410a676557064d5390f8392f402541754478
 
 ![위치 모니터](/help/assets/configure_places_monitor.png)구성
 
-## 앱에 위치 모니터 확장 기능 추가 {#add-monitor-extension-to-app}
+## 앱에 위치 모니터 확장 추가 {#add-monitor-extension-to-app}
 
-위치 모니터 확장 기능을 Android 또는 iOS 앱에 추가해야 합니다.
+Android 또는 iOS 애플리케이션에 위치 모니터 확장 기능을 추가하는 방법은 아래에 나와 있습니다.
+
+Places Monitor 익스텐션에 대한 추가 플랫폼 지원은 다음과 같습니다.
+**[Cordova 위치 모니터](https://github.com/adobe/cordova-acpplaces-monitor/blob/master/README.md)**
+
+**[반응형 기본 위치 모니터](https://github.com/adobe/react-native-acpplaces-monitor/blob/master/README.md)**
+
+**[Flutter Places Monitor](https://github.com/adobe/flutter_acpplaces_monitor/blob/master/README.md)**
+
 
 ### Android
 
@@ -34,9 +45,9 @@ Android에서 다음 단계를 완료하십시오.
 
 #### Java
 
-1. 앱의 등급 파일을 사용하여 위치 모니터 확장 기능과 위치 확장 기능을 프로젝트에 추가합니다.
+1. 앱의 등급 파일을 사용하여 위치 모니터 확장 기능과 위치 확장을 프로젝트에 추가합니다.
 
-1. 또한 최신 Google 위치 서비스를 gradle 파일에 포함합니다.
+1. 또한 최신 Google 위치 서비스를 일반 파일에 포함시킬 수 있습니다.
 
    ```java
    implementation 'com.adobe.marketing.mobile:places:1.+'
@@ -55,7 +66,7 @@ Android에서 다음 단계를 완료하십시오.
 
 iOS에서 다음 단계를 완료하십시오.
 
-1. 코드를 추가하여 프로젝트에 라이브러리를 추가합니다 `Podfile` . `pod 'ACPPlacesMonitor'`
+1. Add the library to your project via your Cocoapods `Podfile` by adding `pod 'ACPPlacesMonitor'`.
 1. 위치 및 위치 모니터 라이브러리를 가져옵니다.
 
 #### Objective-C
@@ -75,9 +86,9 @@ import ACPPlacesMonitor
 ```
 
 
-## 위치 모니터 등록 및 시작 {#register-start-places-monitor}
+## 장소 모니터 등록 및 시작 {#register-start-places-monitor}
 
-Android 또는 iOS에서 위치 모니터를 등록하고 시작해야 합니다.
+Android 또는 iOS에서 장소 모니터를 등록하고 시작해야 합니다.
 
 ## Android
 
@@ -112,7 +123,7 @@ public class MobileApp extends Application {
 
 ## iOS
 
-iOS 앱에서`application:didFinishLaunchingWithOptions`모바일 코어에 `PlacesMonitor` 등록 및 위치:
+iOS 앱에서`application:didFinishLaunchingWithOptions`Mobile Core `PlacesMonitor` 에 등록 및 위치:
 
 ### Objective-C
 
@@ -158,7 +169,7 @@ func application(_ application: UIApplication, didFinishLaunchingWithOptions lau
 
 **Java**
 
-모든 버전의 Android의 경우 앱에 위치 권한이 필요하다고 선언하려면 앱 매니페스트에 최상위 `<uses-permission>` `<manifest>` 요소의 자식으로 요소를 추가하십시오. API 레벨 29 이상을 대상으로 하는 Android 응용 프로그램의 경우 앱이 백그라운드에서 위치에 액세스할 수 있도록 하려면 ACCESS_BACKGROUND_LOCATION 권한을 포함합니다.
+모든 버전의 Android에서 앱에 위치 권한이 필요하다고 선언하려면 앱 매니페스트에 `<uses-permission>` 요소를 최상위 `<manifest>` 요소의 자식으로 추가하십시오. API 레벨 29 이상을 대상으로 하는 Android 응용 프로그램의 경우 앱이 백그라운드에서 위치에 액세스할 수 있도록 허용하려면 ACCESS_BACKGROUND_LOCATION 권한을 포함합니다.
 
 ```java
 <manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.adobe.placesapp">
@@ -172,18 +183,18 @@ func application(_ application: UIApplication, didFinishLaunchingWithOptions lau
 ```
 
 
-## 백그라운드에서 위치 업데이트 사용 {#enable-location-updates-background}
+## 백그라운드에서 위치 업데이트 사용  {#enable-location-updates-background}
 
-iOS 파섹 위치 모니터 확장 기능의 백그라운드에서 위치 업데이트를 받으려면 앱에서 위치 업데이트 기능을 구성하십시오 `Xcode.background-location-updates`.
+iOS는 일시 중단되거나 더 이상 실행되지 않는 앱에 위치 이벤트 전달을 지원합니다. 위치 모니터 확장 프로그램의 백그라운드에서 위치 업데이트를 받으려면 앱에서 위치 업데이트 기능을 구성하십시오 `Xcode.background-location-updates`.
 
 ![위치 모니터 사용](/help/assets/using-the-places-monitor_1.png)
 
 ## plist 키 구성
 
-다음 키는 앱의 `Info.plist` 파일에 포함되어야 합니다.
+다음 키가 앱의 `Info.plist` 파일에 포함되어야 합니다.
 
-* `NSLocationWhenInUseUsageDescription` - 전경 상태에서 앱이 실행되는 동안 사용자의 위치 정보에 대한 액세스를 요청하는 이유를 텍스트가 설명합니다.
-* `NSLocationAlwaysAndWhenInUseUsageDescription` - 텍스트는 앱이 항상 사용자의 위치 정보에 대한 액세스를 요청하는 이유를 설명해야 합니다.
+* `NSLocationWhenInUseUsageDescription` - 전경 상태에서 앱을 실행할 때 앱이 사용자의 위치 정보에 대한 액세스를 요청하는 이유를 설명해야 합니다.
+* `NSLocationAlwaysAndWhenInUseUsageDescription` - 텍스트는 앱이 사용자의 위치 정보에 대한 액세스를 항상 요청하는 이유를 설명합니다.
 
 >[!TIP]
 >
