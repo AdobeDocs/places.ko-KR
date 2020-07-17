@@ -2,9 +2,9 @@
 title: 위치 확장
 description: 위치 확장 기능을 사용하면 사용자의 위치에 따라 작업을 수행할 수 있습니다.
 translation-type: tm+mt
-source-git-commit: 0ac139fce666540b36a8c82fe4c05974e12e987f
+source-git-commit: a7dddb78e1e00a0bde01ea668334932759a9dae8
 workflow-type: tm+mt
-source-wordcount: '678'
+source-wordcount: '694'
 ht-degree: 5%
 
 ---
@@ -33,11 +33,16 @@ ht-degree: 5%
 
 ## 앱에 위치 확장 기능 추가 {#add-places-to-app}
 
-Android 및 iOS 앱에 위치 확장을 추가할 수 있습니다. iOS 또는 Android 애플리케이션에 위치를 추가하는 단계는 아래에 나와 있습니다. 또한 Cordova 및 React Native에서도 사용할 수 있습니다. 이러한 플랫폼 중 하나로 개발할 때 애플리케이션에 위치를 추가하는 경우 함께 제공되는 링크를 참조하십시오.
+Android 및 iOS 앱에 위치 확장을 추가할 수 있습니다. iOS 또는 Android 애플리케이션에 위치를 추가하는 단계는 아래에 나와 있습니다. 위치 확장 기능은 아래의 플랫폼에서도 사용할 수 있습니다. 이러한 플랫폼 중 하나로 개발할 때 애플리케이션에 위치를 추가하는 경우 함께 제공되는 링크를 참조하십시오.
 
 **[Cordova Places Plugin](https://github.com/adobe/cordova-acpplaces/blob/master/README.md)**
 
 **[Responsive Native Places Plugin](https://github.com/adobe/react-native-acpplaces/blob/master/README.md)**
+
+**[Flutter Places Plugin](https://github.com/adobe/flutter-acpplaces_monitor)**
+
+**[Xamarin Places Plugin](https://github.com/adobe/xamarin-acpcore)**
+
 
 ### Android
 
