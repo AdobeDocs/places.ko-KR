@@ -1,13 +1,13 @@
 ---
 product: Places Service
 audience: end-user
-user-guide-title: Places Service
+user-guide-title: 장소 서비스 가이드
 user-guide-description: Places Service is a geo-location service that enables mobile apps with location awareness to understand the location context.
 translation-type: tm+mt
-source-git-commit: 43b1eb0d384e2e75e444b737c0ab15798492d0a8
+source-git-commit: f9215fa3871d91166ad109a0708105f79536213c
 workflow-type: tm+mt
-source-wordcount: '297'
-ht-degree: 14%
+source-wordcount: '298'
+ht-degree: 13%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 14%
 # Places Service {#using}
 
 + [위치 서비스 개요](home.md)
-+ [릴리스 노트](release-notes.md)
++ [릴리스 정보](release-notes.md)
 + [시작하기](getting-started.md)
 + [장소 서비스 이용](places-gain-access.md)
 + 배치 서비스 UI {#poi-mgmt-ui}
@@ -66,13 +66,13 @@ ht-degree: 14%
       + [배치 모니터 API 참조](places-ext-aep-sdks/places-monitor-extension/places-monitor-api-reference.md)
 + [자체 모니터링 솔루션과 함께 위치 서비스 사용](using-your-own-monitor.md)
 + [활성 지역 모니터링 없이 위치 서비스 사용](use-places-without-active-monitoring.md)
-+ 경험 플랫폼 실행 워크플로우의 일부로 위치 서비스 사용 {#use-places-launch-workflow}
-   + [경험 플랫폼 실행 워크플로우의 일부로 위치 서비스 사용](use-places-launch-workflow/places-launch-workflow.md)
++ 위치 서비스를 Experience Platform Launch 워크플로우의 일부로 사용 {#use-places-launch-workflow}
+   + [위치 서비스를 Experience Platform Launch 워크플로우의 일부로 사용](use-places-launch-workflow/places-launch-workflow.md)
    + [데이터 요소 정의](use-places-launch-workflow/define-data-elements.md)
    + [시작 및 종료 규칙 만들기](use-places-launch-workflow/create-rule-places-property.md)
-+ 다른 Adobe 솔루션과 함께 사용 {#use-places-with-other-solutions}
++ 다른 Adobe 솔루션과 함께 위치 서비스 사용 {#use-places-with-other-solutions}
    + Adobe Analytics {#places-adobe-analytics}
-      + [Adobe Analytics에서 장소 서비스 사용](use-places-with-other-solutions/places-adobe-analytics/use-places-analytics-overview.md)
+      + [Adobe Analytics과 함께 위치 서비스 사용](use-places-with-other-solutions/places-adobe-analytics/use-places-analytics-overview.md)
       + [POI 항목 및 종료 데이터를 Analytics로 보내기](use-places-with-other-solutions/places-adobe-analytics/use-places-adobe-analytics.md)
       + [Analytics 요청에 위치 컨텍스트 추가](use-places-with-other-solutions/places-adobe-analytics/run-reports-aa-places-data.md)
       + [Analytics 작업 공간의 위치 데이터에 대한 보고서](use-places-with-other-solutions/places-adobe-analytics/places-in-workspace.md)
@@ -81,11 +81,11 @@ ht-degree: 14%
       + [푸시 알림](use-places-with-other-solutions/places-mobile-svcs-for-messaging/mobile-svcs-messaging-push.md)
       + [인앱 알림](use-places-with-other-solutions/places-mobile-svcs-for-messaging/mobile-svcs-messaging-inapp.md)
    + Adobe Campaign Standard {#places-acs}
-      + [Adobe Campaign Standard에서 장소 서비스 사용](use-places-with-other-solutions/places-acs/places-acs-overview.md)
+      + [Adobe Campaign Standard과 함께 위치 서비스 사용](use-places-with-other-solutions/places-acs/places-acs-overview.md)
       + [푸시 알림](use-places-with-other-solutions/places-acs/places-acs-push-notifications.md)
       + [인앱 메시지](use-places-with-other-solutions/places-acs/places-acs-in-app-messages.md)
    + Adobe Target {#places-target}
-      + [Adobe Target에서 장소 서비스 사용](use-places-with-other-solutions/places-target/places-target.md)
+      + [Adobe Target과 함께 위치 서비스 사용](use-places-with-other-solutions/places-target/places-target.md)
 + 테스트 및 유효성 검사 {#places-testing-validation}
    + [장소 서비스 테스트 및 유효성 검사](places-testing-validation/test-validate-places.md)
 + [FAQ](places-faqs.md)
