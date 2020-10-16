@@ -2,9 +2,9 @@
 title: POI 일괄 업로드
 description: 이 섹션에서는 POI를 일괄 업로드하는 방법에 대한 정보를 제공합니다.
 translation-type: tm+mt
-source-git-commit: 1ffc1f4237dfb872614a4bffd43d3fdaefc62fa9
+source-git-commit: 462df20bb351795dc72009cc18d390cb45e262a8
 workflow-type: tm+mt
-source-wordcount: '853'
+source-wordcount: '859'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,11 @@ ht-degree: 0%
 
 ![벌크 가져오기 화면](/help/assets/Bulk-import.png)
 
-벌크 가져오기 및 벌크 편집 프로세스를 보여주는 비디오는 다음과 같습니다.
+벌크 가져오기 및 벌크 편집 프로세스를 보여주는 다음 비디오를 참조하십시오.
 
->[!VIDEO](https://www.youtube.com/watch?v=75qVtirsXhg)
+<!--I changed this embed to a link to pass validation. We should not link to youtube videos, so please upload this to MCP-->
+
+[서비스 벌크 가져오기 및 편집 POI 배치](https://www.youtube.com/watch?v=75qVtirsXhg)
 
 ## Python API 스크립트
 
@@ -85,7 +87,7 @@ ht-degree: 0%
 1. git 보고서에서 [로컬](https://github.com/adobe/places-scripts) 디렉토리로 파일을 다운로드합니다.
 1. 텍스트 편집기에서 파일을 열고 `config.py` 다음 작업을 완료합니다.
 
-   a. 다음 변수 값을 문자열로 편집합니다.
+   a.다음 변수 값을 문자열로 편집합니다.
 
    * `csv_file_path`
 
@@ -101,8 +103,8 @@ ht-degree: 0%
 
    * `api_key`
 
-      Adobe I/O Places 통합에서 가져온 Places REST API 키입니다. API 키를 얻는 방법에 대한 자세한 내용은 *통합 개요 및 사전 요구 사항* 에서 사용자 액세스 [](/help/web-service-api/adobe-i-o-integration.md)사전 요구 사항을 참조하십시오.
-   b. 변경 내용을 저장합니다.
+      Adobe I/O 위치 통합에서 가져온 Places REST API 키입니다. API 키를 얻는 방법에 대한 자세한 내용은 *통합 개요 및 사전 요구 사항* 에서 사용자 액세스 [](/help/web-service-api/adobe-i-o-integration.md)사전 요구 사항을 참조하십시오.
+   b.변경 내용을 저장합니다.
 
 1. 터미널 창에서 `…/places-scripts/import/` 디렉토리로 이동합니다.
 1. 키 `python ./places_import.py` 를 입력하고 **[!UICONTROL enter]** (**[!UICONTROL return]**) 키를 누릅니다.
