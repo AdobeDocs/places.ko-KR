@@ -14,12 +14,12 @@ ht-degree: 5%
 
 위치 확장 기능을 사용하면 사용자의 위치에 따라 작업을 수행할 수 있습니다. 이 익스텐션은 위치 쿼리 서비스 API에 대한 인터페이스입니다. 이 확장은 GPS 좌표 및 지리 정보 영역 이벤트를 포함하는 이벤트를 수신함으로써 규칙 엔진에서 처리하는 새 이벤트를 전달합니다. 또한 위치 확장 기능은 API에서 검색하는 앱 데이터에 대해 가장 가까운 POI 목록을 검색하여 전달합니다. API가 반환하는 영역은 캐시 및 지속성 내에 저장되므로 제한된 오프라인 처리를 허용합니다.
 
-## Adobe Experience Platform 시작 시 위치 확장 설치
+## Adobe Experience Platform Launch에 위치 확장 설치
 
 1. In Experience Platform Launch, click the **[!UICONTROL Extensions]** tab.
 1. 탭에서 **[!UICONTROL Catalog]** 확장자를 찾아 **[!UICONTROL Places]** 클릭합니다 **[!UICONTROL Install]**.
 1. 이 속성에 사용할 위치 라이브러리를 선택합니다. 앱에서 액세스할 수 있는 라이브러리입니다.
-1. **[!UICONTROL Save]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL Save]**&#x200B;을 클릭합니다.
 
    클릭하면 Experience Platform SDK가 선택한 라이브러리 **[!UICONTROL Save]**&#x200B;에서 위치 서비스에 POI를 검색합니다. 앱을 빌드할 때 POI 데이터는 라이브러리 다운로드에 포함되지 않지만, 위치 기반 POI의 하위 세트가 런타임 시 최종 사용자의 장치로 다운로드되고 사용자의 GPS 좌표를 기반으로 합니다.
 
