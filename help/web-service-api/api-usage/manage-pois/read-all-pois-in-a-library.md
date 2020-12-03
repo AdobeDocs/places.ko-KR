@@ -3,6 +3,9 @@ title: 라이브러리의 모든 POI 보기
 description: REST API를 사용하여 라이브러리의 모든 POI를 읽습니다.
 translation-type: tm+mt
 source-git-commit: 8a84fe2dc5a0efe94ce3121e589524e3c7a80c5e
+workflow-type: tm+mt
+source-wordcount: '54'
+ht-degree: 5%
 
 ---
 
@@ -165,5 +168,5 @@ curl -X GET 'https://api-places.adobe.io/places/placesapi/v1/libraries/<LIBRARYI
 
 >[!IMPORTANT]
 >
->&quot;, `<API KEY>``<TOKEN>`, and를 실제 값으로 `<ORGID>` 바꿉니다.
+>&quot;, `<API KEY>`, `<TOKEN>`및 `<ORGID>` 을 실제 값으로 대체합니다.
 
