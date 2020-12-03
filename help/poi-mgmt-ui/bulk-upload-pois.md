@@ -103,7 +103,7 @@ ht-degree: 0%
 
    * `api_key`
 
-      Adobe I/O 위치 통합에서 가져온 Places REST API 키입니다. API 키를 얻는 방법에 대한 자세한 내용은 *통합 개요 및 사전 요구 사항* 에서 사용자 액세스 [](/help/web-service-api/adobe-i-o-integration.md)사전 요구 사항을 참조하십시오.
+      Places REST API 키는 Adobe I/O Places Integration에서 가져온 키입니다. API 키를 얻는 방법에 대한 자세한 내용은 *통합 개요 및 사전 요구 사항* 에서 사용자 액세스 [](/help/web-service-api/adobe-i-o-integration.md)사전 요구 사항을 참조하십시오.
    b.변경 내용을 저장합니다.
 
 1. 터미널 창에서 `…/places-scripts/import/` 디렉토리로 이동합니다.
