@@ -1,8 +1,11 @@
 ---
 title: 조직의 모든 POI 보기
-description: REST API를 사용하여 조직의 모든 POI를 읽습니다.
+description: REST API를 사용하여 조직의 모든 POI를 확인합니다.
 translation-type: tm+mt
 source-git-commit: 8a84fe2dc5a0efe94ce3121e589524e3c7a80c5e
+workflow-type: tm+mt
+source-wordcount: '54'
+ht-degree: 5%
 
 ---
 
@@ -39,4 +42,4 @@ curl -X GET 'https://api-places.adobe.io/places/placesapi/v1/pois' -H 'x-api-key
 
 >[!IMPORTANT]
 >
->실제 `<API KEY>`값으로 `<TOKEN>`, 그리고 `<ORGID>` 바꿀 수 있습니다.
+>실제 값 `<API KEY>`으로, `<TOKEN>`및 `<ORGID>` 바꿀 수 있습니다.
