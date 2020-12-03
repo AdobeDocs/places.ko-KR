@@ -17,8 +17,8 @@ ht-degree: 6%
 ## Experience Platform Launch에 위치 모니터 확장 설치
 
 1. In Experience Platform Launch, click the **[!UICONTROL Extensions]** tab.
-1. 탭에서 **[!UICONTROL Catalog]** 확장 **[!UICONTROL Places Monitor]** 기능을 찾아 설치를 **클릭합니다**.
-1. **[!UICONTROL Save]**&#x200B;를 클릭합니다.
+1. 탭에서 **[!UICONTROL Catalog]** 확장 **[!UICONTROL Places Monitor]** 기능을 찾아 [설치]를 **클릭합니다**.
+1. **[!UICONTROL Save]**&#x200B;을 클릭합니다.
 1. 게시 프로세스에 따라 SDK 구성을 업데이트합니다.
 
 ### 위치 모니터 확장 구성 {#configure-places-monitor-extension}
@@ -31,8 +31,7 @@ ht-degree: 6%
 
 Android 또는 iOS 애플리케이션에 위치 모니터 확장 기능을 추가하는 방법은 아래에 나와 있습니다.
 
-Places Monitor 익스텐션에 대한 추가 플랫폼 지원은 다음과 같습니다.
-**[Cordova 위치 모니터](https://github.com/adobe/cordova-acpplaces-monitor/blob/master/README.md)**
+Places Monitor 익스텐션에 대한 추가 플랫폼 지원은 다음과 같습니다.**[Cordova 위치 모니터](https://github.com/adobe/cordova-acpplaces-monitor/blob/master/README.md)**
 
 **[반응형 기본 위치 모니터](https://github.com/adobe/react-native-acpplaces-monitor/blob/master/README.md)**
 
