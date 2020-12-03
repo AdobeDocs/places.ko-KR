@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: 3f986697179eb9c0af1d9b54daf67793a99b8491
 workflow-type: tm+mt
 source-wordcount: '1503'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 3%
 
    * 반응형 기본 애플리케이션에 대해 위치 및 장소 모니터 익스텐션이 [추가되었습니다.](https://aep-sdks.gitbook.io/docs/resources/upgrading-to-aep/current-sdk-versions#react-native)
    * Cordova 응용 프로그램에 대해 위치 및 배치 모니터 확장 [기능이 추가되었습니다.](https://aep-sdks.gitbook.io/docs/resources/upgrading-to-aep/current-sdk-versions#cordova)
-   * 자세한 내용은 다음을 참조하십시오. [위치 확장 사용](https://docs.adobe.com/content/help/en/places/using/places-ext-aep-sdks/places-extension/places-extension.html)
+   * 자세한 내용은 다음을 참조하십시오. [위치 확장 사용](https://docs.adobe.com/content/help/ko-KR/places/using/places-ext-aep-sdks/places-extension/places-extension.html)
 
 
 ## 2020년 5월 12일
@@ -30,7 +30,7 @@ ht-degree: 3%
 
 ## 2020년 5월 6일
 
-* **PlacesMonitor 2.2.1**
+* **PlacesMonitor 2.1.1**
 
    * **Android**
 
@@ -258,7 +258,7 @@ Android용 장소 모니터의 초기 릴리스.
 * errorCallback이 있고 오류 이유를 나타내는 errorCode를 사용하여 호출되는 getNearByPlaces에 대한 새 API를 도입했습니다.
 * 이제 위치 확장 기능은 구성을 얻을 때까지 이벤트의 대기열을 유지합니다.
 * 환경 인식 구성에 대한 지원을 추가했습니다.
-* 버그 수정: 지역 시작/종료 이벤트의 키 수정
+* 버그 수정:지역 시작/종료 이벤트의 키 수정
 * 마지막으로 알려진 위치의 저장은 이제 사용자의 개인 정보 상태를 준수합니다.
 
 
@@ -284,7 +284,7 @@ iOS용 위치 모니터의 초기 릴리스.
 
 ### 베타 릴리스
 
-Places Service의 첫 번째 릴리스입니다. 이 툴셋은 고객이 실제 위치 데이터를 통해 사용자 경험을 개선할 수 있도록 해줍니다. 첫 번째 릴리스에서는 모바일 앱이 사용자 지정 위치 데이터를 검색하고 Adobe Experience Platform 시작을 통해 해당 데이터에 대해 작동할 수 있도록 하는 것이 주된 사용 사례입니다.
+Places Service의 첫 번째 릴리스입니다. 이 툴셋은 고객이 실제 위치 데이터를 통해 사용자 경험을 개선할 수 있도록 해줍니다. 첫 번째 릴리스에서는 모바일 앱이 사용자 지정 위치 데이터를 검색하고 Adobe Experience Platform Launch을 통해 해당 데이터에 대한 작업을 수행할 수 있도록 하는 것이 주요 사용 사례입니다.
 
 ### 주요 기능
 
@@ -325,4 +325,4 @@ Places Extension을 사용하여 모바일 앱에 Places Service 라이브러리
 
 #### Analytics 통합
 
-사용자가 POI(수동 호출)에 있을 때 나가는 모든 Analytics 호출에 Places Service 데이터베이스의 위치 컨텍스트 데이터를 자동으로 추가하도록 Analytics 확장이 업데이트됩니다. 또한 이 업데이트를 통해 규칙 만들기에서 POI 시작 또는 종료(활성 호출)에서 직접 Analytics 추적 호출을 실행할 수 있습니다.
+사용자가 POI(수동 호출)에 있을 때 Places Service 데이터베이스의 위치 컨텍스트 데이터를 모든 발신 Analytics 호출에 자동으로 추가하도록 Analytics 익스텐션이 업데이트됩니다. 또한 이 업데이트를 통해 규칙 만들기에서 POI 시작 또는 종료(활성 호출)에서 직접 Analytics 추적 호출을 실행할 수 있습니다.
