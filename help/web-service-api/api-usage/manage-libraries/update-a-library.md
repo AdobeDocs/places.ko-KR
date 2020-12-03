@@ -3,6 +3,9 @@ title: 라이브러리 업데이트
 description: Places REST API를 사용하여 라이브러리를 업데이트합니다.
 translation-type: tm+mt
 source-git-commit: 8a84fe2dc5a0efe94ce3121e589524e3c7a80c5e
+workflow-type: tm+mt
+source-wordcount: '48'
+ht-degree: 6%
 
 ---
 
@@ -45,5 +48,5 @@ curl -X PUT 'https://api-places.adobe.io/places/placesapi/v1/libraries/<LIBRARYI
 
 >[!IMPORTANT]
 >
->변수(예: `<lIBRARYID>`, `<API KEY>`, `<TOKEN>`및 `<ORGID>` )를 실제 값으로 바꿉니다.
+>변수(예: `<lIBRARYID>`, `<API KEY>``<TOKEN>`, and `<ORGID>` )를 실제 값으로 바꿉니다.
 
