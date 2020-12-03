@@ -3,36 +3,39 @@ title: 기존 POI 관리
 description: 위치 서비스 UI에서 기존 POI를 편집, 삭제 또는 필터링할 수 있습니다.
 translation-type: tm+mt
 source-git-commit: 5a21e734c0ef56c815389a9f08b445bedaae557a
+workflow-type: tm+mt
+source-wordcount: '398'
+ht-degree: 6%
 
 ---
 
 
 # 기존 POI 관리 {#managing-existing-pois}
 
-위치 UI를 사용하여 위치 데이터베이스에서 POI와 라이브러리를 만들고 관리합니다.
+위치 UI를 사용하여 위치 데이터베이스에서 POI 및 라이브러리를 만들고 관리합니다.
 
 ## POI 편집
 
-1. Adobe ID를 사용하여 장소에 로그인합니다.
-1. Adobe ID를 사용하여 Places Service에 로그인합니다.
+1. Adobe ID을 사용하여 장소에 로그인합니다.
+1. Adobe ID을 사용하여 Places Service에 로그인합니다.
 1. 오른쪽 상단에서 글머리 기호 목록처럼 보이는 아이콘을 클릭합니다.
 1. 편집할 POI를 찾습니다.
-1. 을 **[!UICONTROL ...]**클릭하고**[!UICONTROL View Details]**&#x200B;선택합니다.
+1. 을 클릭하고 **[!UICONTROL ...]** 선택합니다 **[!UICONTROL View Details]**.
 1. 정보를 업데이트하고 을 클릭합니다 **[!UICONTROL Save]**.
 
 ## POI 삭제
 
-1. Adobe ID를 사용하여 장소에 로그인합니다.
-1. Adobe ID를 사용하여 Places Service에 로그인합니다.
+1. Adobe ID을 사용하여 장소에 로그인합니다.
+1. Adobe ID을 사용하여 Places Service에 로그인합니다.
 1. 오른쪽 상단에서 글머리 기호 목록처럼 보이는 아이콘을 클릭합니다.
 1. 삭제할 POI를 찾습니다.
-1. 을 **[!UICONTROL ...]**클릭하고**[!UICONTROL Delete]**&#x200B;선택합니다.
+1. 을 클릭하고 **[!UICONTROL ...]** 선택합니다 **[!UICONTROL Delete]**.
 
 ## 도시, 주, 국가 또는 메타데이터별로 POI 필터링
 
 ![POI 필터링](/help/assets/filter_poi.png)
 
-1. Adobe ID를 사용하여 위치 서비스 UI에 로그인합니다.
+1. Adobe ID을 사용하여 위치 서비스 UI에 로그인합니다.
 1. 오른쪽 상단에서 필터링 아이콘을 클릭합니다.
 1. 다음 방법 중 하나로 POI를 필터링할 수 있습니다.
 
@@ -42,11 +45,11 @@ source-git-commit: 5a21e734c0ef56c815389a9f08b445bedaae557a
 
    * 속성별:
 
-      a.속성 드롭다운 목록에서 **[!UICONTROL Country]**,**[!UICONTROL State]**&#x200B;또는 **[!UICONTROL City]**을 선택합니다.
+      a.속성 드롭다운 목록에서 **[!UICONTROL Country]**, **[!UICONTROL State]**&#x200B;또는 **[!UICONTROL City]**.
 
       b.다음 줄에 값을 입력합니다.
 
-      예를 들어 선택하고 **[!UICONTROL State]**입력할 수**[!UICONTROL California]**&#x200B;있습니다.
+      예를 들어 선택하고 입력할 수 **[!UICONTROL State]** 있습니다 **[!UICONTROL California]**.
 
    * 메타데이터 사용:
 
@@ -54,21 +57,21 @@ source-git-commit: 5a21e734c0ef56c815389a9f08b445bedaae557a
 
 ## Geofence POI 정의
 
-지오펜스 유형은 POI이며 다음 키를 기반으로 데이터베이스에 정의됩니다.
+지오펜스는 POI 유형이며 다음 키를 기준으로 데이터베이스에 정의됩니다.
 
 | 키 | 설명 | 필수 여부? |
 | :--- | :--- | :--- |
 | ID | 각 POI에 할당된 고유 식별자 | 예 |
 | 이름 | POI에 지정된 친숙한 이름 | 예 |
-| 라이브러리 | 각 POI에는 조직에 대한 라이브러리가 할당되어 있어야 합니다. | 예 |
+| 라이브러리 | 각 POI에 조직의 라이브러리를 할당해야 합니다. | 예 |
 | 반경 | POI 반경(미터 단위) | 예 |
 | 아이콘 | POI의 시각화를 지원합니다. | 예(지정된 기본값) |
 | 색상 | POI의 시각화를 지원합니다. | 예(지정된 기본값) |
 | 카테고리 | 모든 라이브러리의 모든 POI에서 공통으로 사용되는 카테고리의 공통 프레임워크를 할당합니다. | 아니요 |
 | 주소 | 주소. | 아니요 |
 | 구/군/시 | POI의 도시 | 아니요 |
-| 시/도/지역 | POI의 주 또는 지역. | 아니요 |
+| 주/지역 | POI의 주 또는 지역. | 아니요 |
 | 국가 | POI 국가. | 아니요 |
-| 위도 | POI 중심에 대한 위도 좌표입니다. | 예 |
+| 위도 | POI 중앙에 대한 위도 좌표. | 예 |
 | 경도 | POI 중심에 대한 경도 좌표입니다. | 예 |
-| 메타데이터 | POI에 할당할 수 있는 사용자 지정 키 및 값 쌍. 이 메타데이터는 여러 라이브러리의 POI를 그룹화하여 다른 사람이 유형 = 경쟁자로 POI에 들어올 때 푸시 알림 전송과 같은 다운스트림 워크플로우에서 규칙과 필터를 사용할 수 있도록 함으로써 향후 워크플로우를 간소화합니다. | 아니요 |
+| 메타데이터 | POI에 할당할 수 있는 사용자 지정 키 및 값 쌍. 이 메타데이터는 각 라이브러리의 POI를 그룹화하여 누군가가 유형 = 경쟁업체의 POI에 들어올 때 푸시 알림을 전송하는 것과 같은 다운스트림 워크플로우에서 규칙과 필터를 사용할 수 있도록 함으로써 미래의 워크플로우를 간소화합니다. | 아니요 |
