@@ -3,6 +3,9 @@ title: POI 업데이트
 description: REST API를 사용하여 POI를 업데이트합니다.
 translation-type: tm+mt
 source-git-commit: 8a84fe2dc5a0efe94ce3121e589524e3c7a80c5e
+workflow-type: tm+mt
+source-wordcount: '45'
+ht-degree: 6%
 
 ---
 
@@ -45,4 +48,4 @@ curl -X PUT 'https://api-places.adobe.io/places/placesapi/v1/pois/<POIID>' -H 'x
 
 >[!IMPORTANT]
 >
->Replace `<POIID>`, `<API KEY>`, `<TOKEN>``<ORGID>`, and `<SINGLEPOIDATA>` with actual values.
+>실제 값 `<POIID>`, `<API KEY>``<TOKEN>`, `<ORGID>`및 `<SINGLEPOIDATA>` 값을 대체합니다.
