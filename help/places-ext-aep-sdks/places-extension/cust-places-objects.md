@@ -1,18 +1,21 @@
 ---
-title: 사용자 정의 위치 개체
+title: 사용자 지정 위치 개체
 translation-type: tm+mt
 source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
+workflow-type: tm+mt
+source-wordcount: '28'
+ht-degree: 7%
 
 ---
 
 
-# 사용자 정의 위치 개체 {#places-objects}
+# 사용자 지정 위치 개체 {#places-objects}
 
-다음은 위치 API와 함께 사용할 사용자 정의 기본 클래스입니다.
+다음은 Places API와 함께 사용할 사용자 지정 기본 클래스입니다.
 
 ## iOS
 
-### AcplaysPoi
+### AcppLinesPoi
 
 정의:
 
