@@ -1,15 +1,18 @@
 ---
-title: POI 읽기
+title: POI 보기
 description: REST API를 사용하여 POI를 읽습니다.
 translation-type: tm+mt
 source-git-commit: 8a84fe2dc5a0efe94ce3121e589524e3c7a80c5e
+workflow-type: tm+mt
+source-wordcount: '45'
+ht-degree: 6%
 
 ---
 
 
-# POI 읽기 {#read-a-poi}
+# POI 보기 {#read-a-poi}
 
-POI에 대한 세부 정보를 반환하는 GET 메서드입니다.
+POI에 대한 세부 사항을 반환하는 GET 메서드입니다.
 
 ## 요청
 
@@ -67,5 +70,5 @@ curl -X GET 'https://api-places.adobe.io/places/placesapi/v1/pois/<POIID>' -H 'x
 
 >[!IMPORTANT]
 >
->실제 값으로 `<POIID>`, `<API KEY>`, `<TOKEN>`및 `<ORIGIN>` 바꿀 수 있습니다.
+>실제 값 `<POIID>`, `<API KEY>``<TOKEN>`, `<ORIGIN>` 등으로 바꿀 수 있습니다.
 
