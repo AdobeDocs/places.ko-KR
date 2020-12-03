@@ -3,13 +3,16 @@ title: 조직의 모든 라이브러리 보기
 description: Places REST API를 사용하여 조직의 모든 라이브러리를 확인합니다.
 translation-type: tm+mt
 source-git-commit: 8a84fe2dc5a0efe94ce3121e589524e3c7a80c5e
+workflow-type: tm+mt
+source-wordcount: '60'
+ht-degree: 5%
 
 ---
 
 
 # 조직의 모든 라이브러리 보기 {#read-all-lib-in-org}
 
-조직의 모든 라이브러리에 대한 세부 정보를 반환하는 GET 메서드입니다.
+조직의 모든 라이브러리에 대한 세부 사항을 반환하는 GET 메서드입니다.
 
 ## 요청
 
@@ -39,4 +42,4 @@ curl -X GET 'https://api-places.adobe.io/places/placesapi/v1/libraries' -H 'x-ap
 
 >[!IMPORTANT]
 >
->및 같은 변수를 `<API KEY>`실제 `<TOKEN>,` 값으로 `<ORGID>` 바꿉니다.
+>변수를 실제 값 `<API KEY>`으로 `<TOKEN>,` 바꿉니다 `<ORGID>` .
