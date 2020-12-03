@@ -3,6 +3,9 @@ title: 여러 POI 업데이트
 description: 일괄 처리 API를 사용하여 여러 POI를 업데이트합니다.
 translation-type: tm+mt
 source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
+workflow-type: tm+mt
+source-wordcount: '56'
+ht-degree: 5%
 
 ---
 
@@ -45,11 +48,11 @@ curl -X POST 'https://api-places.adobe.io/places/placesapi/v1/pois/batchUpdate' 
 
 >[!IMPORTANT]
 >
->실제 값으로 `<API KEY>``<TOKEN>`, `<ORGID>`및 `<PATHTOBATCHUPDATEJSONFILE>` 바꿀 수 있습니다.
+>실제 값 `<API KEY>`, `<TOKEN>``<ORGID>`을 `<PATHTOBATCHUPDATEJSONFILE>` 바꿀 수 있습니다.
 
 ## 샘플 JSON 파일
 
-다음은 API용 샘플 JSON `batchUpdate` 파일입니다.
+다음은 `batchUpdate` API용 샘플 JSON 파일입니다.
 
 ```text
 updates":[{"id":"31a49d5c-c6ad-46ae-b88d-a6912a8a6b2f","name":"Updated POI 1","description":"1","location":{"type":"Point","coordinates":[0.0000000,0.0000000]},"radius":25.0,"country":"Ghana","state":"Ghana","city":"Accra","street":"","category":"cafe","icon":"nice","color":"red","metadata":{"region":"Equator"},"lib_id":"42b4d03c-672c-4deb-83e0-134ef070c2af"},{"id":"6a78a729-7973-4373-9199-36da18cc5b8c","name":"Updated POI 2","description":"2","location":{"type":"Point","coordinates":[0.0250000,0.0250000]},"radius":50.0,"country":"Ghana","state":"Ghana","city":"Accra","street":"","category":"cafe","icon":"nice","color":"red","metadata":{"region":"Equator"},"lib_id":"42b4d03c-672c-4deb-83e0-134ef070c2af"},{"id":"74eaa3da-2464-4298-9b6d-5376fa7ea00f","name":"Updated POI 3","description":"3","location":{"type":"Point","coordinates":[0.0500000,0.0500000]},"radius":100.0,"country":"Ghana","state":"Ghana","city":"Accra","street":"","category":"cafe","icon":"nice","color":"red","metadata":{"region":"Equator"},"lib_id":"42b4d03c-672c-4deb-83e0-134ef070c2af"}]}
