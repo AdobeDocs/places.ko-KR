@@ -1,15 +1,18 @@
 ---
-title: 위치 서비스 속성에 대한 규칙 만들기
+title: 장소 서비스 속성에 대한 규칙 만들기
 description: '위치 SDK는 현재 위치를 추적하고, 현재 위치에 대해 구성된 POI를 모니터링하며, 이러한 POI에 대한 시작 및 종료 이벤트를 추적합니다. '
 translation-type: tm+mt
 source-git-commit: c22efc36f2eac6b20fc555d998c3988d8c31169e
+workflow-type: tm+mt
+source-wordcount: '866'
+ht-degree: 7%
 
 ---
 
 
 # 시작 및 종료 규칙 만들기 {#create-entry-exit-rules}
 
-위치 확장 기능과 위치 모니터 확장 기능이 모바일 애플리케이션에 설치되어 있는 경우 위치 시작 및 종료 이벤트를 포함하여 트리거되거나 에어컨이 설정된 위치 데이터를 포함하는 규칙을 Adobe Experience Platform Launch에서 만들 수 있습니다.
+모바일 애플리케이션에 위치 확장 기능과 위치 모니터 확장 기능이 설치되어 있는 경우 위치 입장 및 종료 이벤트를 포함하여 트리거되거나 지정된 위치 데이터를 사용하는 규칙을 Adobe Experience Platform Launch에서 만들 수 있습니다.
 
 ## 규칙
 
@@ -21,20 +24,20 @@ source-git-commit: c22efc36f2eac6b20fc555d998c3988d8c31169e
 
 ### 서비스 이벤트 배치
 
-위치 서비스는 규칙을 실행할 수 있는 다음 이벤트를 제공합니다.
+배치 서비스에서는 규칙을 실행할 수 있는 다음 이벤트를 제공합니다.
 
-* **POI를**&#x200B;입력합니다. 이 POI는 고객이 구성한 POI에 들어올 때 위치 SDK에 의해 트리거됩니다.
-* **POI를**&#x200B;종료합니다. POI는 고객이 구성된 POI를 종료할 때 위치 SDK에 의해 트리거됩니다.
+* **POI를**&#x200B;입력합니다. POI는 고객이 구성한 POI에 입장할 때 위치 SDK에 의해 트리거됩니다.
+* **고객이 구성한 POI를 종료할 때 위치 SDK에 의해 트리거되는 POI를 종료합니다**.
 
 ### 장소 서비스 조건
 
-조건은 이벤트와 연관된 데이터 또는 해당 인스턴스의 확장 기능의 공유 상태가 작업을 수행하기 위해 충족해야 하는 기준을 정의합니다. 예를 들어 조건이 설정되면 샌프란시스코 시에만 있는 커피숍에 대한 입장 작업을 트리거할 수 있습니다.
+조건은 이벤트와 연관된 데이터 또는 해당 인스턴스의 확장 기능의 공유 상태가 조치를 수행하기 위해 충족해야 하는 기준을 정의합니다. 예를 들어 샌프란시스코에서만 커피숍에 입장한 작품에 대한 조치를 트리거하는 조건을 설정할 수 있습니다.
 
 위치 SDK는 다음 상태를 유지합니다.
 
-* 현재 POI로, 고객이 현재 있는 POI를 나타냅니다.
+* 현재 POI를 나타냅니다.
 * 마지막으로 종료한 POI는 고객이 종료한 가장 최근 POI를 나타냅니다.
-* 마지막으로 입력한 POI는 고객이 입력한 최신 POI를 의미합니다.
+* 마지막으로 입력한 POI는 고객이 입력한 가장 최근 POI를 나타냅니다.
 
 각 POI에는 다음 데이터 요소가 포함되어 있습니다.
 
@@ -46,86 +49,86 @@ source-git-commit: c22efc36f2eac6b20fc555d998c3988d8c31169e
 
 ### 작업
 
-작업은 실행된 이벤트에 대한 규칙의 조건에 응답하여 앱이 수행할 작업을 정의합니다. 예를 들어 고객이 POI에 입장할 때 해당 모바일 장치에 표시할 환영 메시지를 구성할 수 있습니다.
+작업은 실행된 이벤트에 대한 규칙의 조건에 응답하여 앱이 수행할 작업을 정의합니다. 예를 들어 고객이 POI에 입장하면 해당 모바일 장치에 표시할 시작 메시지를 구성할 수 있습니다.
 
-## 규칙 만들기:예
+## 규칙 만들기:예제
 
 >[!CAUTION]
 >
 >이 예에서는 사용자가 미국의 모든 커피숍에 대한 POI 라이브러리를 생성한 것으로 가정합니다. For more information about creating POIs and libraries, see [Create a POI](/help/poi-mgmt-ui/create-a-poi-ui.md) and *Create a Library* in [Manage multiple libraries](https://docs.adobe.com/content/help/en/places/using/poi-mgmt-ui/manage-libraries-in-the-places-ui.html).
 
-다음 절차는 샌프란시스코에 커피숍에 들어갈 때 Slack으로 다시 게시물을 보내는 규칙을 만드는 방법의 예입니다.
+다음 절차는 샌프란시스코에 있는 커피숍에 들어갈 때 Slack에 게시물을 다시 보내는 규칙을 만드는 방법의 예입니다.
 
 이벤트, 조건 및 작업은 다음과 같은 방법으로 정의됩니다.
 
 * **이벤트**:응모 이벤트를 배치합니다.
 * **조건**: **현재 POI**&#x200B;를 위한 도시는 샌프란시스코임
-* **작업**:고객이 입력한 커피숍 이름을 Slack으로 포스트백을 보내십시오.
+* **작업**:고객이 입력한 커피숍의 이름을 Slack으로 포스트백을 보냅니다.
 
 ### 전제 조건
 
-규칙을 만들기 전에 Adobe Experience Platform Launch에서 데이터 요소를 만들어야 합니다. 데이터 요소는 포스트백 메시지에 POI에 대한 필요한 정보를 자동으로 채웁니다.
+규칙을 만들기 전에 Adobe Experience Platform Launch에서 데이터 요소를 만들어야 합니다. 데이터 요소는 포스트백 메시지에서 POI에 대한 필요한 정보를 자동으로 채웁니다.
 
-경험 플랫폼 론치에서 데이터 요소를 만들려면:
+Experience Platform Launch에서 데이터 요소를 만들려면
 
 1. 데이터 요소 **탭을** 클릭합니다.
 1. Click **Add Data Element**.
-1. 예를 들어 현재 커피숍 **이름과**&#x200B;같은 이름을 입력합니다.
-1. 확장 **프로그램** 드롭다운 목록에서 위치 - 베타 **를 선택합니다**.
+1. 예를 들어 현재 **커피숍 이름과 같은 이름을 입력합니다**.
+1. 확장 **프로그램** 드롭다운 목록에서 **장소 - 베타**&#x200B;를 선택합니다.
 1. **데이터 요소**&#x200B;에서 **구/군/시**&#x200B;를 선택합니다.
-1. 오른쪽 창에서 현재 POI를 **선택합니다**.
+1. 오른쪽 창에서 **현재 POI를 선택합니다**.
 1. **저장**&#x200B;을 클릭합니다.
 
-### Experience Platform Launch for Places Service에서 규칙 만들기
+### 장소 서비스에 대한 Experience Platform Launch에서 규칙 만들기
 
 ![규칙 만들기](/help/assets/placesrule.png)
 
-1. In Experience Platform Launch, click the **[!UICONTROL Rules]**tab.
-1. **[!UICONTROL Add Rule]**를 클릭합니다.
+1. In Experience Platform Launch, click the **[!UICONTROL Rules]** tab.
+1. **[!UICONTROL Add Rule]**&#x200B;을 클릭합니다.
 1. 예를 들어 규칙의 이름을 입력합니다 **[!UICONTROL Track entry for coffee shop in SF]**.
 
 ### 이벤트를 만듭니다
 
 1. 이벤트 섹션에서 을 클릭합니다 **[!UICONTROL + Add]**. 이벤트는 규칙을 실행할 시기를 결정합니다.
-1. 드롭다운 **[!UICONTROL Extension]**목록에서 선택합니다**[!UICONTROL Places – Beta]**.
-1. 드롭다운 **[!UICONTROL Event Type]**목록에서 선택합니다**[!UICONTROL Enter POI]**.
-1. 에서 **[!UICONTROL Name]**이벤트의 이름을 입력합니다(예:**[!UICONTROL Entering a coffee shop]**).
-1. **[!UICONTROL Keep Changes]**를 클릭합니다.
+1. 드롭다운 **[!UICONTROL Extension]** 목록에서 선택합니다 **[!UICONTROL Places – Beta]**.
+1. 드롭다운 **[!UICONTROL Event Type]** 목록에서 선택합니다 **[!UICONTROL Enter POI]**.
+1. 에 이벤트 이름 **[!UICONTROL Name]**(예: )을 입력합니다 **[!UICONTROL Entering a coffee shop]**.
+1. **[!UICONTROL Keep Changes]**&#x200B;을 클릭합니다.
 
 ### 조건 만들기
 
-1. 조건 섹션에서 을 **[!UICONTROL +Add]**클릭합니다. 조건은 수행할 작업에 대해 충족해야 하는 기준을 결정합니다.
+1. 조건 섹션에서 을 클릭합니다 **[!UICONTROL +Add]**. 조건은 수행할 작업을 위해 충족해야 하는 기준을 결정합니다.
 1. In **[!UICONTROL Logic Type]**, select Regular, which allows actions to execute if the condition is met.
-1. 드롭다운 **[!UICONTROL Extension]**목록에서 선택합니다**[!UICONTROL Places – Beta]**.
-1. 에서 **[!UICONTROL Condition Type]**을 선택합니다**[!UICONTROL City]**.
-1. Type a condition name, for example, **[!UICONTROL Coffee shop in SF]**.
-1. In the right pane, click **[!UICONTROL Current POI]**, and in the drop-down list, select**[!UICONTROL San Francisco]** as one of your cities.
-1. **[!UICONTROL Keep Changes]**를 클릭합니다.
+1. 드롭다운 **[!UICONTROL Extension]** 목록에서 선택합니다 **[!UICONTROL Places – Beta]**.
+1. **[!UICONTROL Condition Type]**&#x200B;에서 **[!UICONTROL City]**&#x200B;을(를) 선택합니다.
+1. 조건 이름(예: **[!UICONTROL Coffee shop in SF]**
+1. In the right pane, click **[!UICONTROL Current POI]**, and in the drop-down list, select **[!UICONTROL San Francisco]** as one of your cities.
+1. **[!UICONTROL Keep Changes]**&#x200B;을 클릭합니다.
 
 ### 동작 만들기
 
-1. In the **[!UICONTROL Actions]**section, click**[!UICONTROL + Add]**.
-1. 드롭다운 **[!UICONTROL Extension]**목록에서 기본**[!UICONTROL Mobile Core]** 옵션을 선택된 상태로 둡니다.
+1. In the **[!UICONTROL Actions]** section, click **[!UICONTROL + Add]**.
+1. 드롭다운 **[!UICONTROL Extension]** 목록에서 기본 **[!UICONTROL Mobile Core]** 옵션을 선택한 상태로 둡니다.
 1. 작업 유형(예: )을 선택합니다 **[!UICONTROL Send Postback]**.
 
-   a.에서 **[!UICONTROL URL]**Slack의 포스트백 URL을 입력합니다(예:`https://hooks.slack.com/services/`).
+   a.에 Slack **[!UICONTROL URL]**&#x200B;에 대한 포스트백 URL을 입력합니다(예: `https://hooks.slack.com/services/`).
 
-   b.게시물 본문을 전송하려면 **[!UICONTROL Add Post Body]**확인란을 선택합니다.
+   b.게시물 본문을 보내려면 **[!UICONTROL Add Post Body]** 확인란을 선택합니다.
 
-   c.에서 게시물 본문을 **[!UICONTROL Post Body]**추가합니다(예:`{ "text": "A customer has entered" }`
+   c. in **[!UICONTROL Post Body]**&#x200B;에서 게시물 본문을 추가합니다(예: `{ "text": "A customer has entered" }`
 
-   c.예를 들어 컨텐츠 유형을 입력합니다 **[!UICONTROL application/json]**.
+   c. 예를 들어 컨텐츠 유형을 입력합니다 **[!UICONTROL application/json]**.
 
    d.시간 초과 값(예: )을 선택합니다 **[!UICONTROL 5]**.
 
-1. **[!UICONTROL Keep Changes]**를 클릭합니다.
+1. **[!UICONTROL Keep Changes]**&#x200B;을 클릭합니다.
 
 ### 규칙 게시
 
-1. 규칙을 활성화하려면 게시해야 합니다. Experience Platform Launch에서 규칙 게시에 대한 자세한 내용은 게시를 [참조하십시오](https://docs.adobe.com/content/help/en/launch/using/reference/publish/overview.html).
+1. 규칙을 활성화하려면 게시해야 합니다. Experience Platform Launch에서 규칙을 게시하는 방법에 대한 자세한 내용은 [게시를 참조하십시오](https://docs.adobe.com/content/help/ko-KR/launch/using/reference/publish/overview.html).
 
 ### 입장 및 종료 이상의 사고
 
-Experience Platform Launch에서 위치 서비스 geo-fence 항목 및 종료를 사용하여 규칙을 트리거하는 것은 매우 강력하지만, 위치 데이터를 다른 이벤트를 실행하기 위한 조건으로 사용할 수도 있습니다. 예를 들어 앱 내의 특정 trackAction 호출 이벤트를 기반으로 모바일 코어 추적 동작 이벤트 트리거를 실행할 수 있습니다. 이 이벤트를 기반으로, 작업이 수행되기 전에 이벤트에 추가 위치 조건을 배치할 수 있습니다. 예를 들어 구매 `trackAction` 이벤트가 발생하면 인앱 설문 조사를 열지만 사용자의 현재 위치에 특정 위치 서비스 메타데이터가 포함된 **경우에만** 열 수 있습니다.
+Experience Platform Launch에서 규칙을 트리거하기 위해 위치 서비스 지역 펜스 항목 및 종료를 사용하는 것은 매우 강력하지만, 위치 데이터를 다른 이벤트를 실행하기 위한 조건으로 사용할 수도 있습니다. 예를 들어 앱 내의 특정 trackAction 호출 이벤트를 기반으로 실행할 수 있는 모바일 코어 추적 작업 이벤트 트리거를 만들 수 있습니다. 이 이벤트를 기준으로, 작업이 수행되기 전에 이벤트에 추가 위치 조건을 배치할 수 있습니다. 예를 들어 구매 `trackAction` 이벤트가 발생하면 인앱 설문 조사를 열지만 사용자의 현재 위치에 특정 위치 서비스 메타데이터가 **포함된 경우에만** 열 수 있습니다.
 
 ![조건 만들기](/help/assets/places-condition.png)
