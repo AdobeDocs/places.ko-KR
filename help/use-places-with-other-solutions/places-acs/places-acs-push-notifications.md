@@ -55,12 +55,12 @@ Experience Platform Launch의 규칙을 사용하면 이벤트 트리거를 기�
 1. 섹션에서 **[!UICONTROL Events]** 을 **[!UICONTROL +]** 클릭하고 확장자로 **[!UICONTROL Places Service]** 선택합니다.
 1. For the **[!UICONTROL Event Type]**, select **[!UICONTROL Enter POI]**.
 1. 규칙 이름 지정(예: **사용자가 POI를 입력함)**.
-1. **[!UICONTROL Keep Changes]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL Keep Changes]**&#x200B;을 클릭합니다.
 1. 그 **[!UICONTROL Conditions]** 구역을 비워두세요.
 
    이 섹션에서는 이 규칙이 실행되어야 하는 시기를 필터링하거나 제한할 수 있습니다.
 
-1. 섹션에서 를 **[!UICONTROL Actions]** 클릭합니다 **[!UICONTROL +]**.
+1. Under the **[!UICONTROL Actions]** section, click **[!UICONTROL +]**.
 1. 드롭다운 **[!UICONTROL Extension]** 목록에서 **[!UICONTROL Mobile Core]** 을 선택하고 **[!UICONTROL Action Type]** 드롭다운 목록에서 선택합니다 **[!UICONTROL Send Postback]**.
 1. 에서 **[!UICONTROL URL]** Campaign Standard 위치 끝점을 구성해야 합니다.
 
@@ -84,7 +84,7 @@ Experience Platform Launch의 규칙을 사용하면 이벤트 트리거를 기�
 
 1. 이전 섹션에서 만든 데이터 요소를 사용해야 합니다.
 1. 에 **[!UICONTROL Content Type]**&#x200B;를 입력합니다 **[!UICONTROL application/json]**.
-1. **[!UICONTROL Keep Changes]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL Keep Changes]**&#x200B;을 클릭합니다.
 
 >[!IMPORTANT]
 >
@@ -114,7 +114,7 @@ Adobe Campaign에 채워진 위치 데이터가 있으므로 POI를 대상 세�
 
    ![&quot;ACS의 푸시 메시지 2&quot;](/help/assets/ACS_push2.png)
 
-1. **[!UICONTROL Confirm]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL Confirm]**&#x200B;을 클릭합니다.
 1. 맨 위에서 카운트를 다시 실행하면 대상자 크기가 변경됩니다.
 
    카운트 업데이트가 표시되지 않는 경우 어떤 장치도 응모를 트리거하지 않은 POI 이름을 입력했을 수 있습니다. 다양한 테스트 장치에서 POI 항목 목록을 볼 수 있으므로 이러한 상황에서는 Slack 웹 후크를 사용하는 것이 매우 중요합니다.
