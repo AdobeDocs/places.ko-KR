@@ -171,7 +171,7 @@ Adobe Experience Platform 메뉴에서 장소 서비스를 이용할 수도 있�
    * 카드 하단에 두 점이 표시됩니다.
    * 오른쪽에 있는 점을 클릭하면 카드 하단에 **[!UICONTROL Assign Developers]** 나타납니다.
 
-1. **[!UICONTROL + Assign Developers]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL + Assign Developers]**&#x200B;을 클릭합니다.
 
 1. 사용자의 Adobe ID를 입력합니다.
 
