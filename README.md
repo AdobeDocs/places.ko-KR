@@ -1,16 +1,12 @@
 ---
-source-git-commit: ca711e5f9d05ff01ab87a39377b09fad258fbb90
+source-git-commit: 8688bd4a613b71f205909588bd2a3391e1cc8793
 workflow-type: tm+mt
 translation-type: tm+mt
-source-wordcount: '517'
-ht-degree: 82%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 # 기여자 문서
-
-| EXL-PR | EXL | 미리 보기 | 활성화 | 게시됨 | 도움말 |
-|--- |--- |--- |--- |--- |--- |
-| [![빌드 상태](https://docs.ci.corp.adobe.com/view/exl-pr/job/places.en_pr-exl/badge/icon)](https://docs.ci.corp.adobe.com/view/exl-pr/job/places.en_pr-exl/lastBuild/) | [![빌드 상태](https://docs.ci.corp.adobe.com/view/exl-pr/job/places.en_exl/lastBuild/badge/icon)](https://docs.ci.corp.adobe.com/view/exl-pr/job/places.en_exl/lastBuild/lastBuild) | [미리 보기 URL](https://experienceleague.corp.adobe.com/docs/places/using/home.html?lang=en) | [activate-exl](https://docs.ci.corp.adobe.com/job/activate-exl/build/) | [라이브 URL](https://experienceleague.adobe.com/docs/places/using/home.html?lang=en) | [Authoring 안내서](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/home.html?lang=en) |
 
 Adobe는 Adobe 커뮤니티와 설명서 팀이 아닌 Adobe 직원들의 내용 기여를 환영합니다.
 
@@ -42,7 +38,7 @@ If you submit a pull request with significant changes to documentation and code 
 
 ### Adobe 직원의 주요 변경 사항
 
-[!UICONTROL Adobe Experience Cloud] 솔루션에 대한 제품 팀의 테크니컬 라이터, 프로그램 관리자 또는 개발자이고 기술 문서에 기여하거나 기술 문서를 작성하는 것이 본인의 직무인 경우 개인 저장소(`https://git.corp.adobe.com/AdobeDocs`)를 사용해야 합니다. 내부 [공동 작업 안내서를 참조하십시오](https://docs.adobe.com/content/help/en/collaborative-doc-instructions/collaboration-guide/home.html).
+[!UICONTROL Adobe Experience Cloud] 솔루션에 대한 제품 팀의 테크니컬 라이터, 프로그램 관리자 또는 개발자이고 기술 문서에 기여하거나 기술 문서를 작성하는 것이 본인의 직무인 경우 개인 저장소(`https://git.corp.adobe.com/AdobeDocs`)를 사용해야 합니다. [내부 공동 작업 안내서](https://docs.adobe.com/content/help/en/collaborative-doc-instructions/collaboration-guide/home.html)를 참조하십시오.
 
 <!--Employees from other parts of the Adobe world should use the public repo for minor updates.-->
 
