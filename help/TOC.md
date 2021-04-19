@@ -1,10 +1,9 @@
 ---
-product: Places Service
 audience: end-user
 user-guide-title: Places Service 안내서
-user-guide-description: 위치 서비스는 위치 인식 모바일 앱이 위치 컨텍스트를 이해할 수 있도록 해주는 지리적 위치 서비스입니다.
+user-guide-description: 위치 서비스는 위치 인식 모바일 앱이 위치 컨텍스트를 파악할 수 있도록 해 주는 지리적 위치 서비스입니다.
 translation-type: tm+mt
-source-git-commit: f9215fa3871d91166ad109a0708105f79536213c
+source-git-commit: 12283d11829ee70a808bc11d2bc1241cb1770ac3
 workflow-type: tm+mt
 source-wordcount: '316'
 ht-degree: 19%
@@ -16,7 +15,7 @@ ht-degree: 19%
 
 + [위치 서비스 개요](home.md)
 + [릴리스 정보](release-notes.md)
-+ [시작하기](getting-started.md)
++ [시작](getting-started.md)
 + [장소 서비스 이용](places-gain-access.md)
 + 서비스 UI {#poi-mgmt-ui} 배치
    + [배치 서비스 UI 개요](poi-mgmt-ui/poi-mgmt-ui-overview.md)
