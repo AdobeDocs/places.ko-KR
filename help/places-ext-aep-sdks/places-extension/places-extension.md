@@ -1,54 +1,53 @@
 ---
 title: 위치 확장
-description: 위치 확장 기능을 사용하면 사용자의 위치에 따라 작업을 수행할 수 있습니다.
-translation-type: tm+mt
-source-git-commit: a7dddb78e1e00a0bde01ea668334932759a9dae8
+description: 위치 확장을 사용하면 사용자의 위치에 따라 작업할 수 있습니다.
+exl-id: 09c02753-09b3-4e07-82b2-b6c72c4e0e42
+source-git-commit: 795808b38851d5afcedc03f58e9a1d6342830934
 workflow-type: tm+mt
-source-wordcount: '694'
+source-wordcount: '700'
 ht-degree: 5%
 
 ---
 
-
 # 위치 확장 {#places-extension}
 
-위치 확장 기능을 사용하면 사용자의 위치에 따라 작업을 수행할 수 있습니다. 이 익스텐션은 위치 쿼리 서비스 API에 대한 인터페이스입니다. 이 확장은 GPS 좌표 및 지리 정보 영역 이벤트를 포함하는 이벤트를 수신함으로써 규칙 엔진에서 처리하는 새 이벤트를 전달합니다. 또한 위치 확장 기능은 API에서 검색하는 앱 데이터에 대해 가장 가까운 POI 목록을 검색하여 전달합니다. API가 반환하는 영역은 캐시 및 지속성 내에 저장되므로 제한된 오프라인 처리를 허용합니다.
+위치 확장을 사용하면 사용자의 위치에 따라 작업할 수 있습니다. 이 확장은 Places Query Service API에 대한 인터페이스입니다. GPS 좌표 및 지오펜스 영역 이벤트가 포함된 이벤트를 수신하면 이 확장은 규칙 엔진에서 처리하는 새 이벤트를 발송합니다. 위치 확장은 API에서 검색하는 앱 데이터에 가장 가까운 POI 목록을 검색하고 전달합니다. API에서 반환되는 영역은 캐시 및 지속성에 저장되며, 이는 제한된 오프라인 처리를 허용합니다.
 
 ## Adobe Experience Platform Launch에 위치 확장 설치
 
-1. In Experience Platform Launch, click the **[!UICONTROL Extensions]** tab.
-1. 탭에서 **[!UICONTROL Catalog]** 확장자를 찾아 **[!UICONTROL Places]** 클릭합니다 **[!UICONTROL Install]**.
-1. 이 속성에 사용할 위치 라이브러리를 선택합니다. 앱에서 액세스할 수 있는 라이브러리입니다.
-1. **[!UICONTROL Save]**&#x200B;을 클릭합니다.
+1. Experience Platform Launch에서 **[!UICONTROL 확장]** 탭.
+1. 설정 **[!UICONTROL 카탈로그]** 탭에서 를 찾습니다 **[!UICONTROL 위치]** 확장을 마우스로 가리킨 다음 **[!UICONTROL 설치]**.
+1. 이 속성에서 사용할 위치 라이브러리를 선택합니다. 앱에서 액세스할 수 있는 라이브러리입니다.
+1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
-   클릭하면 Experience Platform SDK가 선택한 라이브러리 **[!UICONTROL Save]**&#x200B;에서 위치 서비스에 POI를 검색합니다. 앱을 빌드할 때 POI 데이터는 라이브러리 다운로드에 포함되지 않지만, 위치 기반 POI의 하위 세트가 런타임 시 최종 사용자의 장치로 다운로드되고 사용자의 GPS 좌표를 기반으로 합니다.
+   를 클릭하면 **[!UICONTROL 저장]**&#x200B;를 검색하는 경우, Experience Platform SDK는 선택한 라이브러리에서 POI를 위한 위치 서비스 를 검색합니다. POI 데이터는 앱을 빌드할 때 라이브러리 다운로드에 포함되지 않지만, POI의 위치 기반 하위 집합은 런타임 시 최종 사용자의 장치에 다운로드되고 사용자의 GPS 좌표를 기반으로 합니다.
 
 1. 게시 프로세스를 완료하여 SDK 구성을 업데이트합니다.
 
-   Experience Platform Launch에서 게시에 대한 자세한 내용은 [게시를 참조하십시오](https://docs.adobe.com/content/help/ko-KR/launch/using/reference/publish/overview.html).
+   Experience Platform Launch에서 게시에 대한 자세한 내용은 [게시](https://docs.adobe.com/content/help/ko-KR/launch/using/reference/publish/overview.html).
 
-### Configure the Places extension {#configure-places-extension}
+### 위치 확장 구성 {#configure-places-extension}
 
-![](//help/assets/places-extension.png)
+![](/help/assets/places-extension.png)
 
-## 앱에 위치 확장 기능 추가 {#add-places-to-app}
+## 앱에 위치 확장 추가 {#add-places-to-app}
 
-Android 및 iOS 앱에 위치 확장을 추가할 수 있습니다. iOS 또는 Android 애플리케이션에 위치를 추가하는 단계는 아래에 나와 있습니다. 위치 확장 기능은 아래의 플랫폼에서도 사용할 수 있습니다. 이러한 플랫폼 중 하나로 개발할 때 애플리케이션에 위치를 추가하는 경우 함께 제공되는 링크를 참조하십시오.
+위치 확장을 Android 및 iOS 앱에 추가할 수 있습니다. iOS 또는 Android 애플리케이션에 위치를 추가하는 단계는 아래에 나와 있습니다. 위치 확장 은 아래의 다음 플랫폼에 대해서도 사용할 수 있습니다. 이러한 플랫폼 중 하나를 사용하여 개발할 때 애플리케이션에 위치 를 추가하는 경우 함께 제공되는 링크를 참조하십시오.
 
-**[Cordova Places Plugin](https://github.com/adobe/cordova-acpplaces/blob/master/README.md)**
+**[Cordova Places 플러그인](https://github.com/adobe/cordova-acpplaces/blob/master/README.md)**
 
-**[Responsive Native Places Plugin](https://github.com/adobe/react-native-acpplaces/blob/master/README.md)**
+**[React Native Places 플러그인](https://github.com/adobe/react-native-acpplaces/blob/master/README.md)**
 
-**[Flutter Places Plugin](https://github.com/adobe/flutter-acpplaces_monitor)**
+**[Flutter Places 플러그인](https://github.com/adobe/flutter-acpplaces_monitor)**
 
-**[Xamarin Places Plugin](https://github.com/adobe/xamarin-acpcore)**
+**[Xamarin Places 플러그인](https://github.com/adobe/xamarin-acpcore)**
 
 
 ### Android
 
-Java를 사용하여 앱에 위치 확장을 추가하려면:
+Java를 사용하여 앱에 위치 확장 기능을 추가하려면:
 
-1. 앱의 등급 파일을 사용하여 프로젝트에 위치 확장을 추가합니다.
+1. 앱의 gradle 파일을 사용하여 프로젝트에 위치 확장을 추가합니다.
 
    ```java
    implementation 'com.adobe.marketing.mobile:places:1.+'
@@ -64,18 +63,18 @@ Java를 사용하여 앱에 위치 확장을 추가하려면:
 
 ### iOS
 
-Objective-C 또는 Swift를 사용하여 앱에 위치 확장을 추가하려면:
+Objective-C 또는 Swift를 사용하여 앱에 위치 확장 을 추가하려면 다음을 수행합니다.
 
-1. 프로젝트에 위치 및 [모바일 코어](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core) 라이브러리를 추가합니다. 다음 창을 사용자 창에 추가해야 합니다 `Podfile`.
+1. 위치 및 [Mobile Core](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core) 라이브러리를 프로젝트에 추가합니다. 다음 pod를 `Podfile`:
 
    ```objective-c
    pod 'ACPPlaces', '~> 1.0'
    pod 'ACPCore', '~> 2.0'    # minimum Core version for Places is 2.0.3
    ```
 
-   또는 코드를 사용하지 않는 경우 Github의 [릴리스 페이지에서](https://github.com/Adobe-Marketing-Cloud/acp-sdks/releases/) Mobile Core 및 Places 라이브러리를 수동으로 포함할 수 있습니다.
+   또는 Cocoapods를 사용하지 않는 경우 Adobe에서 Mobile Core 및 Places 라이브러리를 수동으로 포함할 수 있습니다. [릴리스 페이지](https://github.com/Adobe-Marketing-Cloud/acp-sdks/releases/) 설정
 
-1. 코드 업데이트:
+1. Cocoapods를 업데이트합니다.
 
    ```objective-c
    pod update
@@ -97,13 +96,13 @@ Objective-C 또는 Swift를 사용하여 앱에 위치 확장을 추가하려면
    import ACPPlaces
    ```
 
-### Mobile Core로 Places 확장 등록 {#register-places-mobile-core}
+### Mobile Core에 위치 확장 등록 {#register-places-mobile-core}
 
 Android 및 iOS에서 Mobile Core에 위치 확장을 등록해야 합니다.
 
 #### Android
 
-앱의 `OnCreate` 메서드에서 위치 확장을 등록합니다.
+앱의 `OnCreate` 메서드: Places 확장을 등록합니다.
 
 ```java
 public class PlacesTestApp extends Application {
@@ -125,7 +124,7 @@ public class PlacesTestApp extends Application {
 
 #### iOS
 
-앱의 `application:didFinishLaunchingWithOptions:` 방식에서 다른 SDK 등록 호출을 사용하여 Places 확장을 등록합니다.
+앱의 `application:didFinishLaunchingWithOptions:` 메서드를 사용하여 Places 확장을 다른 SDK 등록 호출에 등록합니다.
 
 **Objective-C**
 
@@ -147,15 +146,15 @@ func application(_ application: UIApplication, didFinishLaunchingWithOptions lau
 }
 ```
 
-### 장소 멤버십 기간 수정 {#places-ttl}
+### 위치 멤버십 유지 시간 수정 {#places-ttl}
 
-특히 장치가 백그라운드 위치 업데이트를 받지 못하는 경우 위치 데이터가 빠르게 오래된 상태가 될 수 있습니다.
+특히 장치가 백그라운드 위치 업데이트를 받지 않는 경우 위치 데이터가 빠르게 부실해질 수 있습니다.
 
-구성 설정을 설정하여 장치에 [배치] 멤버십 데이터를 실시간 관리하는 `places.membershipttl` 방법을 살펴봅니다. 전달된 값은 [위치] 상태가 장치에 대해 유효한 상태로 남아 있는 시간(초)을 나타냅니다.
+를 설정하여 장치의 Places 멤버십 데이터에 대한 유지 시간 제어 `places.membershipttl` 구성 설정. 전달된 값은 장치에 대해 유효한 위치 상태가 유지되는 시간(초)을 나타냅니다.
 
 #### Android
 
-호출 전 필요한 변경 사항을 사용하여 구성을 `MobileCore.start()` 업데이트하는 콜백 내부 `lifecycleStart`:
+의 콜백 내부 `MobileCore.start()` 를 호출하기 전에 필요한 변경 사항으로 구성을 업데이트합니다. `lifecycleStart`:
 
 ```java
 public class PlacesTestApp extends Application {
@@ -189,7 +188,7 @@ public class PlacesTestApp extends Application {
 
 #### iOS
 
-On the first line in the callback of `ACPCore`&#39;s `start:` method, `updateConfiguration:`
+의 콜백에서 첫 번째 줄 `ACPCore`s `start:` 메서드, 호출 `updateConfiguration:`
 
 **Objective-C**
 
@@ -231,10 +230,10 @@ func application(_ application: UIApplication, didFinishLaunchingWithOptions lau
 
 ## 구성 키
 
-런타임에 프로그래밍 방식으로 SDK 구성을 업데이트하려면 다음 정보를 사용하여 Places 확장 구성 값을 변경합니다. 자세한 내용은 구성 [API 참조를 참조하십시오](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/configuration/configuration-api-reference).
+런타임 시 프로그래밍 방식으로 SDK 구성을 업데이트하려면 다음 정보를 사용하여 Places 확장 구성 값을 변경합니다. 자세한 내용은 [구성 API 참조](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/configuration/configuration-api-reference).
 
 | 키 | 필수 여부 | 설명 |
 | :--- | :--- | :--- |
-| `places.libraries` | 예 | 모바일 앱용 Places 확장 라이브러리 라이브러리 ID와 모바일 앱이 지원하는 라이브러리 이름을 지정합니다. |
+| `places.libraries` | 예 | 모바일 앱용 Places 확장 라이브러리. 라이브러리 ID와 모바일 앱에서 지원하는 라이브러리 이름을 지정합니다. |
 | `places.endpoint` | 예 | 라이브러리 및 POI에 대한 정보를 가져오는 데 사용되는 기본 위치 쿼리 서비스 끝점입니다. |
-| `places.membershipttl` | 아니요 | 기본값은 3600(1시간 초)입니다. 장치의 멤버십 정보가 유효한 기간(초)을 나타냅니다. |
+| `places.membershipttl` | 아니요 | 기본값은 3600(1시간 초)입니다. 장치에 대한 위치 멤버십 정보가 유효한 기간(초)을 나타냅니다. |
