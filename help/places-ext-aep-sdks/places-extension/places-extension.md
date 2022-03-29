@@ -4,8 +4,8 @@ description: 위치 확장을 사용하면 사용자의 위치에 따라 작업�
 exl-id: 09c02753-09b3-4e07-82b2-b6c72c4e0e42
 source-git-commit: 795808b38851d5afcedc03f58e9a1d6342830934
 workflow-type: tm+mt
-source-wordcount: '700'
-ht-degree: 5%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -72,7 +72,7 @@ Objective-C 또는 Swift를 사용하여 앱에 위치 확장 을 추가하려�
    pod 'ACPCore', '~> 2.0'    # minimum Core version for Places is 2.0.3
    ```
 
-   또는 Cocoapods를 사용하지 않는 경우 Adobe에서 Mobile Core 및 Places 라이브러리를 수동으로 포함할 수 있습니다. [릴리스 페이지](https://github.com/Adobe-Marketing-Cloud/acp-sdks/releases/) 설정
+   또는 Cocoapods를 사용하지 않는 경우 Adobe에서 Mobile 코어 및 위치 라이브러리를 수동으로 포함할 수 있습니다. [릴리스 페이지](https://github.com/Adobe-Marketing-Cloud/acp-sdks/releases/) 설정
 
 1. Cocoapods를 업데이트합니다.
 
