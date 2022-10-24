@@ -2,9 +2,9 @@
 title: 장소 서비스
 description: 위치 서비스는 모바일 사용자의 참여를 이해하는 데 중요한 컨텍스트입니다. 이 컨텍스트를 사용하여 모바일 앱 개발자는 앱 디자인을 향상시키고 보다 개인화되고 매력적인 경험을 제공할 수 있습니다.
 exl-id: 7369176f-c072-437a-9ee3-b463c5ff1d12
-source-git-commit: c13da9ea3dc0cd574f2f9a496405867f7d36eae0
+source-git-commit: 010de286c25c1eeb989fb76e3c2adaa82ac9fd35
 workflow-type: tm+mt
-source-wordcount: '706'
+source-wordcount: '673'
 ht-degree: 10%
 
 ---
@@ -51,10 +51,6 @@ Places Service는 다음 구성 요소로 구성됩니다.
 * **Launch 규칙**
 
    시작 및 종료 이벤트로 작업을 트리거할 수 있는 지능적인 Launch 규칙. 또한 조건에서는 지역 속성을 사용하여 경험을 개인화할 수 있습니다.
-
-* **위치 모니터 확장**
-
-   모바일 앱에 임베드하여 사용자의 위치 변경 사항을 자동으로 모니터링하고 위치 규칙을 트리거할 수 있는 다중 플랫폼 모바일 SDK입니다. 자세한 내용은 [위치 모니터 확장](/help/places-ext-aep-sdks/places-monitor-extension/places-monitor-extension.md).
 
 ## 용어
 
