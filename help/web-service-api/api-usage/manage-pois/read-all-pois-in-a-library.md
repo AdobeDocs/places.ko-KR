@@ -1,16 +1,15 @@
 ---
-title: 라이브러리의 모든 POI 보기
-description: REST API를 사용하여 라이브러리의 모든 POI를 읽습니다.
-translation-type: tm+mt
-source-git-commit: 8a84fe2dc5a0efe94ce3121e589524e3c7a80c5e
+title: 라이브러리의 모든 POI 읽기
+description: 위치 REST API를 사용하여 라이브러리의 모든 POI를 읽습니다.
+exl-id: 08544909-661c-4a14-84e0-bacd0241a844
+source-git-commit: 4ab15ded930b31e4e06920af31f37fdfe45df8eb
 workflow-type: tm+mt
 source-wordcount: '54'
-ht-degree: 5%
+ht-degree: 7%
 
 ---
 
-
-# 라이브러리의 모든 POI 보기 {#read-all-pois-library}
+# 라이브러리의 모든 POI 읽기 {#read-all-pois-library}
 
 라이브러리의 모든 POI를 반환하는 GET 메서드입니다.
 
@@ -20,7 +19,7 @@ ht-degree: 5%
 GET https://api-places.adobe.io/places/placesapi/v1/libraries/<LIBRARYID>/pois
 ```
 
-## 머리글
+## 헤더
 
 ```text
 -H' Content-Type: application/json'  
@@ -168,5 +167,4 @@ curl -X GET 'https://api-places.adobe.io/places/placesapi/v1/libraries/<LIBRARYI
 
 >[!IMPORTANT]
 >
->&quot;, `<API KEY>`, `<TOKEN>`및 `<ORGID>` 을 실제 값으로 대체합니다.
-
+>&quot; 바꾸기, `<API KEY>`, `<TOKEN>`, 및 `<ORGID>` (실제 값 포함)

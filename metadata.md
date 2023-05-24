@@ -13,8 +13,8 @@ git-repo: https://github.com/AdobeDocs/places.ko-KR
 index: true
 source-git-commit: 832888ab4b45aa054069a69eaf4c8b9cc059d9a7
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '147'
+ht-degree: 94%
 
 ---
 

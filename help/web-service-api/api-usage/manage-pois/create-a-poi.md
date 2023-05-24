@@ -1,18 +1,17 @@
 ---
 title: POI 만들기
-description: REST API를 사용하여 POI를 만듭니다.
-translation-type: tm+mt
-source-git-commit: 8a84fe2dc5a0efe94ce3121e589524e3c7a80c5e
+description: 위치 REST API를 사용하여 POI를 만듭니다.
+exl-id: 0f5b5b40-11f0-4122-b3d5-c3853a6e8ca5
+source-git-commit: 4ab15ded930b31e4e06920af31f37fdfe45df8eb
 workflow-type: tm+mt
 source-wordcount: '47'
-ht-degree: 6%
+ht-degree: 10%
 
 ---
 
-
 # POI 만들기 {#create-a-poi}
 
-POI를 만들 수 있는 POST 메서드입니다.
+POI를 만들 수 있는 POST 방법입니다.
 
 ## 요청
 
@@ -20,7 +19,7 @@ POI를 만들 수 있는 POST 메서드입니다.
 POST https://api-places.adobe.io/places/placesapi/v1/pois
 ```
 
-## 머리글
+## 헤더
 
 ```text
 -H' Content-Type: application/json'  
@@ -97,4 +96,4 @@ curl -X POST 'https://api-places.adobe.io/places/placesapi/v1/pois' -H 'x-api-ke
 
 >[!IMPORTANT]
 >
->Replace `<API KEY>`, `<TOKEN>`&#39;, &#39;,&#39; 및 `<SINGLEPOIDATA>` 실제 값으로 바꾸십시오.
+>다음 사항을 기억하십시오. `<API KEY>`, `<TOKEN>`, &#39;,&#39; 및 `<SINGLEPOIDATA>` (실제 값 포함)

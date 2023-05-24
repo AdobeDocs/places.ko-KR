@@ -1,24 +1,23 @@
 ---
-title: 라이브러리 등급 다운로드
+title: 라이브러리의 등급 가져오기
 description: Places REST API를 사용하여 라이브러리의 등급을 가져옵니다.
-translation-type: tm+mt
-source-git-commit: 8a84fe2dc5a0efe94ce3121e589524e3c7a80c5e
+exl-id: c0abedd0-5ff4-4a01-9f8d-e3d17ea53a97
+source-git-commit: 4ab15ded930b31e4e06920af31f37fdfe45df8eb
 workflow-type: tm+mt
 source-wordcount: '41'
-ht-degree: 7%
+ht-degree: 9%
 
 ---
 
+# 라이브러리의 등급 가져오기 {#get-library-rank}
 
-# 라이브러리 등급 다운로드 {#get-library-rank}
-
-라이브러리의 등급을 지정할 수 있는 GET 메서드입니다.
+라이브러리 등급을 지정할 수 있는 GET 방법입니다.
 
 ## 요청
 
 `GET https://api-places.adobe.io/places/placesapi/v1/libraries/rank`
 
-## 머리글
+## 헤더
 
 ```
 -H Content-Type: application/JSON  
@@ -42,5 +41,4 @@ curl -X GET 'https://api-places.adobe.io/places/placesapi/v1/libraries/rank ' -H
 
 >[!IMPORTANT]
 >
->변수(예: `<API KEY>`, `<TOKEN>`및 `<ORGID>` )를 실제 값으로 바꿉니다.
-
+>다음과 같은 변수 바꾸기 `<API KEY>`, `<TOKEN>`, 및 `<ORGID>` (실제 값 포함)

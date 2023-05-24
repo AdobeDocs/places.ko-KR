@@ -1,18 +1,17 @@
 ---
 title: 여러 POI 업데이트
-description: 일괄 처리 API를 사용하여 여러 POI를 업데이트합니다.
-translation-type: tm+mt
-source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
+description: 배치 API를 사용하여 여러 POI를 업데이트합니다.
+exl-id: 194027fb-eafd-4207-9190-47125ebf3bc3
+source-git-commit: 4ab15ded930b31e4e06920af31f37fdfe45df8eb
 workflow-type: tm+mt
 source-wordcount: '56'
-ht-degree: 5%
+ht-degree: 8%
 
 ---
 
-
 # 여러 POI 업데이트 {#update-multiple-pois}
 
-여러 POI를 업데이트할 수 있는 POST 메서드입니다.
+여러 POI를 업데이트할 수 있는 POST 방법입니다.
 
 ## 요청
 
@@ -20,7 +19,7 @@ ht-degree: 5%
 POST https://api-places.adobe.io/places/placesapi/v1/pois/batchUpdate
 ```
 
-## 머리글
+## 헤더
 
 ```text
 -H' Content-Type: application/json'  -H 'Authorization: Bearer <TOKEN>'  -H 'x-api-key: <API KEY>'  -H 'x-gw-ims-org-id: <ORGID>'  -H 'Accept-Language: en-US'
@@ -48,11 +47,11 @@ curl -X POST 'https://api-places.adobe.io/places/placesapi/v1/pois/batchUpdate' 
 
 >[!IMPORTANT]
 >
->실제 값 `<API KEY>`, `<TOKEN>``<ORGID>`을 `<PATHTOBATCHUPDATEJSONFILE>` 바꿀 수 있습니다.
+>바꾸기 `<API KEY>`, `<TOKEN>`, `<ORGID>`, 및 `<PATHTOBATCHUPDATEJSONFILE>` 실수 값 포함.
 
 ## 샘플 JSON 파일
 
-다음은 `batchUpdate` API용 샘플 JSON 파일입니다.
+다음은 의 샘플 JSON 파일입니다. `batchUpdate` API:
 
 ```text
 updates":[{"id":"31a49d5c-c6ad-46ae-b88d-a6912a8a6b2f","name":"Updated POI 1","description":"1","location":{"type":"Point","coordinates":[0.0000000,0.0000000]},"radius":25.0,"country":"Ghana","state":"Ghana","city":"Accra","street":"","category":"cafe","icon":"nice","color":"red","metadata":{"region":"Equator"},"lib_id":"42b4d03c-672c-4deb-83e0-134ef070c2af"},{"id":"6a78a729-7973-4373-9199-36da18cc5b8c","name":"Updated POI 2","description":"2","location":{"type":"Point","coordinates":[0.0250000,0.0250000]},"radius":50.0,"country":"Ghana","state":"Ghana","city":"Accra","street":"","category":"cafe","icon":"nice","color":"red","metadata":{"region":"Equator"},"lib_id":"42b4d03c-672c-4deb-83e0-134ef070c2af"},{"id":"74eaa3da-2464-4298-9b6d-5376fa7ea00f","name":"Updated POI 3","description":"3","location":{"type":"Point","coordinates":[0.0500000,0.0500000]},"radius":100.0,"country":"Ghana","state":"Ghana","city":"Accra","street":"","category":"cafe","icon":"nice","color":"red","metadata":{"region":"Equator"},"lib_id":"42b4d03c-672c-4deb-83e0-134ef070c2af"}]}

@@ -1,30 +1,29 @@
 ---
 title: 자체 모니터 사용
-description: 또한 Places Service 확장 API를 사용하여 모니터링 서비스를 사용하고 Places Service와 통합할 수 있습니다.
-translation-type: tm+mt
-source-git-commit: 0ca2162f113fba6bfbd54443109068b1a506762b
+description: 또한 Places Service 확장 API를 사용하여 모니터링 서비스를 사용하고 Places Service와 통합할 수도 있습니다.
+exl-id: 8ca4d19b-0f23-4291-b335-af47f03179fa
+source-git-commit: 4ab15ded930b31e4e06920af31f37fdfe45df8eb
 workflow-type: tm+mt
 source-wordcount: '264'
 ht-degree: 1%
 
 ---
 
-
 # 자체 모니터 사용 {#using-your-monitor}
 
-또한 Places Extension API를 사용하여 모니터링 서비스를 사용하고 Places Service와 통합할 수 있습니다.
+또한 Places 확장 API를 사용하여 모니터링 서비스를 사용하고 Places Service와 통합할 수도 있습니다.
 
-## 지리적 위치 등록
+## 지오펜스 등록
 
-모니터링 서비스를 사용하려는 경우 다음 단계를 완료하여 현재 위치에 있는 POI의 위치를 등록합니다.
+모니터링 서비스를 사용하려는 경우 다음 단계를 완료하여 현재 위치 주변에 있는 POI의 위치를 등록하십시오.
 
 ### iOS
 
-iOS에서 다음 단계를 완료하십시오.
+iOS에서 다음 단계를 완료합니다.
 
-1. iOS의 핵심 위치 서비스에서 얻은 위치 업데이트를 위치 확장 프로그램으로 전달합니다.
+1. iOS의 핵심 위치 서비스에서 가져온 위치 업데이트를 위치 확장에 전달합니다.
 
-1. 위치 확장 `getNearbyPointsOfInterest` API를 사용하여 현재 위치 주위의 `ACPPlacesPoi` 개체 배열을 가져옵니다.
+1. 사용 `getNearbyPointsOfInterest` 배열 가져오기를 위한 위치 확장 API `ACPPlacesPoi` 현재 위치 주변의 개체입니다.
 
    ```objective-c
    - (void) locationManager: (CLLocationManager*) manager didUpdateLocations: (NSArray<CLLocation*>*) locations {
@@ -34,7 +33,7 @@ iOS에서 다음 단계를 완료하십시오.
    }
    ```
 
-1. 가져온 개체에서 정보를 추출하고 `ACPPlacesPOI` 이러한 POI를 모니터링하기 시작합니다.
+1. 획득한 항목에서 정보 추출 `ACPPlacesPOI` 객체를 만든 후 해당 POI를 모니터링하기 시작합니다.
 
    ```objective-c
    - (void) startMonitoringGeoFences: (NSArray*) newGeoFences {
@@ -58,9 +57,9 @@ iOS에서 다음 단계를 완료하십시오.
 
 ### Android
 
-1. Google Play 서비스 또는 Android 위치 서비스에서 얻은 위치 업데이트를 위치 확장 프로그램으로 전달합니다.
+1. Google Play 서비스 또는 Android 위치 서비스에서 가져온 위치 업데이트를 위치 확장에 전달합니다.
 
-1. 위치 확장 `getNearbyPointsOfInterest` API를 사용하여 현재 위치에 있는 개체 목록을 `PlacesPoi` 가져옵니다.
+1. 사용 `getNearbyPointsOfInterest` 목록 가져오기를 위한 위치 확장 API `PlacesPoi` 현재 위치 주변의 개체입니다.
 
    ```java
    LocationCallback callback = new LocationCallback() {
@@ -78,7 +77,7 @@ iOS에서 다음 단계를 완료하십시오.
    };
    ```
 
-1. 가져온 `PlacesPOI` 개체에서 데이터를 추출하고 해당 POI를 모니터링하기 시작합니다.
+1. 획득한 항목에서 데이터 추출 `PlacesPOI` 객체를 만든 후 해당 POI를 모니터링하기 시작합니다.
 
    ```java
    private void startMonitoringFences(final List<PlacesPOI> nearByPOIs) {
@@ -103,17 +102,17 @@ iOS에서 다음 단계를 완료하십시오.
    ```
 
 
-API를 `getNearbyPointsOfInterest` 호출하면 현재 위치 주위의 위치를 가져오는 네트워크 호출이 발생합니다.
+호출 `getNearbyPointsOfInterest` API를 사용하면 현재 위치 주위의 위치를 가져오는 네트워크 호출이 발생합니다.
 
 >[!IMPORTANT]
 >
->API는 제한적으로 호출해야 하며 사용자의 위치가 현저히 변경된 경우에만 호출해야 합니다.
+>사용자의 중대한 위치 변경이 있는 경우에만 또는 제한적으로 API를 호출해야 합니다.
 
-## 이벤트 게시
+## Geofence 이벤트 게시
 
 ### iOS
 
-iOS에서 대리자의 `processGeofenceEvent` 위치 API를 `CLLocationManager` 호출합니다. 이 API는 사용자가 특정 영역을 입력했거나 나갔는지를 알려줍니다.
+iOS에서 `processGeofenceEvent` 의 위치 API `CLLocationManager` 위임. 이 API는 사용자가 특정 지역을 입력 또는 종료했는지 여부를 알려줍니다.
 
 ```objective-c
 - (void) locationManager:(CLLocationManager *)manager didEnterRegion:(CLRegion *)region {
@@ -127,7 +126,7 @@ iOS에서 대리자의 `processGeofenceEvent` 위치 API를 `CLLocationManager` 
 
 ### Android
 
-Android에서 Geofence 브로드캐스트 수신기의 적절한 전환 이벤트와 함께 메서드를 `processGeofence` 호출합니다. 중복되는 항목/종료를 방지하기 위해 받은 대상 목록을 조정해야 할 수도 있습니다.
+Android에서 를 호출합니다 `processGeofence` Geofence 브로드캐스트 수신기에서 적절한 전환 이벤트와 함께 메서드를 사용합니다. 중복 시작/종료를 방지하기 위해 받은 지오펜스 목록을 조정할 수 있습니다.
 
 ```java
 void onGeofenceReceived(final Intent intent) {

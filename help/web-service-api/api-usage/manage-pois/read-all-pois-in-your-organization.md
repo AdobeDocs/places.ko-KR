@@ -1,18 +1,17 @@
 ---
-title: 조직의 모든 POI 보기
-description: REST API를 사용하여 조직의 모든 POI를 확인합니다.
-translation-type: tm+mt
-source-git-commit: 8a84fe2dc5a0efe94ce3121e589524e3c7a80c5e
+title: 조직의 모든 POI 읽기
+description: 위치 REST API를 사용하여 조직의 모든 POI를 읽습니다.
+exl-id: 8068a2bc-ce1c-4f3b-8a0c-c38998c1c2e2
+source-git-commit: 4ab15ded930b31e4e06920af31f37fdfe45df8eb
 workflow-type: tm+mt
 source-wordcount: '54'
-ht-degree: 5%
+ht-degree: 7%
 
 ---
 
+# 조직의 모든 POI 읽기 {#read-all-pois-org}
 
-# 조직의 모든 POI 보기 {#read-all-pois-org}
-
-조직의 모든 POI를 반환하는 GET 메서드입니다.
+조직의 모든 POI를 반환하는 GET 방법입니다.
 
 ## 요청
 
@@ -20,7 +19,7 @@ ht-degree: 5%
 GET https://api-places.adobe.io/places/placesapi/v1/pois
 ```
 
-## 머리글
+## 헤더
 
 ```text
 -H' Content-Type: application/json'  -H 'Authorization: Bearer <TOKEN>'  -H 'x-api-key: <API KEY>'  -H 'x-gw-ims-org-id: <ORGID>'  -H 'Accept-Language: en-US'
@@ -42,4 +41,4 @@ curl -X GET 'https://api-places.adobe.io/places/placesapi/v1/pois' -H 'x-api-key
 
 >[!IMPORTANT]
 >
->실제 값 `<API KEY>`으로, `<TOKEN>`및 `<ORGID>` 바꿀 수 있습니다.
+>바꾸기 `<API KEY>`, `<TOKEN>`, 및 `<ORGID>` (실제 값 포함)

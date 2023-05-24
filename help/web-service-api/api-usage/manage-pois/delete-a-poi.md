@@ -1,18 +1,17 @@
 ---
 title: POI 삭제
-description: REST API를 사용하여 POI를 삭제합니다.
-translation-type: tm+mt
-source-git-commit: 8a84fe2dc5a0efe94ce3121e589524e3c7a80c5e
+description: 위치 REST API를 사용하여 POI를 삭제합니다.
+exl-id: 0325eb3b-f9b2-4b21-bed8-e318e8072a69
+source-git-commit: 4ab15ded930b31e4e06920af31f37fdfe45df8eb
 workflow-type: tm+mt
 source-wordcount: '44'
-ht-degree: 6%
+ht-degree: 9%
 
 ---
 
-
 # POI 삭제 {#delete-a-poi}
 
-POI를 삭제할 수 있는 DELETE 메서드입니다.
+POI를 삭제할 수 있는 DELETE 방법입니다.
 
 ## 요청
 
@@ -20,7 +19,7 @@ POI를 삭제할 수 있는 DELETE 메서드입니다.
 DELETE https://api-places.adobe.io/places/placesapi/v1/pois/<POIID>
 ```
 
-## 머리글
+## 헤더
 
 ```text
 -H' Content-Type: application/json'  
@@ -46,5 +45,4 @@ curl -X DELETE 'https://api-places.adobe.io/places/placesapi/v1/pois/<POIID>' -H
 
 >[!IMPORTANT]
 >
->실제 값 `<POIID>`, `<API KEY>``<TOKEN>`, `<ORGID>` 등으로 바꿀 수 있습니다.
-
+>바꾸기 `<POIID>`, `<API KEY>`, `<TOKEN>`, 및 `<ORGID>` (실제 값 포함)

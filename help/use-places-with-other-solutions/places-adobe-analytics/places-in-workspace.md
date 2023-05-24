@@ -1,74 +1,73 @@
 ---
-title: Analytics 작업 공간의 위치 데이터에 대한 보고서
-description: 이 섹션에서는 Analytics 작업 공간에서 위치 데이터를 보고하는 방법에 대한 정보를 제공합니다.
-translation-type: tm+mt
-source-git-commit: 0ca2162f113fba6bfbd54443109068b1a506762b
+title: Analytics Workspace의 위치 데이터에 대한 보고서
+description: 이 섹션에서는 Analytics Workspace에서 위치 데이터에 대해 보고하는 방법에 대해 설명합니다.
+exl-id: 45ca3c80-71b7-41de-9b00-645504061935
+source-git-commit: 4ab15ded930b31e4e06920af31f37fdfe45df8eb
 workflow-type: tm+mt
-source-wordcount: '431'
-ht-degree: 9%
+source-wordcount: '452'
+ht-degree: 8%
 
 ---
 
+# Analytics Workspace의 위치 데이터에 대한 보고서 {#places-in-workspace}
 
-# 분석 작업 공간의 위치 데이터에 대한 보고서 {#places-in-workspace}
+이 문서에서는 Analytics Workspace에서 위치 데이터에 대해 보고하는 방법의 예를 보여 줍니다. 각 단계에는 다른 설명서 페이지를 참조하여 제공되는 세부 정보와 함께 높은 수준의 요약이 포함됩니다.
 
-이 문서에서는 Analytics 작업 공간에서 위치 데이터를 보고하는 방법의 예를 보여줍니다. 각 단계에는 다른 문서 페이지를 참조하여 제공된 세부 사항과 함께 수준 높은 요약이 포함됩니다.
+## 사전 요구 사항
 
-## 전제 조건
+이 문서에서는 다음과 같은 내용을 가정합니다.
 
-이 문서에서는 다음과 같이 가정합니다.
+1. 위치 확장은 애플리케이션에 구현됩니다.
 
-1. 위치 확장 기능은 애플리케이션에서 구현됩니다.
-
-   위치 확장 구현에 대한 자세한 내용은 [위치 확장을 참조하십시오](/help/places-ext-aep-sdks/places-extension/places-extension.md).
+   위치 확장 구현에 대한 자세한 내용은 [위치 확장](/help/places-ext-aep-sdks/places-extension/places-extension.md).
 
 1. Adobe Analytics 사용자는 관리자이며 처리 규칙에 액세스할 수 있습니다.
 
    처리 규칙에 대한 자세한 내용은 [처리 규칙 개요](https://docs.adobe.com/content/help/ko-KR/analytics/admin/admin-tools/processing-rules/processing-rules.html)를 참조하십시오.
 
-1. 론치 속성에서 원하는 장소 서비스 변수에 대한 데이터 요소가 생성되었습니다.
+1. Launch 속성에서 원하는 Places Service 변수에 대한 데이터 요소가 생성되었습니다.
 
-   론치의 데이터 요소에 대한 자세한 내용은 데이터 요소 [정의를 참조하십시오](/help/use-places-launch-workflow/define-data-elements.md).
+   Launch의 데이터 요소에 대한 자세한 내용은 [데이터 요소 정의](/help/use-places-launch-workflow/define-data-elements.md).
 
 
-## 1. 론치 규칙 만들기
+## 1. Launch 규칙 만들기
 
-장치가 POI를 입력할 때 SDK가 Analytics로 데이터를 보내는 규칙을 만듭니다. 이러한 유형의 규칙 만들기에 대해서는 Analytics로 POI 항목 [보내기 및 종료 데이터를](/help/use-places-with-other-solutions/places-adobe-analytics/use-places-adobe-analytics.md) 참조하십시오.
+디바이스가 POI에 들어갈 때 SDK가 데이터를 Analytics에 보내도록 하는 규칙을 만듭니다. 이러한 종류의 규칙을 만드는 방법은에 설명되어 있습니다 [Analytics에 POI 시작 및 종료 데이터 보내기](/help/use-places-with-other-solutions/places-adobe-analytics/use-places-adobe-analytics.md) 페이지를 가리키도록 업데이트하는 중입니다.
 
-이 예에서, 규칙의 작업은 Analytics 요청에 대해 정의된 다음 값을 가집니다.
+이 예에서 규칙의 작업에는 Analytics 요청에 대해 다음 값이 정의되어 있습니다.
 
-* **[!UICONTROL Action]** 은 의 값을 제공합니다 **[!UICONTROL Places Entry]**.
+* **[!UICONTROL 작업]** 다음 값이 제공됨: **[!UICONTROL 위치 항목]**.
 
-* 컨텍스트 데이터 키 **[!UICONTROL poi.name]** 는 데이터 요소의 값으로 설정됩니다 **[!UICONTROL {%%POI Name%%}]**.
+* 컨텍스트 데이터 키 **[!UICONTROL poi.name]** 는 데이터 요소의 값으로 설정됩니다. **[!UICONTROL {%%POI 이름%}]**.
 
 ![&quot;작업 설정&quot;](/help/assets/pt-setAction.png)
 
 ## 2. Analytics 변수 만들기
 
-컨텍스트 데이터를 매핑하려면(1단계에서 전송됨) 먼저 Analytics 보고서 세트에 대해 변수를 만들어야 합니다. Analytics에서 변수를 만드는 방법에 대한 자세한 내용은 [전환 변수(eVar)를 참조하십시오](https://docs.adobe.com/content/help/en/analytics/implementation/analytics-basics/ref-conversion-variables-evar.html).
+컨텍스트 데이터(1단계에서 전송됨)를 매핑하려면 먼저 Analytics 보고서 세트에 대한 변수를 만들어야 합니다. Analytics에서 변수를 만드는 방법에 대한 자세한 내용은 [전환 변수 (eVar)](https://docs.adobe.com/content/help/en/analytics/implementation/analytics-basics/ref-conversion-variables-evar.html).
 
-이 예에서 전환 변수 **[!UICONTROL Evar2]**&#x200B;는 만들어지고 이름이 지정됩니다 **[!UICONTROL Places POI Name]**. 보고에 표시할 각 위치 변수에 대해 추가 변수를 만들어야 합니다.
+이 예에서는 전환 변수, **[!UICONTROL Evar2]**, 이(가) 만들어지고 이름이 지정됨 **[!UICONTROL 위치 POI 이름]**. 보고에 표시하려는 각 위치 변수에 대해 추가 변수를 만들어야 합니다.
 
 ![&quot;analytics 변수 만들기&quot;](/help/assets/aa-evar.png)
 
-## 3. 처리 규칙 생성
+## 3. 처리 규칙 만들기
 
-이 단계는 컨텍스트 데이터(1단계)를 Analytics 변수(2단계)에 매핑하는 데 필요합니다. For more information on creating processing rules, see [Processing rules overview](https://docs.adobe.com/content/help/ko-KR/analytics/admin/admin-tools/processing-rules/processing-rules.html).
+이 단계는 컨텍스트 데이터(1단계)를 Analytics 변수(2단계)에 매핑하는 데 필요합니다. 처리 규칙 만들기에 대한 자세한 내용은 [처리 규칙 개요](https://docs.adobe.com/content/help/ko-KR/analytics/admin/admin-tools/processing-rules/processing-rules.html).
 
-이 예에서는 컨텍스트 데이터 값을 매핑하기 위해 처리 규칙 **[!UICONTROL poi.name]** 이 생성되었습니다 **[!UICONTROL Places POI Name (eVar2)]**. 만들어진 각 위치 변수에 대해 추가 처리 규칙을 만들어야 합니다.
+이 예에서는 컨텍스트 데이터 값을 매핑하는 처리 규칙이 작성되었습니다 **[!UICONTROL poi.name]** 대상 **[!UICONTROL 위치 POI 이름(eVar2)]**. 생성된 각 위치 변수에 대해 추가 처리 규칙을 생성해야 합니다.
 
 ![&quot;처리 규칙 만들기&quot;](/help/assets/aa-processing-rule.png)
 
-## 4. Workspace에서 보고서 생성
+## 4. 작업 영역에서 보고서 생성
 
-이 단계에서는 1-3단계에서 수집된 데이터를 보기 위한 분석 작업 공간의 기본 보고서를 보여줍니다. 분석 작업 공간 사용 방법에 대한 자세한 내용은 [분석 작업 공간 개요를 참조하십시오](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/analysis-workspace-features.html).
+이 단계에서는 1-3단계에서 수집된 데이터를 보기 위한 Analytics Workspace의 기본 보고서를 보여줍니다. Analytics Workspace를 사용하는 방법에 대한 자세한 내용은 [Analytics Workspace 개요](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/analysis-workspace-features.html).
 
-이 예에서 보고서에는 다음과 같은 설정이 있습니다.
+이 예제에서 보고서에는 다음과 같은 설정이 있습니다.
 
-* 지표 - **[!UICONTROL Occurrences]**
+* 지표 - **[!UICONTROL 발생 횟수]**
 
-* 차원 - **[!UICONTROL Action Name]**
+* DIMENSION - **[!UICONTROL 작업 이름]**
 
-   * Dimension으로 분류 - **[!UICONTROL Places POI Name]**
+   * Dimension으로 분류 - **[!UICONTROL 위치 POI 이름]**
 
-![&quot;작업 공간에서 보고서 만들기&quot;](/help/assets/aa-workspace.png)
+![&quot;작업 영역에서 보고서 만들기&quot;](/help/assets/aa-workspace.png)

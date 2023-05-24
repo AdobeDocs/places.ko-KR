@@ -1,19 +1,17 @@
 ---
-title: 라이브러리 보기
-description: Places REST API를 사용하여 라이브러리를 확인합니다.
-translation-type: tm+mt
-source-git-commit: 8a84fe2dc5a0efe94ce3121e589524e3c7a80c5e
+title: 라이브러리 읽기
+description: Places REST API를 사용하여 라이브러리를 읽습니다.
+exl-id: c9c5a862-beab-42a9-8e40-abf93da592ea
+source-git-commit: 4ab15ded930b31e4e06920af31f37fdfe45df8eb
 workflow-type: tm+mt
 source-wordcount: '45'
-ht-degree: 6%
+ht-degree: 8%
 
 ---
 
+# 라이브러리 읽기 {#read-a-library}
 
-
-# 라이브러리 보기 {#read-a-library}
-
-라이브러리의 세부 사항을 반환하는 GET 메서드입니다.
+라이브러리에 대한 세부 정보를 반환하는 GET 메서드입니다.
 
 ## 요청
 
@@ -21,7 +19,7 @@ ht-degree: 6%
 GET https://api-places.adobe.io/places/placesapi/v1/libraries/<LIBRARYID>
 ```
 
-## 머리글
+## 헤더
 
 ```text
 -H' Content-Type: application/json'  
@@ -92,5 +90,4 @@ curl -X GET 'https://api-places.adobe.io/places/placesapi/v1/libraries/<LIBRARYI
 
 >[!IMPORTANT]
 >
->실제 값 `<LIBRARYID>`, `<API KEY>``<TOKEN>`, `<ORGID>` 등으로 바꿀 수 있습니다.
-
+>바꾸기 `<LIBRARYID>`, `<API KEY>`, `<TOKEN>`, 및 `<ORGID>` (실제 값 포함)

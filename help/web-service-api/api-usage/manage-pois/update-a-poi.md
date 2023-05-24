@@ -1,18 +1,17 @@
 ---
 title: POI 업데이트
-description: REST API를 사용하여 POI를 업데이트합니다.
-translation-type: tm+mt
-source-git-commit: 8a84fe2dc5a0efe94ce3121e589524e3c7a80c5e
+description: 위치 REST API를 사용하여 POI를 업데이트합니다.
+exl-id: f155d1d3-88a3-47bc-bffe-a35842a639e2
+source-git-commit: 4ab15ded930b31e4e06920af31f37fdfe45df8eb
 workflow-type: tm+mt
 source-wordcount: '45'
-ht-degree: 6%
+ht-degree: 11%
 
 ---
 
-
 # POI 업데이트 {#update-a-poi}
 
-POI를 업데이트할 수 있는 PUT 메서드입니다.
+POI를 업데이트할 수 있는 PUT 방법입니다.
 
 ## 요청
 
@@ -20,7 +19,7 @@ POI를 업데이트할 수 있는 PUT 메서드입니다.
 PUT https://api-places.adobe.io/places/placesapi/v1/pois/<POIID>
 ```
 
-## 머리글
+## 헤더
 
 ```text
 -H' Content-Type: application/json'  -H 'Authorization: Bearer <TOKEN>'  -H 'x-api-key: <API KEY>'  -H 'x-gw-ims-org-id: <ORGID>'  -H 'Accept-Language: en-US'
@@ -48,4 +47,4 @@ curl -X PUT 'https://api-places.adobe.io/places/placesapi/v1/pois/<POIID>' -H 'x
 
 >[!IMPORTANT]
 >
->실제 값 `<POIID>`, `<API KEY>``<TOKEN>`, `<ORGID>`및 `<SINGLEPOIDATA>` 값을 대체합니다.
+>바꾸기 `<POIID>`, `<API KEY>`, `<TOKEN>`, `<ORGID>`, 및 `<SINGLEPOIDATA>` (실제 값 포함)

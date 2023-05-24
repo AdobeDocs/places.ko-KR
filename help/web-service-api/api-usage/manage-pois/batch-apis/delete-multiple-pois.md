@@ -1,19 +1,17 @@
 ---
 title: 여러 POI 삭제
-description: 일괄 처리 API를 사용하여 여러 POI를 삭제합니다.
-translation-type: tm+mt
-source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
+description: 배치 API를 사용하여 여러 POI를 삭제합니다.
+exl-id: f170b722-e6f4-42a2-b3a6-1bf56965eb17
+source-git-commit: 4ab15ded930b31e4e06920af31f37fdfe45df8eb
 workflow-type: tm+mt
 source-wordcount: '56'
-ht-degree: 5%
+ht-degree: 8%
 
 ---
 
-
-
 # 여러 POI 삭제 {#delete-multiple-pois}
 
-여러 POI를 삭제할 수 있는 POST 메서드입니다.
+여러 POI를 삭제할 수 있는 POST 방법입니다.
 
 ## 요청
 
@@ -21,7 +19,7 @@ ht-degree: 5%
 POST https://api-places.adobe.io/places/placesapi/v1/pois/batchDelete
 ```
 
-## 머리글
+## 헤더
 
 ```text
 -H' Content-Type: application/json'  -H 'Authorization: Bearer <TOKEN>'  -H 'x-api-key: <API KEY>'  -H 'x-gw-ims-org-id: <ORGID>'  -H 'Accept-Language: en-US'
@@ -49,11 +47,11 @@ curl -X POST 'https://api-places.adobe.io/places/placesapi/v1/pois/batchDelete' 
 
 >[!IMPORTANT]
 >
->실제 값 `<API KEY>`, `<TOKEN>``<ORGID>`을 `<PATHTOBATCHDELETEJSONFILE>` 바꿀 수 있습니다.
+>바꾸기 `<API KEY>`, `<TOKEN>`, `<ORGID>`, 및 `<PATHTOBATCHDELETEJSONFILE>` 실수 값 포함.
 
 ## 샘플 JSON 파일
 
-다음은 `batchDelete` API용 샘플 JSON 파일입니다.
+다음은 의 샘플 JSON 파일입니다. `batchDelete` API:
 
 ```text
 {​"ids":["31a49d5c-c6ad-46ae-b88d-a6912a8a6b2f","6a78a729-7973-4373-9199-36da18cc5b8c","74eaa3da-2464-4298-9b6d-5376fa7ea00f"]​}

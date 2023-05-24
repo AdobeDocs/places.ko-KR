@@ -1,14 +1,13 @@
 ---
 title: 라이브러리 만들기
 description: Places REST API를 사용하여 라이브러리를 만듭니다.
-translation-type: tm+mt
-source-git-commit: 8a84fe2dc5a0efe94ce3121e589524e3c7a80c5e
+exl-id: 155cc6e6-9254-4389-bb02-e526d15908f4
+source-git-commit: 4ab15ded930b31e4e06920af31f37fdfe45df8eb
 workflow-type: tm+mt
 source-wordcount: '48'
-ht-degree: 18%
+ht-degree: 22%
 
 ---
-
 
 # 라이브러리 만들기 {#create-a-library}
 
@@ -20,7 +19,7 @@ ht-degree: 18%
 POST https://api-places.adobe.io/places/placesapi/v1/libraries
 ```
 
-## 머리글
+## 헤더
 
 ```text
 -H' Content-Type: application/json'  -H 'Authorization: Bearer <TOKEN>'  -H 'x-api-key: <API KEY>'  -H 'x-gw-ims-org-id: <ORGID>'  -H 'Accept-Language: en-US'
@@ -48,5 +47,4 @@ curl -X POST 'https://api-places.adobe.io/places/placesapi/v1/libraries' -H 'x-a
 
 >[!IMPORTANT]
 >
->변수(예: `<API KEY>`, `<TOKEN>`및 `<ORGID>` )를 실제 값으로 바꿉니다.
-
+>다음과 같은 변수 바꾸기 `<API KEY>`, `<TOKEN>`, 및 `<ORGID>` (실제 값 포함)

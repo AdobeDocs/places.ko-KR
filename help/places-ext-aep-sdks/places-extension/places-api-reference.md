@@ -1,28 +1,27 @@
 ---
-title: 위치 API 참조
-description: 장소의 API 참조에 대한 정보입니다.
-translation-type: tm+mt
-source-git-commit: 0ca2162f113fba6bfbd54443109068b1a506762b
+title: Places API 참조
+description: 위치의 API 참조에 대한 정보입니다.
+exl-id: ce1a113c-dee0-49df-8d2f-789ccc1c8322
+source-git-commit: 4ab15ded930b31e4e06920af31f37fdfe45df8eb
 workflow-type: tm+mt
 source-wordcount: '583'
 ht-degree: 32%
 
 ---
 
+# Places API 참조 {#places-api-reference}
 
-# 위치 API 참조 {#places-api-reference}
+다음은 위치 확장의 API 참조에 대한 정보입니다.
 
-위치 확장 프로그램의 API 참조에 대한 정보는 다음과 같습니다.
+## 영역 이벤트 처리
 
-## 지역 이벤트 처리
-
-장치가 앱의 사전 정의된 서비스 지역 경계 중 하나를 교차할 때, 지역 및 이벤트 유형이 처리를 위해 SDK로 전달됩니다.
+장치가 앱의 사전 정의된 위치 서비스 지역 경계 중 하나를 넘으면 지역 및 이벤트 유형이 SDK에 전달되어 처리됩니다.
 
 ### ProcessGeofence(Android)
 
-제공된 `Geofence` 지역 이벤트를 처리합니다 `transitionType`.
+프로세스 a `Geofence` 제공된 에 대한 지역 이벤트 `transitionType`.
 
-다음 `transitionType` 에서 `GeofencingEvent.getGeofenceTransition()`전달 현재 및 `Geofence.GEOFENCE_TRANSITION_ENTER` 가 `Geofence.GEOFENCE_TRANSITION_EXIT` 지원됩니다.
+전달 `transitionType` 출처: `GeofencingEvent.getGeofenceTransition()`. 현재 `Geofence.GEOFENCE_TRANSITION_ENTER` 및 `Geofence.GEOFENCE_TRANSITION_EXIT` 이 지원됩니다.
 
 **구문**
 
@@ -34,7 +33,7 @@ public static void processGeofence(final Geofence geofence, final int transition
 
 **예**
 
-Android 지리 정보 이벤트 수신을 위해 등록된 사용자 `IntentService` 에서 이 메서드를 호출합니다.
+에서 이 메서드 호출 `IntentService` android geofence 이벤트 수신을 위해 등록됩니다.
 
 다음은 이 메서드의 코드 샘플입니다.
 
@@ -60,7 +59,7 @@ public class GeofenceTransitionsIntentService extends IntentService {
 
 ### ProcessRegionEvent(iOS)
 
-이 메서드는 위임 `CLLocationManager` 에서 호출해야 합니다. 즉, 사용자가 특정 영역에 들어오거나 나갔는지를 나타냅니다.
+이 메서드는 `CLLocationManager` 위임 - 사용자가 특정 영역을 입력했는지 또는 종료했는지 여부를 알려줍니다.
 
 **구문**
 
@@ -87,7 +86,7 @@ public class GeofenceTransitionsIntentService extends IntentService {
 
 ### ProcessGeofencingEvent(Android)
 
-동시에 모든 `Geofences` 작업을 `GeofencingEvent` 처리할 수 있습니다.
+모두 처리 `Geofences` 다음에서 `GeofencingEvent` 동시에.
 
 **구문**
 
@@ -97,7 +96,7 @@ public static void processGeofenceEvent(final GeofencingEvent geofencingEvent);
 
 **예**
 
-Android 이벤트 수신을 위해 등록된 사용자 `IntentService` 에서 이 메서드를 호출합니다.
+에서 이 메서드 호출 `IntentService` android geofence 이벤트 수신을 위해 등록됩니다.
 
 ```java
 public class GeofenceTransitionsIntentService extends IntentService {
@@ -118,7 +117,7 @@ public class GeofenceTransitionsIntentService extends IntentService {
 
 콜백에서 주변 POI의 순서가 지정된 목록을 반환합니다. 이 메서드의 오버로드된 버전은 결과 네트워크 호출에 문제가 있는 경우 오류 코드를 반환합니다.
 
-### GetNearlyPointsOfInterest(Android)
+### GetNearbyPointsOfInterest(Android)
 
 다음은 이 메서드에 대한 구문입니다.
 
@@ -165,7 +164,7 @@ Places.getNearbyPointsOfInterest(currentLocation, 10,
 );
 ```
 
-### GetNearlyPointsOfInterest(iOS)
+### GetNearbyPointsOfInterest(iOS)
 
 **구문**
 
@@ -203,7 +202,7 @@ Places.getNearbyPointsOfInterest(currentLocation, 10,
 ];
 ```
 
-## 현재 관심 장치 지점 검색
+## 현재 장치 관심 영역 검색
 
 장치가 현재 있는 것으로 알려진 POI 목록을 요청하고 콜백에서 반환합니다.
 
@@ -255,11 +254,11 @@ Places.getCurrentPointsOfInterest(new AdobeCallback<List<PlacesPOI>>() {
 
 ## 장치 위치 가져오기
 
-위치 확장 기능을 통해 이전에 알려진 대로 장치의 위치를 요청합니다.
+위치 확장에서 이전에 알려진 대로 디바이스의 위치를 요청합니다.
 
 >[!TIP]
 >
->위치 확장 기능은 호출을 통해 제공된 위치만 알고 있습니다 `GetNearbyPointsOfInterest`.
+>위치 확장은 호출을 통해 제공된 위치에 대해서만 알고 있습니다. `GetNearbyPointsOfInterest`.
 
 
 ### GetLastKnownLocation(Android)
@@ -307,12 +306,12 @@ Places.getLastKnownLocation(new AdobeCallback<Location>() {
 }];
 ```
 
-## 클라이언트 측 데이터 지우기
+## 클라이언트측 데이터 지우기
 
 
 ### 지우기(Android)
 
-공유 상태, 로컬 저장소 및 메모리 내 위치 확장 기능에 대한 클라이언트측 데이터를 지웁니다.
+공유 상태, 로컬 저장소 및 인메모리에서 위치 확장에 대한 클라이언트측 데이터를 지웁니다.
 
 **구문**
 
@@ -332,7 +331,7 @@ Places.clear();
 
 ### 지우기(iOS)
 
-공유 상태, 로컬 저장소 및 메모리 내 위치 확장 기능에 대한 클라이언트측 데이터를 지웁니다.
+공유 상태, 로컬 저장소 및 메모리 내 Places 확장에 대한 클라이언트측 데이터를 지웁니다.
 
 **구문**
 
@@ -356,10 +355,10 @@ Places.clear();
 
 *Places v1.4.0부터 사용 가능*
 
-위치 확장 프로그램에서 인증 상태를 설정합니다.
+Places 확장에서 인증 상태를 설정합니다.
 
-제공된 상태는 [장소] 공유 상태에 저장되며 참조용으로만 사용됩니다.
-이 메서드를 호출해도 이 장치의 실제 위치 인증 상태에 영향을 주지 않습니다.
+제공된 상태는 위치 공유 상태에 저장되며 참조용으로만 사용됩니다.
+이 메서드를 호출해도 이 장치의 실제 위치 인증 상태는 영향을 받지 않습니다.
 
 **구문**
 
@@ -381,12 +380,12 @@ Places.setAuthorizationStatus(PlacesAuthorizationStatus.ALWAYS);
 
 *ACPPlaces v1.3.0부터 사용 가능*
 
-위치 확장 프로그램에서 인증 상태를 설정합니다.
+Places 확장에서 인증 상태를 설정합니다.
 
-제공된 상태는 [장소] 공유 상태에 저장되며 참조용으로만 사용됩니다.
-이 메서드를 호출해도 이 장치의 실제 위치 인증 상태에 영향을 주지 않습니다.
+제공된 상태는 위치 공유 상태에 저장되며 참조용으로만 사용됩니다.
+이 메서드를 호출해도 이 장치의 실제 위치 인증 상태는 영향을 받지 않습니다.
 
-장치 인증 상태가 변경되면 사용자의 `locationManager:didChangeAuthorizationStatus:` 방법이 `CLLocationManagerDelegate` 호출됩니다. 이 메서드 내에서 새 `CLAuthorizationStatus` 값을 ACPPlays API로 전달해야 `setAuthorizationStatus:` 합니다.
+장치 인증 상태가 변경되면 `locationManager:didChangeAuthorizationStatus:` 의 방법 `CLLocationManagerDelegate` 이 호출됩니다. 이 메서드 내에서 새 `CLAuthorizationStatus` ACPPlace 값 `setAuthorizationStatus:` API.
 
 **구문**
 

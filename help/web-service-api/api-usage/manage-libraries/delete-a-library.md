@@ -1,14 +1,13 @@
 ---
 title: 라이브러리 삭제
-description: REST API를 사용하여 라이브러리를 삭제합니다.
-translation-type: tm+mt
-source-git-commit: 8a84fe2dc5a0efe94ce3121e589524e3c7a80c5e
+description: Places REST API를 사용하여 라이브러리를 삭제합니다.
+exl-id: ad45ea38-9e12-43d7-b05f-17d3e40abaf5
+source-git-commit: 4ab15ded930b31e4e06920af31f37fdfe45df8eb
 workflow-type: tm+mt
 source-wordcount: '47'
-ht-degree: 6%
+ht-degree: 8%
 
 ---
-
 
 # 라이브러리 삭제 {#delete-a-library}
 
@@ -20,7 +19,7 @@ ht-degree: 6%
 DELETE https://api-places.adobe.io/places/placesapi/v1/libraries/<lIBRARYID>
 ```
 
-## 머리글
+## 헤더
 
 ```text
 -H' Content-Type: application/json'  
@@ -46,5 +45,4 @@ curl -X DELETE 'https://api-places.adobe.io/places/placesapi/v1/libraries/<LIBRA
 
 >[!IMPORTANT]
 >
->변수(예: `<lIBRARYID>`, `<API KEY>`, `<TOKEN>`및) `<ORGID>`를 실제 값으로 바꿉니다.
-
+>다음과 같은 변수 바꾸기 `<lIBRARYID>`, `<API KEY>`, `<TOKEN>`, 및 `<ORGID>`(실제 값 포함)
