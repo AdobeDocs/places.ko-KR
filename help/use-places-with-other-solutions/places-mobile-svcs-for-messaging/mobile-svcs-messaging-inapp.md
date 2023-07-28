@@ -2,9 +2,9 @@
 title: 인앱 알림
 description: 이 섹션에서는 인앱 메시지와 함께 위치 서비스를 사용하는 방법을 보여줍니다.
 exl-id: c655e64b-0737-44d5-b453-2ac02fb9cbcc
-source-git-commit: 010de286c25c1eeb989fb76e3c2adaa82ac9fd35
+source-git-commit: d5c216aebd99ffef01c37c17c62576835b52438b
 workflow-type: tm+mt
-source-wordcount: '661'
+source-wordcount: '659'
 ht-degree: 3%
 
 ---
@@ -33,7 +33,7 @@ Mobile Services를 사용하면 Analytics로 전송되는 위치 데이터를 �
 
 ### 사전 요구 사항
 
-시작하기 전에 Mobile Services에서 인앱 메시지를 보내고 만드는 방법과 트리거가 작동하는 방법을 이해합니다. 자세한 내용은 [인앱 메시지를 만듭니다.](https://docs.adobe.com/content/help/en/mobile-services/using/messaging-ug/inapp-messages/t-in-app-message.html)
+시작하기 전에 Mobile Services에서 인앱 메시지를 보내고 만드는 방법과 트리거가 작동하는 방법을 이해합니다. 자세한 내용은 [인앱 메시지를 만듭니다.](https://experienceleague.adobe.com/docs/discontinued/using/mobile-services.html)
 
 ##  Experience Platform Launch의 규칙
 
@@ -41,11 +41,11 @@ Mobile Services를 사용하면 Analytics로 전송되는 위치 데이터를 �
 
 * 위치 데이터를 트리거 이벤트로 사용.
 
-   예를 들어 사용자가 POI를 입력하면 Analytics로 데이터를 보낼 수 있습니다.
+  예를 들어 사용자가 POI를 입력하면 Analytics로 데이터를 보낼 수 있습니다.
 
 * 위치 데이터를 트리거 이벤트의 조건으로 사용.
 
-   예를 들어 서로 다른 POI의 날씨에 대해 위치 서비스에서 사용자 지정 메타데이터 태그를 만든 경우 해당 메타데이터를 규칙 조건의 매개 변수로 사용할 수 있습니다. 앞에서 설명한 POI 항목 이벤트와 함께 이 조건을 사용할 수 있지만, 모든 이벤트에 대한 컨텍스트로 이 조건을 사용할 수도 있습니다.
+  예를 들어 서로 다른 POI의 날씨에 대해 위치 서비스에서 사용자 지정 메타데이터 태그를 만든 경우 해당 메타데이터를 규칙 조건의 매개 변수로 사용할 수 있습니다. 앞에서 설명한 POI 항목 이벤트와 함께 이 조건을 사용할 수 있지만, 모든 이벤트에 대한 컨텍스트로 이 조건을 사용할 수도 있습니다.
 
 적절한 이벤트 및 조건 매개 변수로 규칙이 설정된 후 데이터를 Analytics에 보내도록 작업을 구성하여 규칙 구성을 완료합니다.
 
@@ -62,7 +62,7 @@ Mobile Services를 사용하면 Analytics로 전송되는 위치 데이터를 �
 
 >[!TIP]
 >
->Analytics 처리 규칙을 설정하여 이 컨텍스트 데이터를 선택할 수 있습니다. 자세한 내용은 [처리 규칙](https://docs.adobe.com/content/help/en/analytics/implementation/analytics-basics/ref-processing-rules.html)을 참조하십시오. 의 예에서 *작업 만들기*, 작업이 다음을 전송합니다. `poiname` Analytics로 전송되는 POI 항목 이벤트를 설명하는 컨텍스트입니다.
+>Analytics 처리 규칙을 설정하여 이 컨텍스트 데이터를 선택할 수 있습니다. 자세한 내용은 [처리 규칙](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/processing-rules.html)을 참조하십시오. 의 예에서 *작업 만들기*, 작업이 다음을 전송합니다. `poiname` Analytics로 전송되는 POI 항목 이벤트를 설명하는 컨텍스트입니다.
 
 ![작업 만들기](/help/assets/configure-action.png)
 
@@ -77,12 +77,12 @@ Mobile Services를 사용하면 Analytics로 전송되는 위치 데이터를 �
 * 시작 또는 종료와 같은 위치 특정 작업 사용.
 * 컨텍스트 데이터로 전송되는 POI 메타데이터를 사용하여 대상자의 범위를 좁힐 수 있습니다.
 
-   이 옵션은 항목과 같은 위치별 작업과 함께 사용하거나 시작 또는 단추 클릭과 같은 다른 이벤트에 대한 컨텍스트로 사용할 수 있습니다.
+  이 옵션은 항목과 같은 위치별 작업과 함께 사용하거나 시작 또는 단추 클릭과 같은 다른 이벤트에 대한 컨텍스트로 사용할 수 있습니다.
 
-   다음은 가 있는 POI를 입력하는 사용자를 환영하도록 인앱 메시지를 구성하는 방법의 예입니다 **[!UICONTROL Adobe]** 이름:
+  다음은 가 있는 POI를 입력하는 사용자를 환영하도록 인앱 메시지를 구성하는 방법의 예입니다 **[!UICONTROL Adobe]** 이름:
 
-   ![트리거 매개 변수](/help/assets/trigger-parameters.png)
+  ![트리거 매개 변수](/help/assets/trigger-parameters.png)
 
 * 의 위치 서비스 머리글에 있는 매개 변수 *트리거 및 트레이트* Mobile Services의 페이지가 Places Service의 데이터로 작동하지 않습니다.
 
-   이러한 매개 변수는 Mobile Services에서 만든 레거시 Places Service 데이터베이스에 대해서만 사용됩니다.
+  이러한 매개 변수는 Mobile Services에서 만든 레거시 Places Service 데이터베이스에 대해서만 사용됩니다.

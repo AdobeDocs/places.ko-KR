@@ -2,9 +2,9 @@
 title: 푸시 알림
 description: 이 섹션에서는 푸시 알림과 함께 위치 서비스를 사용하는 방법을 보여줍니다.
 exl-id: c094fe9c-6148-45ba-850a-f4c520d3362c
-source-git-commit: 4ab15ded930b31e4e06920af31f37fdfe45df8eb
+source-git-commit: d5c216aebd99ffef01c37c17c62576835b52438b
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '225'
 ht-degree: 8%
 
 ---
@@ -17,15 +17,15 @@ Mobile Services를 사용하면 푸시 알림을 Adobe Analytics 세그먼트로
 
 * Places Service 데이터가 Adobe Analytics에서 처리되었습니다.
 
-   즉, 모바일 앱에서 Places Service 데이터를 보고서 세트에 성공적으로 보냈으며 해당 데이터를 세그멘테이션에 사용할 수 있습니다.
+  즉, 모바일 앱에서 Places Service 데이터를 보고서 세트에 성공적으로 보냈으며 해당 데이터를 세그멘테이션에 사용할 수 있습니다.
 
 * Mobile Services의 푸시 알림 채널이 설정됩니다.
 
-   자세한 내용은 [푸시 메시지 만들기](https://docs.adobe.com/content/help/en/mobile-services/using/manage-app-settings-ug/configuring-app/prerequisites-push-messaging.html)를 참조하십시오.
+  자세한 내용은 [푸시 메시지 만들기](https://experienceleague.adobe.com/docs/discontinued/using/mobile-services.html)를 참조하십시오.
 
 * Mobile Services의 Analytics 세그먼트에 푸시 알림을 전송하는 방법을 이해합니다.
 
-   자세한 내용은 [푸시 메시지 만들기](https://docs.adobe.com/content/help/en/mobile-services/using/messaging-ug/push-messages/t-create-push-message.html)를 참조하십시오.
+  자세한 내용은 [푸시 메시지 만들기](https://experienceleague.adobe.com/docs/discontinued/using/mobile-services.html)를 참조하십시오.
 
 ## 알림 보내기
 

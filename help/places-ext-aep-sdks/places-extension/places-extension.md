@@ -2,9 +2,9 @@
 title: 위치 확장
 description: 위치 확장을 사용하면 사용자의 위치에 따라 작업을 수행할 수 있습니다.
 exl-id: 09c02753-09b3-4e07-82b2-b6c72c4e0e42
-source-git-commit: 795808b38851d5afcedc03f58e9a1d6342830934
+source-git-commit: d5c216aebd99ffef01c37c17c62576835b52438b
 workflow-type: tm+mt
-source-wordcount: '700'
+source-wordcount: '697'
 ht-degree: 5%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 5%
 
 1. 게시 프로세스를 완료하여 SDK 구성을 업데이트합니다.
 
-   Experience Platform Launch에 게시하는 방법에 대한 자세한 내용은 [게시](https://docs.adobe.com/content/help/ko-KR/launch/using/reference/publish/overview.html).
+   Experience Platform Launch에 게시하는 방법에 대한 자세한 내용은 [게시](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/overview.html).
 
 ### 위치 확장 구성 {#configure-places-extension}
 

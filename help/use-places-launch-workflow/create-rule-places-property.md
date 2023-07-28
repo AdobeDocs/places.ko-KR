@@ -2,10 +2,10 @@
 title: Places Service 속성에 대한 규칙 만들기
 description: 위치 SDK는 현재 위치를 추적하고, 현재 위치 주변에 구성된 POI를 모니터링하고, 이러한 POI에 대한 시작 및 종료 이벤트를 추적합니다.
 exl-id: dd5aa7ac-55f9-44dc-8632-e483ef3b91a0
-source-git-commit: 010de286c25c1eeb989fb76e3c2adaa82ac9fd35
+source-git-commit: d5c216aebd99ffef01c37c17c62576835b52438b
 workflow-type: tm+mt
-source-wordcount: '927'
-ht-degree: 15%
+source-wordcount: '922'
+ht-degree: 14%
 
 ---
 
@@ -54,7 +54,7 @@ ht-degree: 15%
 
 >[!CAUTION]
 >
->이 예에서는 사용자가 미국의 모든 커피숍에 대한 POI 라이브러리를 생성한 것으로 가정합니다. POI 및 라이브러리 생성에 대한 자세한 내용은 [POI 만들기](/help/poi-mgmt-ui/create-a-poi-ui.md) 및 *라이브러리 만들기* 위치: [여러 라이브러리 관리](https://docs.adobe.com/content/help/en/places/using/poi-mgmt-ui/manage-libraries-in-the-places-ui.html).
+>이 예에서는 사용자가 미국의 모든 커피숍에 대한 POI 라이브러리를 생성한 것으로 가정합니다. POI 및 라이브러리 생성에 대한 자세한 내용은 [POI 만들기](/help/poi-mgmt-ui/create-a-poi-ui.md) 및 *라이브러리 만들기* 위치: [여러 라이브러리 관리](https://experienceleague.adobe.com/docs/places/using/poi-mgmt-ui/manage-libraries-in-the-places-ui.html).
 
 다음 절차는 San Francisco에서 커피숍에 들어갈 때 Slack에게 다시 게시물을 보내는 규칙을 만드는 방법의 예입니다.
 
@@ -124,7 +124,7 @@ Experience Platform Launch에서 데이터 요소를 만들려면 다음을 수�
 
 ### 규칙 게시
 
-1. 규칙을 활성화하려면 게시해야 합니다. Experience Platform Launch에 규칙을 게시하는 방법에 대한 자세한 내용은 [게시](https://docs.adobe.com/content/help/ko-KR/launch/using/reference/publish/overview.html).
+1. 규칙을 활성화하려면 게시해야 합니다. Experience Platform Launch에 규칙을 게시하는 방법에 대한 자세한 내용은 [게시](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/overview.html).
 
 ### 시작 및 종료 이상의 사고
 

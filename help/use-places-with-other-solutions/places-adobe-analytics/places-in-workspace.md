@@ -2,10 +2,10 @@
 title: Analytics Workspace의 위치 데이터에 대한 보고서
 description: 이 섹션에서는 Analytics Workspace에서 위치 데이터에 대해 보고하는 방법에 대해 설명합니다.
 exl-id: 45ca3c80-71b7-41de-9b00-645504061935
-source-git-commit: 4ab15ded930b31e4e06920af31f37fdfe45df8eb
+source-git-commit: d5c216aebd99ffef01c37c17c62576835b52438b
 workflow-type: tm+mt
-source-wordcount: '452'
-ht-degree: 8%
+source-wordcount: '451'
+ht-degree: 5%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 8%
 
 1. Adobe Analytics 사용자는 관리자이며 처리 규칙에 액세스할 수 있습니다.
 
-   처리 규칙에 대한 자세한 내용은 [처리 규칙 개요](https://docs.adobe.com/content/help/ko-KR/analytics/admin/admin-tools/processing-rules/processing-rules.html)를 참조하십시오.
+   처리 규칙에 대한 자세한 내용은 [처리 규칙 개요](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/processing-rules.html)를 참조하십시오.
 
 1. Launch 속성에서 원하는 Places Service 변수에 대한 데이터 요소가 생성되었습니다.
 
@@ -44,7 +44,7 @@ ht-degree: 8%
 
 ## 2. Analytics 변수 만들기
 
-컨텍스트 데이터(1단계에서 전송됨)를 매핑하려면 먼저 Analytics 보고서 세트에 대한 변수를 만들어야 합니다. Analytics에서 변수를 만드는 방법에 대한 자세한 내용은 [전환 변수 (eVar)](https://docs.adobe.com/content/help/en/analytics/implementation/analytics-basics/ref-conversion-variables-evar.html).
+컨텍스트 데이터(1단계에서 전송됨)를 매핑하려면 먼저 Analytics 보고서 세트에 대한 변수를 만들어야 합니다. Analytics에서 변수를 만드는 방법에 대한 자세한 내용은 [전환 변수 (eVar)](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/evar.html).
 
 이 예에서는 전환 변수, **[!UICONTROL Evar2]**, 이(가) 만들어지고 이름이 지정됨 **[!UICONTROL 위치 POI 이름]**. 보고에 표시하려는 각 위치 변수에 대해 추가 변수를 만들어야 합니다.
 
@@ -52,7 +52,7 @@ ht-degree: 8%
 
 ## 3. 처리 규칙 만들기
 
-이 단계는 컨텍스트 데이터(1단계)를 Analytics 변수(2단계)에 매핑하는 데 필요합니다. 처리 규칙 만들기에 대한 자세한 내용은 [처리 규칙 개요](https://docs.adobe.com/content/help/ko-KR/analytics/admin/admin-tools/processing-rules/processing-rules.html).
+이 단계는 컨텍스트 데이터(1단계)를 Analytics 변수(2단계)에 매핑하는 데 필요합니다. 처리 규칙 만들기에 대한 자세한 내용은 [처리 규칙 개요](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/processing-rules.html).
 
 이 예에서는 컨텍스트 데이터 값을 매핑하는 처리 규칙이 작성되었습니다 **[!UICONTROL poi.name]** 대상 **[!UICONTROL 위치 POI 이름(eVar2)]**. 생성된 각 위치 변수에 대해 추가 처리 규칙을 생성해야 합니다.
 
@@ -60,7 +60,7 @@ ht-degree: 8%
 
 ## 4. 작업 영역에서 보고서 생성
 
-이 단계에서는 1-3단계에서 수집된 데이터를 보기 위한 Analytics Workspace의 기본 보고서를 보여줍니다. Analytics Workspace를 사용하는 방법에 대한 자세한 내용은 [Analytics Workspace 개요](https://docs.adobe.com/content/help/ko-KR/analytics/analyze/analysis-workspace/analysis-workspace-features.html).
+이 단계에서는 1-3단계에서 수집된 데이터를 보기 위한 Analytics Workspace의 기본 보고서를 보여줍니다. Analytics Workspace를 사용하는 방법에 대한 자세한 내용은 [Analytics Workspace 개요](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html).
 
 이 예제에서 보고서에는 다음과 같은 설정이 있습니다.
 

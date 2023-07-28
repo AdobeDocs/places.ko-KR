@@ -2,10 +2,10 @@
 title: 릴리스 정보
 description: Places Service 릴리스 정보.
 exl-id: 76da9548-4e32-4b23-9a15-7012973915f3
-source-git-commit: 2b5c53887c9ed0f2a672c377121a39537ee58f01
+source-git-commit: d5c216aebd99ffef01c37c17c62576835b52438b
 workflow-type: tm+mt
-source-wordcount: '1492'
-ht-degree: 3%
+source-wordcount: '1490'
+ht-degree: 2%
 
 ---
 
@@ -17,12 +17,12 @@ ht-degree: 3%
 
    * 다음에 대한 위치 및 위치 모니터 확장이 추가되었습니다. [React 네이티브 애플리케이션](https://aep-sdks.gitbook.io/docs/resources/upgrading-to-aep/current-sdk-versions#react-native)
    * 다음에 대한 위치 및 위치 모니터 확장이 추가되었습니다. [Cordova 애플리케이션](https://aep-sdks.gitbook.io/docs/resources/upgrading-to-aep/current-sdk-versions#cordova)
-   * 자세한 내용은 다음을 참조하십시오. [위치 확장 사용](https://docs.adobe.com/content/help/ko-KR/places/using/places-ext-aep-sdks/places-extension/places-extension.html)
+   * 자세한 내용은 다음을 참조하십시오. [위치 확장 사용](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-extension/places-extension.html)
 
 
 ## 2020년 5월 12일
 
-* **장소 서비스**
+* **Places Service**
 
    * &quot;POI 가져오기&quot; 버튼을 사용하여 CSV 파일에서 POI 대량 가져오기
    * 여러 POI를 선택하고 메타데이터 값을 일괄 편집 또는 추가
@@ -114,12 +114,12 @@ ht-degree: 3%
    * **iOS**
 
       * 새 API를 추가했습니다. `setRequestAuthorizationLevel`을 눌러 사용자에게 프롬프트가 표시되는 위치 인증 요청 유형을 설정합니다.
+
+
    * **Android**
 
       * 새 API를 추가했습니다. `setLocationPermission`을 눌러 사용자에게 프롬프트가 표시되는 위치 권한 요청의 유형을 설정합니다.
       * 위치 모니터는 이제 Android 10을 지원합니다.
-
-
 
 ## 2019년 8월 8일
 
@@ -162,9 +162,9 @@ ht-degree: 3%
 * 위치 권한 요청으로 인해 발생한 콜백을 처리하면 더 이상 PlacesActivity를 확장할 필요가 없습니다.
 * 기존 API를 변경하여 개발자가 장치에서 모든 위치 데이터를 지울 수 있습니다.
 
-   이전 API: `public static void stop();`
+  이전 API: `public static void stop();`
 
-   새  API: `public static void stop (final boolean clearData);`
+  새  API: `public static void stop (final boolean clearData);`
 
 * 의 사용을 업데이트했습니다. `getNearbyPointsOfInterest` 오류 시나리오를 보다 효과적으로 처리하기 위한 API입니다.
 
@@ -176,7 +176,7 @@ ht-degree: 3%
 
 * 장치에서 모든 위치 데이터를 지우려면
 
-   acpplacesMonitor에서 기존 API를 교체했습니다. `+ (void) stop;` 포함`+ (void) stop: (BOOL) clearData;`.
+  acpplacesMonitor에서 기존 API를 교체했습니다. `+ (void) stop;` 포함`+ (void) stop: (BOOL) clearData;`.
 
 * ACPPlace 사용 업데이트 `getNearbyPointsOfInterest` 오류 시나리오를 보다 효과적으로 처리하기 위한 API입니다.
 
@@ -316,7 +316,7 @@ Places API를 사용하여 다음을 수행할 수 있습니다.
 * 고유한 UI를 구축하거나 기존 POI 데이터베이스와 통합합니다.
 * Places API 배치 끝점을 사용하여 POI를 대량으로 가져옵니다.
 
-   제공된 Python 유틸리티를 사용하여 벌크 가져오기를 완료할 수 있습니다.
+  제공된 Python 유틸리티를 사용하여 벌크 가져오기를 완료할 수 있습니다.
 
 Places API에 대한 자세한 내용은 [웹 서비스 API](/help/web-service-api/places-web-services.md).
 
