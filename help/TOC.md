@@ -2,7 +2,8 @@
 audience: end-user
 user-guide-title: Places Service 안내서
 user-guide-description: 위치 서비스는 위치 인식 모바일 앱이 위치 컨텍스트를 이해할 수 있도록 해 주는 지리적 위치 서비스입니다.
-source-git-commit: 010de286c25c1eeb989fb76e3c2adaa82ac9fd35
+feature: Places
+source-git-commit: 30f083087936f54c692ff5aca245a7ee6b970b3a
 workflow-type: tm+mt
 source-wordcount: '301'
 ht-degree: 20%
@@ -10,7 +11,7 @@ ht-degree: 20%
 ---
 
 
-# 장소 서비스 {#using}
+# Places Service {#using}
 
 + [Places Service 개요](home.md)
 + [릴리스 정보](release-notes.md)

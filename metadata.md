@@ -2,6 +2,7 @@
 cloud: Experience Cloud
 product: places service
 solution: Data Collection
+feature-set: Experience Platform
 type: Documentation
 solution-title: Learn & Support
 solution-hub-url: https://helpx.adobe.com/support/experience-cloud.html
@@ -11,7 +12,7 @@ tutorials-title: Tutorials
 tutorials-url: https://experienceleague.adobe.com/#recommended/solutions/experience-platform
 git-repo: https://github.com/AdobeDocs/places.ko-KR
 index: true
-source-git-commit: d5c216aebd99ffef01c37c17c62576835b52438b
+source-git-commit: 30f083087936f54c692ff5aca245a7ee6b970b3a
 workflow-type: tm+mt
 source-wordcount: '147'
 ht-degree: 94%
