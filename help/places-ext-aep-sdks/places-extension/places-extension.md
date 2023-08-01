@@ -1,8 +1,9 @@
 ---
 title: 위치 확장
 description: 위치 확장을 사용하면 사용자의 위치에 따라 작업을 수행할 수 있습니다.
+feature: Mobile SDK
 exl-id: 09c02753-09b3-4e07-82b2-b6c72c4e0e42
-source-git-commit: d5c216aebd99ffef01c37c17c62576835b52438b
+source-git-commit: f521d5e3b0b69977877d88382ce41fcb7d1c54b9
 workflow-type: tm+mt
 source-wordcount: '697'
 ht-degree: 5%
