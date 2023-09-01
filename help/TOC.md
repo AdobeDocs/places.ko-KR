@@ -3,9 +3,9 @@ audience: end-user
 user-guide-title: Places Service 안내서
 user-guide-description: 위치 서비스는 위치 인식 모바일 앱이 위치 컨텍스트를 이해할 수 있도록 해 주는 지리적 위치 서비스입니다.
 feature: Places
-source-git-commit: 30f083087936f54c692ff5aca245a7ee6b970b3a
+source-git-commit: 9f2c6fee6e0d6d075b662cc0b6cbee49cf05ee55
 workflow-type: tm+mt
-source-wordcount: '301'
+source-wordcount: '290'
 ht-degree: 20%
 
 ---
@@ -54,11 +54,7 @@ ht-degree: 20%
             + [여러 POI 삭제](web-service-api/api-usage/manage-pois/batch-apis/delete-multiple-pois.md)
       + [쿼리 API](web-service-api/api-usage/query-apis.md)
 + Mobile SDK용 확장 {#places-ext-aep-sdks}
-   + 위치 확장 {#places-extension}
-      + [위치 확장](places-ext-aep-sdks/places-extension/places-extension.md)
-      + [Places API 참조](places-ext-aep-sdks/places-extension/places-api-reference.md)
-      + [Places 이벤트 참조](places-ext-aep-sdks/places-extension/places-event-ref.md)
-      + [사용자 지정 Places 개체](places-ext-aep-sdks/places-extension/cust-places-objects.md)
+   + [위치 확장](places-ext-aep-sdks/places-extension/places-extension.md)
 + [고유한 모니터링 솔루션으로 Places Service 사용](using-your-own-monitor.md)
 + [활성 지역 모니터링 없이 장소 서비스 사용](use-places-without-active-monitoring.md)
 + Experience Platform Launch 워크플로의 일부로 장소 서비스 사용 {#use-places-launch-workflow}

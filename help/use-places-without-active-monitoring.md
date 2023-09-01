@@ -2,9 +2,9 @@
 title: 활성 지역 모니터링 없이 장소 서비스 사용
 description: 이 섹션에서는 활성 지역 모니터링 없이 Places Service를 사용하는 방법에 대해 설명합니다.
 exl-id: 0ba7949a-447e-4754-9b45-945e58e29541
-source-git-commit: 010de286c25c1eeb989fb76e3c2adaa82ac9fd35
+source-git-commit: 33cbef9b3226be3f013fe82d619b82e093a9752a
 workflow-type: tm+mt
-source-wordcount: '748'
+source-wordcount: '762'
 ht-degree: 1%
 
 ---
@@ -126,9 +126,9 @@ func locationManager(_ manager: CLLocationManager, didUpdateLocations locations:
 >
 >위치 데이터를 캡처하는 권장되는 방법은 다음과 같습니다. [Analytics 요청에 위치 데이터 첨부](#attach-places-data-to-your-analytics-requests).
 >
->사용 사례에 필요한 경우 [지역 엔트리 이벤트](places-ext-aep-sdks/places-extension/places-event-ref.md#processregionevent) sdk에 의해 트리거되려면 아래에 설명된 대로 수동으로 수행해야 합니다.
+>사용 사례에 필요한 경우 [지역 엔트리 이벤트](https://developer.adobe.com/client-sdks/documentation/places/api-reference/#processregionevent) sdk에 의해 트리거되려면 아래에 설명된 대로 수동으로 수행해야 합니다.
 
-이(가) 반환한 목록 `getNearbyPointsOfInterest` API에 포함된 항목 [사용자 지정 개체](places-ext-aep-sdks/places-extension/cust-places-objects.md) 사용자가 현재 POI 내에 있는지 보여 줍니다. 사용자가 POI에 있는 경우 SDK에서 해당 지역에 대한 시작 이벤트를 트리거하도록 할 수 있습니다.
+이(가) 반환한 목록 `getNearbyPointsOfInterest` API에 포함된 항목 [사용자 지정 개체](https://developer.adobe.com/client-sdks/documentation/places/api-reference/#additional-classes-and-enums) 사용자가 현재 POI 내에 있는지 보여 줍니다. 사용자가 POI에 있는 경우 SDK에서 해당 지역에 대한 시작 이벤트를 트리거하도록 할 수 있습니다.
 
 >[!IMPORTANT]
 >

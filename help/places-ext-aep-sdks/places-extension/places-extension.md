@@ -3,107 +3,111 @@ title: 위치 확장
 description: 위치 확장을 사용하면 사용자의 위치에 따라 작업을 수행할 수 있습니다.
 feature: Mobile SDK
 exl-id: 09c02753-09b3-4e07-82b2-b6c72c4e0e42
-source-git-commit: f521d5e3b0b69977877d88382ce41fcb7d1c54b9
+source-git-commit: 9f2c6fee6e0d6d075b662cc0b6cbee49cf05ee55
 workflow-type: tm+mt
-source-wordcount: '697'
-ht-degree: 5%
+source-wordcount: '37'
+ht-degree: 10%
 
 ---
 
 # 위치 확장 {#places-extension}
 
-위치 확장을 사용하면 사용자의 위치에 따라 작업을 수행할 수 있습니다. 이 확장은 위치 쿼리 서비스 API에 대한 인터페이스입니다. GPS 좌표 및 지오펜스 영역 이벤트가 포함된 이벤트를 수신함으로써 이 확장은 규칙 엔진에서 처리되는 새 이벤트를 전달합니다. 또한 위치 확장은 API에서 검색하는 앱 데이터에 대해 가장 가까운 POI 목록을 검색하고 전달합니다. API에서 반환된 영역은 캐시 및 지속성에 저장되므로 제한된 오프라인 처리가 가능합니다.
+Adobe 개발자 포털로 이동하여 [Places SDK 확장](https://developer.adobe.com/client-sdks/documentation/places/).
 
-## Adobe Experience Platform Launch에 Places 확장 설치
+<!-- 
 
-1. Experience Platform Launch에서 **[!UICONTROL 확장]** 탭.
-1. 다음에서 **[!UICONTROL 카탈로그]** 탭에서 다음을 찾습니다. **[!UICONTROL 위치]** 확장을 마우스로 가리킨 다음 **[!UICONTROL 설치]**.
-1. 이 속성에서 사용할 위치 라이브러리를 선택합니다. 앱에서 액세스할 수 있는 라이브러리입니다.
-1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
+The Places extension allows you to act based on the location of your users. This extension is the interface to the Places Query Service APIs. By listening for events that contain GPS coordinates and geofence region events, this extension dispatches new events that are processed by the Rules Engine. The Places extension also retrieves and delivers a list of the nearest POI for the app data that retrieves from the APIs. The regions returned by the APIs are stored in cache and persistence, which allows limited offline processing.
 
-   다음을 클릭: **[!UICONTROL 저장]**, Experience Platform SDK는 선택한 라이브러리에서 위치 서비스에서 POI를 검색합니다. POI 데이터는 앱을 빌드할 때 라이브러리 다운로드에 포함되지 않지만, 위치 기반 POI 하위 세트는 런타임 시 최종 사용자의 장치에 다운로드되고 사용자의 GPS 좌표를 기반으로 합니다.
+## Install the Places extension in Adobe Experience Platform Launch
 
-1. 게시 프로세스를 완료하여 SDK 구성을 업데이트합니다.
+1. In Experience Platform Launch, click the **[!UICONTROL Extensions]** tab.
+1. On the **[!UICONTROL Catalog]** tab, locate the **[!UICONTROL Places]** extension, and click **[!UICONTROL Install]**.
+1. Select the Places libraries you want to use in this property. These are the libraries that will be accessible in your app.
+1. Click **[!UICONTROL Save]**.
 
-   Experience Platform Launch에 게시하는 방법에 대한 자세한 내용은 [게시](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/overview.html).
+    When you click **[!UICONTROL Save]**, the Experience Platform SDK searches the Places Services for POIs in the libraries that you selected. The POI data is not included in the download of the library when you build the app, but a location-based subset of POIs is downloaded to the end user's device at runtime and is based on the user's GPS coordinates.
 
-### 위치 확장 구성 {#configure-places-extension}
+1. Complete the publishing process to update the SDK configuration.
 
-![](/help/assets/places-extension.png)
+   For more information about publishing in Experience Platform Launch, see [Publishing](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/overview.html).
 
-## 앱에 Places 확장 추가 {#add-places-to-app}
+### Configure the Places extension {#configure-places-extension}
 
-Android 및 iOS 앱에 위치 확장 기능을 추가할 수 있습니다. iOS 또는 Android 애플리케이션에 위치를 추가하는 단계는 아래에 나와 있습니다. 위치 확장은 아래 플랫폼에 대해서도 사용할 수 있습니다. 이러한 플랫폼 중 하나를 사용하여 개발할 때 애플리케이션에 위치를 추가하는 경우 함께 제공되는 링크를 참조하십시오.
+  ![](/help/assets/places-extension.png)
 
-**[Cordova Places 플러그인](https://github.com/adobe/cordova-acpplaces/blob/master/README.md)**
+## Add the Places extension to your app {#add-places-to-app}
 
-**[React 기본 위치 플러그인](https://github.com/adobe/react-native-acpplaces/blob/master/README.md)**
+You can add the Places extension to your Android and iOS apps. The steps to add Places to your iOS or Android application can be seen below. Places extensions are also available for the following platforms below. For adding Places to your application when developing with one of these platforms see the accompanying links:
 
-**[Flutter Places 플러그인](https://github.com/adobe/flutter-acpplaces_monitor)**
+**[Cordova Places Plugin](https://github.com/adobe/cordova-acpplaces/blob/master/README.md)** 
 
-**[Xamarin Places 플러그인](https://github.com/adobe/xamarin-acpcore)**
+**[React Native Places Plugin](https://github.com/adobe/react-native-acpplaces/blob/master/README.md)** 
+
+**[Flutter Places Plugin](https://github.com/adobe/flutter-acpplaces_monitor)**
+
+**[Xamarin Places Plugin](https://github.com/adobe/xamarin-acpcore)**
 
 
 ### Android
 
-Java를 사용하여 앱에 위치 확장을 추가하려면 다음을 수행합니다.
+To add the Places extension to your app by using Java:
 
-1. 앱의 Gradle 파일을 사용하여 프로젝트에 Places 확장을 추가합니다.
+1. Add the Places extension to your project using your app's gradle file.
 
    ```java
    implementation 'com.adobe.marketing.mobile:places:1.+'
    implementation 'com.adobe.marketing.mobile:sdk-core:1.+'
    ```
 
-1. 애플리케이션의 기본 활동에서 위치 확장을 가져옵니다.
+1. Import the Places extension in your application's main activity.
 
-   ```java
-   import com.adobe.marketing.mobile.Places;
-   ```
+    ```java
+    import com.adobe.marketing.mobile.Places;
+    ```
 
 
 ### iOS
 
-Objective-C 또는 Swift를 사용하여 앱에 위치 확장을 추가하려면:
+To add Places extension to your app by using Objective-C or Swift:
 
-1. 위치 및 [모바일 코어](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core) 라이브러리를 프로젝트에 추가합니다. 다음 Pod를 추가해야 합니다. `Podfile`:
+1. Add the Places and [Mobile Core](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core) libraries to your project. You will need to add the following pods to your `Podfile`:
 
    ```objective-c
    pod 'ACPPlaces', '~> 1.0'
    pod 'ACPCore', '~> 2.0'    # minimum Core version for Places is 2.0.3
    ```
 
-   또는 Cocoapods를 사용하지 않는 경우 Mobile Core 및 Places 라이브러리를 [릴리스 페이지](https://github.com/Adobe-Marketing-Cloud/acp-sdks/releases/) Github에서.
+   Alternatively, if you are not using Cocoapods, you can manually include the Mobile Core and the Places libraries from our [releases page](https://github.com/Adobe-Marketing-Cloud/acp-sdks/releases/) on Github.
 
-1. Cocoapods 업데이트:
+1. Update your Cocoapods:
 
    ```objective-c
    pod update
    ```
 
-1. Xcode를 열고 AppDelegate 클래스에서 Core 및 Places 헤더를 가져옵니다.
+1. Open Xcode, and in your AppDelegate class, import the Core and the Places headers:
 
-   **Objective-C**
+    **Objective-C**
 
-   ```objective-c
-   #import "ACPCore.h"
-   #import "ACPPlaces.h"
-   ```
+    ```objective-c
+    #import "ACPCore.h"
+    #import "ACPPlaces.h"
+    ```
 
-   **Swift**
+    **Swift**
 
-   ```swift
-   import ACPCore
-   import ACPPlaces
-   ```
+    ```swift
+    import ACPCore
+    import ACPPlaces
+    ```
 
-### Mobile Core에 위치 확장 등록 {#register-places-mobile-core}
+### Register the Places extension with Mobile Core {#register-places-mobile-core}
 
-Android 및 iOS에서 Places 확장을 모바일 코어에 등록해야 합니다.
+You need to register the Places extension with Mobile Core in Android and iOS.
 
 #### Android
 
-앱의 `OnCreate` 메서드는 Places 확장을 등록합니다.
+In your App's `OnCreate` method register the Places extensions:
 
 ```java
 public class PlacesTestApp extends Application {
@@ -125,7 +129,7 @@ public class PlacesTestApp extends Application {
 
 #### iOS
 
-앱의 `application:didFinishLaunchingWithOptions:` 메서드를 사용하여 다른 SDK 등록 호출로 Places 확장을 등록합니다.
+In your App's `application:didFinishLaunchingWithOptions:` method, register the Places extension with your other SDK registration calls:
 
 **Objective-C**
 
@@ -147,15 +151,15 @@ func application(_ application: UIApplication, didFinishLaunchingWithOptions lau
 }
 ```
 
-### 위치 멤버십 TTL(Time-to-Live) 수정 {#places-ttl}
+### Modifying Places membership time-to-live {#places-ttl}
 
-위치 데이터는 특히 디바이스가 백그라운드 위치 업데이트를 수신하고 있지 않은 경우 빠르게 부실해질 수 있다.
+Location data can quickly become stale, especially if the device is not receiving background location updates.
 
-를 설정하여 장치의 Places 멤버십 데이터에 대한 TTL(time-to-live) 제어 `places.membershipttl` 구성 설정입니다. 전달된 값은 위치 상태가 장치에 대해 유효한 상태로 유지되는 시간(초)을 나타냅니다.
+Control the time-to-live for Places membership data on the device by setting the `places.membershipttl` configuration setting. The value passed in represents the number of seconds that the Places state will remain valid for the device.
 
 #### Android
 
-콜백 내 `MobileCore.start()` 호출 전에 필요한 변경 사항으로 구성 업데이트 `lifecycleStart`:
+Inside the callback of `MobileCore.start()` update the configuration with the necessary changes prior to calling `lifecycleStart`:
 
 ```java
 public class PlacesTestApp extends Application {
@@ -189,7 +193,7 @@ public class PlacesTestApp extends Application {
 
 #### iOS
 
-콜백의 첫 번째 줄에서 `ACPCore`의 `start:` 메서드, 호출 `updateConfiguration:`
+On the first line in the callback of `ACPCore`'s `start:` method, call `updateConfiguration:`
 
 **Objective-C**
 
@@ -229,12 +233,14 @@ func application(_ application: UIApplication, didFinishLaunchingWithOptions lau
 }
 ```
 
-## 구성 키
+## Configuration keys
 
-런타임 시 프로그래밍 방식으로 SDK 구성을 업데이트하려면 다음 정보를 사용하여 Places 확장 구성 값을 변경합니다. 자세한 내용은 [구성 API 참조](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/configuration/configuration-api-reference).
+To update the SDK configuration programmatically at runtime, use the following information to change your Places extension configuration values. For more information, see [Configuration API Reference](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/configuration/configuration-api-reference).
 
-| 키 | 필수 여부 | 설명 |
+| Key | Required | Description |
 | :--- | :--- | :--- |
-| `places.libraries` | 예 | 모바일 앱용 Places 확장 라이브러리 모바일 앱이 지원하는 라이브러리 ID와 라이브러리의 이름을 지정합니다. |
-| `places.endpoint` | 예 | 라이브러리 및 POI에 대한 정보를 가져오는 데 사용되는 기본 위치 쿼리 서비스 끝점입니다. |
-| `places.membershipttl` | 아니요 | 기본값 3600(시간 내 초). 장치에 대한 위치 멤버십 정보가 유효한 상태로 유지되는 기간(초)을 나타냅니다. |
+| `places.libraries` | Yes | The Places extension libraries for the mobile app. It specifies the library ID and the name of the library that the mobile app supports. |
+| `places.endpoint` | Yes | The default Places Query Service endpoint, which is used to get information about libraries and POIs. |
+| `places.membershipttl` | No | Default value of 3600 (seconds in an hour). Indicates how long, in seconds, Places membership information for the device will remain valid. |
+
+-->
