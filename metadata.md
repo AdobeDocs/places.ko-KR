@@ -12,10 +12,10 @@ tutorials-title: Tutorials
 tutorials-url: https://experienceleague.adobe.com/#recommended/solutions/experience-platform
 git-repo: https://github.com/AdobeDocs/places.ko-KR
 index: true
-source-git-commit: 30f083087936f54c692ff5aca245a7ee6b970b3a
+source-git-commit: b63808d2a3fc8d25a6a3db3048c2bf059ea0bdaa
 workflow-type: tm+mt
-source-wordcount: '147'
-ht-degree: 94%
+source-wordcount: '142'
+ht-degree: 98%
 
 ---
 
