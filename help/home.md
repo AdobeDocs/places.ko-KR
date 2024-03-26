@@ -2,10 +2,10 @@
 title: Places Service
 description: 위치 서비스는 모바일 사용자의 참여를 이해하는 데 중요한 컨텍스트입니다. 모바일 앱 개발자는 이러한 컨텍스트를 사용하여 앱 디자인을 강화하고 이를 보다 개인화되고 매력적인 경험으로 만들 수 있습니다.
 exl-id: 7369176f-c072-437a-9ee3-b463c5ff1d12
-source-git-commit: d5c216aebd99ffef01c37c17c62576835b52438b
+source-git-commit: e78e3c5ee6623d6cdf2a33c0582667a70283fdc6
 workflow-type: tm+mt
-source-wordcount: '671'
-ht-degree: 10%
+source-wordcount: '663'
+ht-degree: 9%
 
 ---
 
@@ -30,7 +30,7 @@ Places Service를 통해 다음을 수행할 수 있습니다.
 * 누군가 POI를 입력하면 실시간 알림 보내기, *&quot;이봐..경기장에 오신 것을 환영합니다.&quot;*
 * 경쟁사 스토어와 비교하여 자신의 스토어의 풋 트래픽을 분석합니다.
 * 위치 컨텍스트가 있는 대상 프로필을 사용하여 오프라인 행동을 기반으로 대상을 세그먼트화합니다.
-* 관련 있는 경우 매장 경험이 있는 사용자 Target.
+* 관련성이 있을 때 매장 경험이 있는 사용자를 타겟팅하십시오.
 
 ## Places 서비스 구성 요소
 
@@ -85,3 +85,4 @@ Places Service는 다음 구성 요소로 구성됩니다.
 * 다음 **EXPERIENCE CLOUD ID** 서비스는 Experience Cloud의 모든 솔루션에서 방문자를 식별하는 범용 영구 ID를 제공합니다.
 
   자세한 내용은 [개요](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=ko-KR)를 참조하십시오.
+
