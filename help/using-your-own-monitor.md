@@ -23,7 +23,7 @@ iOS에서 다음 단계를 완료합니다.
 
 1. iOS의 핵심 위치 서비스에서 가져온 위치 업데이트를 위치 확장에 전달합니다.
 
-1. 사용 `getNearbyPointsOfInterest` 배열 가져오기를 위한 위치 확장 API `ACPPlacesPoi` 현재 위치 주변의 개체입니다.
+1. `getNearbyPointsOfInterest` 위치 확장 API를 사용하여 현재 위치 주변의 `ACPPlacesPoi` 개체 배열을 가져옵니다.
 
    ```objective-c
    - (void) locationManager: (CLLocationManager*) manager didUpdateLocations: (NSArray<CLLocation*>*) locations {
@@ -33,7 +33,7 @@ iOS에서 다음 단계를 완료합니다.
    }
    ```
 
-1. 획득한 항목에서 정보 추출 `ACPPlacesPOI` 객체를 만든 후 해당 POI를 모니터링하기 시작합니다.
+1. 획득한 `ACPPlacesPOI`개의 개체에서 정보를 추출하고 해당 POI를 모니터링하기 시작합니다.
 
    ```objective-c
    - (void) startMonitoringGeoFences: (NSArray*) newGeoFences {
@@ -57,9 +57,9 @@ iOS에서 다음 단계를 완료합니다.
 
 ### Android
 
-1. Google Play 서비스 또는 Android 위치 서비스에서 가져온 위치 업데이트를 위치 확장에 전달합니다.
+1. Google Play 서비스 또는 Android 위치 서비스에서 얻은 위치 업데이트를 위치 확장에 전달합니다.
 
-1. 사용 `getNearbyPointsOfInterest` 목록 가져오기를 위한 위치 확장 API `PlacesPoi` 현재 위치 주변의 개체입니다.
+1. `getNearbyPointsOfInterest` 위치 확장 API를 사용하여 현재 위치 주변의 `PlacesPoi` 개체 목록을 가져옵니다.
 
    ```java
    LocationCallback callback = new LocationCallback() {
@@ -77,7 +77,7 @@ iOS에서 다음 단계를 완료합니다.
    };
    ```
 
-1. 획득한 항목에서 데이터 추출 `PlacesPOI` 객체를 만든 후 해당 POI를 모니터링하기 시작합니다.
+1. 획득한 `PlacesPOI`개의 개체에서 데이터를 추출하고 해당 POI를 모니터링하기 시작합니다.
 
    ```java
    private void startMonitoringFences(final List<PlacesPOI> nearByPOIs) {
@@ -102,7 +102,7 @@ iOS에서 다음 단계를 완료합니다.
    ```
 
 
-호출 `getNearbyPointsOfInterest` API를 사용하면 현재 위치 주위의 위치를 가져오는 네트워크 호출이 발생합니다.
+`getNearbyPointsOfInterest` API를 호출하면 현재 위치 주변의 위치를 가져오는 네트워크 호출이 발생합니다.
 
 >[!IMPORTANT]
 >
@@ -112,7 +112,7 @@ iOS에서 다음 단계를 완료합니다.
 
 ### iOS
 
-iOS에서 `processGeofenceEvent` 의 위치 API `CLLocationManager` 위임. 이 API는 사용자가 특정 지역을 입력 또는 종료했는지 여부를 알려줍니다.
+iOS에서 `CLLocationManager` 대리자의 `processGeofenceEvent` Places API를 호출합니다. 이 API는 사용자가 특정 지역을 입력 또는 종료했는지 여부를 알려줍니다.
 
 ```objective-c
 - (void) locationManager:(CLLocationManager *)manager didEnterRegion:(CLRegion *)region {
@@ -126,7 +126,7 @@ iOS에서 `processGeofenceEvent` 의 위치 API `CLLocationManager` 위임. 이 
 
 ### Android
 
-Android에서 를 호출합니다 `processGeofence` Geofence 브로드캐스트 수신기에서 적절한 전환 이벤트와 함께 메서드를 사용합니다. 중복 시작/종료를 방지하기 위해 받은 지오펜스 목록을 조정할 수 있습니다.
+Android에서 Geofence 브로드캐스트 수신기에서 적절한 전환 이벤트와 함께 `processGeofence` 메서드를 호출합니다. 중복 시작/종료를 방지하기 위해 받은 지오펜스 목록을 조정할 수 있습니다.
 
 ```java
 void onGeofenceReceived(final Intent intent) {

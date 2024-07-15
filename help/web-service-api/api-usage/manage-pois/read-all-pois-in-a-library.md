@@ -5,7 +5,7 @@ exl-id: 08544909-661c-4a14-84e0-bacd0241a844
 source-git-commit: 4ab15ded930b31e4e06920af31f37fdfe45df8eb
 workflow-type: tm+mt
 source-wordcount: '54'
-ht-degree: 7%
+ht-degree: 3%
 
 ---
 
@@ -167,4 +167,4 @@ curl -X GET 'https://api-places.adobe.io/places/placesapi/v1/libraries/<LIBRARYI
 
 >[!IMPORTANT]
 >
->&quot; 바꾸기, `<API KEY>`, `<TOKEN>`, 및 `<ORGID>` (실제 값 포함)
+>&#39;&#39;, `<API KEY>`, `<TOKEN>` 및 `<ORGID>`을(를) 실제 값으로 바꾸십시오.

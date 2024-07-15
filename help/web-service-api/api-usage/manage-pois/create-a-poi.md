@@ -5,7 +5,7 @@ exl-id: 0f5b5b40-11f0-4122-b3d5-c3853a6e8ca5
 source-git-commit: 4ab15ded930b31e4e06920af31f37fdfe45df8eb
 workflow-type: tm+mt
 source-wordcount: '47'
-ht-degree: 10%
+ht-degree: 6%
 
 ---
 
@@ -96,4 +96,4 @@ curl -X POST 'https://api-places.adobe.io/places/placesapi/v1/pois' -H 'x-api-ke
 
 >[!IMPORTANT]
 >
->다음 사항을 기억하십시오. `<API KEY>`, `<TOKEN>`, &#39;,&#39; 및 `<SINGLEPOIDATA>` (실제 값 포함)
+>`<API KEY>`, `<TOKEN>`, &#39;,&#39; 및 `<SINGLEPOIDATA>`을(를) 실제 값으로 바꾸십시오.

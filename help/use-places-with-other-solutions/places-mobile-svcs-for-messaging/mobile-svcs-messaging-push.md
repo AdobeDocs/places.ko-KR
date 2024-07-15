@@ -4,8 +4,8 @@ description: 이 섹션에서는 푸시 알림과 함께 위치 서비스를 사
 exl-id: c094fe9c-6148-45ba-850a-f4c520d3362c
 source-git-commit: d5c216aebd99ffef01c37c17c62576835b52438b
 workflow-type: tm+mt
-source-wordcount: '225'
-ht-degree: 8%
+source-wordcount: '216'
+ht-degree: 10%
 
 ---
 
@@ -21,18 +21,18 @@ Mobile Services를 사용하면 푸시 알림을 Adobe Analytics 세그먼트로
 
 * Mobile Services의 푸시 알림 채널이 설정됩니다.
 
-  자세한 내용은 [푸시 메시지 만들기](https://experienceleague.adobe.com/docs/discontinued/using/mobile-services.html)를 참조하십시오.
+  자세한 내용은 [푸시 메시지 만들기](https://experienceleague.adobe.com/docs/discontinued/using/mobile-services.htmlhtml?lang=ko)를 참조하십시오.
 
 * Mobile Services의 Analytics 세그먼트에 푸시 알림을 전송하는 방법을 이해합니다.
 
-  자세한 내용은 [푸시 메시지 만들기](https://experienceleague.adobe.com/docs/discontinued/using/mobile-services.html)를 참조하십시오.
+  자세한 내용은 [푸시 메시지 만들기](https://experienceleague.adobe.com/docs/discontinued/using/mobile-services.htmlhtml?lang=ko)를 참조하십시오.
 
 ## 알림 보내기
 
-다음에서 **[!UICONTROL 대상자]** 의 탭 *푸시 알림 만들기* 워크플로우에서는 다음 방법 중 하나로 이 메시지의 대상자를 만들 수 있습니다.
+*푸시 알림 만들기* 워크플로의 **[!UICONTROL 대상]** 탭에서 다음 방법 중 하나로 이 메시지의 대상을 만들 수 있습니다.
 
-* 다음에서 **[!UICONTROL Analytics 세그먼트]** 드롭다운 목록에서 이전에 만든 Adobe Analytics 세그먼트를 선택합니다.
+* **[!UICONTROL Analytics 세그먼트]** 드롭다운 목록에서 이전에 만든 Adobe Analytics 세그먼트를 선택합니다.
 
-* 다음에서 **[!UICONTROL 사용자 지정 세그먼트]** 섹션, 사용 가능한 사용자 지정 세그먼트 매개 변수를 사용하여 대상을 작성합니다.
+* **[!UICONTROL 사용자 지정 세그먼트]** 섹션에서 사용 가능한 사용자 지정 세그먼트 매개 변수를 사용하여 대상을 작성합니다.
 
 ![푸시 메시지 설정](/help/assets/push-set-up.png)

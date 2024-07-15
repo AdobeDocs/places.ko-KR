@@ -4,7 +4,7 @@ description: 이 섹션에서는 메시징을 위해 Mobile Services와 함께 P
 exl-id: dfa6b8bb-6bf2-44eb-8bfc-87294807ec3b
 source-git-commit: d5c216aebd99ffef01c37c17c62576835b52438b
 workflow-type: tm+mt
-source-wordcount: '343'
+source-wordcount: '328'
 ht-degree: 1%
 
 ---
@@ -13,13 +13,13 @@ ht-degree: 1%
 
 Mobile Services 확장을 사용하여 메시지를 보내려면 먼저 다음 전제 조건을 검토하십시오.
 
-* 관심 영역이 Places Service에 만들어졌습니다. 자세한 내용은 [POI 만들기](/help/poi-mgmt-ui/create-a-poi-ui.md).
+* 관심 영역이 Places Service에 만들어졌습니다. 자세한 내용은 [POI 만들기](/help/poi-mgmt-ui/create-a-poi-ui.md)를 참조하십시오.
 
   >[!IMPORTANT]
   >
-  >위치 서비스에는 기존 Mobile Services UI 외부에 있는 조직에 대한 새롭고 개선된 POI 데이터베이스가 포함되어 있습니다. Mobile Service에 있는 POI *위치 관리* 페이지 탐색은 SDK 버전 4에서만 작동합니다.
+  >위치 서비스에는 기존 Mobile Services UI 외부에 있는 조직에 대한 새롭고 개선된 POI 데이터베이스가 포함되어 있습니다. 모바일 서비스 *위치 관리* 페이지 탐색에 있는 POI는 SDK 버전 4에서만 작동합니다.
 
-* 다음 *위치 관리* 이전 버전의 SDK에 대한 레거시 Mobile Services UI의 POI 관리 페이지:
+* 다음은 이전 버전의 SDK에 대한 레거시 Mobile Services UI의 *위치 관리* POI 관리 페이지입니다.
 
   ![레거시 UI](/help/assets/legacy-location-v4-ui.png)
 
@@ -29,15 +29,15 @@ Mobile Services 확장을 사용하여 메시지를 보내려면 먼저 다음 �
 
 * ACP SDK가 Places 확장으로 올바르게 구성되었습니다.
 
-  즉, 데이터는 모바일 앱의 Experience Platform Launch 규칙 엔진에서 이벤트 및/또는 조건으로 사용할 수 있습니다. 자세한 내용은 [위치 확장](/help/places-ext-aep-sdks/places-extension/places-extension.md).
+  즉, 데이터는 모바일 앱의 Experience Platform Launch 규칙 엔진에서 이벤트 및/또는 조건으로 사용할 수 있습니다. 자세한 내용은 [위치 확장](/help/places-ext-aep-sdks/places-extension/places-extension.md)을 참조하세요.
 
 * 모바일 앱에서 ACP SDK에 Experience Platform Launch 규칙을 만들고 게시하는 방법에 익숙해집니다.
 
-  자세한 내용은 [규칙 엔진](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/rules-engine).
+  자세한 내용은 [규칙 엔진](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/rules-engine)을 참조하세요.
 
 * Experience Platform Launch 데이터 요소는 규칙 엔진에서 사용될 위치 확장 데이터에서 만들어집니다.
 
-  자세한 내용은 [데이터 요소](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/rules-engine#data-elements).
+  자세한 내용은 [데이터 요소](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/rules-engine#data-elements)를 참조하십시오.
 
 ## 보고
 
@@ -45,11 +45,11 @@ Mobile Services 확장을 사용하여 메시지를 보내려면 먼저 다음 �
 
 * Places Service 데이터를 Adobe Analytics 보고서 세트로 보냈습니다.
 
-  자세한 내용은 [Adobe Analytics에서 장소 서비스 사용](/help/use-places-with-other-solutions/places-adobe-analytics/use-places-adobe-analytics.md).
+  자세한 내용은 [Adobe Analytics에서 Places Service 사용](/help/use-places-with-other-solutions/places-adobe-analytics/use-places-adobe-analytics.md)을 참조하세요.
 
 * Mobile Services 보고에 익숙해지십시오.
 
-  자세한 내용은 [보고서](https://experienceleague.adobe.com/docs/discontinued/using/mobile-services.html).
+  자세한 내용은 [보고서](https://experienceleague.adobe.com/docs/discontinued/using/mobile-services.htmlhtml?lang=ko)를 참조하세요.
 
 ## 보고 시각화
 

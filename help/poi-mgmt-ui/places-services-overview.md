@@ -13,5 +13,5 @@ ht-degree: 0%
 
 POI는 Places Service UI를 사용하여 Places Service 데이터베이스에서 생성되고 관리됩니다.
 
-* 라이브러리를 만들거나 수정하려면 다음을 참조하십시오. [라이브러리 관리](/help/poi-mgmt-ui/manage-libraries-in-the-places-ui.md).
-* POI를 만들거나 수정하려면 [POI 관리](/help/poi-mgmt-ui/managing-pois-in-the-places-ui.md).
+* 라이브러리를 만들거나 수정하려면 [라이브러리 관리](/help/poi-mgmt-ui/manage-libraries-in-the-places-ui.md)를 참조하십시오.
+* POI를 만들거나 수정하려면 [POI 관리](/help/poi-mgmt-ui/managing-pois-in-the-places-ui.md)를 참조하세요.

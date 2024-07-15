@@ -5,7 +5,7 @@ exl-id: 19eb73c4-5101-47a9-8c79-bc4790ecf472
 source-git-commit: 4ab15ded930b31e4e06920af31f37fdfe45df8eb
 workflow-type: tm+mt
 source-wordcount: '45'
-ht-degree: 8%
+ht-degree: 4%
 
 ---
 
@@ -69,4 +69,4 @@ curl -X GET 'https://api-places.adobe.io/places/placesapi/v1/pois/<POIID>' -H 'x
 
 >[!IMPORTANT]
 >
->바꾸기 `<POIID>`, `<API KEY>`, `<TOKEN>`, 및 `<ORIGIN>` (실제 값 포함)
+>`<POIID>`, `<API KEY>`, `<TOKEN>` 및 `<ORIGIN>`을(를) 실제 값으로 바꿉니다.

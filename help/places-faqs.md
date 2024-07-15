@@ -4,7 +4,7 @@ description: 이 항목에서는 몇 가지 FAQ에 대한 추가 정보를 제�
 exl-id: cee9f447-5e50-4ed8-b37b-baecbc0e9b7b
 source-git-commit: 010de286c25c1eeb989fb76e3c2adaa82ac9fd35
 workflow-type: tm+mt
-source-wordcount: '554'
+source-wordcount: '541'
 ht-degree: 1%
 
 ---
@@ -15,13 +15,13 @@ ht-degree: 1%
 
 ## v4 SDK의 trackLocation에서 마이그레이션
 
-v4 SDK에서 마이그레이션하는 경우 `trackLocation` API입니다. 주제를 참조하십시오. [활성 지역 모니터링 없이 장소 서비스 사용](use-places-without-active-monitoring.md).
+v4 SDK에서 마이그레이션하고 `trackLocation` API로의 대체 기능을 찾고 있는 경우 [활성 지역 모니터링 없이 위치 서비스 사용](use-places-without-active-monitoring.md) 항목을 참조하십시오.
 
 ## 크기 및 안정성
 
 Adobe 또는 기타 서비스 사용과 관계없이 모바일 앱에서 지역 모니터링에 사용되는 모든 지오펜스에 대해 주의해야 합니다. 운영 체제에서는 지오펜스를 만들 때 몇 가지 매개 변수를 염두에 둘 것을 권장합니다. 최대 신뢰성을 위해 지오펜스의 반경은 100미터 이상이어야 합니다. 더 작은 지오펜스를 생성해도 좋지만, 시작 및 종료 이벤트가 생성되지 않거나 사용자가 일정 기간 동안 이동을 중지한 후에 생성될 수 있습니다.
 
-또한, 와이파이가 꺼져 있거나 사용할 수 없는 등의 하드웨어 사정과 GPS 신호 방해와 관련된 장치의 위치에 따라 정확성 및 신뢰도가 떨어질 수 있다. 예를 들어 산악 지역, 도시 설정, 실내 지역은 iOS 및 Android 운영 체제에서 위치 정확도를 낮출 수 있습니다.
+또한, 와이파이가 꺼져 있거나 사용할 수 없는 등의 하드웨어 사정과 GPS 신호 방해와 관련된 장치의 위치에 따라 정확성 및 신뢰도가 떨어질 수 있다. 예를 들어 산악 지역, 도시 설정 및 실내 지역은 iOS 및 Android 운영 체제에서 위치 정확도를 낮출 수 있습니다.
 
 ## 종료 이벤트는 어떻게 트리거됩니까?
 
@@ -39,4 +39,4 @@ Places Service POI 관리 인터페이스에서 고객은 특정 라이브러리
 
 모니터링할 영역 세트를 지정할 때는 주의하십시오. 지역은 공유 시스템 자원이며, 시스템 전체에서 사용 가능한 총 지역 수는 제한적이다. 따라서 코어 위치는 단일 앱에서 동시에 모니터링할 수 있는 영역 수를 20개로 제한합니다. 이 제한을 해결하려면 사용자의 바로 근처에 있는 영역만 등록하는 것이 좋습니다.
 
-[Apple 개발자 사이트에서 추가 정보를 참조하십시오] (https://developer.apple.com/library/archive/documentation/UserExperience/Conceptual/LocationAwarenessPG/RegionMonitoring/RegionMonitoring.html#//apple_ref/doc/uid/TP40009497-CH9-SW11)
+[Apple 개발자 사이트에서 추가 정보를 봅니다](https://developer.apple.com/library/archive/documentation/UserExperience/Conceptual/LocationAwarenessPG/RegionMonitoring/RegionMonitoring.html#//apple_ref/doc/uid/TP40009497-CH9-SW11)

@@ -5,7 +5,7 @@ exl-id: c922bddc-1587-4da8-acb4-c2d69ce11808
 source-git-commit: 4ab15ded930b31e4e06920af31f37fdfe45df8eb
 workflow-type: tm+mt
 source-wordcount: '56'
-ht-degree: 7%
+ht-degree: 3%
 
 ---
 
@@ -47,4 +47,4 @@ curl -X PUT `'https://api-places.adobe.io/places/placesapi/v1/libraries/rank'` -
 
 >[!IMPORTANT]
 >
->다음과 같은 변수 바꾸기 `<API KEY>`, `<TOKEN>`, 및 `<ORGID>` (실제 값 포함)
+>`<API KEY>`, `<TOKEN>` 및 `<ORGID>` 등의 변수를 실제 값으로 바꾸십시오.

@@ -20,9 +20,9 @@ ht-degree: 32%
 
 ### ProcessGeofence(Android)
 
-프로세스 a `Geofence` 제공된 에 대한 지역 이벤트 `transitionType`.
+입력한 `transitionType`에 대해 `Geofence` 지역 이벤트를 처리합니다.
 
-전달 `transitionType` 출처: `GeofencingEvent.getGeofenceTransition()`. 현재 `Geofence.GEOFENCE_TRANSITION_ENTER` 및 `Geofence.GEOFENCE_TRANSITION_EXIT` 이 지원됩니다.
+`GeofencingEvent.getGeofenceTransition()`에서 `transitionType`을(를) 전달합니다. 현재 `Geofence.GEOFENCE_TRANSITION_ENTER` 및 `Geofence.GEOFENCE_TRANSITION_EXIT`이(가) 지원됩니다.
 
 **구문**
 
@@ -34,7 +34,7 @@ public static void processGeofence(final Geofence geofence, final int transition
 
 **예**
 
-에서 이 메서드 호출 `IntentService` android geofence 이벤트 수신을 위해 등록됩니다.
+Android geofence 이벤트 수신을 위해 등록된 `IntentService`에서 이 메서드를 호출합니다.
 
 다음은 이 메서드의 코드 샘플입니다.
 
@@ -60,7 +60,7 @@ public class GeofenceTransitionsIntentService extends IntentService {
 
 ### ProcessRegionEvent(iOS)
 
-이 메서드는 `CLLocationManager` 위임 - 사용자가 특정 영역을 입력했는지 또는 종료했는지 여부를 알려줍니다.
+이 메서드는 `CLLocationManager` 대리자에서 호출해야 하며, 이는 사용자가 특정 지역을 입력했는지 또는 종료했는지 여부를 알려줍니다.
 
 **구문**
 
@@ -87,7 +87,7 @@ public class GeofenceTransitionsIntentService extends IntentService {
 
 ### ProcessGeofencingEvent(Android)
 
-모두 처리 `Geofences` 다음에서 `GeofencingEvent` 동시에.
+`GeofencingEvent`의 모든 `Geofences`을(를) 동시에 처리합니다.
 
 **구문**
 
@@ -97,7 +97,7 @@ public static void processGeofenceEvent(final GeofencingEvent geofencingEvent);
 
 **예**
 
-에서 이 메서드 호출 `IntentService` android geofence 이벤트 수신을 위해 등록됩니다.
+Android geofence 이벤트 수신을 위해 등록된 `IntentService`에서 이 메서드를 호출합니다.
 
 ```java
 public class GeofenceTransitionsIntentService extends IntentService {
@@ -259,7 +259,7 @@ Places.getCurrentPointsOfInterest(new AdobeCallback<List<PlacesPOI>>() {
 
 >[!TIP]
 >
->위치 확장은 호출을 통해 제공된 위치에 대해서만 알고 있습니다. `GetNearbyPointsOfInterest`.
+>위치 확장은 `GetNearbyPointsOfInterest` 호출을 통해 제공된 위치만 알고 있습니다.
 
 
 ### GetLastKnownLocation(Android)
@@ -386,7 +386,7 @@ Places 확장에서 인증 상태를 설정합니다.
 제공된 상태는 위치 공유 상태에 저장되며 참조용으로만 사용됩니다.
 이 메서드를 호출해도 이 장치의 실제 위치 인증 상태는 영향을 받지 않습니다.
 
-장치 인증 상태가 변경되면 `locationManager:didChangeAuthorizationStatus:` 의 방법 `CLLocationManagerDelegate` 이 호출됩니다. 이 메서드 내에서 새 `CLAuthorizationStatus` ACPPlace 값 `setAuthorizationStatus:` API.
+장치 인증 상태가 변경되면 `CLLocationManagerDelegate`의 `locationManager:didChangeAuthorizationStatus:` 메서드가 호출됩니다. 이 메서드 내에서 새 `CLAuthorizationStatus` 값을 ACPPlace `setAuthorizationStatus:` API에 전달해야 합니다.
 
 **구문**
 

@@ -4,8 +4,8 @@ description: Places Service 릴리스 정보.
 exl-id: 76da9548-4e32-4b23-9a15-7012973915f3
 source-git-commit: d5c216aebd99ffef01c37c17c62576835b52438b
 workflow-type: tm+mt
-source-wordcount: '1490'
-ht-degree: 2%
+source-wordcount: '1525'
+ht-degree: 1%
 
 ---
 
@@ -15,14 +15,14 @@ ht-degree: 2%
 
 * **위치 및 위치 모니터 확장**
 
-   * 다음에 대한 위치 및 위치 모니터 확장이 추가되었습니다. [React 네이티브 애플리케이션](https://aep-sdks.gitbook.io/docs/resources/upgrading-to-aep/current-sdk-versions#react-native)
-   * 다음에 대한 위치 및 위치 모니터 확장이 추가되었습니다. [Cordova 애플리케이션](https://aep-sdks.gitbook.io/docs/resources/upgrading-to-aep/current-sdk-versions#cordova)
-   * 자세한 내용은 다음을 참조하십시오. [위치 확장 사용](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-extension/places-extension.html)
+   * [React Native 응용 프로그램](https://aep-sdks.gitbook.io/docs/resources/upgrading-to-aep/current-sdk-versions#react-native)에 대한 위치 및 위치 모니터 확장이 추가되었습니다.
+   * [Cordova 응용 프로그램](https://aep-sdks.gitbook.io/docs/resources/upgrading-to-aep/current-sdk-versions#cordova)에 대한 위치 및 위치 모니터 확장이 추가되었습니다.
+   * 자세한 내용은 [위치 확장 사용](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-extension/places-extension.html)을 참조하세요.
 
 
 ## 2020년 5월 12일
 
-* **Places Service**
+* **장소 서비스**
 
    * &quot;POI 가져오기&quot; 버튼을 사용하여 CSV 파일에서 POI 대량 가져오기
    * 여러 POI를 선택하고 메타데이터 값을 일괄 편집 또는 추가
@@ -49,13 +49,13 @@ ht-degree: 2%
 * **ACPPlaces 1.3.1(iOS)**
 
    * 위치 확장은 이제 Core SDK의 이벤트 허브에 버전 정보를 보고합니다.
-   * 이제 디바이스 POI 멤버십 정보에 수집된 시간으로부터 1시간의 기본 TTL(Time-To-Live)이 있습니다. 자세한 내용은 [위치 멤버십 TTL(Time-to-Live) 수정](places-ext-aep-sdks/places-extension/places-extension.md#places-ttl)
+   * 이제 디바이스 POI 멤버십 정보에 수집된 시간으로부터 1시간의 기본 TTL(Time-To-Live)이 있습니다. 자세한 내용은 [Places 멤버십 TTL(Time-to-Live) 수정](places-ext-aep-sdks/places-extension/places-extension.md#places-ttl)을 참조하세요.
 
 
-* **Places 1.4.1 (Android)**
+* **장소 1.4.1(Android)**
 
    * 위치 확장은 이제 Core SDK의 이벤트 허브에 버전 정보를 보고합니다.
-   * 이제 디바이스 POI 멤버십 정보에 수집된 시간으로부터 1시간의 기본 TTL(Time-To-Live)이 있습니다. 자세한 내용은 [위치 멤버십 TTL(Time-to-Live) 수정](places-ext-aep-sdks/places-extension/places-extension.md#places-ttl)
+   * 이제 디바이스 POI 멤버십 정보에 수집된 시간으로부터 1시간의 기본 TTL(Time-To-Live)이 있습니다. 자세한 내용은 [Places 멤버십 TTL(Time-to-Live) 수정](places-ext-aep-sdks/places-extension/places-extension.md#places-ttl)을 참조하세요.
 
 ## 2020년 1월 27일
 
@@ -72,7 +72,7 @@ ht-degree: 2%
 
    * **Android**
 
-      * 새 API를 추가했습니다. `setAuthorizationStatus`: Places Services에 대한 장치 인증 상태를 설정합니다. 이 값은 Places shared 상태에 저장되고 사용됩니다.
+      * Places Services에 대한 장치 인증 상태를 설정하기 위해 새 API `setAuthorizationStatus`을(를) 추가했습니다. 이 값은 Places shared 상태에 저장되고 사용됩니다.
 
 ## 2019년 12월 4일
 
@@ -88,7 +88,7 @@ ht-degree: 2%
 
    * **iOS**
 
-      * 새 API를 추가했습니다. `setAuthorizationStatus`: Places Services에 대한 장치 인증 상태를 설정합니다. 이 값은 Places shared 상태에 저장되고 사용됩니다.
+      * Places Services에 대한 장치 인증 상태를 설정하기 위해 새 API `setAuthorizationStatus`을(를) 추가했습니다. 이 값은 Places shared 상태에 저장되고 사용됩니다.
 
 ## 2019년 11월 25일
 
@@ -98,7 +98,7 @@ ht-degree: 2%
 
       * 여러 Pod 프로젝트 옵션을 사용하여 Cocoapods 프로젝트에 대한 가져오기 명세서를 수정했습니다.
 
-## 2019년 11월 22일
+## 2019년 11월 22일 토요일
 
 * **PlacesMonitor 2.1.1**
 
@@ -113,12 +113,12 @@ ht-degree: 2%
 
    * **iOS**
 
-      * 새 API를 추가했습니다. `setRequestAuthorizationLevel`을 눌러 사용자에게 프롬프트가 표시되는 위치 인증 요청 유형을 설정합니다.
+      * 사용자에게 표시될 위치 인증 요청의 유형을 설정하기 위해 새 API `setRequestAuthorizationLevel`을(를) 추가했습니다.
 
 
    * **Android**
 
-      * 새 API를 추가했습니다. `setLocationPermission`을 눌러 사용자에게 프롬프트가 표시되는 위치 권한 요청의 유형을 설정합니다.
+      * 사용자에게 표시될 위치 권한 요청의 유형을 설정하기 위해 새 API `setLocationPermission`을(를) 추가했습니다.
       * 위치 모니터는 이제 Android 10을 지원합니다.
 
 ## 2019년 8월 8일
@@ -164,9 +164,9 @@ ht-degree: 2%
 
   이전 API: `public static void stop();`
 
-  새  API: `public static void stop (final boolean clearData);`
+  새 API: `public static void stop (final boolean clearData);`
 
-* 의 사용을 업데이트했습니다. `getNearbyPointsOfInterest` 오류 시나리오를 보다 효과적으로 처리하기 위한 API입니다.
+* 오류 시나리오를 보다 효과적으로 처리하기 위해 `getNearbyPointsOfInterest` API의 사용을 업데이트했습니다.
 
 ## 2019년 7월 25일
 
@@ -176,9 +176,9 @@ ht-degree: 2%
 
 * 장치에서 모든 위치 데이터를 지우려면
 
-  acpplacesMonitor에서 기존 API를 교체했습니다. `+ (void) stop;` 포함`+ (void) stop: (BOOL) clearData;`.
+  acpplacesMonitor에서 기존 API `+ (void) stop;`을(를) `+ (void) stop: (BOOL) clearData;`(으)로 바꾸었습니다.
 
-* ACPPlace 사용 업데이트 `getNearbyPointsOfInterest` 오류 시나리오를 보다 효과적으로 처리하기 위한 API입니다.
+* 오류 시나리오를 보다 효과적으로 처리하기 위해 ACPPlace `getNearbyPointsOfInterest` API의 사용을 업데이트했습니다.
 
 ## 2019년 7월 22일
 
@@ -188,8 +188,8 @@ ht-degree: 2%
 
 * 공유 상태, 인앱 메모리 및 공유 환경 설정에서 모든 위치 관련 데이터를 지우는 새 API를 추가했습니다.
 * 응용 프로그램 시작 중에 공유 상태가 업데이트되지 않는 문제가 해결되었습니다.
-* 버그가 수정되었습니다. `getNearbyPointsOfInterest` callback이 오류 코드를 반환했습니다. `SERVER_RESPONSE_ERROR instead of CONNECTIVITY_ERROR` 인터넷은 안 됩니다.
-* `getNearbyPointsOfInterest` API(errorCallback 없음)에는 `successCallback` 가까운 관심 영역을 검색하는 동안 오류가 발생하는 경우 빈 poi 목록으로 호출됩니다.
+* `getNearbyPointsOfInterest` 콜백이 인터넷 없이 오류 코드 `SERVER_RESPONSE_ERROR instead of CONNECTIVITY_ERROR`을(를) 반환하던 버그를 수정했습니다.
+* 근처 관심 영역을 검색하는 동안 오류가 발생하면 `getNearbyPointsOfInterest` API(errorCallback 없음)에 빈 poi 목록과 함께 호출되는 `successCallback`이(가) 있습니다.
 
 ## 2019년 7월 19일
 
@@ -197,13 +197,13 @@ ht-degree: 2%
 
 **iOS Places 1.2.0**
 
-공유 상태, 인앱 메모리 및 `NSUserDefaults`.
+공유 상태, 인앱 메모리 및 `NSUserDefaults`에서 모든 위치 관련 데이터를 지우는 새 API를 추가했습니다.
 
 ## 2019년 6월 25일
 
 이 릴리스에서는 다음과 같은 업데이트가 수행되었습니다.
 
-**iOS Places Monitor 1.0.2**
+**iOS 위치 모니터 1.0.2**
 
 * 더 나은 코드 내 설명서 및 로깅을 포함하여 삶의 질이 개선되었습니다.
 
@@ -242,9 +242,9 @@ ht-degree: 2%
 * 개별 Geofence를 처리하기 위해 새 API를 추가했습니다.
 * 여러 개의 연속 시작 이벤트를 방지하는 버그 수정.
 
-**Android Places Monitor 1.0.0**
+**Android 위치 모니터 1.0.0**
 
-Android용 위치 모니터의 초기 릴리스.
+Android용 위치 모니터 초기 릴리스.
 
 위치 모니터는 OS 수준의 위치 API를 관리하고 위치 확장과 직접 통신합니다. 두 확장이 모두 설치되어 있으면 고객은 애플리케이션에서 기본 영역 모니터링을 수행할 수 있습니다.
 위치 모니터에 대한 자세한 내용을 보려면 여기를 클릭하십시오.
@@ -265,7 +265,7 @@ Android용 위치 모니터의 초기 릴리스.
 
 이 릴리스에서는 다음과 같은 업데이트가 수행되었습니다.
 
-**iOS Places Monitor 1.0.1**
+**iOS 위치 모니터 1.0.1**
 
 * 전체 단위 테스트 범위가 추가되었습니다.
 * CI 통합(CircleCI)
@@ -281,7 +281,7 @@ iOS용 위치 모니터 초기 릴리스.
 
 ## 2019년 2월 28일
 
-### 베타 릴리스
+### Beta 릴리스
 
 고객이 실제 위치 데이터로 사용자 경험을 강화할 수 있는 도구 세트인 Places Service의 첫 번째 릴리스입니다. 첫 번째 릴리스의 경우 주요 사용 사례는 모바일 앱이 사용자 지정 위치 데이터를 검색하고 Adobe Experience Platform Launch을 통해 해당 데이터에 대해 작동하도록 하는 것입니다.
 
@@ -293,8 +293,8 @@ iOS용 위치 모니터 초기 릴리스.
 
 관심 영역(POI)을 보고 관리할 수 있는 관리 UI가 출시되었습니다. POI를 라이브러리로 구성할 수도 있습니다. 도시, 주 및 카테고리와 같은 표준 메타데이터 외에도 사용자 지정 메타데이터를 POI에 추가하는 기능도 지원합니다.
 
-* UI를 보려면 [https://places.adobe.com](https://places.adobe.com).
-* UI를 시작하려면 다음을 참조하십시오. [시작](/help/getting-started.md).
+* UI를 보려면 [https://places.adobe.com](https://places.adobe.com)(으)로 이동하십시오.
+* UI를 시작하려면 [시작하기](/help/getting-started.md)를 참조하세요.
 
 #### 위치 확장
 
@@ -306,7 +306,7 @@ iOS용 위치 모니터 초기 릴리스.
 * POI 시작 또는 종료 시 트리거되는 규칙 이벤트.
 * 사용자의 현재 POI를 가리키는 데이터 요소를 만듭니다.
 
-위치 확장에 대한 자세한 내용은 [위치 확장](/help/places-ext-aep-sdks/places-extension/places-extension.md).
+위치 확장에 대한 자세한 내용은 [위치 확장](/help/places-ext-aep-sdks/places-extension/places-extension.md)을 참조하십시오.
 
 #### 위치 API
 
@@ -318,9 +318,9 @@ Places API를 사용하여 다음을 수행할 수 있습니다.
 
   제공된 Python 유틸리티를 사용하여 벌크 가져오기를 완료할 수 있습니다.
 
-Places API에 대한 자세한 내용은 [웹 서비스 API](/help/web-service-api/places-web-services.md).
+Places API에 대한 자세한 내용은 [웹 서비스 API](/help/web-service-api/places-web-services.md)를 참조하십시오.
 
-### 곧 출시 예정
+### 곧 출시
 
 #### Analytics 통합
 

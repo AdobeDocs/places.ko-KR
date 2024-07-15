@@ -5,7 +5,7 @@ exl-id: 0325eb3b-f9b2-4b21-bed8-e318e8072a69
 source-git-commit: 4ab15ded930b31e4e06920af31f37fdfe45df8eb
 workflow-type: tm+mt
 source-wordcount: '44'
-ht-degree: 9%
+ht-degree: 4%
 
 ---
 
@@ -45,4 +45,4 @@ curl -X DELETE 'https://api-places.adobe.io/places/placesapi/v1/pois/<POIID>' -H
 
 >[!IMPORTANT]
 >
->바꾸기 `<POIID>`, `<API KEY>`, `<TOKEN>`, 및 `<ORGID>` (실제 값 포함)
+>`<POIID>`, `<API KEY>`, `<TOKEN>` 및 `<ORGID>`을(를) 실제 값으로 바꿉니다.

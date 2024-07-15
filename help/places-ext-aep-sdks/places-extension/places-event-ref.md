@@ -5,8 +5,8 @@ feature: Mobile SDK
 exl-id: 98210ef4-5ff1-4792-b97b-2845ce02e78a
 source-git-commit: f521d5e3b0b69977877d88382ce41fcb7d1c54b9
 workflow-type: tm+mt
-source-wordcount: '248'
-ht-degree: 28%
+source-wordcount: '247'
+ht-degree: 13%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 28%
 
 ## GetCurrentPointOfInterest
 
-**이벤트 세부 사항**
+**이벤트 세부 정보**
 
 | 유형 | 소스 | 이름 | 연결됨 |
 | :--- | :--- | :--- | :--- |
@@ -32,7 +32,7 @@ ht-degree: 28%
 
 ## GetNearbyPointsOfInterest
 
-**이벤트 세부 사항**
+**이벤트 세부 정보**
 
 | 유형 | 소스 | 이름 | 연결됨 |
 | :--- | :--- | :--- | :--- |
@@ -46,14 +46,14 @@ ht-degree: 28%
 
 | 키 | 값 유형 | 필수 여부 | 기본값 | 설명 |
 | :--- | :--- | :--- | :--- | :--- |
-| latitude | 더블 | true | 해당 사항 없음 | 주변 POI를 검색할 때의 중앙에 대한 위도 값을 보유합니다. |
-| longitude | 더블 | true | 해당 사항 없음 | 주변 POI를 검색할 중심의 경도 값을 보유합니다. |
+| 위도 | 중복 | true | 해당 사항 없음 | 주변 POI를 검색할 때의 중앙에 대한 위도 값을 보유합니다. |
+| longitude | 중복 | true | 해당 사항 없음 | 주변 POI를 검색할 중심의 경도 값을 보유합니다. |
 | 반경 | 정수 | false | 해당 사항 없음 | 주변 POI 검색에 사용되는 반경(미터 단위). |
 | count | 정수 | false | 10 | 결과 응답 이벤트에서 반환할 최대 POI 수. |
 
 ## ProcessRegionEvent
 
-**이벤트 세부 사항**
+**이벤트 세부 정보**
 
 | 유형 | 소스 | 이름 | 연결됨 |
 | :--- | :--- | :--- | :--- |

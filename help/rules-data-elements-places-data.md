@@ -3,8 +3,8 @@ title: 위치 데이터에 Experience Platform Launch 규칙 및 데이터 요�
 description: 규칙, 데이터 요소 및 위치 데이터에 대한 정보입니다.
 source-git-commit: d5c216aebd99ffef01c37c17c62576835b52438b
 workflow-type: tm+mt
-source-wordcount: '255'
-ht-degree: 38%
+source-wordcount: '229'
+ht-degree: 37%
 
 ---
 

@@ -15,4 +15,4 @@ Adobe Analytics에서 Places Service를 사용하여 다음 작업을 완료할 
 
 * [Analytics를 통해 POI 시작 및 종료 데이터 보내기](/help/use-places-with-other-solutions/places-adobe-analytics/use-places-adobe-analytics.md)
 * [Analytics 요청에 위치 컨텍스트 추가](/help/use-places-with-other-solutions/places-adobe-analytics/run-reports-aa-places-data.md)
-* [Analytics Workspace의 위치 데이터에 대한 보고서](/help/use-places-with-other-solutions/places-adobe-analytics/run-reports-aa-places-data.md)
+* [Analytics Workspace에서 위치 데이터에 대한 보고서](/help/use-places-with-other-solutions/places-adobe-analytics/run-reports-aa-places-data.md)

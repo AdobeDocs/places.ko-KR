@@ -5,14 +5,14 @@ feature: Mobile SDK
 exl-id: 09c02753-09b3-4e07-82b2-b6c72c4e0e42
 source-git-commit: 9f2c6fee6e0d6d075b662cc0b6cbee49cf05ee55
 workflow-type: tm+mt
-source-wordcount: '37'
-ht-degree: 10%
+source-wordcount: '33'
+ht-degree: 12%
 
 ---
 
 # 위치 확장 {#places-extension}
 
-Adobe 개발자 포털로 이동하여 [Places SDK 확장](https://developer.adobe.com/client-sdks/documentation/places/).
+Adobe 개발자 포털로 이동하여 [Places SDK 확장](https://developer.adobe.com/client-sdks/documentation/places/)에 대한 설명서를 확인합니다.
 
 <!-- 
 

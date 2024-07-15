@@ -27,7 +27,7 @@ Places Service를 통해 다음을 수행할 수 있습니다.
 
 다음은 위치를 사용할 수 있는 몇 가지 방법입니다.
 
-* 누군가 POI를 입력하면 실시간 알림 보내기, *&quot;이봐..경기장에 오신 것을 환영합니다.&quot;*
+* 누군가 POI를 입력하면 실시간 알림 보내기, *&quot;안녕하세요.경기장에 오신 것을 환영합니다.&quot;*
 * 경쟁사 스토어와 비교하여 자신의 스토어의 풋 트래픽을 분석합니다.
 * 위치 컨텍스트가 있는 대상 프로필을 사용하여 오프라인 행동을 기반으로 대상을 세그먼트화합니다.
 * 관련성이 있을 때 매장 경험이 있는 사용자를 타겟팅하십시오.
@@ -38,7 +38,7 @@ Places Service는 다음 구성 요소로 구성됩니다.
 
 * **웹 서비스**
 
-  위치 REST API를 사용하여 POI를 만들고 관리할 수 있습니다. REST API에 대한 자세한 내용은 [라이브러리 관리](/help/web-service-api/api-usage/manage-libraries/manage-libraries.md) 및 [POI 관리](/help/web-service-api/api-usage/manage-pois/manage-pois.md).
+  위치 REST API를 사용하여 POI를 만들고 관리할 수 있습니다. REST API에 대한 자세한 내용은 [라이브러리 관리](/help/web-service-api/api-usage/manage-libraries/manage-libraries.md) 및 [POI 관리](/help/web-service-api/api-usage/manage-pois/manage-pois.md)를 참조하십시오.
 
 * **POI 관리 인터페이스**
 
@@ -46,9 +46,9 @@ Places Service는 다음 구성 요소로 구성됩니다.
 
 * **위치 확장**
 
-  모바일 앱에서 위치 컨텍스트를 통합하는 멀티 플랫폼 모바일 API 인터페이스입니다. SDK에 대한 자세한 내용은 [위치 확장](/help/places-ext-aep-sdks/places-extension/places-extension.md).
+  모바일 앱에서 위치 컨텍스트를 통합하는 멀티 플랫폼 모바일 API 인터페이스입니다. SDK에 대한 자세한 내용은 [위치 확장](/help/places-ext-aep-sdks/places-extension/places-extension.md)을 참조하세요.
 
-* **규칙 실행**
+* **시작 규칙**
 
   시작 및 종료 이벤트로 작업을 트리거할 수 있는 지리 기반의 Launch 규칙입니다. 규칙을 사용하면 조건에서 지역 속성을 사용하여 경험을 개인화할 수도 있습니다.
 
@@ -56,21 +56,21 @@ Places Service는 다음 구성 요소로 구성됩니다.
 
 다음은 이 설명서에서 사용되는 몇 가지 일반적인 용어입니다.
 
-* A **관심 영역(POI)** 는 조직의 관심 대상인 지리적 위치입니다.
+* **관심 영역(POI)**&#x200B;은(는) 조직에서 관심 있는 지리적 위치입니다.
 
   이름, 반경, 주소, 범주 및 메타데이터 태그와 같은 속성을 사용하여 POI를 정의할 수 있습니다.
 
-* A **geofence** 은 POI의 유형입니다.
+* **geofence**&#x200B;은(는) POI의 유형입니다.
 
   이 POI 유형은 위도 및 경도 좌표로 정의된 가상 지리적 경계입니다.
 
-* A **beacon** 은 POI의 유형입니다.
+* **beacon**&#x200B;은(는) POI 유형입니다.
 
   이 POI 타입은 저전력 블루투스 신호를 조사하여 위치를 나타내는 물리적 장치이다. 비콘 지원은 향후 릴리스에서 제공될 예정입니다.
 
 * **라이브러리**&#x200B;는 POI의 컬렉션으로, POI 1개가 아닌 세트에 규칙을 쉽게 연결하도록 그룹화됩니다.
 
-* An **확장** 는 모바일 앱에서 Places SDK를 통합하는 데 필요한 Experience Platform Launch 확장입니다.
+* **extension**&#x200B;은(는) 모바일 앱에서 Places SDK를 통합하는 데 필요한 Experience Platform Launch 확장입니다.
 
   다른 모바일 SDK와 함께 사용하여 경험에 위치 컨텍스트를 추가하는 확장입니다.
 
@@ -80,9 +80,9 @@ Places Service는 다음 구성 요소로 구성됩니다.
 
 * **orgID**&#x200B;는 Adobe Experience Platform에서 조직을 나타내는 ID입니다.
 
-  자세한 내용은 [조직 ID 찾기](https://forums.adobe.com/thread/2339895).
+  자세한 내용은 [조직 ID 찾기](https://forums.adobe.com/thread/2339895)를 참조하십시오.
 
-* 다음 **EXPERIENCE CLOUD ID** 서비스는 Experience Cloud의 모든 솔루션에서 방문자를 식별하는 범용 영구 ID를 제공합니다.
+* **Experience Cloud ID** 서비스는 Experience Cloud의 모든 솔루션에서 방문자를 식별하는 범용 영구 ID를 제공합니다.
 
   자세한 내용은 [개요](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=ko-KR)를 참조하십시오.
 

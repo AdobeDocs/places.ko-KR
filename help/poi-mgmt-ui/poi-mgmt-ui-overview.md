@@ -13,7 +13,7 @@ ht-degree: 0%
 
 POI 및 라이브러리는 위치 서비스 UI를 사용하여 위치 서비스 데이터베이스에서 생성 및 관리됩니다.
 
-* 라이브러리를 만들거나 여러 라이브러리를 관리하려면 다음을 참조하십시오. [라이브러리 관리](/help/poi-mgmt-ui/manage-libraries-in-the-places-ui.md).
-* POI를 만들려면 [POI 만들기](/help/poi-mgmt-ui/create-a-poi-ui.md).
-* 여러 POI를 관리하려면 [이전에 만든 POI 관리](/help/poi-mgmt-ui/managing-pois-in-the-places-ui.md).
-* POI를 일괄 가져오려면 다음을 참조하십시오. [POI 일괄 가져오기](/help/poi-mgmt-ui/bulk-upload-pois.md).
+* 라이브러리를 만들거나 여러 라이브러리를 관리하려면 [라이브러리 관리](/help/poi-mgmt-ui/manage-libraries-in-the-places-ui.md)를 참조하십시오.
+* POI를 만들려면 [POI 만들기](/help/poi-mgmt-ui/create-a-poi-ui.md)를 참조하세요.
+* 여러 POI를 관리하려면 [이전에 만든 POI 관리](/help/poi-mgmt-ui/managing-pois-in-the-places-ui.md)를 참조하십시오.
+* POI 일괄 가져오기를 수행하려면 [POI 일괄 가져오기](/help/poi-mgmt-ui/bulk-upload-pois.md)를 참조하십시오.

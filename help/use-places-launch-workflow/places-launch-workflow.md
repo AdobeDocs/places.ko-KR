@@ -11,5 +11,5 @@ ht-degree: 0%
 
 # Experience Platform Launch 워크플로의 일부로 장소 서비스 사용 {#loc-service-launch-workflow}
 
-* 데이터 요소를 정의하려면 다음을 참조하십시오 [데이터 요소 정의](/help/use-places-launch-workflow/define-data-elements.md).
-* 시작 및 종료 규칙을 만들려면 다음을 참조하십시오. [시작 및 종료 규칙 만들기](/help/use-places-launch-workflow/create-rule-places-property.md).
+* 데이터 요소를 정의하려면 [데이터 요소 정의](/help/use-places-launch-workflow/define-data-elements.md)를 참조하십시오.
+* 시작 및 종료 규칙을 만들려면 [시작 및 종료 규칙 만들기](/help/use-places-launch-workflow/create-rule-places-property.md)를 참조하십시오.

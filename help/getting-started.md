@@ -4,8 +4,8 @@ description: Places Service 시작하기
 exl-id: 1f0ac226-4993-495b-9d07-1e0ada7f19a7
 source-git-commit: 010de286c25c1eeb989fb76e3c2adaa82ac9fd35
 workflow-type: tm+mt
-source-wordcount: '219'
-ht-degree: 3%
+source-wordcount: '207'
+ht-degree: 2%
 
 ---
 
@@ -29,7 +29,7 @@ Test of different youtube link for exl
 
 * Admin Console의 Places Service 및 Experience Platform Launch 제품 컨텍스트 아래에 사용자로 나열되어 있는지 확인합니다.
 
-   자세한 내용은 *Experience Platform Launch 및 Places Service에 사용자 추가* 위치: [FAQ(자주 묻는 질문)](/help/places-gain-access.md).
+  자세한 내용은 [자주 묻는 질문](/help/places-gain-access.md)에서 *Experience Platform Launch 및 Places Service에 사용자 추가*&#x200B;를 참조하십시오.
 
 
 ### 2. POI 만들기
@@ -38,11 +38,11 @@ Test of different youtube link for exl
 
 * Places Service 사용자 인터페이스 사용
 
-   자세한 내용은 [Places Service 개요](/help/poi-mgmt-ui/poi-mgmt-ui-overview.md).
+  자세한 내용은 [Places Service 개요](/help/poi-mgmt-ui/poi-mgmt-ui-overview.md)를 참조하세요.
 
 * Places Web Service에서 API 사용.
 
-   자세한 내용은 [웹 서비스 API](/help/web-service-api/places-web-services.md).
+  자세한 내용은 [웹 서비스 API](/help/web-service-api/places-web-services.md)를 참조하십시오.
 
 
 ### 3. 위치 확장 구성
@@ -55,6 +55,6 @@ Test of different youtube link for exl
 
 활성 영역 모니터링을 수행하려면 운영 체제를 직접 구현해야 합니다. 자세한 내용은 다음 문서를 참조하십시오.
 
-* IOS - [CoreLocation 설명서](https://developer.apple.com/documentation/corelocation/monitoring_the_user_s_proximity_to_geographic_regions)
+* iOS - [CoreLocation 설명서](https://developer.apple.com/documentation/corelocation/monitoring_the_user_s_proximity_to_geographic_regions)
 
 * Android - [위치 설명서](https://developer.android.com/training/location/geofencing)

@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # Places 확장으로 SDK 구성 {#configure-sdk-places-extension}
 
-모바일 앱에서 위치 인식을 활성화하려면 위치 확장 기능으로 SDK를 구성합니다. SDK 구성을 포함한 자세한 내용은 [위치 확장](/help/places-ext-aep-sdks/places-extension/places-extension.md).
+모바일 앱에서 위치 인식을 활성화하려면 위치 확장 기능으로 SDK를 구성합니다. SDK 구성을 포함한 자세한 내용은 [위치 확장](/help/places-ext-aep-sdks/places-extension/places-extension.md)을 참조하십시오.
 
 ## 위치 확장 구성
 
@@ -19,12 +19,12 @@ ht-degree: 0%
 
 1. Launch에서 위치 확장 기능을 구성합니다.
 
-   자세한 내용은 *Launch에서 위치 확장 구성* 위치: [위치 확장](/help/places-ext-aep-sdks/places-extension/places-extension.md).
+   자세한 내용은 [위치 확장](/help/places-ext-aep-sdks/places-extension/places-extension.md)에서 *Launch에서 위치 확장 구성*&#x200B;을 참조하십시오.
 
 1. 모바일 앱에 Places 확장을 추가합니다.
 
-   자세한 내용은 *앱에 Places 확장 추가* 위치: [위치 확장](/help/places-ext-aep-sdks/places-extension/places-extension.md).
+   자세한 내용은 [위치 확장](/help/places-ext-aep-sdks/places-extension/places-extension.md)에서 *앱에 위치 확장 추가*&#x200B;를 참조하십시오.
 
 1. Mobile Core 확장으로 위치를 등록합니다.
 
-   자세한 내용은 *Mobile Core로 위치 등록* 위치: [위치 확장](/help/places-ext-aep-sdks/places-extension/places-extension.md).
+   자세한 내용은 [위치 확장](/help/places-ext-aep-sdks/places-extension/places-extension.md)에서 *Mobile Core에 위치 등록*&#x200B;을 참조하세요.
