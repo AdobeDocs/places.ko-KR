@@ -23,7 +23,7 @@ ht-degree: 2%
 
 1. Adobe Analytics 사용자는 관리자이며 처리 규칙에 액세스할 수 있습니다.
 
-   처리 규칙에 대한 자세한 내용은 [처리 규칙 개요](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/processing-rules.html)를 참조하십시오.
+   처리 규칙에 대한 자세한 내용은 [처리 규칙 개요](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/processing-rules.html?lang=ko)를 참조하십시오.
 
 1. Launch 속성에서 원하는 Places Service 변수에 대한 데이터 요소가 생성되었습니다.
 
@@ -44,7 +44,7 @@ ht-degree: 2%
 
 ## 2. Analytics 변수 만들기
 
-컨텍스트 데이터(1단계에서 전송됨)를 매핑하려면 먼저 Analytics 보고서 세트에 대한 변수를 만들어야 합니다. Analytics에서 변수를 만드는 방법에 대한 자세한 내용은 [전환 변수(eVar)](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/evar.html)를 참조하십시오.
+컨텍스트 데이터(1단계에서 전송됨)를 매핑하려면 먼저 Analytics 보고서 세트에 대한 변수를 만들어야 합니다. Analytics에서 변수를 만드는 방법에 대한 자세한 내용은 [전환 변수(eVar)](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/evar.html?lang=ko)를 참조하십시오.
 
 이 예제에서는 전환 변수 **[!UICONTROL Evar2]**&#x200B;을(를) 만들고 **[!UICONTROL 위치 POI 이름]**&#x200B;을(를) 지정했습니다. 보고에 표시하려는 각 위치 변수에 대해 추가 변수를 만들어야 합니다.
 
@@ -52,7 +52,7 @@ ht-degree: 2%
 
 ## 3. 처리 규칙 만들기
 
-이 단계는 컨텍스트 데이터(1단계)를 Analytics 변수(2단계)에 매핑하는 데 필요합니다. 처리 규칙 만들기에 대한 자세한 내용은 [처리 규칙 개요](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/processing-rules.html)를 참조하십시오.
+이 단계는 컨텍스트 데이터(1단계)를 Analytics 변수(2단계)에 매핑하는 데 필요합니다. 처리 규칙 만들기에 대한 자세한 내용은 [처리 규칙 개요](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/processing-rules.html?lang=ko)를 참조하십시오.
 
 이 예제에서는 컨텍스트 데이터 값 **[!UICONTROL poi.name]**&#x200B;을(를) **[!UICONTROL 위치 POI 이름(eVar2)]**&#x200B;에 매핑하는 처리 규칙을 만들었습니다. 생성된 각 위치 변수에 대해 추가 처리 규칙을 생성해야 합니다.
 
@@ -60,7 +60,7 @@ ht-degree: 2%
 
 ## 4. Workspace에서 보고서 생성
 
-이 단계에서는 1-3단계에서 수집된 데이터를 보는 기본 보고서를 Analytics Workspace에 표시합니다. Analytics Workspace 사용 방법에 대한 자세한 내용은 [Analytics Workspace 개요](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html)를 참조하십시오.
+이 단계에서는 1-3단계에서 수집된 데이터를 보는 기본 보고서를 Analytics Workspace에 표시합니다. Analytics Workspace 사용 방법에 대한 자세한 내용은 [Analytics Workspace 개요](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=ko)를 참조하십시오.
 
 이 예제에서 보고서에는 다음과 같은 설정이 있습니다.
 

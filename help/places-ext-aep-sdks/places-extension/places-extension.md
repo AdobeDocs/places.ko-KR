@@ -29,7 +29,7 @@ The Places extension allows you to act based on the location of your users. This
 
 1. Complete the publishing process to update the SDK configuration.
 
-   For more information about publishing in Experience Platform Launch, see [Publishing](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/overview.html).
+   For more information about publishing in Experience Platform Launch, see [Publishing](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/overview.html?lang=ko).
 
 ### Configure the Places extension {#configure-places-extension}
 

@@ -5,11 +5,11 @@ solution: Data Collection
 feature-set: Experience Platform
 type: Documentation
 solution-title: Learn & Support
-solution-hub-url: https://helpx.adobe.com/support/experience-cloud.html
+solution-hub-url: https://helpx.adobe.com/kr/support/experience-cloud.html
 getting-started-title: Getting Started
-getting-started-url: https://experienceleague.adobe.com/docs/places/using/getting-started.html
+getting-started-url: https://experienceleague.adobe.com/docs/places/using/getting-started.html?lang=ko
 tutorials-title: Tutorials
-tutorials-url: https://experienceleague.adobe.com/#recommended/solutions/experience-platform
+tutorials-url: https://experienceleague.adobe.com/ko#recommended/solutions/experience-platform
 git-repo: https://github.com/AdobeDocs/places.ko-KR
 index: true
 source-git-commit: b63808d2a3fc8d25a6a3db3048c2bf059ea0bdaa
