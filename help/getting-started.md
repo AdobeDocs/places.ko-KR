@@ -17,7 +17,7 @@ ht-degree: 2%
 Test of different youtube link for exl
 -->
 
->[!VIDEO](https://video.tv.adobe.com/v/41647)
+>[!VIDEO](https://video.tv.adobe.com/v/3455119?captions=kor)
 
 ## 위치 서비스 사용
 
