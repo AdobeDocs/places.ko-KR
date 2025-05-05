@@ -30,7 +30,7 @@ ht-degree: 18%
    + API 사용 {#api-usage}
       + [API 사용 개요](web-service-api/api-usage/api-usage-overview.md)
       + [헤더 및 매개 변수](web-service-api/api-usage/headers-and-parameters.md)
-      + 라이브러리 {#manage-libraries} 관리
+      + 라이브러리 관리 {#manage-libraries}
          + [라이브러리 관리 개요](web-service-api/api-usage/manage-libraries/manage-libraries.md)
          + [라이브러리 만들기](web-service-api/api-usage/manage-libraries/create-a-library.md)
          + [라이브러리 읽기](web-service-api/api-usage/manage-libraries/read-a-library.md)
@@ -53,15 +53,15 @@ ht-degree: 18%
             + [여러 POI 업데이트](web-service-api/api-usage/manage-pois/batch-apis/update-multiple-pois.md)
             + [여러 POI 삭제](web-service-api/api-usage/manage-pois/batch-apis/delete-multiple-pois.md)
       + [쿼리 API](web-service-api/api-usage/query-apis.md)
-+ Mobile SDK {#places-ext-aep-sdks}용 확장
++ Mobile SDK용 확장 {#places-ext-aep-sdks}
    + [위치 확장](places-ext-aep-sdks/places-extension/places-extension.md)
 + [고유한 모니터링 솔루션으로 Places Service 사용](using-your-own-monitor.md)
 + [활성 지역 모니터링 없이 장소 서비스 사용](use-places-without-active-monitoring.md)
-+ 위치 서비스를 Experience Platform Launch 워크플로 {#use-places-launch-workflow}의 일부로 사용
++ 위치 서비스를 Experience Platform Launch 워크플로의 일부로 사용 {#use-places-launch-workflow}
    + [Experience Platform Launch 워크플로의 일부로 장소 서비스 사용](use-places-launch-workflow/places-launch-workflow.md)
    + [데이터 요소 정의](use-places-launch-workflow/define-data-elements.md)
    + [시작 및 종료 규칙 만들기](use-places-launch-workflow/create-rule-places-property.md)
-+ 다른 Adobe 솔루션 {#use-places-with-other-solutions}에서 위치 서비스 사용
++ 다른 Adobe 솔루션에서 위치 서비스 사용 {#use-places-with-other-solutions}
    + Adobe Analytics {#places-adobe-analytics}
       + [Adobe Analytics에서 장소 서비스 사용](use-places-with-other-solutions/places-adobe-analytics/use-places-analytics-overview.md)
       + [Analytics에 POI 시작 및 종료 데이터 보내기](use-places-with-other-solutions/places-adobe-analytics/use-places-adobe-analytics.md)
