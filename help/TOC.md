@@ -6,7 +6,7 @@ feature: Places
 source-git-commit: 9f2c6fee6e0d6d075b662cc0b6cbee49cf05ee55
 workflow-type: tm+mt
 source-wordcount: '290'
-ht-degree: 18%
+ht-degree: 17%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 18%
 
 + [Places Service 개요](home.md)
 + [릴리스 정보](release-notes.md)
-+ [시작하기](getting-started.md)
++ [시작](getting-started.md)
 + [Places Service 액세스 권한 얻기](places-gain-access.md)
 + Places Service UI {#poi-mgmt-ui}
    + [Places Service UI 개요](poi-mgmt-ui/poi-mgmt-ui-overview.md)
@@ -57,11 +57,11 @@ ht-degree: 18%
    + [위치 확장](places-ext-aep-sdks/places-extension/places-extension.md)
 + [고유한 모니터링 솔루션으로 Places Service 사용](using-your-own-monitor.md)
 + [활성 지역 모니터링 없이 장소 서비스 사용](use-places-without-active-monitoring.md)
-+ 위치 서비스를 Experience Platform Launch 워크플로의 일부로 사용 {#use-places-launch-workflow}
++ Experience Platform Launch 워크플로의 일부로 장소 서비스 사용 {#use-places-launch-workflow}
    + [Experience Platform Launch 워크플로의 일부로 장소 서비스 사용](use-places-launch-workflow/places-launch-workflow.md)
    + [데이터 요소 정의](use-places-launch-workflow/define-data-elements.md)
    + [시작 및 종료 규칙 만들기](use-places-launch-workflow/create-rule-places-property.md)
-+ 다른 Adobe 솔루션에서 위치 서비스 사용 {#use-places-with-other-solutions}
++ 다른 Adobe 솔루션과 함께 장소 서비스 사용 {#use-places-with-other-solutions}
    + Adobe Analytics {#places-adobe-analytics}
       + [Adobe Analytics에서 장소 서비스 사용](use-places-with-other-solutions/places-adobe-analytics/use-places-analytics-overview.md)
       + [Analytics에 POI 시작 및 종료 데이터 보내기](use-places-with-other-solutions/places-adobe-analytics/use-places-adobe-analytics.md)
