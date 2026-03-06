@@ -7,14 +7,14 @@ landing-page-breadcrumb-title: Mobile SDK
 feature-set: Experience Platform
 type: Documentation
 solution-title: Learn & Support
-solution-hub-url: https://helpx.adobe.com/kr/support/experience-cloud.html
+solution-hub-url: https://helpx.adobe.com/support/experience-cloud.html
 getting-started-title: Getting Started
-getting-started-url: https://experienceleague.adobe.com/docs/places/using/getting-started.html?lang=ko
+getting-started-url: https://experienceleague.adobe.com/docs/places/using/getting-started.html
 tutorials-title: Tutorials
-tutorials-url: https://experienceleague.adobe.com/ko#recommended/solutions/experience-platform
+tutorials-url: https://experienceleague.adobe.com/#recommended/solutions/experience-platform
 git-repo: https://github.com/AdobeDocs/places.ko-KR
 index: true
-source-git-commit: 896a596bfbfb8c97c55263fc3596d957e4ac52c7
+source-git-commit: 4fb4fa8bbf060afaf6a42a31c2936f42ec1044f2
 workflow-type: tm+mt
 source-wordcount: '142'
 ht-degree: 98%
@@ -38,7 +38,7 @@ metadata.md 파일에는 저장소의 사용 안내서 TOC.md 파일에 전달�
 | tutorials-title | 튜토리얼이 적절하지 않을 때 거의 사용되지 않음 |
 | tutorials-url | 비디오 튜토리얼 — Helpx 튜토리얼 또는 KT 튜토리얼 링크 |
 | mini-toc-levels | 오른쪽 레일에 표시되는 제목 수준의 개수를 결정합니다. 기본값은 2입니다. |
-| git-repo | https://github.com/AdobeDocs/places.ko-KR |
+| git-repo | https://github.com/AdobeDocs/places.en |
 | 색인 | 소프트 출시에 대해 index=no 설정 |
 
 TOC.md 파일에서
