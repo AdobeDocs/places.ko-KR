@@ -2,9 +2,23 @@
 title: Places Service
 description: 위치 서비스는 모바일 사용자의 참여를 이해하는 데 중요한 컨텍스트입니다. 모바일 앱 개발자는 이러한 컨텍스트를 사용하여 앱 디자인을 강화하고 이를 보다 개인화되고 매력적인 경험으로 만들 수 있습니다.
 exl-id: 7369176f-c072-437a-9ee3-b463c5ff1d12
-source-git-commit: e78e3c5ee6623d6cdf2a33c0582667a70283fdc6
+TQID: https://experienceleague.adobe.com/4kI1AuV2l-qfC3mOrcsoG9NDRcOPJBdkWPmKkQuDIJk
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+  - id: dc5cf79d-43c4-4731-bffa-1df5d7549cb1
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2:
+  - id: c132d929-fa62-4271-803e-b823be07b914
+  - id: e08599ea-8888-4294-ba74-3ba0a7762a46
+subfeature_v2:
+  - id: d2a6cbf4-df32-480f-909e-b42f66dcb9f0
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: f962cef761f006c8e7d45b76ba24746e36bdaba6
 workflow-type: tm+mt
-source-wordcount: '663'
+source-wordcount: 684
 ht-degree: 9%
 
 ---
@@ -20,14 +34,14 @@ Places Service를 통해 다음을 수행할 수 있습니다.
 * 다른 Adobe Experience Cloud 솔루션에서 활용할 수 있는 POI의 데이터베이스를 만들고 관리합니다.
 * 추가 속성을 지정하여 POI를 더 풍부하고 의미 있게 만들려면 사용자 지정 메타데이터를 POI에 첨부하십시오.
 * 맵에서 POI를 시각화하여 공간 컨텍스트를 쉽게 이해하고 메타데이터 속성을 추가/편집합니다.
-* Adobe Experience Platform Launch에서 SDK를 구성하여 위치에서 트리거된 규칙 및 메타데이터 기반 조건을 정의합니다.
+* Adobe Experience Platform Launch에서 SDK을 구성하여 위치 트리거 규칙 및 메타데이터 기반 조건을 정의합니다.
 * 장치의 위치를 모니터링하기 위해 작성해야 하는 코드를 줄이고 위치 확장을 사용하여 위치별 규칙을 자동으로 트리거합니다.
 
 이렇게 하면 위치 신호로부터 중요한 시기 및 위치에 대해 실시간으로 조치를 취할 수 있습니다. 적절한 컨텍스트는 더욱 풍부한 모바일 참여 경험을 제공합니다.
 
 다음은 위치를 사용할 수 있는 몇 가지 방법입니다.
 
-* 누군가 POI를 입력하면 실시간 알림 보내기, *&quot;안녕하세요.경기장에 오신 것을 환영합니다.&quot;*
+* 누군가 POI를 입력하면 실시간 알림을 보냅니다. *&quot;안녕하세요..경기장에 오신 것을 환영합니다.&quot;*
 * 경쟁사 스토어와 비교하여 자신의 스토어의 풋 트래픽을 분석합니다.
 * 위치 컨텍스트가 있는 대상 프로필을 사용하여 오프라인 행동을 기반으로 대상을 세그먼트화합니다.
 * 관련성이 있을 때 매장 경험이 있는 사용자를 타겟팅하십시오.
@@ -70,7 +84,7 @@ Places Service는 다음 구성 요소로 구성됩니다.
 
 * **라이브러리**&#x200B;는 POI의 컬렉션으로, POI 1개가 아닌 세트에 규칙을 쉽게 연결하도록 그룹화됩니다.
 
-* **extension**&#x200B;은(는) 모바일 앱에서 Places SDK를 통합하는 데 필요한 Experience Platform Launch 확장입니다.
+* **확장**&#x200B;은(는) 모바일 앱에서 Places SDK을 통합하는 데 필요한 Experience Platform Launch 확장입니다.
 
   다른 모바일 SDK와 함께 사용하여 경험에 위치 컨텍스트를 추가하는 확장입니다.
 

@@ -2,10 +2,28 @@
 title: 릴리스 정보
 description: Places Service 릴리스 정보.
 exl-id: 76da9548-4e32-4b23-9a15-7012973915f3
-source-git-commit: d5c216aebd99ffef01c37c17c62576835b52438b
+TQID: https://experienceleague.adobe.com/yo1eXPl9cKbp-EVWQT8gZHcAbSDoIFJVD6xKbdoysMc
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+  - id: f002a92a-b99f-47a4-90c8-65e0e415bc7a
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: bef6f891-2e8a-425e-8f99-7ddf22070daa
+  - id: d833d0ef-8ed5-4cff-a5e7-9f12abd02a31
+  - id: e08599ea-8888-4294-ba74-3ba0a7762a46
+  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+subfeature_v2:
+  - id: d2a6cbf4-df32-480f-909e-b42f66dcb9f0
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: f962cef761f006c8e7d45b76ba24746e36bdaba6
 workflow-type: tm+mt
-source-wordcount: '1525'
-ht-degree: 1%
+source-wordcount: 1612
+ht-degree: 4%
 
 ---
 
@@ -48,16 +66,16 @@ ht-degree: 1%
 
 * **ACPPlaces 1.3.1(iOS)**
 
-   * 위치 확장은 이제 Core SDK의 이벤트 허브에 버전 정보를 보고합니다.
+   * 위치 확장은 이제 코어 SDK의 이벤트 허브에 버전 정보를 보고합니다.
    * 이제 디바이스 POI 멤버십 정보에 수집된 시간으로부터 1시간의 기본 TTL(Time-To-Live)이 있습니다. 자세한 내용은 [Places 멤버십 TTL(Time-to-Live) 수정](places-ext-aep-sdks/places-extension/places-extension.md#places-ttl)을 참조하세요.
 
 
 * **장소 1.4.1(Android)**
 
-   * 위치 확장은 이제 Core SDK의 이벤트 허브에 버전 정보를 보고합니다.
+   * 위치 확장은 이제 코어 SDK의 이벤트 허브에 버전 정보를 보고합니다.
    * 이제 디바이스 POI 멤버십 정보에 수집된 시간으로부터 1시간의 기본 TTL(Time-To-Live)이 있습니다. 자세한 내용은 [Places 멤버십 TTL(Time-to-Live) 수정](places-ext-aep-sdks/places-extension/places-extension.md#places-ttl)을 참조하세요.
 
-## 2020년 1월 27일
+## 2020년 1월 27일 화요일
 
 * **PlacesMonitor 2.2.0**
 
@@ -74,7 +92,7 @@ ht-degree: 1%
 
       * Places Services에 대한 장치 인증 상태를 설정하기 위해 새 API `setAuthorizationStatus`을(를) 추가했습니다. 이 값은 Places shared 상태에 저장되고 사용됩니다.
 
-## 2019년 12월 4일
+## 2019년 12월 4일 목요일
 
 * **PlacesMonitor 2.1.2**
 
@@ -82,7 +100,7 @@ ht-degree: 1%
 
       * Places API를 호출하여 변경 시 장치에서 CLAuthorizationStatus를 수집합니다.
 
-## 2019년 12월 3일
+## 2019년 12월 3일 수요일
 
 * **ACPPlaces 1.3.0**
 
@@ -90,7 +108,7 @@ ht-degree: 1%
 
       * Places Services에 대한 장치 인증 상태를 설정하기 위해 새 API `setAuthorizationStatus`을(를) 추가했습니다. 이 값은 Places shared 상태에 저장되고 사용됩니다.
 
-## 2019년 11월 25일
+## 2019년 11월 25일 화요일
 
 * **PlacesMonitor 2.1.1**
 
@@ -107,7 +125,7 @@ ht-degree: 1%
       * 이제 모니터가 Android 장치의 부트를 인식하고 필요한 경우 장치의 현재 위치를 기반으로 OS에 지오펜스를 다시 등록합니다.
       * 경우에 따라 시작/종료 이벤트가 삭제되는 경합 조건을 수정했습니다.
 
-## 2019년 10월 9일
+## 2019년 10월 9일 목요일
 
 * **PlacesMonitor 2.1.0**
 
@@ -180,7 +198,7 @@ ht-degree: 1%
 
 * 오류 시나리오를 보다 효과적으로 처리하기 위해 ACPPlace `getNearbyPointsOfInterest` API의 사용을 업데이트했습니다.
 
-## 2019년 7월 22일
+## 2019년 7월 22일 화요일
 
 이 릴리스에서는 다음과 같은 업데이트가 수행되었습니다.
 
@@ -191,7 +209,7 @@ ht-degree: 1%
 * `getNearbyPointsOfInterest` 콜백이 인터넷 없이 오류 코드 `SERVER_RESPONSE_ERROR instead of CONNECTIVITY_ERROR`을(를) 반환하던 버그를 수정했습니다.
 * 근처 관심 영역을 검색하는 동안 오류가 발생하면 `getNearbyPointsOfInterest` API(errorCallback 없음)에 빈 poi 목록과 함께 호출되는 `successCallback`이(가) 있습니다.
 
-## 2019년 7월 19일
+## 2019년 7월 19일 토요일
 
 이 릴리스에서는 다음과 같은 업데이트가 수행되었습니다.
 
@@ -228,7 +246,7 @@ ht-degree: 1%
 
 위치 UI에서 다음 문제가 해결되었습니다.
 
-* 나머지 Experience Cloud과 일치하도록 위치에 솔루션 전환기 를 업데이트했습니다.
+* Experience Cloud의 나머지 부분과 일치하도록 위치의 솔루션 전환기를 업데이트했습니다.
 * 등급이 변경되지 않은 인스턴스에서 등급이 저장되는 문제를 해결했습니다.
 * UI에서 허용되는 최소 반경이 10미터로 증가했습니다.
 * 필드의 모든 숫자를 삭제하면 반경 필드가 20m로 다시 설정되는 문제가 수정되었습니다.
@@ -271,7 +289,7 @@ Android용 위치 모니터 초기 릴리스.
 * CI 통합(CircleCI)
 * 코드 검사 통합(codecov)
 
-## 2019년 25월 3일
+## 2019년 3월 25일 화요일
 
 iOS Places Monitor 1.0.0
 
@@ -293,7 +311,7 @@ iOS용 위치 모니터 초기 릴리스.
 
 관심 영역(POI)을 보고 관리할 수 있는 관리 UI가 출시되었습니다. POI를 라이브러리로 구성할 수도 있습니다. 도시, 주 및 카테고리와 같은 표준 메타데이터 외에도 사용자 지정 메타데이터를 POI에 추가하는 기능도 지원합니다.
 
-* UI를 보려면 [https://places.adobe.com](https://places.adobe.com)(으)로 이동하십시오.
+* UI를 보려면 [https://places.adobe.com](https://places.adobe.com)&#x200B;(으)로 이동하십시오.
 * UI를 시작하려면 [시작하기](/help/getting-started.md)를 참조하세요.
 
 #### 위치 확장
@@ -320,7 +338,7 @@ Places API를 사용하여 다음을 수행할 수 있습니다.
 
 Places API에 대한 자세한 내용은 [웹 서비스 API](/help/web-service-api/places-web-services.md)를 참조하십시오.
 
-### 곧 출시
+### 곧 출시 예정
 
 #### Analytics 통합
 

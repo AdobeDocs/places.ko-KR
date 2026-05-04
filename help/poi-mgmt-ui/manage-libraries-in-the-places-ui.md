@@ -2,9 +2,21 @@
 title: Places Service UI에서 라이브러리 관리
 description: Places Service UI를 사용하여 라이브러리를 관리합니다.
 exl-id: 2fb999b4-854a-430f-bb89-4c786d1a89cc
-source-git-commit: 4ab15ded930b31e4e06920af31f37fdfe45df8eb
+TQID: https://experienceleague.adobe.com/PP7P3aOL3EKSEPJWedHtfyHRzbCueMtNS-J7Ao4mawo
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+  - id: dc5cf79d-43c4-4731-bffa-1df5d7549cb1
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2:
+  - id: e08599ea-8888-4294-ba74-3ba0a7762a46
+subfeature_v2:
+  - id: d2a6cbf4-df32-480f-909e-b42f66dcb9f0
+topic_v2:
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: f962cef761f006c8e7d45b76ba24746e36bdaba6
 workflow-type: tm+mt
-source-wordcount: '434'
+source-wordcount: 434
 ht-degree: 14%
 
 ---
@@ -21,7 +33,7 @@ ht-degree: 14%
 | :--- | :--- |
 | ID | 생성 시 라이브러리에 할당된 고유 식별자 |
 | 이름 | 라이브러리에 친숙한 이름 부여 |
-| 순위 | 조직에 겹치는 지오펜스가 없는 경우 이러한 등급을 무시할 수 있습니다. POI가 겹치는 경우 각 지오펜스를 별도의 라이브러리에 배치하는 것이 좋습니다. 따라서 서로 상대적으로 가중치가 적용될 수 있습니다. 사용자는 한 번에 한 지오펜스에만 있을 수 있습니다. <br><br>사용자가 속한 대상의 가장 높은 지오펜스가 현재 지오펜스 멤버십을 결정합니다. 라이브러리 순위가 동일한 지오펜스가 있는 경우 가장 작은 지오펜스는 사용자의 현재 지오펜스입니다. <br><br>SDK에서 *마지막으로 입력한* 및 *마지막으로 종료한*&#x200B;개의 POI도 인식하므로, POI와의 사용자 인터랙션을 기반으로 규칙이 실행되는 방식을 완벽하게 제어할 수 있습니다. |
+| 순위 | 조직에 겹치는 지오펜스가 없는 경우 이러한 등급을 무시할 수 있습니다. POI가 겹치는 경우 각 지오펜스를 별도의 라이브러리에 배치하는 것이 좋습니다. 따라서 서로 상대적으로 가중치가 적용될 수 있습니다. 사용자는 한 번에 한 지오펜스에만 있을 수 있습니다. <br><br>사용자가 속한 대상의 가장 높은 지오펜스가 현재 지오펜스 멤버십을 결정합니다. 라이브러리 순위가 동일한 지오펜스가 있는 경우 가장 작은 지오펜스는 사용자의 현재 지오펜스입니다. <br><br>SDK에서 *마지막으로 입력한* 및 *마지막으로 종료한*&#x200B;개의 POI도 인식하므로, POI와의 사용자 인터랙션에 따라 규칙이 실행되는 방식을 완벽하게 제어할 수 있습니다. |
 
 ## 라이브러리 만들기
 

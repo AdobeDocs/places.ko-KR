@@ -2,9 +2,32 @@
 title: 활성 지역 모니터링 없이 장소 서비스 사용
 description: 이 섹션에서는 활성 지역 모니터링 없이 Places Service를 사용하는 방법에 대해 설명합니다.
 exl-id: 0ba7949a-447e-4754-9b45-945e58e29541
-source-git-commit: 33cbef9b3226be3f013fe82d619b82e093a9752a
+TQID: https://experienceleague.adobe.com/xUmdMOa5CvDZSxKFeyse-3vHsUwvm2s04-sIG0FnnCs
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+  - id: dc5cf79d-43c4-4731-bffa-1df5d7549cb1
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+  - id: f002a92a-b99f-47a4-90c8-65e0e415bc7a
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: bef6f891-2e8a-425e-8f99-7ddf22070daa
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+  - id: d833d0ef-8ed5-4cff-a5e7-9f12abd02a31
+  - id: daec7ead-f475-492a-a3b3-02ae08565d6f
+  - id: e08599ea-8888-4294-ba74-3ba0a7762a46
+  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+subfeature_v2:
+  - id: b572b7ff-a413-4173-b2b4-d7d3874f1b9b
+  - id: d2a6cbf4-df32-480f-909e-b42f66dcb9f0
+  - id: ee602049-8a18-43df-9299-a689a025a371
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: f962cef761f006c8e7d45b76ba24746e36bdaba6
 workflow-type: tm+mt
-source-wordcount: '715'
+source-wordcount: 786
 ht-degree: 0%
 
 ---
@@ -23,22 +46,22 @@ ht-degree: 0%
 
 활성 지역 모니터링 없이 위치 서비스를 사용하려면
 
-## 1. 사용자의 위치 수집
+## &#x200B;1. 사용자 위치 수집
 
 앱 개발자는 `CoreLocation.framework`(iOS) 또는 Google Play 서비스(Android)에서 제공하는 `Location` API를 사용하여 장치의 현재 위치를 수집해야 합니다.
 
 자세한 내용은 다음 설명서를 참조하십시오.
 
-- [CoreLocation](https://developer.apple.com/documentation/corelocation)(Apple)
-- Google Play 서비스의 [위치 API](https://developer.android.com/training/location)(Google)
+- [CoreLocation](https://developer.apple.com/documentation/corelocation)&#x200B;(Apple)
+- Google Play 서비스의 [위치 API](https://developer.android.com/training/location)&#x200B;(Google)
 
-## 2. SDK에서 가까운 관심 영역 가져오기
+## &#x200B;2. SDK에서 가까운 관심 영역 검색
 
 사용자의 위치를 가져온 후 SDK에 전달하여 근처 POI 목록을 다시 가져올 수 있습니다.
 
 ### Android
 
-다음은 [`BroadcastReceiver`](https://codelabs.developers.google.com/codelabs/background-location-updates-android-o/index.html?index=..%2Findex#5)을(를) 사용하는 Android의 샘플 구현입니다.
+다음은 [`BroadcastReceiver`](https://codelabs.developers.google.com/codelabs/background-location-updates-android-o/index.html?index=..%2F..index#5)을(를) 사용하는 Android의 샘플 구현입니다.
 
 ```java
 public class LocationBroadcastReceiver extends BroadcastReceiver {
@@ -114,9 +137,9 @@ func locationManager(_ manager: CLLocationManager, didUpdateLocations locations:
 }
 ```
 
-## 3. Analytics 요청에 위치 데이터 첨부
+## &#x200B;3. Analytics 요청에 위치 데이터 첨부
 
-위치 SDK는 `getNearbyPointsOfInterest` API를 호출하여 장치에 관련된 모든 POI 데이터를 Launch의 데이터 요소를 통해 사용할 수 있도록 합니다. [데이터 첨부](https://aep-sdks.gitbook.io/docs/resources/user-guides/attach-data) 규칙을 사용하면 위치 데이터를 향후 Analytics 요청에 자동으로 추가할 수 있습니다. 이렇게 하면 디바이스 위치가 수집될 때 Analytics에 대한 일회성 호출이 필요 없습니다.
+위치 SDK은 `getNearbyPointsOfInterest` API를 호출하여 장치에 관련된 모든 POI 데이터를 Launch의 데이터 요소를 통해 사용할 수 있도록 합니다. [데이터 첨부](https://aep-sdks.gitbook.io/docs/resources/user-guides/attach-data) 규칙을 사용하면 위치 데이터를 향후 Analytics 요청에 자동으로 추가할 수 있습니다. 이렇게 하면 디바이스 위치가 수집될 때 Analytics에 대한 일회성 호출이 필요 없습니다.
 
 이 항목에 대한 자세한 내용은 [Analytics 요청에 위치 컨텍스트 추가](use-places-with-other-solutions/places-adobe-analytics/run-reports-aa-places-data.md)를 참조하십시오.
 
@@ -410,6 +433,6 @@ func handleUpdatedPOIs(_ nearbyPois:[ACPPlacesPoi]) {
 }
 ```
 
-SDK에서 위치 서비스 시작 이벤트를 트리거하는 것 외에도, 트리거하는 시작 이벤트로 인해 POI를 정의하는 모든 데이터를 Experience Platform Launch의 `data elements`을(를) 통해 나머지 SDK에서 사용할 수 있습니다. Experience Platform Launch `rules`을(를) 사용하면 SDK에서 처리하는 들어오는 이벤트에 Places Service 데이터를 동적으로 연결할 수 있습니다. 예를 들어 사용자가 있는 POI의 메타데이터를 첨부하고 데이터를 Analytics에 컨텍스트 데이터로 보낼 수 있습니다.
+Experience Platform Launch에서 위치 서비스 시작 이벤트를 트리거하는 것 외에도, 트리거하는 시작 이벤트로 인해 POI를 정의하는 모든 데이터를 SDK의 나머지 사용자가 Experience Platform Launch의 `data elements`을(를) 통해 사용할 수 있습니다. Experience Platform Launch `rules`을(를) 사용하면 SDK에서 처리하는 수신 이벤트에 위치 서비스 데이터를 동적으로 연결할 수 있습니다. 예를 들어 사용자가 있는 POI의 메타데이터를 첨부하고 데이터를 Analytics에 컨텍스트 데이터로 보낼 수 있습니다.
 
-자세한 내용은 [다른 Adobe 솔루션에서 Places Service 사용](/help/use-places-with-other-solutions/places-adobe-analytics/use-places-analytics-overview.md)을 참조하세요.
+자세한 내용은 [다른 Adobe 솔루션에서 Places Service 사용](/help/use-places-with-other-solutions/places-adobe-analytics/use-places-analytics-overview.md)을 참조하십시오.

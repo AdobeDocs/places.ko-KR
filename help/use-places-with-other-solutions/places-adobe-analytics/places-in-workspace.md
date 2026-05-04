@@ -2,10 +2,26 @@
 title: Analytics Workspace의 위치 데이터에 대한 보고서
 description: 이 섹션에서는 Analytics Workspace에서 위치 데이터에 대해 보고하는 방법에 대해 설명합니다.
 exl-id: 45ca3c80-71b7-41de-9b00-645504061935
-source-git-commit: d5c216aebd99ffef01c37c17c62576835b52438b
+TQID: https://experienceleague.adobe.com/Xym9Ko8czyd3wYWVo22sQoK6gk-VvftGVHfIDUys06E
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: c20d46e7-1c7d-476c-a50e-3961d4dce35f
+  - id: daec7ead-f475-492a-a3b3-02ae08565d6f
+  - id: e08599ea-8888-4294-ba74-3ba0a7762a46
+subfeature_v2:
+  - id: d2a6cbf4-df32-480f-909e-b42f66dcb9f0
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: f962cef761f006c8e7d45b76ba24746e36bdaba6
 workflow-type: tm+mt
-source-wordcount: '427'
-ht-degree: 2%
+source-wordcount: 483
+ht-degree: 4%
 
 ---
 
@@ -30,9 +46,9 @@ ht-degree: 2%
    Launch의 데이터 요소에 대한 자세한 내용은 [데이터 요소 정의](/help/use-places-launch-workflow/define-data-elements.md)를 참조하십시오.
 
 
-## 1. Launch 규칙 만들기
+## &#x200B;1. Launch 규칙 만들기
 
-디바이스가 POI에 들어갈 때 SDK가 데이터를 Analytics에 보내도록 하는 규칙을 만듭니다. 이러한 종류의 규칙을 만드는 방법은 [Analytics에 POI 시작 및 종료 데이터 보내기](/help/use-places-with-other-solutions/places-adobe-analytics/use-places-adobe-analytics.md) 페이지에서 설명합니다.
+디바이스가 POI에 들어갈 때 SDK이 데이터를 Analytics에 보내도록 하는 규칙을 만듭니다. 이러한 종류의 규칙을 만드는 방법은 [Analytics에 POI 시작 및 종료 데이터 보내기](/help/use-places-with-other-solutions/places-adobe-analytics/use-places-adobe-analytics.md) 페이지에서 설명합니다.
 
 이 예에서 규칙의 작업에는 Analytics 요청에 대해 다음 값이 정의되어 있습니다.
 
@@ -42,7 +58,7 @@ ht-degree: 2%
 
 ![&quot;동작 설정&quot;](/help/assets/pt-setAction.png)
 
-## 2. Analytics 변수 만들기
+## &#x200B;2. Analytics 변수 만들기
 
 컨텍스트 데이터(1단계에서 전송됨)를 매핑하려면 먼저 Analytics 보고서 세트에 대한 변수를 만들어야 합니다. Analytics에서 변수를 만드는 방법에 대한 자세한 내용은 [전환 변수(eVar)](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/evar.html?lang=ko)를 참조하십시오.
 
@@ -50,7 +66,7 @@ ht-degree: 2%
 
 ![&quot;analytics 변수 만들기&quot;](/help/assets/aa-evar.png)
 
-## 3. 처리 규칙 만들기
+## &#x200B;3. 처리 규칙 만들기
 
 이 단계는 컨텍스트 데이터(1단계)를 Analytics 변수(2단계)에 매핑하는 데 필요합니다. 처리 규칙 만들기에 대한 자세한 내용은 [처리 규칙 개요](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/processing-rules.html?lang=ko)를 참조하십시오.
 
@@ -58,7 +74,7 @@ ht-degree: 2%
 
 ![&quot;처리 규칙 만들기&quot;](/help/assets/aa-processing-rule.png)
 
-## 4. Workspace에서 보고서 생성
+## &#x200B;4. Workspace에서 보고서 생성
 
 이 단계에서는 1-3단계에서 수집된 데이터를 보는 기본 보고서를 Analytics Workspace에 표시합니다. Analytics Workspace 사용 방법에 대한 자세한 내용은 [Analytics Workspace 개요](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=ko)를 참조하십시오.
 
@@ -68,6 +84,6 @@ ht-degree: 2%
 
 * Dimension - **[!UICONTROL 작업 이름]**
 
-   * Dimension으로 분류 - **[!UICONTROL 위치 POI 이름]**
+   * Dimension별로 분류 - **[!UICONTROL 위치 POI 이름]**
 
 ![&quot;작업 영역에서 보고서 만들기&quot;](/help/assets/aa-workspace.png)
