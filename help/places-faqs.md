@@ -2,9 +2,14 @@
 title: 자주 묻는 질문
 description: 이 항목에서는 몇 가지 FAQ에 대한 추가 정보를 제공합니다.
 exl-id: cee9f447-5e50-4ed8-b37b-baecbc0e9b7b
-source-git-commit: 010de286c25c1eeb989fb76e3c2adaa82ac9fd35
+TQID: https://experienceleague.adobe.com/LL9eLMDJaq8ZmeiZxv28QZoqXL1A0QKZ-DvTDUx4Gnw
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87id: dc5cf79d-43c4-4731-bffa-1df5d7549cb1id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2: id: e08599ea-8888-4294-ba74-3ba0a7762a46
+subfeature_v2: id: d2a6cbf4-df32-480f-909e-b42f66dcb9f0
+topic_v2: id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: f962cef761f006c8e7d45b76ba24746e36bdaba6
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: 557
 ht-degree: 1%
 
 ---
@@ -15,7 +20,7 @@ ht-degree: 1%
 
 ## v4 SDK의 trackLocation에서 마이그레이션
 
-v4 SDK에서 마이그레이션하고 `trackLocation` API로의 대체 기능을 찾고 있는 경우 [활성 지역 모니터링 없이 위치 서비스 사용](use-places-without-active-monitoring.md) 항목을 참조하십시오.
+v4 SDK에서 마이그레이션하고 `trackLocation` API로의 대체 기능을 찾고 있는 경우 [활성 지역 모니터링 없이 장소 서비스 사용](use-places-without-active-monitoring.md) 항목을 참조하십시오.
 
 ## 크기 및 안정성
 
@@ -25,9 +30,9 @@ Adobe 또는 기타 서비스 사용과 관계없이 모바일 앱에서 지역 
 
 ## 종료 이벤트는 어떻게 트리거됩니까?
 
-구현된 지역 모니터는 인근 POI 목록을 요청해야 합니다. POI가 수신되면 각 POI에 대한 운영 체제에 지역을 등록해야 합니다. 이제 운영 체제는 장치가 모니터링되는 영역 중 하나의 경계(시작 또는 종료)를 넘을 때 SDK에 알리는 역할을 합니다. SDK는 운영 체제에서 이벤트가 발생했음을 SDK에 알리는 경우에만 종료 이벤트를 트리거합니다. 이러한 알림의 주된 이유는 위치 데이터의 시간 민감도이다.
+구현된 지역 모니터는 인근 POI 목록을 요청해야 합니다. POI가 수신되면 각 POI에 대한 운영 체제에 지역을 등록해야 합니다. 이제 운영 체제는 장치가 모니터링되는 영역 중 하나의 경계(진입 또는 종료)를 넘을 때 SDK에 알리는 역할을 합니다. SDK은 운영 체제에서 이벤트가 발생했음을 SDK에 알리는 경우에만 종료 이벤트를 트리거합니다. 이러한 알림의 주된 이유는 위치 데이터의 시간 민감도이다.
 
-장치가 영역을 떠날 때 운영 체제에서 종료 이벤트를 전달할 수 없는 경우 SDK에서 종료 이벤트를 생략하는 것이 더 안전합니다. SDK가 운영 체제에 의해 이벤트가 트리거되지 않고 종료 이벤트를 제조하는 경우 디바이스가 POI에 근접한 기간 외에 종료 이벤트가 잘 처리될 수 있습니다.
+장치가 지역을 떠날 때 운영 체제에서 종료 이벤트를 전달할 수 없는 경우 SDK에서 종료 이벤트를 생략하는 것이 더 안전합니다. SDK에서 운영 체제에 의해 이벤트가 트리거되지 않은 상태로 종료 이벤트를 제조하는 경우 디바이스가 POI에 근접한 기간 외에 종료 이벤트가 잘 처리될 수 있습니다.
 
 ## POI 수
 
@@ -39,4 +44,4 @@ Places Service POI 관리 인터페이스에서 고객은 특정 라이브러리
 
 모니터링할 영역 세트를 지정할 때는 주의하십시오. 지역은 공유 시스템 자원이며, 시스템 전체에서 사용 가능한 총 지역 수는 제한적이다. 따라서 코어 위치는 단일 앱에서 동시에 모니터링할 수 있는 영역 수를 20개로 제한합니다. 이 제한을 해결하려면 사용자의 바로 근처에 있는 영역만 등록하는 것이 좋습니다.
 
-[Apple 개발자 사이트에서 추가 정보를 봅니다](https://developer.apple.com/library/archive/documentation/UserExperience/Conceptual/LocationAwarenessPG/RegionMonitoring/RegionMonitoring.html#//apple_ref/doc/uid/TP40009497-CH9-SW11)
+[Apple 개발자 사이트에서 추가 정보를 봅니다]&#x200B;(https://developer.apple.com/library/archive/documentation/UserExperience/Conceptual/LocationAwarenessPG/RegionMonitoring/RegionMonitoring.html#//apple_ref/doc/uid/TP40009497-CH9-SW11)

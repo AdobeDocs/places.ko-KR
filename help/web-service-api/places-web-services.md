@@ -1,17 +1,22 @@
 ---
 title: 웹 서비스 API 개요
-description: Places Service는 Adobe 고객이 올바른 시간과 장소에 올바른 사람에게 올바른 경험과 위치 데이터로 Adobe Experience Cloud 및 Adobe Experience Platform 솔루션을 더 쉽게 하이드레이션할 수 있도록 하는 서비스 세트입니다.
+description: Places Service는 Adobe 고객이 올바른 시간과 장소에 올바른 사람에게 올바른 경험과 위치 데이터로 Adobe Experience Cloud 및 Adobe Experience Platform 솔루션을 더 쉽게 제공할 수 있는 서비스 세트입니다.
 exl-id: 9e7358d1-3ba0-4304-aeb2-fed7162afb57
-source-git-commit: 4ab15ded930b31e4e06920af31f37fdfe45df8eb
+TQID: https://experienceleague.adobe.com/jP7iQH7X85UZROjsa3XzuN0bJZjjKffODFGGji7XZfQ
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2: id: e08599ea-8888-4294-ba74-3ba0a7762a46
+subfeature_v2: id: d2a6cbf4-df32-480f-909e-b42f66dcb9f0
+topic_v2: id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: f962cef761f006c8e7d45b76ba24746e36bdaba6
 workflow-type: tm+mt
-source-wordcount: '335'
+source-wordcount: 336
 ht-degree: 0%
 
 ---
 
 # 웹 서비스 API 개요 {#places-web-services-api}
 
-Places Service는 Adobe 고객이 올바른 시간과 장소에 올바른 사람에게 올바른 경험과 위치 데이터로 Adobe Cloud Platform 및 Adobe Experience Platform 솔루션을 더 쉽게 하이드레이션할 수 있도록 하는 서비스 세트입니다.
+Places Service는 Adobe 고객이 올바른 시간과 장소에 올바른 사람에게 올바른 경험과 위치 데이터를 사용하여 Adobe Cloud Platform 및 Adobe Experience Platform 솔루션을 보다 쉽게 제공할 수 있는 서비스 세트입니다.
 
 웹 서비스 API를 사용하면 다음 작업을 수행할 수 있습니다.
 

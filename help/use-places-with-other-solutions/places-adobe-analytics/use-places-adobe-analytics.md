@@ -2,10 +2,15 @@
 title: Analytics에 POI 시작 및 종료 데이터 보내기
 description: 이 섹션에서는 POI 시작 및 종료 데이터를 Analytics에 전송하는 방법에 대한 정보를 제공합니다.
 exl-id: 69e96261-4902-47dd-a930-a8f3d19c179c
-source-git-commit: 4ab15ded930b31e4e06920af31f37fdfe45df8eb
+TQID: https://experienceleague.adobe.com/H-NkwK7KNSGPjEKYuWNc8F0f3MIu3wBr5FGjypxnqng
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87id: e55547f1-a1ff-40c6-8978-026e40ab7fa4id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: e08599ea-8888-4294-ba74-3ba0a7762a46
+subfeature_v2: id: d2a6cbf4-df32-480f-909e-b42f66dcb9f0
+topic_v2: id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: f962cef761f006c8e7d45b76ba24746e36bdaba6
 workflow-type: tm+mt
-source-wordcount: '437'
-ht-degree: 1%
+source-wordcount: 443
+ht-degree: 3%
 
 ---
 
@@ -18,7 +23,7 @@ ht-degree: 1%
 
 Places Service에서 시작 및 종료 이벤트를 보낸 후 Experience Platform Launch에서 규칙을 만들어 Places Service 데이터를 Adobe Analytics으로 보낼 수 있습니다. 이 유형의 규칙을 만들려면 Launch에서 속성을 선택하고 다음 단계를 완료하십시오.
 
-## 1. 규칙 만들기
+## &#x200B;1. 규칙 만들기
 
 1. **[!UICONTROL 규칙]** 탭에서 **[!UICONTROL 새 규칙 만들기]**&#x200B;를 클릭합니다.
 
@@ -27,7 +32,7 @@ Places Service에서 시작 및 종료 이벤트를 보낸 후 Experience Platfo
    * 이 속성에 대한 기존 규칙이 없는 경우 **[!UICONTROL 새 규칙 만들기]** 단추가 화면 중간에 표시됩니다.
    * 속성에 규칙이 있는 경우 **[!UICONTROL 새 규칙 만들기]** 단추가 화면 오른쪽 상단에 표시됩니다.
 
-## 2. 이벤트 선택
+## &#x200B;2. 이벤트 선택
 
 1. 규칙에 의미 있는 이름을 입력합니다.
 
@@ -44,7 +49,7 @@ Places Service에서 시작 및 종료 이벤트를 보낸 후 Experience Platfo
    ![&quot;이벤트 선택&quot;](/help/assets/pt-selectEvent.png)
 
 
-## 3. 조건 추가
+## &#x200B;3. 조건 추가
 
 >[!IMPORTANT]
 >
@@ -65,7 +70,7 @@ Places Service에서 시작 및 종료 이벤트를 보낸 후 Experience Platfo
    ![&quot;조건 설정&quot;](/help/assets/pt-setCondition.png)
 
 
-## 4. 조치 정의
+## &#x200B;4. 작업 정의
 
 1. **[!UICONTROL 작업]** 섹션에서 **[!UICONTROL 추가]**&#x200B;를 클릭합니다.
 
@@ -83,12 +88,12 @@ Places Service에서 시작 및 종료 이벤트를 보낸 후 Experience Platfo
 
    ![&quot;동작 설정&quot;](/help/assets/pt-setAction.png)
 
-## 5. 규칙을 저장하고 속성을 다시 빌드합니다.
+## &#x200B;5. 규칙을 저장하고 속성을 다시 빌드합니다.
 
 구성을 완료한 후 규칙이 다음 이미지와 같은지 확인합니다.
 
 ![&quot;규칙이 만들어짐&quot;](/help/assets/pt-ruleComplete.png)
 
-1. **[!UICONTROL Save]**&#x200B;를 클릭합니다
+1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다
 
 1. Launch 속성을 다시 빌드하고 올바른 환경에 배포합니다.

@@ -2,9 +2,14 @@
 title: Places Service로 푸시 알림
 description: 이 섹션에서는 Campaign Standard에서 푸시 알림과 함께 Places Service를 사용하는 방법에 대해 설명합니다.
 exl-id: 4b50f552-deb8-49cd-9221-fbbf33aaa5f9
-source-git-commit: 010de286c25c1eeb989fb76e3c2adaa82ac9fd35
+TQID: https://experienceleague.adobe.com/tjJD7Qn27sp8wnNcNdjnANIveyzjG1PZ--3C3rCjrMQ
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87id: dfc56824-e8b9-499e-85d4-21aedb507314id: e43347a8-f2c5-4aa4-8623-6f13875d7e3aid: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2: id: c132d929-fa62-4271-803e-b823be07b914id: e08599ea-8888-4294-ba74-3ba0a7762a46
+subfeature_v2: id: d2a6cbf4-df32-480f-909e-b42f66dcb9f0
+topic_v2: id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: f962cef761f006c8e7d45b76ba24746e36bdaba6
 workflow-type: tm+mt
-source-wordcount: '981'
+source-wordcount: 1026
 ht-degree: 1%
 
 ---
@@ -17,7 +22,7 @@ ht-degree: 1%
 
 시작하기 전에 다음 작업을 완료하십시오.
 
-* [Adobe Campaign Standard 확장](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard)을(를) 포함하여 Adobe Experience Platform Mobile SDK로 모바일 애플리케이션을 구성했습니다.
+* [Adobe Campaign Standard 확장](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard)을 포함하여 Adobe Experience Platform Mobile SDK으로 모바일 애플리케이션을 구성했습니다.
 
 * [Adobe Experience Platform Mobile SDK](https://aep-sdks.gitbook.io/docs/getting-started/get-the-sdk)를 앱에 통합합니다.
 * 모바일 앱 구성에 [Adobe Campaign Standard 확장](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard)을(를) 추가합니다.
@@ -29,7 +34,7 @@ ht-degree: 1%
 
 ## Experience Platform Launch에서 데이터 요소 만들기
 
-Places 확장 및 지역 모니터링 솔루션([iOS용 CoreLocation 설명서](https://developer.apple.com/documentation/corelocation/monitoring_the_user_s_proximity_to_geographic_regions) 또는 [Android 위치 설명서](https://developer.android.com/training/location/geofencing))이 응용 프로그램에서 올바르게 작동하는지 확인한 후에는 Experience Platform Launch에서 데이터 요소를 만들어야 합니다. 데이터 요소를 사용하면 Mobile SDK 이벤트 허브를 통해 제공되는 확장에서 제공한 정보를 읽고 클라이언트 애플리케이션에서 데이터를 검색하는 별칭 역할을 할 수 있습니다. Places 확장에서 데이터를 검색하고 Places Service 정보를 Campaign으로 전송하려면 몇 가지 데이터 요소를 만들어야 합니다.
+Places 확장 및 지역 모니터링 솔루션([iOS용 CoreLocation 설명서](https://developer.apple.com/documentation/corelocation/monitoring_the_user_s_proximity_to_geographic_regions) 또는 [Android 위치 설명서](https://developer.android.com/training/location/geofencing))이 응용 프로그램에서 올바르게 작동하는지 확인한 후에는 Experience Platform Launch에서 데이터 요소를 만들어야 합니다. 데이터 요소를 사용하면 Mobile SDK 이벤트 허브를 통해 들어오는 확장에서 제공한 정보를 읽고 클라이언트 애플리케이션에서 데이터를 검색하는 별칭 역할을 할 수 있습니다. Places 확장에서 데이터를 검색하고 Places Service 정보를 Campaign으로 전송하려면 몇 가지 데이터 요소를 만들어야 합니다.
 
 데이터 요소를 만들려면 다음 작업을 수행하십시오.
 
@@ -48,9 +53,9 @@ Places Service의 데이터 요소 외에 *앱 ID* 및 *Experience Cloud ID*&#x2
 
 ## 위치 데이터를 Adobe Campaign Standard으로 전송하는 규칙 만들기
 
-Experience Platform Launch의 규칙을 사용하면 이벤트 트리거를 기반으로 복잡한 다중 솔루션 워크플로우를 만들 수 있습니다. 규칙을 사용하여 새 규칙을 만들거나 기존 규칙을 수정하고 업데이트를 모바일 애플리케이션에 동적으로 배포할 수 있습니다. 다음 예에서는 사용자가 지리적 기반 POI를 입력할 때 규칙이 트리거됩니다. 규칙이 트리거되면 Experience Cloud ID를 기반으로 특정 Campaign Standard의 특정 POI에 대한 항목을 기록하는 업데이트가 사용자에게 전송됩니다.
+Experience Platform Launch의 규칙을 사용하면 이벤트 트리거를 기반으로 복잡한 다중 솔루션 워크플로우를 만들 수 있습니다. 규칙을 사용하여 새 규칙을 만들거나 기존 규칙을 수정하고 업데이트를 모바일 애플리케이션에 동적으로 배포할 수 있습니다. 다음 예에서는 사용자가 지리적 기반 POI를 입력할 때 규칙이 트리거됩니다. 규칙이 트리거되면 Experience Cloud ID를 기반으로 특정 사용자에 대한 특정 POI에 대한 항목을 기록하기 위한 업데이트가 Campaign Standard으로 전송됩니다.
 
-1. Experience Platform Launch 모바일 속성에서 **[!UICONTROL 규칙]** 탭에서 **[!UICONTROL 규칙 추가]**&#x200B;를 클릭합니다.
+1. Experience Platform Launch 모바일 속성의 **[!UICONTROL 규칙]** 탭에서 **[!UICONTROL 규칙 추가]**&#x200B;를 클릭합니다.
 1. **[!UICONTROL 이벤트]** 섹션에서 **[!UICONTROL +]**&#x200B;을(를) 클릭하고 확장으로 **[!UICONTROL 장소 서비스]**&#x200B;를 선택합니다.
 1. **[!UICONTROL 이벤트 유형]**&#x200B;에 대해 **[!UICONTROL POI 입력]**&#x200B;을 선택하세요.
 1. 규칙 이름을 지정합니다(예: **사용자가 입력한 POI**).
