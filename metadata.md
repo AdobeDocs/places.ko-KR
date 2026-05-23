@@ -4,6 +4,7 @@ product: places service
 solution: Data Collection, Experience Platform
 product_v2:
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+usetq: true
 landing-page-name: mobile
 landing-page-breadcrumb-title: Mobile SDK
 feature-set: Experience Platform
@@ -16,7 +17,7 @@ tutorials-title: Tutorials
 tutorials-url: https://experienceleague.adobe.com/ko#recommended/solutions/experience-platform
 git-repo: https://github.com/AdobeDocs/places.ko-KR
 index: true
-source-git-commit: c34560100defb53b29dc8121405bfa51058c69a4
+source-git-commit: 11476e8f3f542ce81aa16b6b0b016dbec16db57c
 workflow-type: tm+mt
 source-wordcount: 167
 ht-degree: 80%
