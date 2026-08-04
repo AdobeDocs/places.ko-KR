@@ -3,10 +3,29 @@ title: 위치 서비스 테스트 및 유효성 검사
 description: 이 섹션에서는 Places Service를 테스트하고 검증하는 방법에 대해 설명합니다.
 exl-id: 8dad6619-566b-4aea-b29c-a89192a66441
 TQID: https://experienceleague.adobe.com/nO4tOQW9rp3zjkHT6aJ5IcXHcD9heOaRAJiEchiz1Fk
-product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87id: dc5cf79d-43c4-4731-bffa-1df5d7549cb1id: dfc56824-e8b9-499e-85d4-21aedb507314id: e43347a8-f2c5-4aa4-8623-6f13875d7e3aid: e55547f1-a1ff-40c6-8978-026e40ab7fa4id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
-feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ceid: d5ef99fa-df0c-4153-bf94-105ad0724167id: daec7ead-f475-492a-a3b3-02ae08565d6fid: e08599ea-8888-4294-ba74-3ba0a7762a46id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7id: ed0d8d0e-04b9-4326-be72-a0fbca265377id: f7c7de77-382f-4f48-8b36-61a170f06d3did: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
-subfeature_v2: id: c3bf7e1e-1db5-4c72-9293-e2f0b1ab73d0id: d2a6cbf4-df32-480f-909e-b42f66dcb9f0
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d3cdead0-685a-4489-9250-4bb709942f66
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+  - id: dc5cf79d-43c4-4731-bffa-1df5d7549cb1
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2:
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+  - id: daec7ead-f475-492a-a3b3-02ae08565d6f
+  - id: e08599ea-8888-4294-ba74-3ba0a7762a46
+  - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
+  - id: ed0d8d0e-04b9-4326-be72-a0fbca265377
+  - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+subfeature_v2:
+  - id: c3bf7e1e-1db5-4c72-9293-e2f0b1ab73d0
+  - id: d2a6cbf4-df32-480f-909e-b42f66dcb9f0
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: f962cef761f006c8e7d45b76ba24746e36bdaba6
 workflow-type: tm+mt
 source-wordcount: 1748
@@ -48,7 +67,7 @@ ht-degree: 2%
 |  | **Places Service로 Adobe Campaign Standard 인앱 메시지를 테스트하는 중.** |  |
 | 12 | 기본 Campaign 대시보드에서 새 앱 내 메시지를 구성합니다(유형 = broadcast). |  |
 | 12a | 트리거에서 **Places 이벤트 유형 - 항목을 트리거로 선택**&#x200B;합니다. |  |
-| 12b | **[!UICONTROL 위치 사용자 지정 메타데이터]**&#x200B;를 추가 필터로 선택합니다. POI 유형 = 마지막으로 입력한 POI를 사용합니다.<br>마지막으로 입력한 **[!UICONTROL POI]**&#x200B;를 POI 유형으로 사용합니다. 대부분의 경우 **[!UICONTROL 마지막으로 입력한 날짜]**&#x200B;은(는) **[!UICONTROL 현재 POI]**&#x200B;와(과) 동일하기 때문입니다. <br><br>**[!UICONTROL 현재 POI ]**는 겹치는 POI 지오펜스가 있는 인스턴스에서만 사용해야 합니다. 이 경우 이러한 POI에 등급을 지정해야 하므로**[!UICONTROL &#x200B;현재 POI ]**에는 사용자가 현재 있을 수 있는 2개 또는 3개의 지오펜스 중 상위 순위가 지정된 POI가 표시됩니다. |  |
+| 12b | **[!UICONTROL 위치 사용자 지정 메타데이터]**&#x200B;를 추가 필터로 선택합니다. POI 유형 = 마지막으로 입력한 POI를 사용합니다.<br>마지막으로 입력한 **[!UICONTROL POI]**&#x200B;를 POI 유형으로 사용합니다. 대부분의 경우 **[!UICONTROL 마지막으로 입력한 날짜]**&#x200B;은(는) **[!UICONTROL 현재 POI]**&#x200B;와(과) 동일하기 때문입니다. <br><br>**[!UICONTROL 현재 POI &#x200B;]**&#x200B;는 겹치는 POI 지오펜스가 있는 인스턴스에서만 사용해야 합니다. 이 경우 이러한 POI에 등급을 지정해야 하므로&#x200B;**[!UICONTROL &#x200B;현재 POI &#x200B;]**&#x200B;에는 사용자가 현재 있을 수 있는 2개 또는 3개의 지오펜스 중 상위 순위가 지정된 POI가 표시됩니다. |  |
 | 12c | 메시지를 수신할 POI의 범위를 좁히는 데 도움이 되는 사용자 지정 메타데이터 키를 선택합니다. |  |
 | 12d | 빈도 및 기간의 경우 기준을 좋아하지 않는 경우 더 짧은 기간 내에 트리거를 만료할 수 있도록 1~2일만 유지합니다. |  |
 | 12e | Always/Once 또는 Until 클릭스루의 경우 *ALWAYS*&#x200B;을(를) 선택하여 여러 위치에서 테스트할 수 있습니다. | 적절한 메타데이터 기준을 충족하는 위치 변경을 시뮬레이션하면 인앱 메시지가 항상 표시됩니다. |
