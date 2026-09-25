@@ -6,9 +6,7 @@ source-git-commit: 4ab15ded930b31e4e06920af31f37fdfe45df8eb
 workflow-type: tm+mt
 source-wordcount: '38'
 ht-degree: 0%
-
 ---
-
 # API 사용 개요 {#api-usage-overview}
 
 위치 REST API를 사용하여 POI 및 라이브러리를 관리하려면 다음 섹션을 참조하십시오.
