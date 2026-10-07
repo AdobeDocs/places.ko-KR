@@ -2,13 +2,14 @@
 title: 라이브러리 업데이트
 description: Places REST API를 사용하여 라이브러리를 업데이트합니다.
 exl-id: 37ca2be2-39e1-4f8e-87c2-ef4cb366db0d
-source-git-commit: 4ab15ded930b31e4e06920af31f37fdfe45df8eb
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: d8704da9c84a066f72471421290d4b46c65f41e1
 workflow-type: tm+mt
 source-wordcount: '48'
 ht-degree: 6%
-
 ---
-
 # 라이브러리 업데이트 {#update-a-library}
 
 라이브러리를 업데이트할 수 있는 PUT 메서드입니다.

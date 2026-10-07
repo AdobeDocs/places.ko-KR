@@ -5,26 +5,35 @@ exl-id: f388945e-cf26-4694-9697-9fe564ae4b69
 TQID: https://experienceleague.adobe.com/EYg1wjQJZeHqX7vPnJ1VUZzojqG6ANjS8-VBXV3y51c
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
   - id: f7bdf6be-dd3b-4d2d-ac52-0e62ed0d3102
+    internal-label: Admin Console
 feature_v2:
   - id: c132d929-fa62-4271-803e-b823be07b914
+    internal-label: Profile
   - id: e08599ea-8888-4294-ba74-3ba0a7762a46
+    internal-label: Data collection
 subfeature_v2:
   - id: b64298cc-90cc-46b7-8917-ee391f1c7516
+    internal-label: Data collection UI
   - id: d2a6cbf4-df32-480f-909e-b42f66dcb9f0
+    internal-label: Places
   - id: f5efb499-54f9-432b-ac5c-599dbac103af
+    internal-label: Data management
   - id: f6ff4d13-7b5c-4533-8556-95e76673d4cb
+    internal-label: Properties
 topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: f962cef761f006c8e7d45b76ba24746e36bdaba6
+    internal-label: Data management
+source-git-commit: d8704da9c84a066f72471421290d4b46c65f41e1
 workflow-type: tm+mt
-source-wordcount: 919
+source-wordcount: '919'
 ht-degree: 1%
-
 ---
-
 # Places Service 액세스 권한 얻기 {#adding-user-launch-places}
 
 이제 데이터 수집 UI 내에서 위치 서비스를 사용할 수 있습니다. [Adobe Experience Cloud 홈](https://experience.adobe.com)의 빠른 액세스 메뉴에서 데이터 수집에 액세스할 수 있습니다.
@@ -46,12 +55,12 @@ Adobe Experience Platform 메뉴에서 데이터 수집에 액세스할 수도 �
 이제 위치가 Adobe Experience Platform에 포함됩니다. 사용자가 [Places Service](https://experience.adobe.com/#/data-collection/places)에 액세스할 수 있도록 하려면 Admin Console에서 사용자로 Adobe Experience Platform에 추가되어야 합니다. 사용자가 모바일 속성을 구성하고 Adobe Experience Platform SDK에서 [위치]를 사용하는 데 필요한 권한으로 Experience Platform 데이터 수집에 액세스할 수 있도록 하려면 Admin Console의 Adobe Experience Platform 데이터 수집에도 추가하고 Adobe Experience Platform 데이터 수집에 대한 다음 권한을 부여해야 합니다.
 
 * 속성 권한 아래의 모든 권한:
-   * 승인
-   * 개발
-   * 속성 편집
-   * 환경 관리
-   * 확장 관리
-   * 게시
+  * 승인
+  * 개발
+  * 속성 편집
+  * 환경 관리
+  * 확장 관리
+  * 게시
 * 회사 권한의 속성 관리 권한
 
 사용자를 처음 추가하는 경우 다음 단계를 완료하여 Adobe Experience Platform 데이터 수집 및 Adobe Experience Platform에 사용자를 추가하십시오. 이전에 사용자를 추가한 경우 여러 프로필이 표시될 수 있으므로 올바른 프로필을 선택했는지 확인하십시오.
@@ -62,7 +71,7 @@ Adobe Experience Platform 메뉴에서 데이터 수집에 액세스할 수도 �
 
 ### &#x200B;1. Adobe Experience Platform 및 Adobe Experience Platform 데이터 수집이 프로비저닝되었는지 확인
 
-1. Experience Cloud 조직, [Adobe Experience Cloud 홈](https://experience.adobe.com)에 로그인합니다.
+1. Experience Cloud 조직 [Adobe Experience Cloud 홈](https://experience.adobe.com)에 로그인합니다.
 1. 오른쪽 상단에서 Experience Cloud 셸 전환기를 클릭하여 드롭다운 메뉴를 표시합니다.
 
    ![셸 전환기](/help/assets/places_shell_switcher1.png)

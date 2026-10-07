@@ -5,23 +5,29 @@ exl-id: dd5aa7ac-55f9-44dc-8632-e483ef3b91a0
 TQID: https://experienceleague.adobe.com/jyGVmk-oKX6-5vxZBx6Mz-QF8SBYxAWssvAxJ0QLYWQ
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
 feature_v2:
   - id: e08599ea-8888-4294-ba74-3ba0a7762a46
+    internal-label: Data collection
 subfeature_v2:
   - id: d2a6cbf4-df32-480f-909e-b42f66dcb9f0
+    internal-label: Places
   - id: f9a2105e-7a47-4e85-9193-31a519a2cb83
+    internal-label: Data elements
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: f962cef761f006c8e7d45b76ba24746e36bdaba6
+    internal-label: Data collection
+source-git-commit: d8704da9c84a066f72471421290d4b46c65f41e1
 workflow-type: tm+mt
-source-wordcount: 939
+source-wordcount: '939'
 ht-degree: 12%
-
 ---
-
 # 시작 및 종료 규칙 만들기 {#create-entry-exit-rules}
 
 모바일 애플리케이션에 설치된 위치 확장 및 지역 모니터링 솔루션을 사용하면 위치 시작 및 종료 이벤트를 포함하여 위치 데이터를 트리거하거나 조건화한 규칙을 Adobe Experience Platform Launch에서 만들 수 있습니다.
@@ -67,7 +73,7 @@ ht-degree: 12%
 
 >[!CAUTION]
 >
->이 예에서는 사용자가 미국의 모든 커피숍에 대한 POI 라이브러리를 생성한 것으로 가정합니다. POI 및 라이브러리 만들기에 대한 자세한 내용은 [여러 라이브러리 관리](https://experienceleague.adobe.com/docs/places/using/poi-mgmt-ui/manage-libraries-in-the-places-ui.html?lang=ko)에서 [POI 만들기](/help/poi-mgmt-ui/create-a-poi-ui.md) 및 *라이브러리 만들기*&#x200B;를 참조하십시오.
+>이 예에서는 사용자가 미국의 모든 커피숍에 대한 POI 라이브러리를 생성한 것으로 가정합니다. POI 및 라이브러리 만들기에 대한 자세한 내용은 [여러 라이브러리 관리](https://experienceleague.adobe.com/docs/places/using/poi-mgmt-ui/manage-libraries-in-the-places-ui.html)에서 [POI 만들기](/help/poi-mgmt-ui/create-a-poi-ui.md) 및 *라이브러리 만들기*&#x200B;를 참조하십시오.
 
 다음 절차는 San Francisco에서 커피숍에 들어갈 때 Slack으로 다시 게시물을 전송하는 규칙을 만드는 방법의 예입니다.
 
@@ -137,7 +143,7 @@ Experience Platform Launch에서 데이터 요소를 만들려면 다음을 수�
 
 ### 규칙 게시
 
-1. 규칙을 활성화하려면 게시해야 합니다. Experience Platform Launch에서 규칙을 게시하는 방법에 대한 자세한 내용은 [게시](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/overview.html?lang=ko)를 참조하십시오.
+1. 규칙을 활성화하려면 게시해야 합니다. Experience Platform Launch에서 규칙을 게시하는 방법에 대한 자세한 내용은 [게시](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/overview.html)를 참조하십시오.
 
 ### 시작 및 종료 이상의 사고
 

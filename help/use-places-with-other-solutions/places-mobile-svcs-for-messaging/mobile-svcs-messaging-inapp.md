@@ -5,24 +5,31 @@ exl-id: c655e64b-0737-44d5-b453-2ac02fb9cbcc
 TQID: https://experienceleague.adobe.com/Z39ybIytDRlCbkMthWjvk5F-oexy0C9gtqgK1mmyMxM
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
 feature_v2:
   - id: e08599ea-8888-4294-ba74-3ba0a7762a46
+    internal-label: Data collection
 subfeature_v2:
   - id: d2a6cbf4-df32-480f-909e-b42f66dcb9f0
+    internal-label: Places
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: f962cef761f006c8e7d45b76ba24746e36bdaba6
+    internal-label: Data collection
+source-git-commit: d8704da9c84a066f72471421290d4b46c65f41e1
 workflow-type: tm+mt
-source-wordcount: 689
+source-wordcount: '689'
 ht-degree: 2%
-
 ---
-
 # 인앱 알림 {#places-push-messaging}
 
 다음 정보는 위치 서비스 이벤트에서 트리거할 인앱 메시지를 구성하는 방법을 보여 줍니다.
@@ -76,7 +83,7 @@ Mobile Services를 사용하면 Analytics로 전송되는 위치 데이터를 �
 
 >[!TIP]
 >
->Analytics 처리 규칙을 설정하여 이 컨텍스트 데이터를 선택할 수 있습니다. 자세한 내용은 [처리 규칙](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/processing-rules.html?lang=ko)을 참조하세요. *작업 만들기*&#x200B;의 예제에서 작업은 Analytics로 전송 중인 POI 항목 이벤트를 설명하는 컨텍스트로 `poiname`을(를) 보냅니다.
+>Analytics 처리 규칙을 설정하여 이 컨텍스트 데이터를 선택할 수 있습니다. 자세한 내용은 [처리 규칙](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/processing-rules.html)을 참조하세요. *작업 만들기*&#x200B;의 예제에서 작업은 Analytics로 전송 중인 POI 항목 이벤트를 설명하는 컨텍스트로 `poiname`을(를) 보냅니다.
 
 ![작업 만들기](/help/assets/configure-action.png)
 

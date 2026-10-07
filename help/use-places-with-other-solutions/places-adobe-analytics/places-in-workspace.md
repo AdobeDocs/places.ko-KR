@@ -5,26 +5,35 @@ exl-id: 45ca3c80-71b7-41de-9b00-645504061935
 TQID: https://experienceleague.adobe.com/Xym9Ko8czyd3wYWVo22sQoK6gk-VvftGVHfIDUys06E
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: c20d46e7-1c7d-476c-a50e-3961d4dce35f
+    internal-label: Reporting
   - id: daec7ead-f475-492a-a3b3-02ae08565d6f
+    internal-label: Implementation
   - id: e08599ea-8888-4294-ba74-3ba0a7762a46
+    internal-label: Data collection
 subfeature_v2:
   - id: d2a6cbf4-df32-480f-909e-b42f66dcb9f0
+    internal-label: Places
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: f962cef761f006c8e7d45b76ba24746e36bdaba6
+    internal-label: Data collection
+source-git-commit: d8704da9c84a066f72471421290d4b46c65f41e1
 workflow-type: tm+mt
-source-wordcount: 483
+source-wordcount: '483'
 ht-degree: 4%
-
 ---
-
 # Analytics Workspace에서 위치 데이터에 대한 보고서 {#places-in-workspace}
 
 이 문서에서는 Analytics Workspace에서 위치 데이터를 보고하는 방법에 대한 예를 보여 줍니다. 각 단계에는 다른 설명서 페이지를 참조하여 제공되는 세부 정보와 함께 높은 수준의 요약이 포함됩니다.
@@ -39,7 +48,7 @@ ht-degree: 4%
 
 1. Adobe Analytics 사용자는 관리자이며 처리 규칙에 액세스할 수 있습니다.
 
-   처리 규칙에 대한 자세한 내용은 [처리 규칙 개요](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/processing-rules.html?lang=ko)를 참조하십시오.
+   처리 규칙에 대한 자세한 내용은 [처리 규칙 개요](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/processing-rules.html)를 참조하십시오.
 
 1. Launch 속성에서 원하는 Places Service 변수에 대한 데이터 요소가 생성되었습니다.
 
@@ -60,7 +69,7 @@ ht-degree: 4%
 
 ## &#x200B;2. Analytics 변수 만들기
 
-컨텍스트 데이터(1단계에서 전송됨)를 매핑하려면 먼저 Analytics 보고서 세트에 대한 변수를 만들어야 합니다. Analytics에서 변수를 만드는 방법에 대한 자세한 내용은 [전환 변수(eVar)](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/evar.html?lang=ko)를 참조하십시오.
+컨텍스트 데이터(1단계에서 전송됨)를 매핑하려면 먼저 Analytics 보고서 세트에 대한 변수를 만들어야 합니다. Analytics에서 변수를 만드는 방법에 대한 자세한 내용은 [전환 변수(eVar)](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/evar.html)를 참조하십시오.
 
 이 예제에서는 전환 변수 **[!UICONTROL Evar2]**&#x200B;을(를) 만들고 **[!UICONTROL 위치 POI 이름]**&#x200B;을(를) 지정했습니다. 보고에 표시하려는 각 위치 변수에 대해 추가 변수를 만들어야 합니다.
 
@@ -68,7 +77,7 @@ ht-degree: 4%
 
 ## &#x200B;3. 처리 규칙 만들기
 
-이 단계는 컨텍스트 데이터(1단계)를 Analytics 변수(2단계)에 매핑하는 데 필요합니다. 처리 규칙 만들기에 대한 자세한 내용은 [처리 규칙 개요](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/processing-rules.html?lang=ko)를 참조하십시오.
+이 단계는 컨텍스트 데이터(1단계)를 Analytics 변수(2단계)에 매핑하는 데 필요합니다. 처리 규칙 만들기에 대한 자세한 내용은 [처리 규칙 개요](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/processing-rules.html)를 참조하십시오.
 
 이 예제에서는 컨텍스트 데이터 값 **[!UICONTROL poi.name]**&#x200B;을(를) **[!UICONTROL 위치 POI 이름(eVar2)]**&#x200B;에 매핑하는 처리 규칙을 만들었습니다. 생성된 각 위치 변수에 대해 추가 처리 규칙을 생성해야 합니다.
 
@@ -76,7 +85,7 @@ ht-degree: 4%
 
 ## &#x200B;4. Workspace에서 보고서 생성
 
-이 단계에서는 1-3단계에서 수집된 데이터를 보는 기본 보고서를 Analytics Workspace에 표시합니다. Analytics Workspace 사용 방법에 대한 자세한 내용은 [Analytics Workspace 개요](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=ko)를 참조하십시오.
+이 단계에서는 1-3단계에서 수집된 데이터를 보는 기본 보고서를 Analytics Workspace에 표시합니다. Analytics Workspace 사용 방법에 대한 자세한 내용은 [Analytics Workspace 개요](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html)를 참조하십시오.
 
 이 예제에서 보고서에는 다음과 같은 설정이 있습니다.
 
@@ -84,6 +93,6 @@ ht-degree: 4%
 
 * Dimension - **[!UICONTROL 작업 이름]**
 
-   * Dimension별로 분류 - **[!UICONTROL 위치 POI 이름]**
+  * Dimension별로 분류 - **[!UICONTROL 위치 POI 이름]**
 
 ![&quot;작업 영역에서 보고서 만들기&quot;](/help/assets/aa-workspace.png)

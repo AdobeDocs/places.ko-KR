@@ -5,23 +5,29 @@ exl-id: 4b50f552-deb8-49cd-9221-fbbf33aaa5f9
 TQID: https://experienceleague.adobe.com/tjJD7Qn27sp8wnNcNdjnANIveyzjG1PZ--3C3rCjrMQ
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
 feature_v2:
   - id: c132d929-fa62-4271-803e-b823be07b914
+    internal-label: Profile
   - id: e08599ea-8888-4294-ba74-3ba0a7762a46
+    internal-label: Data collection
 subfeature_v2:
   - id: d2a6cbf4-df32-480f-909e-b42f66dcb9f0
+    internal-label: Places
 topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: f962cef761f006c8e7d45b76ba24746e36bdaba6
+    internal-label: Data collection
+source-git-commit: d8704da9c84a066f72471421290d4b46c65f41e1
 workflow-type: tm+mt
-source-wordcount: 1026
+source-wordcount: '1026'
 ht-degree: 1%
-
 ---
-
 # Places Service로 푸시 알림 {#push-notifications}
 
 이 섹션에서는 내역 지리적 위치 정보를 사용하여 Adobe Campaign Standard을 통해 제공되는 푸시 알림을 타깃팅하는 방법에 대해 알아봅니다.
@@ -57,11 +63,11 @@ Places 확장 및 지역 모니터링 솔루션([iOS용 CoreLocation 설명서](
 
 1. 위의 1~4단계를 반복하여 *마지막으로 입력한 POI 위도*, *마지막으로 입력한 POI 경도* 및 *마지막으로 입력한 POI 반경*&#x200B;에 대한 데이터 요소를 만듭니다.
 
-Places Service의 데이터 요소 외에 *앱 ID* 및 *Experience Cloud ID*&#x200B;에 대한 Mobile Core 데이터 요소를 만드십시오.
+Places Service의 데이터 요소 외에 *앱 ID* 및 *Experience Cloud ID*&#x200B;에 대한 모바일 핵심 데이터 요소를 만드십시오.
 
 ## 위치 데이터를 Adobe Campaign Standard으로 전송하는 규칙 만들기
 
-Experience Platform Launch의 규칙을 사용하면 이벤트 트리거를 기반으로 복잡한 다중 솔루션 워크플로우를 만들 수 있습니다. 규칙을 사용하여 새 규칙을 만들거나 기존 규칙을 수정하고 업데이트를 모바일 애플리케이션에 동적으로 배포할 수 있습니다. 다음 예에서는 사용자가 지리적 기반 POI를 입력할 때 규칙이 트리거됩니다. 규칙이 트리거되면 Experience Cloud ID를 기반으로 특정 사용자에 대한 특정 POI에 대한 항목을 기록하기 위한 업데이트가 Campaign Standard으로 전송됩니다.
+Experience Platform Launch의 규칙을 사용하면 이벤트 트리거를 기반으로 복잡한 다중 솔루션 워크플로우를 만들 수 있습니다. 규칙을 사용하여 새 규칙을 만들거나 기존 규칙을 수정하고 업데이트를 모바일 애플리케이션에 동적으로 배포할 수 있습니다. 다음 예에서는 사용자가 지리적 기반 POI를 입력할 때 규칙이 트리거됩니다. 규칙이 트리거되면 Campaign Standard에 업데이트가 전송되어 Experience Cloud ID를 기반으로 특정 사용자에 대한 특정 POI에 대한 항목을 기록합니다.
 
 1. Experience Platform Launch 모바일 속성의 **[!UICONTROL 규칙]** 탭에서 **[!UICONTROL 규칙 추가]**&#x200B;를 클릭합니다.
 1. **[!UICONTROL 이벤트]** 섹션에서 **[!UICONTROL +]**&#x200B;을(를) 클릭하고 확장으로 **[!UICONTROL 장소 서비스]**&#x200B;를 선택합니다.
@@ -77,7 +83,7 @@ Experience Platform Launch의 규칙을 사용하면 이벤트 트리거를 기�
 1. **[!UICONTROL URL]**&#x200B;에서 Campaign Standard 위치 끝점을 구성해야 합니다.
 
    URL은 `https:///rest/head/mobileAppV5//locations/`과(와) 유사해야 합니다.
-Campaign 서버 및 pKey에 대해 이전에 만든 올바른 데이터 요소를 사용해야 합니다.
+   Campaign 서버 및 pKey에 대해 이전에 만든 올바른 데이터 요소를 사용해야 합니다.
 
 1. 게시물 본문을 추가하고 다음을 전송하려면 상자를 클릭합니다.
 

@@ -2,13 +2,14 @@
 title: 자체 모니터 사용
 description: 또한 Places Service 확장 API를 사용하여 모니터링 서비스를 사용하고 Places Service와 통합할 수도 있습니다.
 exl-id: 8ca4d19b-0f23-4291-b335-af47f03179fa
-source-git-commit: 4ab15ded930b31e4e06920af31f37fdfe45df8eb
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: d8704da9c84a066f72471421290d4b46c65f41e1
 workflow-type: tm+mt
 source-wordcount: '264'
 ht-degree: 1%
-
 ---
-
 # 자체 모니터 사용 {#using-your-monitor}
 
 또한 Places 확장 API를 사용하여 모니터링 서비스를 사용하고 Places Service와 통합할 수도 있습니다.

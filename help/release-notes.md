@@ -5,139 +5,150 @@ exl-id: 76da9548-4e32-4b23-9a15-7012973915f3
 TQID: https://experienceleague.adobe.com/yo1eXPl9cKbp-EVWQT8gZHcAbSDoIFJVD6xKbdoysMc
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
   - id: f002a92a-b99f-47a4-90c8-65e0e415bc7a
+    internal-label: Pass
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: bef6f891-2e8a-425e-8f99-7ddf22070daa
+    internal-label: APIs
   - id: d833d0ef-8ed5-4cff-a5e7-9f12abd02a31
+    internal-label: SDKs
   - id: e08599ea-8888-4294-ba74-3ba0a7762a46
+    internal-label: Data collection
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
 subfeature_v2:
   - id: d2a6cbf4-df32-480f-909e-b42f66dcb9f0
+    internal-label: Places
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: f962cef761f006c8e7d45b76ba24746e36bdaba6
+    internal-label: Privacy
+source-git-commit: d8704da9c84a066f72471421290d4b46c65f41e1
 workflow-type: tm+mt
-source-wordcount: 1612
+source-wordcount: '1612'
 ht-degree: 4%
-
 ---
-
 # 릴리스 정보 {#release-notes}
 
 ## 2020년 7월 8일
 
 * **위치 및 위치 모니터 확장**
 
-   * [React Native 응용 프로그램](https://aep-sdks.gitbook.io/docs/resources/upgrading-to-aep/current-sdk-versions#react-native)에 대한 위치 및 위치 모니터 확장이 추가되었습니다.
-   * [Cordova 응용 프로그램](https://aep-sdks.gitbook.io/docs/resources/upgrading-to-aep/current-sdk-versions#cordova)에 대한 위치 및 위치 모니터 확장이 추가되었습니다.
-   * 자세한 내용은 [위치 확장 사용](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-extension/places-extension.html)을 참조하세요.
+  * [React Native 응용 프로그램](https://aep-sdks.gitbook.io/docs/resources/upgrading-to-aep/current-sdk-versions#react-native)에 대한 위치 및 위치 모니터 확장이 추가되었습니다.
+  * [Cordova 응용 프로그램](https://aep-sdks.gitbook.io/docs/resources/upgrading-to-aep/current-sdk-versions#cordova)에 대한 위치 및 위치 모니터 확장이 추가되었습니다.
+  * 자세한 내용은 [위치 확장 사용](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-extension/places-extension.html)을 참조하세요.
 
 
 ## 2020년 5월 12일
 
 * **장소 서비스**
 
-   * &quot;POI 가져오기&quot; 버튼을 사용하여 CSV 파일에서 POI 대량 가져오기
-   * 여러 POI를 선택하고 메타데이터 값을 일괄 편집 또는 추가
+  * &quot;POI 가져오기&quot; 버튼을 사용하여 CSV 파일에서 POI 대량 가져오기
+  * 여러 POI를 선택하고 메타데이터 값을 일괄 편집 또는 추가
 
 ## 2020년 5월 6일
 
 * **PlacesMonitor 2.2.1**
 
-   * **Android**
+  * **Android**
 
-      * 향상된 로깅
+    * 향상된 로깅
 
 ## 2020년 5월 5일
 
 
 * **PlacesMonitor 2.1.3**
 
-   * **iOS**
+  * **iOS**
 
-      * 향상된 로깅
+    * 향상된 로깅
 
 ## 2020년 2월 20일
 
 * **ACPPlaces 1.3.1(iOS)**
 
-   * 위치 확장은 이제 코어 SDK의 이벤트 허브에 버전 정보를 보고합니다.
-   * 이제 디바이스 POI 멤버십 정보에 수집된 시간으로부터 1시간의 기본 TTL(Time-To-Live)이 있습니다. 자세한 내용은 [Places 멤버십 TTL(Time-to-Live) 수정](places-ext-aep-sdks/places-extension/places-extension.md#places-ttl)을 참조하세요.
+  * 위치 확장은 이제 코어 SDK의 이벤트 허브에 버전 정보를 보고합니다.
+  * 이제 디바이스 POI 멤버십 정보에 수집된 시간으로부터 1시간의 기본 TTL(Time-To-Live)이 있습니다. 자세한 내용은 [Places 멤버십 TTL(Time-to-Live) 수정](places-ext-aep-sdks/places-extension/places-extension.md#places-ttl)을 참조하세요.
 
 
 * **장소 1.4.1(Android)**
 
-   * 위치 확장은 이제 코어 SDK의 이벤트 허브에 버전 정보를 보고합니다.
-   * 이제 디바이스 POI 멤버십 정보에 수집된 시간으로부터 1시간의 기본 TTL(Time-To-Live)이 있습니다. 자세한 내용은 [Places 멤버십 TTL(Time-to-Live) 수정](places-ext-aep-sdks/places-extension/places-extension.md#places-ttl)을 참조하세요.
+  * 위치 확장은 이제 코어 SDK의 이벤트 허브에 버전 정보를 보고합니다.
+  * 이제 디바이스 POI 멤버십 정보에 수집된 시간으로부터 1시간의 기본 TTL(Time-To-Live)이 있습니다. 자세한 내용은 [Places 멤버십 TTL(Time-to-Live) 수정](places-ext-aep-sdks/places-extension/places-extension.md#places-ttl)을 참조하세요.
 
 ## 2020년 1월 27일 화요일
 
 * **PlacesMonitor 2.2.0**
 
-   * **Android**
+  * **Android**
 
-      * 앱이 시작될 때 및 앱이 실행되는 동안 권한 부여가 변경될 때 위치 권한 부여 상태를 수집하려면 새 위치 API를 호출하십시오.
-      * setRequestLocationPermission API 및 더 이상 사용되지 않는 setLocationPermission API가 추가되었습니다.
+    * 앱이 시작될 때 및 앱이 실행되는 동안 권한 부여가 변경될 때 위치 권한 부여 상태를 수집하려면 새 위치 API를 호출하십시오.
+    * setRequestLocationPermission API 및 더 이상 사용되지 않는 setLocationPermission API가 추가되었습니다.
 
 ## 2020년 1월 9일
 
 * **위치 1.4.0**
 
-   * **Android**
+  * **Android**
 
-      * Places Services에 대한 장치 인증 상태를 설정하기 위해 새 API `setAuthorizationStatus`을(를) 추가했습니다. 이 값은 Places shared 상태에 저장되고 사용됩니다.
+    * Places Services에 대한 장치 인증 상태를 설정하기 위해 새 API `setAuthorizationStatus`을(를) 추가했습니다. 이 값은 Places shared 상태에 저장되고 사용됩니다.
 
 ## 2019년 12월 4일 목요일
 
 * **PlacesMonitor 2.1.2**
 
-   * **iOS**
+  * **iOS**
 
-      * Places API를 호출하여 변경 시 장치에서 CLAuthorizationStatus를 수집합니다.
+    * Places API를 호출하여 변경 시 장치에서 CLAuthorizationStatus를 수집합니다.
 
 ## 2019년 12월 3일 수요일
 
 * **ACPPlaces 1.3.0**
 
-   * **iOS**
+  * **iOS**
 
-      * Places Services에 대한 장치 인증 상태를 설정하기 위해 새 API `setAuthorizationStatus`을(를) 추가했습니다. 이 값은 Places shared 상태에 저장되고 사용됩니다.
+    * Places Services에 대한 장치 인증 상태를 설정하기 위해 새 API `setAuthorizationStatus`을(를) 추가했습니다. 이 값은 Places shared 상태에 저장되고 사용됩니다.
 
 ## 2019년 11월 25일 화요일
 
 * **PlacesMonitor 2.1.1**
 
-   * **iOS**
+  * **iOS**
 
-      * 여러 Pod 프로젝트 옵션을 사용하여 Cocoapods 프로젝트에 대한 가져오기 명세서를 수정했습니다.
+    * 여러 Pod 프로젝트 옵션을 사용하여 Cocoapods 프로젝트에 대한 가져오기 명세서를 수정했습니다.
 
 ## 2019년 11월 22일 토요일
 
 * **PlacesMonitor 2.1.1**
 
-   * **Android**
+  * **Android**
 
-      * 이제 모니터가 Android 장치의 부트를 인식하고 필요한 경우 장치의 현재 위치를 기반으로 OS에 지오펜스를 다시 등록합니다.
-      * 경우에 따라 시작/종료 이벤트가 삭제되는 경합 조건을 수정했습니다.
+    * 이제 모니터가 Android 장치의 부트를 인식하고 필요한 경우 장치의 현재 위치를 기반으로 OS에 지오펜스를 다시 등록합니다.
+    * 경우에 따라 시작/종료 이벤트가 삭제되는 경합 조건을 수정했습니다.
 
 ## 2019년 10월 9일 목요일
 
 * **PlacesMonitor 2.1.0**
 
-   * **iOS**
+  * **iOS**
 
-      * 사용자에게 표시될 위치 인증 요청의 유형을 설정하기 위해 새 API `setRequestAuthorizationLevel`을(를) 추가했습니다.
+    * 사용자에게 표시될 위치 인증 요청의 유형을 설정하기 위해 새 API `setRequestAuthorizationLevel`을(를) 추가했습니다.
 
 
-   * **Android**
+  * **Android**
 
-      * 사용자에게 표시될 위치 권한 요청의 유형을 설정하기 위해 새 API `setLocationPermission`을(를) 추가했습니다.
-      * 위치 모니터는 이제 Android 10을 지원합니다.
+    * 사용자에게 표시될 위치 권한 요청의 유형을 설정하기 위해 새 API `setLocationPermission`을(를) 추가했습니다.
+    * 위치 모니터는 이제 Android 10을 지원합니다.
 
 ## 2019년 8월 8일
 
