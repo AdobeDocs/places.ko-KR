@@ -5,9 +5,7 @@ source-git-commit: c22efc36f2eac6b20fc555d998c3988d8c31169e
 workflow-type: tm+mt
 source-wordcount: '53'
 ht-degree: 0%
-
 ---
-
 
 # Places Service 개요 {#places-service-overview}
 
