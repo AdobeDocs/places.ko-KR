@@ -3,20 +3,24 @@ title: Places API 참조
 description: 위치의 API 참조에 대한 정보입니다.
 feature: Mobile SDK
 exl-id: ce1a113c-dee0-49df-8d2f-789ccc1c8322
-source-git-commit: f521d5e3b0b69977877d88382ce41fcb7d1c54b9
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+feature_v2:
+  - id: a8a79b8d-fdca-499c-a5ef-f88a099d8eb9
+    internal-label: Mobile SDK
+source-git-commit: d8704da9c84a066f72471421290d4b46c65f41e1
 workflow-type: tm+mt
-source-wordcount: '583'
+source-wordcount: '589'
 ht-degree: 32%
-
 ---
-
 # Places API 참조 {#places-api-reference}
 
 다음은 위치 확장의 API 참조에 대한 정보입니다.
 
 ## 영역 이벤트 처리
 
-장치가 앱의 사전 정의된 위치 서비스 지역 경계 중 하나를 넘으면 지역 및 이벤트 유형이 SDK에 전달되어 처리됩니다.
+장치가 앱의 사전 정의된 Places Service 지역 경계 중 하나를 넘으면 지역 및 이벤트 유형이 처리를 위해 SDK에 전달됩니다.
 
 ### ProcessGeofence(Android)
 
