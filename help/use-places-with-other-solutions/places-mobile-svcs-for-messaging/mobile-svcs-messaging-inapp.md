@@ -83,7 +83,7 @@ Mobile Services를 사용하면 Analytics로 전송되는 위치 데이터를 �
 
 >[!TIP]
 >
->Analytics 처리 규칙을 설정하여 이 컨텍스트 데이터를 선택할 수 있습니다. 자세한 내용은 [처리 규칙](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/processing-rules.html)을 참조하세요. *작업 만들기*&#x200B;의 예제에서 작업은 Analytics로 전송 중인 POI 항목 이벤트를 설명하는 컨텍스트로 `poiname`을(를) 보냅니다.
+>Analytics 처리 규칙을 설정하여 이 컨텍스트 데이터를 선택할 수 있습니다. 자세한 내용은 [처리 규칙](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/processing-rules.html?lang=ko)을 참조하세요. *작업 만들기*&#x200B;의 예제에서 작업은 Analytics로 전송 중인 POI 항목 이벤트를 설명하는 컨텍스트로 `poiname`을(를) 보냅니다.
 
 ![작업 만들기](/help/assets/configure-action.png)
 
