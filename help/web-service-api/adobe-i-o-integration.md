@@ -4,11 +4,9 @@ description: Adobe Developer API 프로젝트 만들기에 대한 정보입니�
 exl-id: d7d31938-6c0e-40f8-a9d3-30af96043119
 source-git-commit: 3d477c6133b74a7e6380d0db1af5125aaa844035
 workflow-type: tm+mt
-source-wordcount: '494'
-ht-degree: 0%
-
+source-wordcount: '504'
+ht-degree: 1%
 ---
-
 # Places API 액세스 개요 및 사전 요구 사항 {#developer-prereqs}
 
 이 정보는 Adobe Developer Console에서 프로젝트를 만들고 장소 API 요청에 사용할 액세스 토큰을 생성하는 방법을 보여 줍니다.
@@ -45,7 +43,7 @@ Places Service API용 프로젝트를 만들려면 다음을 완료하십시오.
 
 1. Adobe ID으로 [Adobe Developer 웹 사이트](https://developer.adobe.com)에 로그인합니다.
 2. 페이지의 오른쪽 상단에 있는 **[!UICONTROL 콘솔]**&#x200B;을 클릭합니다.
-3. 둘 이상의 Adobe 조직에 할당되어 있는 경우 페이지의 오른쪽 위 모서리에 있는 드롭다운 목록에서 올바른 조직을 선택합니다.
+3. 두 개 이상의 Adobe 조직에 할당되어 있는 경우 페이지의 오른쪽 상단에 있는 드롭다운 목록에서 올바른 조직을 선택합니다.
 4. **[!UICONTROL 새 프로젝트 만들기]** 단추를 클릭합니다.
 5. 새 프로젝트 시작 섹션에서 **[!UICONTROL API 추가]** 단추를 클릭합니다.
 6. Places API를 선택하려면 페이지를 아래로 스크롤하여 Places 카드로 이동하고 카드의 오른쪽 상단에 있는 확인란을 클릭합니다.

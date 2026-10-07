@@ -6,9 +6,7 @@ source-git-commit: 4ab15ded930b31e4e06920af31f37fdfe45df8eb
 workflow-type: tm+mt
 source-wordcount: '86'
 ht-degree: 0%
-
 ---
-
 # Places Service UI 개요 {#management-ui-overview}
 
 POI 및 라이브러리는 위치 서비스 UI를 사용하여 위치 서비스 데이터베이스에서 생성 및 관리됩니다.
