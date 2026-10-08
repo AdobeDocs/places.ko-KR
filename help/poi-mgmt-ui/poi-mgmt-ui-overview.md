@@ -2,7 +2,10 @@
 title: 관심 영역 관리 인터페이스 개요
 description: 이 섹션에서는 위치 서비스 UI를 통해 라이브러리 및 POI를 만들고 관리하는 방법에 대한 정보를 제공합니다.
 exl-id: ec636e08-c4a3-420d-8d23-72ab155db69f
-source-git-commit: 4ab15ded930b31e4e06920af31f37fdfe45df8eb
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: d8704da9c84a066f72471421290d4b46c65f41e1
 workflow-type: tm+mt
 source-wordcount: '86'
 ht-degree: 0%

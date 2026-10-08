@@ -3,13 +3,17 @@ title: 사용자 지정 Places 개체
 description: Places API에 사용되는 사용자 지정 네이티브 클래스에 대한 정보입니다.
 feature: Mobile SDK
 exl-id: deb16ba3-bd59-42b1-85ec-0f7de17f91f8
-source-git-commit: f521d5e3b0b69977877d88382ce41fcb7d1c54b9
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+feature_v2:
+  - id: a8a79b8d-fdca-499c-a5ef-f88a099d8eb9
+    internal-label: Mobile SDK
+source-git-commit: d8704da9c84a066f72471421290d4b46c65f41e1
 workflow-type: tm+mt
-source-wordcount: '40'
+source-wordcount: '38'
 ht-degree: 5%
-
 ---
-
 # 사용자 지정 Places 개체 {#places-objects}
 
 다음은 Places API와 함께 사용되는 사용자 지정 네이티브 클래스입니다.

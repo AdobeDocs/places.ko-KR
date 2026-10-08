@@ -1,19 +1,20 @@
 ---
 title: 위치 데이터에 Experience Platform Launch 규칙 및 데이터 요소 사용.
 description: 규칙, 데이터 요소 및 위치 데이터에 대한 정보입니다.
-source-git-commit: d5c216aebd99ffef01c37c17c62576835b52438b
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: d8704da9c84a066f72471421290d4b46c65f41e1
 workflow-type: tm+mt
 source-wordcount: '267'
 ht-degree: 35%
-
 ---
-
 
 # 위치 데이터에서 Experience Platform Launch 규칙 및 데이터 요소 사용
 
 ## 규칙
 
-Adobe Experience Platform Launch는 규칙 기반 시스템으로 사용자 인터랙션과 관련 데이터를 검색합니다. 규칙에 설명된 기준이 충족되면 규칙은 사용자가 식별한 확장, 스크립트 또는 HTML을 트리거합니다. 다양한 제품을 하나의 솔루션으로 통합하는 마케팅 및 광고 기술의 데이터와 기능을 통합하는 규칙을 구축할 수 있습니다. 규칙에 대한 자세한 내용은 [규칙](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/rules.html?lang=ko) 및 [규칙 만들기](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/rules.html?lang=ko#create-a-rule)를 참조하십시오.
+Adobe Experience Platform Launch는 규칙 기반 시스템으로 사용자 인터랙션과 관련 데이터를 검색합니다. 규칙에 설명된 기준이 충족되면 규칙은 사용자가 식별한 확장 기능, 스크립트 또는 HTML을 트리거합니다. 다양한 제품을 하나의 솔루션으로 통합하는 마케팅 및 광고 기술의 데이터와 기능을 통합하는 규칙을 구축할 수 있습니다. 규칙에 대한 자세한 내용은 [규칙](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/rules.html?lang=ko) 및 [규칙 만들기](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/rules.html?lang=ko#create-a-rule)를 참조하십시오.
 
 ## 데이터 요소
 

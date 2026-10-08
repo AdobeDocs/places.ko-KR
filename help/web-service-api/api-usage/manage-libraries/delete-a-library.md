@@ -2,13 +2,14 @@
 title: 라이브러리 삭제
 description: Places REST API를 사용하여 라이브러리를 삭제합니다.
 exl-id: ad45ea38-9e12-43d7-b05f-17d3e40abaf5
-source-git-commit: 4ab15ded930b31e4e06920af31f37fdfe45df8eb
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: d8704da9c84a066f72471421290d4b46c65f41e1
 workflow-type: tm+mt
 source-wordcount: '47'
 ht-degree: 4%
-
 ---
-
 # 라이브러리 삭제 {#delete-a-library}
 
 라이브러리를 삭제할 수 있는 DELETE 메서드입니다.

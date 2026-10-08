@@ -2,7 +2,10 @@
 title: POI 만들기
 description: Places Service UI를 사용하여 POI를 만듭니다.
 exl-id: 16df61e3-5a18-4de4-a284-a5d394dc73af
-source-git-commit: 4ab15ded930b31e4e06920af31f37fdfe45df8eb
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: d8704da9c84a066f72471421290d4b46c65f41e1
 workflow-type: tm+mt
 source-wordcount: '287'
 ht-degree: 0%

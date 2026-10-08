@@ -3,13 +3,17 @@ title: Places 이벤트 참조
 description: 위치 확장에서 처리되는 이벤트의 목록입니다.
 feature: Mobile SDK
 exl-id: 98210ef4-5ff1-4792-b97b-2845ce02e78a
-source-git-commit: f521d5e3b0b69977877d88382ce41fcb7d1c54b9
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+feature_v2:
+  - id: a8a79b8d-fdca-499c-a5ef-f88a099d8eb9
+    internal-label: Mobile SDK
+source-git-commit: d8704da9c84a066f72471421290d4b46c65f41e1
 workflow-type: tm+mt
 source-wordcount: '247'
-ht-degree: 13%
-
+ht-degree: 17%
 ---
-
 # Places 이벤트 참조 {#places-event-reference}
 
 다음은 위치 확장에서 처리되는 이벤트의 목록입니다.
@@ -46,10 +50,10 @@ ht-degree: 13%
 
 | 키 | 값 유형 | 필수 여부 | 기본값 | 설명 |
 | :--- | :--- | :--- | :--- | :--- |
-| 위도 | 중복 | true | 해당 사항 없음 | 주변 POI를 검색할 때의 중앙에 대한 위도 값을 보유합니다. |
-| longitude | 중복 | true | 해당 사항 없음 | 주변 POI를 검색할 중심의 경도 값을 보유합니다. |
-| 반경 | 정수 | false | 해당 사항 없음 | 주변 POI 검색에 사용되는 반경(미터 단위). |
-| count | 정수 | false | 10 | 결과 응답 이벤트에서 반환할 최대 POI 수. |
+| 위도 | 중복 | 참 | 해당 사항 없음 | 주변 POI를 검색할 때의 중앙에 대한 위도 값을 보유합니다. |
+| longitude | 중복 | 참 | 해당 사항 없음 | 주변 POI를 검색할 중심의 경도 값을 보유합니다. |
+| 반경 | 정수 | 거짓 | 해당 사항 없음 | 주변 POI 검색에 사용되는 반경(미터 단위). |
+| count | 정수 | 거짓 | 10 | 결과 응답 이벤트에서 반환할 최대 POI 수. |
 
 ## ProcessRegionEvent
 
@@ -67,8 +71,8 @@ ht-degree: 13%
 
 | 키 | 값 유형 | 필수 여부 | 설명 |
 | :--- | :--- | :--- | :--- |
-| 지역 | 문자열 | true | 이벤트를 생성하는 영역 ID입니다. |
-| regioneventtype | int | true | 생성 중인 지역 이벤트 유형. 진입의 경우 1, 종료의 경우 2. |
+| 지역 | 문자열 | 참 | 이벤트를 생성하는 영역 ID입니다. |
+| regioneventtype | int | 참 | 생성 중인 지역 이벤트 유형. 진입의 경우 1, 종료의 경우 2. |
 
 ## Places 확장에서 발송한 이벤트
 

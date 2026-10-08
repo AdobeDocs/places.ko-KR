@@ -5,24 +5,31 @@ exl-id: 72704bfc-5837-4439-bdb2-e77ddf935639
 TQID: https://experienceleague.adobe.com/FVZzn3FwSAFgnRBjkiFwHG8Zl2I-I4fPrqax-zGNclk
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
   - id: f002a92a-b99f-47a4-90c8-65e0e415bc7a
+    internal-label: Pass
 feature_v2:
   - id: bef6f891-2e8a-425e-8f99-7ddf22070daa
+    internal-label: APIs
   - id: e08599ea-8888-4294-ba74-3ba0a7762a46
+    internal-label: Data collection
 subfeature_v2:
   - id: d2a6cbf4-df32-480f-909e-b42f66dcb9f0
+    internal-label: Places
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: f962cef761f006c8e7d45b76ba24746e36bdaba6
+    internal-label: Data collection
+source-git-commit: d8704da9c84a066f72471421290d4b46c65f41e1
 workflow-type: tm+mt
-source-wordcount: 854
+source-wordcount: '854'
 ht-degree: 0%
-
 ---
-
 # POI 일괄 업로드 {#bulk-upload-pois}
 
 Places Service의 **POI 가져오기** 단추를 사용하여 CSV 파일을 사용하여 새 POI를 대량 업로드할 수 있습니다. 필요한 데이터 열과 선택적 사용자 지정 메타데이터를 추가하는 방법을 보여주는 샘플 스프레드시트 템플릿이 제공됩니다.
@@ -78,20 +85,20 @@ Places Service의 **POI 가져오기** 단추를 사용하여 CSV 파일을 사�
 Places Service UI에는 다음 열의 값이 사용됩니다.
 
 * 위치 서비스 UI 맵에서 POI의 위치를 나타내는 핀 색상으로 사용되는 색입니다.
-   * 유효한 값은 &quot;&quot;, #3E76D0, #AA99E8, #DC2ABA, #FC685B, #FC962E, #F6C436, #BECE5D, #61B56B 및 #3DC8DE, &quot;&quot;입니다.
-   * 값을 비워 두면 Places Service UI는 파란색을 기본 색상으로 사용합니다.
+  * 유효한 값은 &quot;&quot;, #3E76D0, #AA99E8, #DC2ABA, #FC685B, #FC962E, #F6C436, #BECE5D, #61B56B 및 #3DC8DE, &quot;&quot;입니다.
+  * 값을 비워 두면 Places Service UI는 파란색을 기본 색상으로 사용합니다.
 
-     이 값은 각각 파란색(#3E76D0), 보라색(#AA99E8), 푸시아(#DC2ABA), 주황색(#FC685B), 밝은 주황색(#FC962E), 노란색(#F6C436), 연한 녹색(#BECE5D), 녹색(#61B56B) 및 연한 파란색(#3DC8DE)에 해당합니다.
+    이 값은 각각 파란색(#3E76D0), 보라색(#AA99E8), 푸시아(#DC2ABA), 주황색(#FC685B), 밝은 주황색(#FC962E), 노란색(#F6C436), 연한 녹색(#BECE5D), 녹색(#61B56B) 및 연한 파란색(#3DC8DE)에 해당합니다.
 
 * 아이콘: 위치 서비스 UI 맵에서 POI의 위치를 나타내는 핀에 있는 아이콘으로 사용됩니다.
 
-   * 유효한 값은 &quot;&quot;, shop, hotelbed, car, airplane, train, ship, stadium, amusementpark, anchor, beaker, bell, bid, book, box, 서류 가방, browse, brush, building, calculator, camera, clock, education, flashlight, follow, game, female, male, gift, hammer, heart, home, key, launch, lightbulb, mailbox, money, pin, promote, ribbon, shoppingCart, star, target, teapot, thumbDown, thumbUp, trap, trophy, wrench입니다.
+  * 유효한 값은 &quot;&quot;, shop, hotelbed, car, airplane, train, ship, stadium, amusementpark, anchor, beaker, bell, bid, book, box, 서류 가방, browse, brush, building, calculator, camera, clock, education, flashlight, follow, game, female, male, gift, hammer, heart, home, key, launch, lightbulb, mailbox, money, pin, promote, ribbon, shoppingCart, star, target, teapot, thumbDown, thumbUp, trap, trophy, wrench입니다.
 
-     아이콘 값은 다음 그림에 표시되는 순서대로 나열됩니다.
+    아이콘 값은 다음 그림에 표시되는 순서대로 나열됩니다.
 
-     UI의 ![아이콘](/help/assets/UI_icons.png)
+    UI의 ![아이콘](/help/assets/UI_icons.png)
 
-   * 값을 비워 두면 UI는 별표를 기본 아이콘으로 사용합니다.
+  * 값을 비워 두면 UI는 별표를 기본 아이콘으로 사용합니다.
 
 * 언급되지 않은 열은 비워 둘 수 있습니다.
 
@@ -112,7 +119,7 @@ Places Service UI에는 다음 열의 값이 사용됩니다.
 
    * `org_id`
 
-     POI를 가져올 Experience Cloud orgID입니다. 조직 ID를 얻는 방법에 대한 자세한 내용은 [통합 개요 및 필수 구성 요소](/help/web-service-api/adobe-i-o-integration.md)에서 *사용자 액세스에 대한 필수 구성 요소*&#x200B;를 참조하십시오.
+     POI를 가져올 Experience Cloud 조직 ID. 조직 ID를 얻는 방법에 대한 자세한 내용은 [통합 개요 및 필수 구성 요소](/help/web-service-api/adobe-i-o-integration.md)에서 *사용자 액세스에 대한 필수 구성 요소*&#x200B;를 참조하십시오.
 
    * `api_key`
 

@@ -5,34 +5,51 @@ exl-id: 8dad6619-566b-4aea-b29c-a89192a66441
 TQID: https://experienceleague.adobe.com/nO4tOQW9rp3zjkHT6aJ5IcXHcD9heOaRAJiEchiz1Fk
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
   - id: dc5cf79d-43c4-4731-bffa-1df5d7549cb1
+    internal-label: Adobe Sign
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
 feature_v2:
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
   - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
   - id: daec7ead-f475-492a-a3b3-02ae08565d6f
+    internal-label: Implementation
   - id: e08599ea-8888-4294-ba74-3ba0a7762a46
+    internal-label: Data collection
   - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
+    internal-label: Integrations
   - id: ed0d8d0e-04b9-4326-be72-a0fbca265377
+    internal-label: Integrations
   - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+    internal-label: Integrations
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
 subfeature_v2:
   - id: c3bf7e1e-1db5-4c72-9293-e2f0b1ab73d0
+    internal-label: Triggers
   - id: d2a6cbf4-df32-480f-909e-b42f66dcb9f0
+    internal-label: Places
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: f962cef761f006c8e7d45b76ba24746e36bdaba6
+    internal-label: Data collection
+source-git-commit: d8704da9c84a066f72471421290d4b46c65f41e1
 workflow-type: tm+mt
-source-wordcount: 1748
+source-wordcount: '1748'
 ht-degree: 2%
-
 ---
-
 # 테스트 장소 서비스 추천 {#test-validate-loc-svc}
 
 많은 고객 및 조직에서 전 세계의 POI를 정의할 예정이므로 Places Service가 애플리케이션과 상호 작용하는 방법을 시뮬레이션하고 테스트하는 방법이 중요합니다. 이 정보는 정의된 POI 및 사용자의 현재 위치를 기반으로 올바르게 트리거되는 Places Service 시작 및 종료를 테스트하고 확인하는 방법을 이해하는 데 도움이 됩니다.

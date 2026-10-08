@@ -2,16 +2,17 @@
 title: 라이브러리에 대한 순위 설정
 description: Places REST API를 사용하여 라이브러리에 대한 등급을 설정합니다.
 exl-id: c922bddc-1587-4da8-acb4-c2d69ce11808
-source-git-commit: 4ab15ded930b31e4e06920af31f37fdfe45df8eb
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: d8704da9c84a066f72471421290d4b46c65f41e1
 workflow-type: tm+mt
 source-wordcount: '56'
 ht-degree: 3%
-
 ---
-
 # 라이브러리에 대한 순위 설정 {#set-rank-on-libraries}
 
-모든 PUT에서 등급 순서를 설정할 수 있는 라이브러리 방법입니다.
+모든 라이브러리에서 등급 순서를 설정할 수 있는 PUT 메서드입니다.
 
 ## 요청
 

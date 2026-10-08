@@ -5,25 +5,30 @@ exl-id: 2fb999b4-854a-430f-bb89-4c786d1a89cc
 TQID: https://experienceleague.adobe.com/PP7P3aOL3EKSEPJWedHtfyHRzbCueMtNS-J7Ao4mawo
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
   - id: dc5cf79d-43c4-4731-bffa-1df5d7549cb1
+    internal-label: Adobe Sign
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
 feature_v2:
   - id: e08599ea-8888-4294-ba74-3ba0a7762a46
+    internal-label: Data collection
 subfeature_v2:
   - id: d2a6cbf4-df32-480f-909e-b42f66dcb9f0
+    internal-label: Places
 topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: f962cef761f006c8e7d45b76ba24746e36bdaba6
+    internal-label: Data collection
+source-git-commit: d8704da9c84a066f72471421290d4b46c65f41e1
 workflow-type: tm+mt
-source-wordcount: 434
+source-wordcount: '434'
 ht-degree: 14%
-
 ---
-
 # 라이브러리 관리 {#manage-libraries-places-ui}
 
-라이브러리는 POI의 컬렉션입니다. 라이브러리에 최대 150,000개의 POI를 가질 수 있으며, Experience Cloud 조직당 최대 100개의 라이브러리가 있을 수 있습니다.
+라이브러리는 POI의 컬렉션입니다. 라이브러리에 최대 150,000개의 POI를 가질 수 있으며 Experience Cloud 조직당 최대 100개의 라이브러리가 있을 수 있습니다.
 
 조직에 가장 유용한 항목에 따라 POI를 라이브러리로 구성하는 방법은 다양합니다. 일부 고객은 각 모바일 앱에 대해 별도의 라이브러리를 만드는 것을 선호할 수 있고, 다른 고객은 라이브러리를 사용하여 커피숍, 공원, 호텔 등과 같은 특정 유형의 POI를 그룹화할 수 있습니다. 예를 들어, 주요 엔터테인먼트 회사는 한 라이브러리에 야외 공간과 다른 라이브러리에 소매 상점으로 구성된 라이브러리를 보유할 수 있습니다. 시 정부에는 시의 모든 건물을 구성하는 도서관과 시의 모든 공원을 구성하는 도서관이 있을 수 있습니다.
 
@@ -33,7 +38,7 @@ ht-degree: 14%
 | :--- | :--- |
 | ID | 생성 시 라이브러리에 할당된 고유 식별자 |
 | 이름 | 라이브러리에 친숙한 이름 부여 |
-| 순위 | 조직에 겹치는 지오펜스가 없는 경우 이러한 등급을 무시할 수 있습니다. POI가 겹치는 경우 각 지오펜스를 별도의 라이브러리에 배치하는 것이 좋습니다. 따라서 서로 상대적으로 가중치가 적용될 수 있습니다. 사용자는 한 번에 한 지오펜스에만 있을 수 있습니다. <br><br>사용자가 속한 대상의 가장 높은 지오펜스가 현재 지오펜스 멤버십을 결정합니다. 라이브러리 순위가 동일한 지오펜스가 있는 경우 가장 작은 지오펜스는 사용자의 현재 지오펜스입니다. <br><br>SDK에서 *마지막으로 입력한* 및 *마지막으로 종료한*&#x200B;개의 POI도 인식하므로, POI와의 사용자 인터랙션에 따라 규칙이 실행되는 방식을 완벽하게 제어할 수 있습니다. |
+| 순위 | 조직에 겹치는 지오펜스가 없는 경우 이러한 등급을 무시할 수 있습니다. POI가 겹치는 경우 각 지오펜스를 별도의 라이브러리에 배치하여 서로 상대적으로 가중치를 적용할 수 있도록 하는 것이 좋습니다. 사용자는 한 번에 한 지오펜스에만 있을 수 있습니다. <br><br>사용자가 속한 대상의 가장 높은 지오펜스가 현재 지오펜스 멤버십을 결정합니다. 라이브러리 순위가 동일한 지오펜스가 있는 경우 가장 작은 지오펜스는 사용자의 현재 지오펜스입니다. <br><br>SDK에서 *마지막으로 입력한* 및 *마지막으로 종료한*&#x200B;개의 POI도 인식하므로, POI와의 사용자 인터랙션에 따라 규칙이 실행되는 방식을 완벽하게 제어할 수 있습니다. |
 
 ## 라이브러리 만들기
 

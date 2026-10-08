@@ -2,16 +2,17 @@
 title: 라이브러리의 등급 가져오기
 description: Places REST API를 사용하여 라이브러리의 등급을 가져옵니다.
 exl-id: c0abedd0-5ff4-4a01-9f8d-e3d17ea53a97
-source-git-commit: 4ab15ded930b31e4e06920af31f37fdfe45df8eb
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: d8704da9c84a066f72471421290d4b46c65f41e1
 workflow-type: tm+mt
 source-wordcount: '41'
 ht-degree: 4%
-
 ---
-
 # 라이브러리의 등급 가져오기 {#get-library-rank}
 
-라이브러리 등급을 지정할 수 있는 GET 방법입니다.
+라이브러리 등급을 지정할 수 있는 GET 메서드입니다.
 
 ## 요청
 

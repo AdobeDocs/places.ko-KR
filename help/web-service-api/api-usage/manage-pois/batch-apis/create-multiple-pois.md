@@ -2,16 +2,17 @@
 title: 여러 POI 만들기
 description: 배치 API를 사용하여 여러 POI를 만듭니다.
 exl-id: d1d6f7de-5914-432f-9d3c-17cf3cba784a
-source-git-commit: 4ab15ded930b31e4e06920af31f37fdfe45df8eb
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: d8704da9c84a066f72471421290d4b46c65f41e1
 workflow-type: tm+mt
 source-wordcount: '56'
 ht-degree: 5%
-
 ---
-
 # 여러 POI 만들기 {#create-multiple-pois}
 
-여러 POI를 만들 수 있는 POST 방법입니다.
+여러 POI를 만들 수 있는 POST 메서드입니다.
 
 ## 요청
 
